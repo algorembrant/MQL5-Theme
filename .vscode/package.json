@@ -1,0 +1,50 @@
+{
+    "name": "mql5-support",
+    "publisher": "myname",
+    "icon": "./icons/MQL5_icon.png",
+    "displayName": "MQL5 Support",
+    "description": "MQL5 Syntax Highlighting and Themes",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Themes"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "mql5",
+                "aliases": [
+                    "MQL5",
+                    "mql5"
+                ],
+                "extensions": [
+                    ".mq5",
+                    ".mqh"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "mql5",
+                "scopeName": "source.mql5",
+                "path": "./syntaxes/mql5.tmLanguage.json"
+            }
+        ],
+        "themes": [
+            {
+                "label": "MQL5 Dark Professional",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mql5-dark-theme.json"
+            },
+            {
+                "label": "MQL5 Light Professional",
+                "uiTheme": "vs",
+                "path": "./themes/mql5-light-theme.json"
+            }
+        ]
+    }
+}

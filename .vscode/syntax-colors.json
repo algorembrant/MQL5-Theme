@@ -1,0 +1,495 @@
+{
+    "_comment": "Color definitions for each syntax category. Keys must match ## headings in syntax.md",
+    "categories": {
+        "Preprocessor Directives": {
+            "scope": [
+                "keyword.other.preprocessor",
+                "meta.preprocessor",
+                "keyword.control.directive",
+                "punctuation.definition.directive",
+                "keyword.other.directive"
+            ],
+            "darkColor": "#C586C0",
+            "lightColor": "#A626A4"
+        },
+        "Data Types": {
+            "scope": [
+                "storage.type",
+                "storage.type.primitive",
+                "storage.type.built-in",
+                "keyword.type",
+                "support.type.primitive"
+            ],
+            "darkColor": "#4EC9B0",
+            "lightColor": "#0184BC"
+        },
+        "Control Flow Keywords": {
+            "scope": [
+                "keyword.control",
+                "keyword.control.conditional",
+                "keyword.control.loop",
+                "keyword.control.flow"
+            ],
+            "darkColor": "#C586C0",
+            "lightColor": "#A626A4"
+        },
+        "Storage Modifiers": {
+            "scope": [
+                "storage.modifier",
+                "keyword.other.input",
+                "keyword.other.extern"
+            ],
+            "darkColor": "#569CD6",
+            "lightColor": "#4078F2"
+        },
+        "Trade Functions": {
+            "scope": [
+                "support.function.trade.mql5"
+            ],
+            "darkColor": "#FF6B6B",
+            "lightColor": "#C91D1D",
+            "fontStyle": "bold"
+        },
+        "CTrade Class Methods": {
+            "scope": [
+                "support.function.ctrade.mql5"
+            ],
+            "darkColor": "#EE5A5A",
+            "lightColor": "#D32F2F"
+        },
+        "Trade Request Actions (ENUM_TRADE_REQUEST_ACTIONS)": {
+            "scope": [
+                "support.constant.trade-action.mql5"
+            ],
+            "darkColor": "#FF9F43",
+            "lightColor": "#E65100",
+            "fontStyle": "bold"
+        },
+        "Order Type Constants (ENUM_ORDER_TYPE)": {
+            "scope": [
+                "support.constant.order-type.mql5"
+            ],
+            "darkColor": "#50FA7B",
+            "lightColor": "#2E7D32"
+        },
+        "Order State Constants (ENUM_ORDER_STATE)": {
+            "scope": [
+                "support.constant.order-state.mql5"
+            ],
+            "darkColor": "#5AE05A",
+            "lightColor": "#388E3C"
+        },
+        "Order Filling Modes (ENUM_ORDER_TYPE_FILLING)": {
+            "scope": [
+                "support.constant.order-filling.mql5"
+            ],
+            "darkColor": "#69F0AE",
+            "lightColor": "#43A047"
+        },
+        "Order Time Types (ENUM_ORDER_TYPE_TIME)": {
+            "scope": [
+                "support.constant.order-time.mql5"
+            ],
+            "darkColor": "#A5D6A7",
+            "lightColor": "#4CAF50"
+        },
+        "Position Constants (ENUM_POSITION_TYPE)": {
+            "scope": [
+                "support.constant.position-type.mql5"
+            ],
+            "darkColor": "#64B5F6",
+            "lightColor": "#1565C0"
+        },
+        "Position Properties (ENUM_POSITION_PROPERTY_INTEGER/DOUBLE/STRING)": {
+            "scope": [
+                "support.constant.position-property.mql5"
+            ],
+            "darkColor": "#42A5F5",
+            "lightColor": "#1976D2"
+        },
+        "Symbol ENUM Constants (ENUM_SYMBOL_INFO_...)": {
+            "scope": [
+                "support.constant.symbol-info.mql5"
+            ],
+            "darkColor": "#BA68C8",
+            "lightColor": "#7B1FA2"
+        },
+        "Symbol Trade Modes (ENUM_SYMBOL_TRADE_MODE)": {
+            "scope": [
+                "support.constant.symbol-trade-mode.mql5"
+            ],
+            "darkColor": "#AB47BC",
+            "lightColor": "#8E24AA"
+        },
+        "Symbol Filling Modes (ENUM_SYMBOL_FILLING_MODE)": {
+            "scope": [
+                "support.constant.symbol-filling.mql5"
+            ],
+            "darkColor": "#9C27B0",
+            "lightColor": "#9C27B0"
+        },
+        "Account ENUM Constants (ENUM_ACCOUNT_INFO_...)": {
+            "scope": [
+                "support.constant.account-info.mql5"
+            ],
+            "darkColor": "#FF79C6",
+            "lightColor": "#C2185B"
+        },
+        "Account Trade Modes (ENUM_ACCOUNT_TRADE_MODE)": {
+            "scope": [
+                "support.constant.account-trade-mode.mql5"
+            ],
+            "darkColor": "#FF69B4",
+            "lightColor": "#D81B60"
+        },
+        "Account Stop Out Modes (ENUM_ACCOUNT_STOPOUT_MODE)": {
+            "scope": [
+                "support.constant.account-stopout.mql5"
+            ],
+            "darkColor": "#FF5C93",
+            "lightColor": "#AD1457"
+        },
+        "Deal Constants (ENUM_DEAL_...)": {
+            "scope": [
+                "support.constant.deal.mql5"
+            ],
+            "darkColor": "#F48FB1",
+            "lightColor": "#E91E63"
+        },
+        "Timeseries Functions": {
+            "scope": [
+                "support.function.timeseries.mql5"
+            ],
+            "darkColor": "#81D4FA",
+            "lightColor": "#0277BD"
+        },
+        "Timeframe Constants (ENUM_TIMEFRAMES)": {
+            "scope": [
+                "support.constant.timeframe.mql5"
+            ],
+            "darkColor": "#F1FA8C",
+            "lightColor": "#986801"
+        },
+        "Symbol/Market Info Functions": {
+            "scope": [
+                "support.function.symbol-info.mql5"
+            ],
+            "darkColor": "#CE93D8",
+            "lightColor": "#6A1B9A"
+        },
+        "Account Info Functions": {
+            "scope": [
+                "support.function.account-info.mql5"
+            ],
+            "darkColor": "#F8BBD9",
+            "lightColor": "#880E4F"
+        },
+        "Common Functions": {
+            "scope": [
+                "support.function.common.mql5"
+            ],
+            "darkColor": "#DCDCAA",
+            "lightColor": "#795548"
+        },
+        "Conversion Functions": {
+            "scope": [
+                "support.function.conversion.mql5"
+            ],
+            "darkColor": "#FFD54F",
+            "lightColor": "#F57C00"
+        },
+        "String Functions": {
+            "scope": [
+                "support.function.string.mql5"
+            ],
+            "darkColor": "#FFC107",
+            "lightColor": "#EF6C00"
+        },
+        "Array Functions": {
+            "scope": [
+                "support.function.array.mql5"
+            ],
+            "darkColor": "#FFAB00",
+            "lightColor": "#E65100"
+        },
+        "Math Functions": {
+            "scope": [
+                "support.function.math.mql5"
+            ],
+            "darkColor": "#FFE082",
+            "lightColor": "#FF8F00"
+        },
+        "File Functions": {
+            "scope": [
+                "support.function.file.mql5"
+            ],
+            "darkColor": "#FFCC80",
+            "lightColor": "#FF6F00"
+        },
+        "MQL5 Structures": {
+            "scope": [
+                "support.type.struct.mql5"
+            ],
+            "darkColor": "#FFB86C",
+            "lightColor": "#BF360C",
+            "fontStyle": "bold"
+        },
+        "Standard Library Classes": {
+            "scope": [
+                "support.class.stdlib.mql5"
+            ],
+            "darkColor": "#8BE9FD",
+            "lightColor": "#006064",
+            "fontStyle": "bold"
+        },
+        "Magic/Predefined Variables": {
+            "scope": [
+                "support.variable.predefined.mql5"
+            ],
+            "darkColor": "#BD93F9",
+            "lightColor": "#512DA8"
+        },
+        "Event Handler Functions": {
+            "scope": [
+                "support.function.event.mql5"
+            ],
+            "darkColor": "#FF5555",
+            "lightColor": "#B71C1C",
+            "fontStyle": "bold"
+        },
+        "Return Codes (ENUM_INIT_RETCODE)": {
+            "scope": [
+                "support.constant.init-retcode.mql5"
+            ],
+            "darkColor": "#F06292",
+            "lightColor": "#C62828"
+        },
+        "Terminal/Environment Constants": {
+            "scope": [
+                "support.constant.terminal.mql5"
+            ],
+            "darkColor": "#90CAF9",
+            "lightColor": "#1E88E5"
+        },
+        "Object Property Constants (OBJPROP_...)": {
+            "scope": [
+                "support.constant.objprop.mql5"
+            ],
+            "darkColor": "#80CBC4",
+            "lightColor": "#00796B"
+        },
+        "Boolean Constants": {
+            "scope": [
+                "constant.language.boolean",
+                "constant.language.true",
+                "constant.language.false"
+            ],
+            "darkColor": "#56B6C2",
+            "lightColor": "#0184BC"
+        },
+        "Numeric Limits": {
+            "scope": [
+                "support.constant.numeric-limits.mql5"
+            ],
+            "darkColor": "#E5C07B",
+            "lightColor": "#8D6E63"
+        },
+        "Color Constants": {
+            "scope": [
+                "support.constant.color.mql5"
+            ],
+            "darkColor": "#C3E88D",
+            "lightColor": "#558B2F"
+        },
+        "Chart Constants (ENUM_CHART_...)": {
+            "scope": [
+                "support.constant.chart.mql5"
+            ],
+            "darkColor": "#89DDFF",
+            "lightColor": "#0288D1"
+        },
+        "Object Types (ENUM_OBJECT)": {
+            "scope": [
+                "support.constant.object-type.mql5"
+            ],
+            "darkColor": "#82AAFF",
+            "lightColor": "#3949AB"
+        }
+    },
+    "baseTokenColors": {
+        "dark": {
+            "comments": {
+                "foreground": "#6A9955",
+                "fontStyle": "italic"
+            },
+            "functions": {
+                "foreground": "#DCDCAA"
+            },
+            "classes": {
+                "foreground": "#4EC9B0"
+            },
+            "strings": {
+                "foreground": "#CE9178"
+            },
+            "numbers": {
+                "foreground": "#B5CEA8"
+            },
+            "operators": {
+                "foreground": "#D4D4D4"
+            },
+            "variables": {
+                "foreground": "#9CDCFE"
+            },
+            "parameters": {
+                "foreground": "#9CDCFE",
+                "fontStyle": "italic"
+            },
+            "includePaths": {
+                "foreground": "#CE9178"
+            },
+            "punctuation": {
+                "foreground": "#D4D4D4"
+            },
+            "enums": {
+                "foreground": "#4FC1FF"
+            }
+        },
+        "light": {
+            "comments": {
+                "foreground": "#5C6370",
+                "fontStyle": "italic"
+            },
+            "functions": {
+                "foreground": "#795548"
+            },
+            "classes": {
+                "foreground": "#0184BC"
+            },
+            "strings": {
+                "foreground": "#50A14F"
+            },
+            "numbers": {
+                "foreground": "#986801"
+            },
+            "operators": {
+                "foreground": "#383A42"
+            },
+            "variables": {
+                "foreground": "#E45649"
+            },
+            "parameters": {
+                "foreground": "#E45649",
+                "fontStyle": "italic"
+            },
+            "includePaths": {
+                "foreground": "#50A14F"
+            },
+            "punctuation": {
+                "foreground": "#383A42"
+            },
+            "enums": {
+                "foreground": "#4078F2"
+            }
+        }
+    },
+    "editorColors": {
+        "dark": {
+            "editor.background": "#1e1e1e",
+            "editor.foreground": "#d4d4d4",
+            "editor.lineHighlightBackground": "#2a2a2a",
+            "editor.selectionBackground": "#264f78",
+            "editor.selectionHighlightBackground": "#264f7844",
+            "editorCursor.foreground": "#aeafad",
+            "editorLineNumber.foreground": "#858585",
+            "editorLineNumber.activeForeground": "#c6c6c6",
+            "editorIndentGuide.background1": "#404040",
+            "editorIndentGuide.activeBackground1": "#707070",
+            "editor.findMatchBackground": "#515c6a",
+            "editor.findMatchHighlightBackground": "#ea5c0055",
+            "editorBracketMatch.background": "#0064001a",
+            "editorBracketMatch.border": "#888888",
+            "editorGroupHeader.tabsBackground": "#252526",
+            "tab.activeBackground": "#1e1e1e",
+            "tab.inactiveBackground": "#2d2d2d",
+            "tab.activeForeground": "#ffffff",
+            "tab.inactiveForeground": "#ffffff80",
+            "sideBar.background": "#252526",
+            "sideBar.foreground": "#cccccc",
+            "sideBarTitle.foreground": "#bbbbbb",
+            "activityBar.background": "#333333",
+            "activityBar.foreground": "#ffffff",
+            "statusBar.background": "#007acc",
+            "statusBar.foreground": "#ffffff",
+            "terminal.background": "#1e1e1e",
+            "terminal.foreground": "#cccccc"
+        },
+        "light": {
+            "editor.background": "#fafafa",
+            "editor.foreground": "#383a42",
+            "editor.lineHighlightBackground": "#f0f0f0",
+            "editor.selectionBackground": "#b3d4fc",
+            "editor.selectionHighlightBackground": "#b3d4fc66",
+            "editorCursor.foreground": "#526fff",
+            "editorLineNumber.foreground": "#9d9d9f",
+            "editorLineNumber.activeForeground": "#383a42",
+            "editorIndentGuide.background1": "#e8e8e8",
+            "editorIndentGuide.activeBackground1": "#c9c9c9",
+            "editor.findMatchBackground": "#ffdd5766",
+            "editor.findMatchHighlightBackground": "#ffdd5733",
+            "editorBracketMatch.background": "#e5e5e5",
+            "editorBracketMatch.border": "#526fff",
+            "editorGroupHeader.tabsBackground": "#f0f0f0",
+            "tab.activeBackground": "#fafafa",
+            "tab.inactiveBackground": "#f0f0f0",
+            "tab.activeForeground": "#383a42",
+            "tab.inactiveForeground": "#9d9d9f",
+            "sideBar.background": "#f0f0f0",
+            "sideBar.foreground": "#383a42",
+            "sideBarTitle.foreground": "#383a42",
+            "activityBar.background": "#f0f0f0",
+            "activityBar.foreground": "#526fff",
+            "statusBar.background": "#f0f0f0",
+            "statusBar.foreground": "#383a42",
+            "terminal.background": "#fafafa",
+            "terminal.foreground": "#383a42"
+        }
+    },
+    "semanticTokenColors": {
+        "dark": {
+            "function": "#DCDCAA",
+            "function.declaration": "#DCDCAA",
+            "variable": "#9CDCFE",
+            "variable.declaration": "#9CDCFE",
+            "variable.readonly": "#4FC1FF",
+            "variable.defaultLibrary": "#BD93F9",
+            "parameter": "#9CDCFE",
+            "type": "#4EC9B0",
+            "class": "#4EC9B0",
+            "struct": "#4EC9B0",
+            "enum": "#4FC1FF",
+            "enumMember": "#4FC1FF",
+            "property": "#9CDCFE",
+            "method": "#DCDCAA",
+            "macro": "#C586C0",
+            "comment": "#6A9955"
+        },
+        "light": {
+            "function": "#795548",
+            "function.declaration": "#795548",
+            "variable": "#E45649",
+            "variable.declaration": "#E45649",
+            "variable.readonly": "#4078F2",
+            "variable.defaultLibrary": "#512DA8",
+            "parameter": "#E45649",
+            "type": "#0184BC",
+            "class": "#0184BC",
+            "struct": "#0184BC",
+            "enum": "#4078F2",
+            "enumMember": "#4078F2",
+            "property": "#E45649",
+            "method": "#795548",
+            "macro": "#A626A4",
+            "comment": "#5C6370"
+        }
+    }
+}

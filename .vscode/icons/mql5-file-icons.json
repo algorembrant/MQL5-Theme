@@ -1,0 +1,26 @@
+{
+    "iconDefinitions": {
+        "_mql5": {
+            "iconPath": "./MQL5_icon.png"
+        },
+        "_mqh": {
+            "iconPath": "./MQL5_icon.png"
+        },
+        "_mq4": {
+            "iconPath": "./MQL5_icon.png"
+        },
+        "_file": {
+            "iconPath": "./MQL5_icon.png"
+        }
+    },
+    "file": "_file",
+    "fileExtensions": {
+        "mq5": "_mql5",
+        "mqh": "_mqh",
+        "mq4": "_mq4",
+        "ex5": "_mql5",
+        "ex4": "_mq4"
+    },
+    "fileNames": {},
+    "languageIds": {}
+}

@@ -1,0 +1,505 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.associations": {
+        "*.ex5": "cpp",
+        "*.ex4": "cpp"
+    },
+    "workbench.colorCustomizations": {},
+    "editor.tokenColorCustomizations": {
+        "[*]": {
+            "textMateRules": [
+                {
+                    "name": "Comments",
+                    "scope": [
+                        "comment",
+                        "comment.line",
+                        "comment.block"
+                    ],
+                    "settings": {
+                        "foreground": "#6A9955",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "name": "Preprocessor Directives - #property #include #define #import #resource",
+                    "scope": [
+                        "keyword.other.preprocessor",
+                        "meta.preprocessor",
+                        "keyword.control.directive"
+                    ],
+                    "settings": {
+                        "foreground": "#C586C0"
+                    }
+                },
+                {
+                    "name": "Data Types - int double string bool datetime color ulong long float short char void uint uchar ushort",
+                    "scope": [
+                        "storage.type",
+                        "keyword.type"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "name": "Control Flow Keywords - if else for while do switch case default break continue return goto",
+                    "scope": [
+                        "keyword.control",
+                        "keyword.control.conditional",
+                        "keyword.control.loop",
+                        "keyword.control.flow"
+                    ],
+                    "settings": {
+                        "foreground": "#C586C0"
+                    }
+                },
+                {
+                    "name": "Storage Modifiers - input extern static const virtual override private protected public class struct enum",
+                    "scope": [
+                        "storage.modifier"
+                    ],
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                },
+                {
+                    "name": "Trade Functions - OrderSend OrderSendAsync OrderCalcMargin OrderCalcProfit OrderCheck PositionSelect PositionSelectByTicket PositionGetSymbol PositionGetTicket PositionsTotal OrdersTotal HistorySelect HistoryOrderSelect HistoryDealSelect",
+                    "scope": [
+                        "support.function.trade.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FF6B6B",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "name": "CTrade Class Methods - Buy Sell BuyLimit BuyStop SellLimit SellStop PositionOpen PositionClose PositionClosePartial PositionCloseBy PositionModify OrderOpen OrderModify OrderDelete SetExpertMagicNumber SetDeviationInPoints SetTypeFilling SetAsyncMode",
+                    "scope": [
+                        "support.function.ctrade.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#EE5A5A"
+                    }
+                },
+                {
+                    "name": "Trade Request Actions - TRADE_ACTION_DEAL TRADE_ACTION_PENDING TRADE_ACTION_SLTP TRADE_ACTION_MODIFY TRADE_ACTION_REMOVE TRADE_ACTION_CLOSE_BY",
+                    "scope": [
+                        "support.constant.trade-action.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FF9F43",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "name": "Order Type Constants - ORDER_TYPE_BUY ORDER_TYPE_SELL ORDER_TYPE_BUY_LIMIT ORDER_TYPE_SELL_LIMIT ORDER_TYPE_BUY_STOP ORDER_TYPE_SELL_STOP ORDER_TYPE_BUY_STOP_LIMIT ORDER_TYPE_SELL_STOP_LIMIT ORDER_TYPE_CLOSE_BY",
+                    "scope": [
+                        "support.constant.order-type.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#50FA7B"
+                    }
+                },
+                {
+                    "name": "Order State Constants - ORDER_STATE_STARTED ORDER_STATE_PLACED ORDER_STATE_CANCELED ORDER_STATE_PARTIAL ORDER_STATE_FILLED ORDER_STATE_REJECTED ORDER_STATE_EXPIRED ORDER_STATE_REQUEST_ADD ORDER_STATE_REQUEST_MODIFY ORDER_STATE_REQUEST_CANCEL",
+                    "scope": [
+                        "support.constant.order-state.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#5AE05A"
+                    }
+                },
+                {
+                    "name": "Order Filling Modes - ORDER_FILLING_FOK ORDER_FILLING_IOC ORDER_FILLING_RETURN ORDER_FILLING_BOC",
+                    "scope": [
+                        "support.constant.order-filling.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#69F0AE"
+                    }
+                },
+                {
+                    "name": "Order Time Types - ORDER_TIME_GTC ORDER_TIME_DAY ORDER_TIME_SPECIFIED ORDER_TIME_SPECIFIED_DAY",
+                    "scope": [
+                        "support.constant.order-time.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#A5D6A7"
+                    }
+                },
+                {
+                    "name": "Position Constants - POSITION_TYPE_BUY POSITION_TYPE_SELL",
+                    "scope": [
+                        "support.constant.position-type.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#64B5F6"
+                    }
+                },
+                {
+                    "name": "Position Properties - POSITION_TICKET POSITION_TIME POSITION_TIME_MSC POSITION_TIME_UPDATE POSITION_TYPE POSITION_MAGIC POSITION_IDENTIFIER POSITION_REASON POSITION_VOLUME POSITION_PRICE_OPEN POSITION_PRICE_CURRENT POSITION_SL POSITION_TP POSITION_SWAP POSITION_PROFIT POSITION_SYMBOL POSITION_COMMENT POSITION_EXTERNAL_ID",
+                    "scope": [
+                        "support.constant.position-property.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#42A5F5"
+                    }
+                },
+                {
+                    "name": "Symbol ENUM Constants - SYMBOL_EXIST SYMBOL_DIGITS SYMBOL_SPREAD SYMBOL_TRADE_MODE SYMBOL_TRADE_CALC_MODE SYMBOL_TRADE_TICK_SIZE SYMBOL_TRADE_TICK_VALUE SYMBOL_VOLUME_MIN SYMBOL_VOLUME_MAX SYMBOL_VOLUME_STEP SYMBOL_SWAP_LONG SYMBOL_SWAP_SHORT SYMBOL_MARGIN_INITIAL SYMBOL_BID SYMBOL_ASK SYMBOL_POINT SYMBOL_TRADE_STOPS_LEVEL",
+                    "scope": [
+                        "support.constant.symbol-info.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#BA68C8"
+                    }
+                },
+                {
+                    "name": "Symbol Trade Modes - SYMBOL_TRADE_MODE_DISABLED SYMBOL_TRADE_MODE_LONGONLY SYMBOL_TRADE_MODE_SHORTONLY SYMBOL_TRADE_MODE_CLOSEONLY SYMBOL_TRADE_MODE_FULL",
+                    "scope": [
+                        "support.constant.symbol-trade-mode.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#AB47BC"
+                    }
+                },
+                {
+                    "name": "Symbol Filling Modes - SYMBOL_FILLING_FOK SYMBOL_FILLING_IOC",
+                    "scope": [
+                        "support.constant.symbol-filling.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#9C27B0"
+                    }
+                },
+                {
+                    "name": "Account ENUM Constants - ACCOUNT_LOGIN ACCOUNT_TRADE_MODE ACCOUNT_LEVERAGE ACCOUNT_LIMIT_ORDERS ACCOUNT_MARGIN_SO_MODE ACCOUNT_TRADE_ALLOWED ACCOUNT_TRADE_EXPERT ACCOUNT_BALANCE ACCOUNT_CREDIT ACCOUNT_PROFIT ACCOUNT_EQUITY ACCOUNT_MARGIN ACCOUNT_MARGIN_FREE ACCOUNT_MARGIN_LEVEL ACCOUNT_MARGIN_SO_CALL ACCOUNT_MARGIN_SO_SO ACCOUNT_CURRENCY ACCOUNT_COMPANY ACCOUNT_NAME ACCOUNT_SERVER",
+                    "scope": [
+                        "support.constant.account-info.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FF79C6"
+                    }
+                },
+                {
+                    "name": "Account Trade Modes - ACCOUNT_TRADE_MODE_DEMO ACCOUNT_TRADE_MODE_CONTEST ACCOUNT_TRADE_MODE_REAL",
+                    "scope": [
+                        "support.constant.account-trade-mode.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FF69B4"
+                    }
+                },
+                {
+                    "name": "Account Stop Out Modes - ACCOUNT_STOPOUT_MODE_PERCENT ACCOUNT_STOPOUT_MODE_MONEY",
+                    "scope": [
+                        "support.constant.account-stopout.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FF5C93"
+                    }
+                },
+                {
+                    "name": "Deal Constants - DEAL_TYPE_BUY DEAL_TYPE_SELL DEAL_TYPE_BALANCE DEAL_TYPE_CREDIT DEAL_TYPE_CHARGE DEAL_TYPE_CORRECTION DEAL_TYPE_BONUS DEAL_TYPE_COMMISSION DEAL_TYPE_COMMISSION_DAILY DEAL_ENTRY_IN DEAL_ENTRY_OUT DEAL_ENTRY_INOUT DEAL_ENTRY_OUT_BY DEAL_TICKET DEAL_ORDER DEAL_TIME DEAL_TYPE DEAL_ENTRY DEAL_MAGIC DEAL_REASON DEAL_COMMISSION DEAL_SWAP DEAL_PROFIT DEAL_VOLUME DEAL_PRICE DEAL_SYMBOL DEAL_COMMENT",
+                    "scope": [
+                        "support.constant.deal.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#F48FB1"
+                    }
+                },
+                {
+                    "name": "Timeseries Functions - iTime iOpen iHigh iLow iClose iVolume iSpread iTickVolume iRealVolume iBars iBarShift iHighest iLowest CopyRates CopyTime CopyOpen CopyHigh CopyLow CopyClose CopyTickVolume CopyRealVolume CopySpread CopyTicks CopySeries",
+                    "scope": [
+                        "support.function.timeseries.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#81D4FA"
+                    }
+                },
+                {
+                    "name": "Timeframe Constants - PERIOD_CURRENT PERIOD_M1 PERIOD_M2 PERIOD_M3 PERIOD_M4 PERIOD_M5 PERIOD_M6 PERIOD_M10 PERIOD_M12 PERIOD_M15 PERIOD_M20 PERIOD_M30 PERIOD_H1 PERIOD_H2 PERIOD_H3 PERIOD_H4 PERIOD_H6 PERIOD_H8 PERIOD_H12 PERIOD_D1 PERIOD_W1 PERIOD_MN1",
+                    "scope": [
+                        "support.constant.timeframe.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#F1FA8C"
+                    }
+                },
+                {
+                    "name": "Symbol/Market Info Functions - SymbolInfoDouble SymbolInfoInteger SymbolInfoString SymbolInfoTick SymbolInfoSessionQuote SymbolInfoSessionTrade SymbolName SymbolSelect SymbolsTotal SymbolExist MarketBookAdd MarketBookRelease MarketBookGet",
+                    "scope": [
+                        "support.function.symbol-info.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#CE93D8"
+                    }
+                },
+                {
+                    "name": "Account Info Functions - AccountInfoDouble AccountInfoInteger AccountInfoString",
+                    "scope": [
+                        "support.function.account-info.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#F8BBD9"
+                    }
+                },
+                {
+                    "name": "Common Functions - Print PrintFormat Alert Comment SendNotification SendMail SendFTP Sleep GetTickCount GetMicrosecondCount MessageBox PlaySound ExpertRemove TerminalClose",
+                    "scope": [
+                        "support.function.common.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#DCDCAA"
+                    }
+                },
+                {
+                    "name": "Conversion Functions - CharToString StringToCharArray TimeToString StringToTime DoubleToString IntegerToString NormalizeDouble StringToDouble ColorToString StringToColor EnumToString",
+                    "scope": [
+                        "support.function.conversion.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FFD54F"
+                    }
+                },
+                {
+                    "name": "String Functions - StringLen StringFind StringSubstr StringReplace StringTrimLeft StringTrimRight StringSplit StringConcatenate StringFormat StringCompare StringToLower StringToUpper",
+                    "scope": [
+                        "support.function.string.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FFC107"
+                    }
+                },
+                {
+                    "name": "Array Functions - ArraySize ArrayResize ArrayInitialize ArrayFree ArrayCopy ArraySort ArrayMaximum ArrayMinimum ArrayBsearch ArraySetAsSeries ArrayIsSeries ArrayIsDynamic",
+                    "scope": [
+                        "support.function.array.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FFAB00"
+                    }
+                },
+                {
+                    "name": "Math Functions - MathAbs MathCeil MathFloor MathRound MathPow MathSqrt MathLog MathLog10 MathExp MathMod MathMax MathMin MathSin MathCos MathTan MathArcsin MathArccos MathArctan MathRand MathSrand MathIsValidNumber",
+                    "scope": [
+                        "support.function.math.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FFE082"
+                    }
+                },
+                {
+                    "name": "File Functions - FileOpen FileClose FileDelete FileFlush FileSeek FileTell FileRead FileWrite FileReadArray FileWriteArray FileReadDouble FileReadInteger FileReadString FileWriteDouble FileWriteInteger FileWriteString FileIsExist FileCopy FileMove FileSize",
+                    "scope": [
+                        "support.function.file.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FFCC80"
+                    }
+                },
+                {
+                    "name": "MQL5 Structures - MqlRates MqlTick MqlDateTime MqlBookInfo MqlTradeRequest MqlTradeCheckResult MqlTradeResult MqlTradeTransaction MqlParam MqlSymbolInfo",
+                    "scope": [
+                        "support.type.struct.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FFB86C",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "name": "Standard Library Classes - CTrade CPositionInfo COrderInfo CDealInfo CHistoryOrderInfo CSymbolInfo CAccountInfo CTerminalInfo CExpertBase CArray CArrayObj CArrayInt CArrayDouble CArrayString CObject CList CHashMap CDictionary CIndicators CIndicatorBuffer CChartObject CChartObjectText CChartObjectLine CChartObjectTrend",
+                    "scope": [
+                        "support.class.stdlib.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#8BE9FD",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "name": "Magic/Predefined Variables - _Symbol _Digits _Point _Period _LastError _StopFlag _UninitReason _RandomSeed _IsX64 Ask Bid Bars Volume Time Open High Low Close",
+                    "scope": [
+                        "support.variable.predefined.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#BD93F9"
+                    }
+                },
+                {
+                    "name": "Event Handler Functions - OnInit OnDeinit OnStart OnTick OnTimer OnTrade OnTradeTransaction OnBookEvent OnChartEvent OnCalculate OnTester OnTesterInit OnTesterDeinit OnTesterPass",
+                    "scope": [
+                        "support.function.event.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#FF5555",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "name": "Return Codes - INIT_SUCCEEDED INIT_FAILED INIT_PARAMETERS_INCORRECT INIT_AGENT_NOT_SUITABLE",
+                    "scope": [
+                        "support.constant.init-retcode.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#F06292"
+                    }
+                },
+                {
+                    "name": "Terminal/Environment Constants - TERMINAL_CONNECTED TERMINAL_TRADE_ALLOWED TERMINAL_DLLS_ALLOWED TERMINAL_EMAIL_ENABLED TERMINAL_FTP_ENABLED TERMINAL_NOTIFICATIONS_ENABLED TERMINAL_MAXBARS TERMINAL_CODEPAGE TERMINAL_LANGUAGE TERMINAL_COMPANY TERMINAL_NAME TERMINAL_PATH TERMINAL_DATA_PATH",
+                    "scope": [
+                        "support.constant.terminal.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#90CAF9"
+                    }
+                },
+                {
+                    "name": "Object Property Constants - OBJPROP_COLOR OBJPROP_STYLE OBJPROP_WIDTH OBJPROP_BACK OBJPROP_RAY_LEFT OBJPROP_RAY_RIGHT OBJPROP_SELECTABLE OBJPROP_SELECTED OBJPROP_TIME OBJPROP_PRICE OBJPROP_ANCHOR OBJPROP_TEXT OBJPROP_FONTSIZE OBJPROP_CORNER OBJPROP_XDISTANCE OBJPROP_YDISTANCE",
+                    "scope": [
+                        "support.constant.objprop.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#80CBC4"
+                    }
+                },
+                {
+                    "name": "Boolean Constants - true false",
+                    "scope": [
+                        "constant.language.boolean",
+                        "constant.language.true",
+                        "constant.language.false"
+                    ],
+                    "settings": {
+                        "foreground": "#56B6C2"
+                    }
+                },
+                {
+                    "name": "Numeric Limits - DBL_MAX DBL_MIN DBL_EPSILON INT_MAX INT_MIN ULONG_MAX LONG_MAX LONG_MIN EMPTY_VALUE EMPTY CLR_NONE WRONG_VALUE NULL CHARTS_MAX WHOLE_ARRAY",
+                    "scope": [
+                        "support.constant.numeric-limits.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#E5C07B"
+                    }
+                },
+                {
+                    "name": "Color Constants - clrRed clrGreen clrBlue clrYellow clrWhite clrBlack clrGray clrSilver clrOrange clrPurple clrMagenta clrCyan clrLime clrMaroon clrNavy clrOlive clrTeal clrAqua clrFuchsia clrPink clrGold clrLavender clrCoral clrCrimson clrDarkGreen clrDarkBlue clrDarkRed clrDodgerBlue clrFireBrick clrForestGreen clrIndigo clrKhaki clrMediumBlue clrNone",
+                    "scope": [
+                        "support.constant.color.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#C3E88D"
+                    }
+                },
+                {
+                    "name": "Chart Constants - CHART_IS_OBJECT CHART_BRING_TO_TOP CHART_SHIFT CHART_AUTOSCROLL CHART_MODE CHART_FOREGROUND CHART_SHOW_GRID CHART_SHOW_VOLUMES CHART_SHOW_OBJECT_DESCR CHART_VISIBLE_BARS CHART_ID CHART_WINDOW_HANDLE CHART_FIRST_VISIBLE_BAR CHART_PRICE_MIN CHART_PRICE_MAX CHART_COMMENT CHART_SCALE CHART_COLOR_BACKGROUND",
+                    "scope": [
+                        "support.constant.chart.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#89DDFF"
+                    }
+                },
+                {
+                    "name": "Object Types - OBJ_VLINE OBJ_HLINE OBJ_TREND OBJ_TRENDBYANGLE OBJ_CHANNEL OBJ_STDDEVCHANNEL OBJ_REGRESSION OBJ_PITCHFORK OBJ_GANNLINE OBJ_GANNFAN OBJ_GANNGRID OBJ_FIBO OBJ_FIBOTIMES OBJ_FIBOFAN OBJ_FIBOARC OBJ_FIBOCHANNEL OBJ_EXPANSION OBJ_ELLIPSE OBJ_ARROW OBJ_ARROW_BUY OBJ_ARROW_SELL OBJ_TEXT OBJ_LABEL OBJ_BUTTON OBJ_CHART OBJ_BITMAP OBJ_BITMAP_LABEL OBJ_EDIT OBJ_RECTANGLE OBJ_RECTANGLE_LABEL OBJ_EVENT",
+                    "scope": [
+                        "support.constant.object-type.mql5"
+                    ],
+                    "settings": {
+                        "foreground": "#82AAFF"
+                    }
+                },
+                {
+                    "name": "Functions - General",
+                    "scope": [
+                        "entity.name.function",
+                        "support.function"
+                    ],
+                    "settings": {
+                        "foreground": "#DCDCAA"
+                    }
+                },
+                {
+                    "name": "Classes and Structs",
+                    "scope": [
+                        "entity.name.class",
+                        "entity.name.struct",
+                        "support.class"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "name": "Strings",
+                    "scope": [
+                        "string"
+                    ],
+                    "settings": {
+                        "foreground": "#CE9178"
+                    }
+                },
+                {
+                    "name": "Numbers",
+                    "scope": [
+                        "constant.numeric"
+                    ],
+                    "settings": {
+                        "foreground": "#B5CEA8"
+                    }
+                },
+                {
+                    "name": "Constants - General",
+                    "scope": [
+                        "constant.language",
+                        "support.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#569CD6"
+                    }
+                },
+                {
+                    "name": "Operators",
+                    "scope": [
+                        "keyword.operator"
+                    ],
+                    "settings": {
+                        "foreground": "#D4D4D4"
+                    }
+                },
+                {
+                    "name": "Variables",
+                    "scope": [
+                        "variable"
+                    ],
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                    }
+                },
+                {
+                    "name": "Parameters",
+                    "scope": [
+                        "variable.parameter"
+                    ],
+                    "settings": {
+                        "foreground": "#9CDCFE",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    },
+    "files.associations": {
+        "*.mq5": "mql5",
+        "*.mqh": "mql5",
+        "*.mq4": "mql5",
+        "*.mqh4": "mql5"
+    },
+    "[cpp]": {
+        "editor.bracketPairColorization.enabled": true,
+        "editor.guides.bracketPairs": true,
+        "editor.formatOnSave": false
+    }
+}
