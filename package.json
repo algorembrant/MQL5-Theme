@@ -4,6 +4,10 @@
     "displayName": "MQL5 Support",
     "description": "MQL5 Syntax Highlighting and Themes",
     "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MQL5-Theme-syntax/mql5-support"
+    },
     "engines": {
         "vscode": "^1.70.0"
     },
