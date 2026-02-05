@@ -1,9 +1,4 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.files.associations": {
-        "*.ex5": "cpp",
-        "*.ex4": "cpp"
-    },
     "workbench.colorCustomizations": {},
     "editor.tokenColorCustomizations": {
         "[*]": {

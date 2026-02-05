@@ -1,7 +1,6 @@
 {
     "name": "mql5-support",
     "publisher": "myname",
-    "icon": "./icons/MQL5_icon.png",
     "displayName": "MQL5 Support",
     "description": "MQL5 Syntax Highlighting and Themes",
     "version": "1.0.0",
