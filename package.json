@@ -1,9 +1,9 @@
 {
     "name": "mql5-support",
-    "publisher": "MQL5-Theme-syntax",
+    "publisher": "algorembrant",
     "displayName": "MQL5 Support",
     "description": "MQL5 Syntax Highlighting and Themes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/MQL5-Theme-syntax/mql5-support"
