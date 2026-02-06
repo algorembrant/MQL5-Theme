@@ -1,9 +1,9 @@
 {
     "name": "mql5-support",
-    "publisher": "algorembrant",
+    "publisher": "MQL5-Theme-syntax",
     "displayName": "MQL5 Support",
     "description": "MQL5 Syntax Highlighting and Themes",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/MQL5-Theme-syntax/mql5-support"
@@ -47,6 +47,26 @@
                 "label": "MQL5 Light Professional",
                 "uiTheme": "vs",
                 "path": "./themes/mql5-light-theme.json"
+            },
+            {
+                "label": "MQL5 Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mql5-monokai.json"
+            },
+            {
+                "label": "MQL5 Solarized Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mql5-solarized-dark.json"
+            },
+            {
+                "label": "MQL5 Tokyo Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mql5-tokyo-night.json"
+            },
+            {
+                "label": "MQL5 High Contrast",
+                "uiTheme": "hc-black",
+                "path": "./themes/mql5-high-contrast.json"
             }
         ]
     }

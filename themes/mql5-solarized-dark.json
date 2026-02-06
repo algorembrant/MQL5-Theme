@@ -1,0 +1,107 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "semanticHighlighting": true,
+    "name": "MQL5 Solarized Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#002b36",
+        "editor.foreground": "#839496",
+        "editor.lineHighlightBackground": "#073642",
+        "editor.selectionBackground": "#274642",
+        "editorCursor.foreground": "#d33682",
+        "editorLineNumber.foreground": "#586e75",
+        "editorLineNumber.activeForeground": "#93a1a1",
+        "editorIndentGuide.background1": "#586e75",
+        "editorIndentGuide.activeBackground1": "#93a1a1"
+    },
+    "tokenColors": [
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#268bd2"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": [
+                "entity.name.class",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#b58900"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#2aa198"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#d33682"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#859900"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#586e75",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Trade Functions",
+            "scope": [
+                "support.function.trade.mql5"
+            ],
+            "settings": {
+                "foreground": "#cb4b16",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant",
+                "support.constant"
+            ],
+            "settings": {
+                "foreground": "#d33682"
+            }
+        }
+    ],
+    "semanticTokenColors": {
+        "function": "#268bd2",
+        "variable": "#839496",
+        "type": "#b58900",
+        "class": "#b58900",
+        "keyword": "#859900",
+        "string": "#2aa198",
+        "number": "#d33682",
+        "comment": "#586e75"
+    }
+}

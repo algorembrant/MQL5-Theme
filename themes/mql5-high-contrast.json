@@ -1,0 +1,108 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "semanticHighlighting": true,
+    "name": "MQL5 High Contrast",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#000000",
+        "editor.foreground": "#ffffff",
+        "editor.lineHighlightBorder": "#f38518",
+        "editor.selectionBackground": "#ffffff",
+        "editor.selectionForeground": "#000000",
+        "editorCursor.foreground": "#ffffff",
+        "editorLineNumber.foreground": "#ffffff",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editorIndentGuide.background1": "#ffffff",
+        "editorIndentGuide.activeBackground1": "#ffffff"
+    },
+    "tokenColors": [
+        {
+            "name": "Functions",
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#ffff00"
+            }
+        },
+        {
+            "name": "Classes",
+            "scope": [
+                "entity.name.class",
+                "entity.name.type"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": [
+                "string"
+            ],
+            "settings": {
+                "foreground": "#5ce632"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "name": "Keywords",
+            "scope": [
+                "keyword",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#569cd6",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": [
+                "comment"
+            ],
+            "settings": {
+                "foreground": "#7ca668"
+            }
+        },
+        {
+            "name": "Trade Functions",
+            "scope": [
+                "support.function.trade.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant",
+                "support.constant"
+            ],
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        }
+    ],
+    "semanticTokenColors": {
+        "function": "#ffff00",
+        "variable": "#ffffff",
+        "type": "#00ff00",
+        "class": "#00ff00",
+        "keyword": "#569cd6",
+        "string": "#5ce632",
+        "number": "#b5cea8",
+        "comment": "#7ca668"
+    }
+}
