@@ -3,17 +3,6 @@
     "semanticHighlighting": true,
     "name": "MQL5 Tokyo Night",
     "type": "dark",
-    "colors": {
-        "editor.background": "#1a1b26",
-        "editor.foreground": "#c0caf5",
-        "editor.lineHighlightBackground": "#292e42",
-        "editor.selectionBackground": "#33467C",
-        "editorCursor.foreground": "#c0caf5",
-        "editorLineNumber.foreground": "#565f89",
-        "editorLineNumber.activeForeground": "#a9b1d6",
-        "editorIndentGuide.background1": "#292e42",
-        "editorIndentGuide.activeBackground1": "#3b4261"
-    },
     "tokenColors": [
         {
             "name": "Comments",

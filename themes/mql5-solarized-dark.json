@@ -3,17 +3,6 @@
     "semanticHighlighting": true,
     "name": "MQL5 Solarized Dark",
     "type": "dark",
-    "colors": {
-        "editor.background": "#002b36",
-        "editor.foreground": "#839496",
-        "editor.lineHighlightBackground": "#073642",
-        "editor.selectionBackground": "#274642",
-        "editorCursor.foreground": "#d33682",
-        "editorLineNumber.foreground": "#586e75",
-        "editorLineNumber.activeForeground": "#93a1a1",
-        "editorIndentGuide.background1": "#586e75",
-        "editorIndentGuide.activeBackground1": "#93a1a1"
-    },
     "tokenColors": [
         {
             "name": "Comments",

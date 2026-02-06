@@ -3,10 +3,10 @@
     "publisher": "MQL5-Theme-syntax",
     "displayName": "MQL5 Support",
     "description": "MQL5 Syntax Highlighting and Themes",
-    "version": "1.0.0",
+    "version": "1.2.1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/MQL5-Theme-syntax/mql5-support"
+        "url": "https://github.com/algorembrant/MQL5-Theme"
     },
     "engines": {
         "vscode": "^1.70.0"

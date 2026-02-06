@@ -18,13 +18,19 @@ All syntax definitions and language structures are based on the public [MQL5 Ref
 ## Features
 
 - **Syntax Highlighting**: Comprehensive syntax highlighting for `.mq5` and `.mqh` files.
-- **Themes**: Includes custom "MQL5 Dark Professional" and "MQL5 Light Professional" themes.
+- **Themes**: Includes custom "MQL5 Dark Professional" and "MQL5 Light Professional" themes (Syntax-Only).
 
 ## Included Themes
 
-This extension packs two themes:
+This extension packs multiple syntax-only themes that work on top of your preferred UI theme:
 - **MQL5 Dark Professional**: A dark theme inspired by Tokyo Night with MQL5-specific color tokens.
 - **MQL5 Light Professional**: A light theme inspired by One Light.
+- **MQL5 Monokai**
+- **MQL5 Solarized Dark**
+- **MQL5 Tokyo Night**
+- **MQL5 High Contrast**
+
+> **Note**: These themes are **Syntax-Only**. They do not change your workbench colors (sidebar, status bar, etc.), allowing you to keep your preferred UI aesthetics while getting professional MQL5 syntax highlighting.
 
 ## Syntax Support
 

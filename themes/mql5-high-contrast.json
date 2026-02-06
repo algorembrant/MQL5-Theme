@@ -3,18 +3,6 @@
     "semanticHighlighting": true,
     "name": "MQL5 High Contrast",
     "type": "hc",
-    "colors": {
-        "editor.background": "#000000",
-        "editor.foreground": "#ffffff",
-        "editor.lineHighlightBorder": "#f38518",
-        "editor.selectionBackground": "#ffffff",
-        "editor.selectionForeground": "#000000",
-        "editorCursor.foreground": "#ffffff",
-        "editorLineNumber.foreground": "#ffffff",
-        "editorLineNumber.activeForeground": "#ffffff",
-        "editorIndentGuide.background1": "#ffffff",
-        "editorIndentGuide.activeBackground1": "#ffffff"
-    },
     "tokenColors": [
         {
             "name": "Comments",

@@ -3,17 +3,6 @@
     "semanticHighlighting": true,
     "name": "MQL5 Monokai",
     "type": "dark",
-    "colors": {
-        "editor.background": "#272822",
-        "editor.foreground": "#f8f8f2",
-        "editor.lineHighlightBackground": "#3e3d32",
-        "editor.selectionBackground": "#49483e",
-        "editorCursor.foreground": "#f8f8f0",
-        "editorLineNumber.foreground": "#90908a",
-        "editorLineNumber.activeForeground": "#f8f8f2",
-        "editorIndentGuide.background1": "#464741",
-        "editorIndentGuide.activeBackground1": "#72726b"
-    },
     "tokenColors": [
         {
             "name": "Comments",
