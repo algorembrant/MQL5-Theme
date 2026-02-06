@@ -2,7 +2,7 @@
     "$schema": "vscode://schemas/color-theme",
     "semanticHighlighting": true,
     "name": "MQL5 High Contrast",
-    "type": "dark",
+    "type": "hc",
     "colors": {
         "editor.background": "#000000",
         "editor.foreground": "#ffffff",
@@ -17,9 +17,22 @@
     },
     "tokenColors": [
         {
+            "name": "Comments",
+            "scope": [
+                "comment",
+                "comment.line",
+                "comment.block",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#7ca668"
+            }
+        },
+        {
             "name": "Functions",
             "scope": [
                 "entity.name.function",
+                "meta.function entity.name.function",
                 "support.function"
             ],
             "settings": {
@@ -30,7 +43,11 @@
             "name": "Classes",
             "scope": [
                 "entity.name.class",
-                "entity.name.type"
+                "entity.name.type.class",
+                "entity.name.struct",
+                "entity.name.type.struct",
+                "support.class",
+                "support.type"
             ],
             "settings": {
                 "foreground": "#00ff00"
@@ -39,7 +56,9 @@
         {
             "name": "Strings",
             "scope": [
-                "string"
+                "string",
+                "string.quoted.double",
+                "string.quoted.single"
             ],
             "settings": {
                 "foreground": "#5ce632"
@@ -48,30 +67,132 @@
         {
             "name": "Numbers",
             "scope": [
-                "constant.numeric"
+                "constant.numeric",
+                "constant.numeric.integer",
+                "constant.numeric.float",
+                "constant.numeric.decimal"
             ],
             "settings": {
                 "foreground": "#b5cea8"
             }
         },
         {
-            "name": "Keywords",
+            "name": "Operators",
             "scope": [
-                "keyword",
-                "storage"
+                "keyword.operator",
+                "keyword.operator.arithmetic",
+                "keyword.operator.comparison",
+                "keyword.operator.logical",
+                "keyword.operator.assignment"
             ],
             "settings": {
-                "foreground": "#569cd6",
-                "fontStyle": "bold"
+                "foreground": "#ffffff"
             }
         },
         {
-            "name": "Comments",
+            "name": "Variables",
             "scope": [
-                "comment"
+                "variable",
+                "variable.other"
             ],
             "settings": {
-                "foreground": "#7ca668"
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "Parameters",
+            "scope": [
+                "variable.parameter",
+                "variable.parameter.function"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "IncludePaths",
+            "scope": [
+                "string.quoted.other.lt-gt",
+                "string.quoted.include",
+                "entity.name.other.preprocessor.macro.include"
+            ],
+            "settings": {
+                "foreground": "#ce9178"
+            }
+        },
+        {
+            "name": "Punctuation",
+            "scope": [
+                "punctuation.definition.begin.bracket",
+                "punctuation.definition.end.bracket",
+                "punctuation.section.parens",
+                "punctuation.brackets",
+                "meta.brace",
+                "punctuation.separator",
+                "punctuation.terminator",
+                "punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "Enums",
+            "scope": [
+                "entity.name.type.enum",
+                "variable.other.enummember"
+            ],
+            "settings": {
+                "foreground": "#4fc1ff"
+            }
+        },
+        {
+            "name": "Preprocessor Directives",
+            "scope": [
+                "keyword.other.preprocessor",
+                "meta.preprocessor",
+                "keyword.control.directive",
+                "punctuation.definition.directive",
+                "keyword.other.directive"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "name": "Data Types",
+            "scope": [
+                "storage.type",
+                "storage.type.primitive",
+                "storage.type.built-in",
+                "keyword.type",
+                "support.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "name": "Control Flow Keywords",
+            "scope": [
+                "keyword.control",
+                "keyword.control.conditional",
+                "keyword.control.loop",
+                "keyword.control.flow"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
+            }
+        },
+        {
+            "name": "Storage Modifiers",
+            "scope": [
+                "storage.modifier",
+                "keyword.other.input",
+                "keyword.other.extern"
+            ],
+            "settings": {
+                "foreground": "#569cd6"
             }
         },
         {
@@ -85,13 +206,342 @@
             }
         },
         {
-            "name": "Constants",
+            "name": "CTrade Class Methods",
             "scope": [
-                "constant",
-                "support.constant"
+                "support.function.ctrade.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000"
+            }
+        },
+        {
+            "name": "Trade Request Actions",
+            "scope": [
+                "support.constant.trade-action.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Order Type Constants",
+            "scope": [
+                "support.constant.order-type.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Order State Constants",
+            "scope": [
+                "support.constant.order-state.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Order Filling Modes",
+            "scope": [
+                "support.constant.order-filling.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Order Time Types",
+            "scope": [
+                "support.constant.order-time.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Position Constants",
+            "scope": [
+                "support.constant.position-type.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Position Properties",
+            "scope": [
+                "support.constant.position-property.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Symbol ENUM Constants",
+            "scope": [
+                "support.constant.symbol-info.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Symbol Trade Modes",
+            "scope": [
+                "support.constant.symbol-trade-mode.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Symbol Filling Modes",
+            "scope": [
+                "support.constant.symbol-filling.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Account ENUM Constants",
+            "scope": [
+                "support.constant.account-info.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000"
+            }
+        },
+        {
+            "name": "Account Trade Modes",
+            "scope": [
+                "support.constant.account-trade-mode.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000"
+            }
+        },
+        {
+            "name": "Account Stop Out Modes",
+            "scope": [
+                "support.constant.account-stopout.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000"
+            }
+        },
+        {
+            "name": "Deal Constants",
+            "scope": [
+                "support.constant.deal.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000"
+            }
+        },
+        {
+            "name": "Timeseries Functions",
+            "scope": [
+                "support.function.timeseries.mql5"
+            ],
+            "settings": {
+                "foreground": "#ffff00"
+            }
+        },
+        {
+            "name": "Timeframe Constants",
+            "scope": [
+                "support.constant.timeframe.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Symbol/Market Info Functions",
+            "scope": [
+                "support.function.symbol-info.mql5"
+            ],
+            "settings": {
+                "foreground": "#ffff00"
+            }
+        },
+        {
+            "name": "Account Info Functions",
+            "scope": [
+                "support.function.account-info.mql5"
+            ],
+            "settings": {
+                "foreground": "#ffff00"
+            }
+        },
+        {
+            "name": "Common Functions",
+            "scope": [
+                "support.function.common.mql5"
+            ],
+            "settings": {
+                "foreground": "#3399cc"
+            }
+        },
+        {
+            "name": "Conversion Functions",
+            "scope": [
+                "support.function.conversion.mql5"
+            ],
+            "settings": {
+                "foreground": "#dcdcaa"
+            }
+        },
+        {
+            "name": "String Functions",
+            "scope": [
+                "support.function.string.mql5"
+            ],
+            "settings": {
+                "foreground": "#ce9178"
+            }
+        },
+        {
+            "name": "Array Functions",
+            "scope": [
+                "support.function.array.mql5"
+            ],
+            "settings": {
+                "foreground": "#dcdcaa"
+            }
+        },
+        {
+            "name": "Math Functions",
+            "scope": [
+                "support.function.math.mql5"
+            ],
+            "settings": {
+                "foreground": "#dcdcaa"
+            }
+        },
+        {
+            "name": "File Functions",
+            "scope": [
+                "support.function.file.mql5"
+            ],
+            "settings": {
+                "foreground": "#ce9178"
+            }
+        },
+        {
+            "name": "MQL5 Structures",
+            "scope": [
+                "support.type.struct.mql5"
+            ],
+            "settings": {
+                "foreground": "#4ec9b0",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Standard Library Classes",
+            "scope": [
+                "support.class.stdlib.mql5"
+            ],
+            "settings": {
+                "foreground": "#4ec9b0",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Magic/Predefined Variables",
+            "scope": [
+                "support.variable.predefined.mql5"
+            ],
+            "settings": {
+                "foreground": "#c586c0"
+            }
+        },
+        {
+            "name": "Event Handler Functions",
+            "scope": [
+                "support.function.event.mql5"
+            ],
+            "settings": {
+                "foreground": "#ff0000",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Return Codes",
+            "scope": [
+                "support.constant.init-retcode.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Terminal/Environment Constants",
+            "scope": [
+                "support.constant.terminal.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Object Property Constants",
+            "scope": [
+                "support.constant.objprop.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Boolean Constants",
+            "scope": [
+                "constant.language.boolean",
+                "constant.language.true",
+                "constant.language.false"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Numeric Limits",
+            "scope": [
+                "support.constant.numeric-limits.mql5"
             ],
             "settings": {
                 "foreground": "#b5cea8"
+            }
+        },
+        {
+            "name": "Color Constants",
+            "scope": [
+                "support.constant.color.mql5"
+            ],
+            "settings": {
+                "foreground": "#b5cea8"
+            }
+        },
+        {
+            "name": "Chart Constants",
+            "scope": [
+                "support.constant.chart.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
+            }
+        },
+        {
+            "name": "Object Types",
+            "scope": [
+                "support.constant.object-type.mql5"
+            ],
+            "settings": {
+                "foreground": "#00ff00"
             }
         }
     ],
@@ -100,6 +550,7 @@
         "variable": "#ffffff",
         "type": "#00ff00",
         "class": "#00ff00",
+        "enum": "#4fc1ff",
         "keyword": "#569cd6",
         "string": "#5ce632",
         "number": "#b5cea8",
