@@ -4,6 +4,8 @@ image copy.png
 
 example.mq5
 
-mql5-support-1.0.1.vsix
+*.vsix
+out/
+.vscode-test/
 
 node_modules
