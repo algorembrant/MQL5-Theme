@@ -9,3 +9,5 @@ out/
 .vscode-test/
 
 node_modules
+
+icon.png
