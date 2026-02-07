@@ -1,8 +1,13 @@
-# MQL5 Syntax Reference
+# MQL5 Syntax Reference for VS Code Themes
 
-Generated from `mores.md`.
+This document categorizes MQL5 syntax elements for consistent color theme application.
 
 ---
+
+## Preprocessor Directives
+```
+#property  #include  #define  #import  #resource
+```
 
 ## Data Types
 ```
