@@ -161,7 +161,7 @@ def generate_grammar(sections):
              # Special handling for #
              regex = f"({'|'.join(escaped_keywords)})" 
         else:
-            regex = f"\\\\b({'|'.join(escaped_keywords)})\\\\b"
+            regex = f"\\b({'|'.join(escaped_keywords)})\\b"
         
         pattern = {
             "match": regex,
