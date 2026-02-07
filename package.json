@@ -16,6 +16,18 @@
         "Programming Languages"
     ],
     "contributes": {
+        "themes": [
+            {
+                "label": "MQL5 Syntax (Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/mql5-syntax-dark.json"
+            },
+            {
+                "label": "MQL5 Syntax (Light)",
+                "uiTheme": "vs",
+                "path": "./themes/mql5-syntax-light.json"
+            }
+        ],
         "languages": [
             {
                 "id": "mql5",

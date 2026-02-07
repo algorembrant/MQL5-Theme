@@ -3,13 +3,14 @@ const path = require('path');
 
 // Paths
 const VSCODE_DIR = __dirname;
-const ROOT_DIR = path.join(VSCODE_DIR, '..');
+const ROOT_DIR = VSCODE_DIR;
 const SYNTAX_MD_PATH = path.join(VSCODE_DIR, 'syntax.md');
 const CONFIG_PATH = path.join(VSCODE_DIR, 'syntax-colors.json');
-const DARK_THEME_PATH = path.join(VSCODE_DIR, 'themes', 'mql5-dark-theme.json');
-const LIGHT_THEME_PATH = path.join(VSCODE_DIR, 'themes', 'mql5-light-theme.json');
+const DARK_THEME_PATH = path.join(VSCODE_DIR, 'themes', 'mql5-syntax-dark.json');
+const LIGHT_THEME_PATH = path.join(VSCODE_DIR, 'themes', 'mql5-syntax-light.json');
 const SYNTAXES_DIR = path.join(ROOT_DIR, 'syntaxes');
 const GRAMMAR_PATH = path.join(SYNTAXES_DIR, 'mql5.tmLanguage.json');
+
 
 // Helper to read file content
 function readFile(filePath) {
@@ -231,28 +232,34 @@ function build() {
         "semanticHighlighting": true
     };
 
-    // Dark Theme
+    // Syntax Only Theme (High Contrast / No UI Overrides)
+    // We only provide tokenColors. We setting colors to {} means it inherits from user's current theme/defaults.
+    // However, to make it a valid theme, we usually pick a "type" (dark/light).
+    // To truly be "universal", we might need two files: MQL5 Syntax (Dark) and MQL5 Syntax (Light),
+    // but they will NOT set editor.background.
+
+    // Dark Syntax
     const darkTheme = {
         ...commonThemeSettings,
-        "name": "MQL5 Dark Professional",
+        "name": "MQL5 Syntax (Dark)",
         "type": "dark",
-        "colors": config.editorColors.dark,
+        "colors": {}, // No UI overrides
         "tokenColors": generateTokenColors(mdCategories, config, 'dark'),
-        "semanticTokenColors": config.semanticTokenColors.dark
+        "semanticTokenColors": {}
     };
 
-    // Light Theme
+    // Light Syntax
     const lightTheme = {
         ...commonThemeSettings,
-        "name": "MQL5 Light Professional",
+        "name": "MQL5 Syntax (Light)",
         "type": "light",
-        "colors": config.editorColors.light,
+        "colors": {}, // No UI overrides
         "tokenColors": generateTokenColors(mdCategories, config, 'light'),
-        "semanticTokenColors": config.semanticTokenColors.light
+        "semanticTokenColors": {}
     };
 
-    writeJson(DARK_THEME_PATH, darkTheme);
-    writeJson(LIGHT_THEME_PATH, lightTheme);
+    writeJson(path.join(VSCODE_DIR, 'themes', 'mql5-syntax-dark.json'), darkTheme);
+    writeJson(path.join(VSCODE_DIR, 'themes', 'mql5-syntax-light.json'), lightTheme);
 
     console.log('Build complete.');
 }

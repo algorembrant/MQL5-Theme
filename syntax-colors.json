@@ -30,8 +30,8 @@
                 "keyword.control.loop",
                 "keyword.control.flow"
             ],
-            "darkColor": "#C586C0",
-            "lightColor": "#A626A4"
+            "darkColor": "#FF00FF",
+            "lightColor": "#D02090"
         },
         "Storage Modifiers": {
             "scope": [
@@ -223,8 +223,8 @@
             "scope": [
                 "support.function.file.mql5"
             ],
-            "darkColor": "#FFCC80",
-            "lightColor": "#FF6F00"
+            "darkColor": "#DAA520",
+            "lightColor": "#B8860B"
         },
         "MQL5 Structures": {
             "scope": [
@@ -284,36 +284,113 @@
                 "constant.language.true",
                 "constant.language.false"
             ],
-            "darkColor": "#56B6C2",
-            "lightColor": "#0184BC"
+            "darkColor": "#20B2AA",
+            "lightColor": "#008B8B"
         },
         "Numeric Limits": {
             "scope": [
                 "support.constant.numeric-limits.mql5"
             ],
-            "darkColor": "#E5C07B",
-            "lightColor": "#8D6E63"
+            "darkColor": "#4682B4",
+            "lightColor": "#2F4F4F"
         },
         "Color Constants": {
             "scope": [
                 "support.constant.color.mql5"
             ],
-            "darkColor": "#C3E88D",
-            "lightColor": "#558B2F"
+            "darkColor": "#708090",
+            "lightColor": "#2F4F4F"
         },
         "Chart Constants (ENUM_CHART_...)": {
             "scope": [
                 "support.constant.chart.mql5"
             ],
-            "darkColor": "#89DDFF",
-            "lightColor": "#0288D1"
+            "darkColor": "#E0FFFF",
+            "lightColor": "#4682B4"
         },
         "Object Types (ENUM_OBJECT)": {
             "scope": [
                 "support.constant.object-type.mql5"
             ],
-            "darkColor": "#82AAFF",
-            "lightColor": "#3949AB"
+            "darkColor": "#ADD8E6",
+            "lightColor": "#87CEEB"
+        },
+        "Indicator Functions": {
+            "scope": [
+                "support.function.indicator.mql5"
+            ],
+            "darkColor": "#00FF7F",
+            "lightColor": "#00FF7F"
+        },
+        "Chart Functions": {
+            "scope": [
+                "support.function.chart.mql5"
+            ],
+            "darkColor": "#7FFFD4",
+            "lightColor": "#7FFFD4"
+        },
+        "Object Functions": {
+            "scope": [
+                "support.function.object.mql5"
+            ],
+            "darkColor": "#98FB98",
+            "lightColor": "#98FB98"
+        },
+        "Text Functions": {
+            "scope": [
+                "support.function.text.mql5"
+            ],
+            "darkColor": "#AFEEEE",
+            "lightColor": "#AFEEEE"
+        },
+        "Global Variables": {
+            "scope": [
+                "support.function.global-variable.mql5"
+            ],
+            "darkColor": "#00FA9A",
+            "lightColor": "#00FA9A"
+        },
+        "Custom Indicators": {
+            "scope": [
+                "support.function.custom-indicator.mql5"
+            ],
+            "darkColor": "#3CB371",
+            "lightColor": "#3CB371"
+        },
+        "Signal Functions": {
+            "scope": [
+                "support.function.signal.mql5"
+            ],
+            "darkColor": "#2E8B57",
+            "lightColor": "#2E8B57"
+        },
+        "Date and Time": {
+            "scope": [
+                "support.function.datetime.mql5"
+            ],
+            "darkColor": "#00BFFF",
+            "lightColor": "#00BFFF"
+        },
+        "Market Info Functions": {
+            "scope": [
+                "support.function.market-info.mql5"
+            ],
+            "darkColor": "#00CED1",
+            "lightColor": "#00CED1"
+        },
+        "Check Functions": {
+            "scope": [
+                "support.function.check.mql5"
+            ],
+            "darkColor": "#228B22",
+            "lightColor": "#228B22"
+        },
+        "Uncategorized": {
+            "scope": [
+                "support.function.uncategorized.mql5"
+            ],
+            "darkColor": "#32CD32",
+            "lightColor": "#32CD32"
         }
     },
     "baseTokenColors": {
@@ -393,103 +470,11 @@
         }
     },
     "editorColors": {
-        "dark": {
-            "editor.background": "#1e1e1e",
-            "editor.foreground": "#d4d4d4",
-            "editor.lineHighlightBackground": "#2a2a2a",
-            "editor.selectionBackground": "#264f78",
-            "editor.selectionHighlightBackground": "#264f7844",
-            "editorCursor.foreground": "#aeafad",
-            "editorLineNumber.foreground": "#858585",
-            "editorLineNumber.activeForeground": "#c6c6c6",
-            "editorIndentGuide.background1": "#404040",
-            "editorIndentGuide.activeBackground1": "#707070",
-            "editor.findMatchBackground": "#515c6a",
-            "editor.findMatchHighlightBackground": "#ea5c0055",
-            "editorBracketMatch.background": "#0064001a",
-            "editorBracketMatch.border": "#888888",
-            "editorGroupHeader.tabsBackground": "#252526",
-            "tab.activeBackground": "#1e1e1e",
-            "tab.inactiveBackground": "#2d2d2d",
-            "tab.activeForeground": "#ffffff",
-            "tab.inactiveForeground": "#ffffff80",
-            "sideBar.background": "#252526",
-            "sideBar.foreground": "#cccccc",
-            "sideBarTitle.foreground": "#bbbbbb",
-            "activityBar.background": "#333333",
-            "activityBar.foreground": "#ffffff",
-            "statusBar.background": "#007acc",
-            "statusBar.foreground": "#ffffff",
-            "terminal.background": "#1e1e1e",
-            "terminal.foreground": "#cccccc"
-        },
-        "light": {
-            "editor.background": "#fafafa",
-            "editor.foreground": "#383a42",
-            "editor.lineHighlightBackground": "#f0f0f0",
-            "editor.selectionBackground": "#b3d4fc",
-            "editor.selectionHighlightBackground": "#b3d4fc66",
-            "editorCursor.foreground": "#526fff",
-            "editorLineNumber.foreground": "#9d9d9f",
-            "editorLineNumber.activeForeground": "#383a42",
-            "editorIndentGuide.background1": "#e8e8e8",
-            "editorIndentGuide.activeBackground1": "#c9c9c9",
-            "editor.findMatchBackground": "#ffdd5766",
-            "editor.findMatchHighlightBackground": "#ffdd5733",
-            "editorBracketMatch.background": "#e5e5e5",
-            "editorBracketMatch.border": "#526fff",
-            "editorGroupHeader.tabsBackground": "#f0f0f0",
-            "tab.activeBackground": "#fafafa",
-            "tab.inactiveBackground": "#f0f0f0",
-            "tab.activeForeground": "#383a42",
-            "tab.inactiveForeground": "#9d9d9f",
-            "sideBar.background": "#f0f0f0",
-            "sideBar.foreground": "#383a42",
-            "sideBarTitle.foreground": "#383a42",
-            "activityBar.background": "#f0f0f0",
-            "activityBar.foreground": "#526fff",
-            "statusBar.background": "#f0f0f0",
-            "statusBar.foreground": "#383a42",
-            "terminal.background": "#fafafa",
-            "terminal.foreground": "#383a42"
-        }
+        "dark": {},
+        "light": {}
     },
     "semanticTokenColors": {
-        "dark": {
-            "function": "#DCDCAA",
-            "function.declaration": "#DCDCAA",
-            "variable": "#9CDCFE",
-            "variable.declaration": "#9CDCFE",
-            "variable.readonly": "#4FC1FF",
-            "variable.defaultLibrary": "#BD93F9",
-            "parameter": "#9CDCFE",
-            "type": "#4EC9B0",
-            "class": "#4EC9B0",
-            "struct": "#4EC9B0",
-            "enum": "#4FC1FF",
-            "enumMember": "#4FC1FF",
-            "property": "#9CDCFE",
-            "method": "#DCDCAA",
-            "macro": "#C586C0",
-            "comment": "#6A9955"
-        },
-        "light": {
-            "function": "#795548",
-            "function.declaration": "#795548",
-            "variable": "#E45649",
-            "variable.declaration": "#E45649",
-            "variable.readonly": "#4078F2",
-            "variable.defaultLibrary": "#512DA8",
-            "parameter": "#E45649",
-            "type": "#0184BC",
-            "class": "#0184BC",
-            "struct": "#0184BC",
-            "enum": "#4078F2",
-            "enumMember": "#4078F2",
-            "property": "#E45649",
-            "method": "#795548",
-            "macro": "#A626A4",
-            "comment": "#5C6370"
-        }
+        "dark": {},
+        "light": {}
     }
 }

@@ -39,43 +39,43 @@
             "name": "constant.numeric.mql5"
         },
         {
-            "match": "\\b(int|double|string|bool|datetime|color|ulong|long|float|short|char|void|uint|uchar|ushort|group)\\b",
+            "match": "\\b(bool|char|color|datetime|double|float|group|int|long|short|string|uchar|uint|ulong|ushort|void)\\b",
             "name": "storage.type"
         },
         {
-            "match": "\\b(if|else|for|while|do|switch|case|default|break|continue|return|goto)\\b",
+            "match": "\\b(break|case|continue|default|do|else|for|goto|if|return|switch|while)\\b",
             "name": "keyword.control"
         },
         {
-            "match": "\\b(input|extern|static|const|virtual|override|private|protected|public|class|struct|enum)\\b",
+            "match": "\\b(class|const|enum|extern|input|override|private|protected|public|static|struct|virtual)\\b",
             "name": "storage.modifier"
         },
         {
-            "match": "\\b(OrderSend|OrderSendAsync|OrderCalcMargin|OrderCalcProfit|OrderCheck|PositionSelect|PositionSelectByTicket|PositionGetSymbol|PositionGetTicket|PositionsTotal|OrdersTotal|HistorySelect|HistoryOrderSelect|HistoryDealSelect)\\b",
+            "match": "\\b(HistoryDealGetDouble|HistoryDealGetInteger|HistoryDealGetString|HistoryDealGetTicket|HistoryDealSelect|HistoryOrderGetDouble|HistoryOrderGetInteger|HistoryOrderGetString|HistoryOrderGetTicket|HistoryOrderSelect|HistorySelect|HistorySelectByPosition|OrderCalcMargin|OrderCalcProfit|OrderCheck|OrderGetDouble|OrderGetInteger|OrderGetString|OrderGetTicket|OrderSelect|OrderSend|OrderSendAsync|OrdersTotal|PositionGetDouble|PositionGetInteger|PositionGetString|PositionGetSymbol|PositionGetTicket|PositionSelect|PositionSelectByTicket|PositionsTotal)\\b",
             "name": "support.function.trade.mql5"
         },
         {
-            "match": "\\b(Buy|Sell|BuyLimit|BuyStop|SellLimit|SellStop|PositionOpen|PositionClose|PositionClosePartial|PositionCloseBy|PositionModify|OrderOpen|OrderModify|OrderDelete|SetExpertMagicNumber|SetDeviationInPoints|SetTypeFilling|SetAsyncMode)\\b",
+            "match": "\\b(Buy|BuyLimit|BuyStop|OrderDelete|OrderModify|OrderOpen|PositionClose|PositionCloseBy|PositionClosePartial|PositionModify|PositionOpen|Sell|SellLimit|SellStop|SetAsyncMode|SetDeviationInPoints|SetExpertMagicNumber|SetTypeFilling)\\b",
             "name": "support.function.ctrade.mql5"
         },
         {
-            "match": "\\b(TRADE_ACTION_DEAL|TRADE_ACTION_PENDING|TRADE_ACTION_SLTP|TRADE_ACTION_MODIFY|TRADE_ACTION_REMOVE|TRADE_ACTION_CLOSE_BY)\\b",
+            "match": "\\b(TRADE_ACTION_CLOSE_BY|TRADE_ACTION_DEAL|TRADE_ACTION_MODIFY|TRADE_ACTION_PENDING|TRADE_ACTION_REMOVE|TRADE_ACTION_SLTP)\\b",
             "name": "support.constant.trade-action.mql5"
         },
         {
-            "match": "\\b(ORDER_TYPE_BUY|ORDER_TYPE_SELL|ORDER_TYPE_BUY_LIMIT|ORDER_TYPE_SELL_LIMIT|ORDER_TYPE_BUY_STOP|ORDER_TYPE_SELL_STOP|ORDER_TYPE_BUY_STOP_LIMIT|ORDER_TYPE_SELL_STOP_LIMIT|ORDER_TYPE_CLOSE_BY)\\b",
+            "match": "\\b(ORDER_TYPE_BUY|ORDER_TYPE_BUY_LIMIT|ORDER_TYPE_BUY_STOP|ORDER_TYPE_BUY_STOP_LIMIT|ORDER_TYPE_CLOSE_BY|ORDER_TYPE_SELL|ORDER_TYPE_SELL_LIMIT|ORDER_TYPE_SELL_STOP|ORDER_TYPE_SELL_STOP_LIMIT)\\b",
             "name": "support.constant.order-type.mql5"
         },
         {
-            "match": "\\b(ORDER_STATE_STARTED|ORDER_STATE_PLACED|ORDER_STATE_CANCELED|ORDER_STATE_PARTIAL|ORDER_STATE_FILLED|ORDER_STATE_REJECTED|ORDER_STATE_EXPIRED|ORDER_STATE_REQUEST_ADD|ORDER_STATE_REQUEST_MODIFY|ORDER_STATE_REQUEST_CANCEL)\\b",
+            "match": "\\b(ORDER_STATE_CANCELED|ORDER_STATE_EXPIRED|ORDER_STATE_FILLED|ORDER_STATE_PARTIAL|ORDER_STATE_PLACED|ORDER_STATE_REJECTED|ORDER_STATE_REQUEST_ADD|ORDER_STATE_REQUEST_CANCEL|ORDER_STATE_REQUEST_MODIFY|ORDER_STATE_STARTED)\\b",
             "name": "support.constant.order-state.mql5"
         },
         {
-            "match": "\\b(ORDER_FILLING_FOK|ORDER_FILLING_IOC|ORDER_FILLING_RETURN|ORDER_FILLING_BOC)\\b",
+            "match": "\\b(ORDER_FILLING_BOC|ORDER_FILLING_FOK|ORDER_FILLING_IOC|ORDER_FILLING_RETURN)\\b",
             "name": "support.constant.order-filling.mql5"
         },
         {
-            "match": "\\b(ORDER_TIME_GTC|ORDER_TIME_DAY|ORDER_TIME_SPECIFIED|ORDER_TIME_SPECIFIED_DAY)\\b",
+            "match": "\\b(ORDER_TIME_DAY|ORDER_TIME_GTC|ORDER_TIME_SPECIFIED|ORDER_TIME_SPECIFIED_DAY)\\b",
             "name": "support.constant.order-time.mql5"
         },
         {
@@ -83,15 +83,15 @@
             "name": "support.constant.position-type.mql5"
         },
         {
-            "match": "\\b(POSITION_TICKET|POSITION_TIME|POSITION_TIME_MSC|POSITION_TIME_UPDATE|POSITION_TYPE|POSITION_MAGIC|POSITION_IDENTIFIER|POSITION_REASON|POSITION_VOLUME|POSITION_PRICE_OPEN|POSITION_PRICE_CURRENT|POSITION_SL|POSITION_TP|POSITION_SWAP|POSITION_PROFIT|POSITION_SYMBOL|POSITION_COMMENT|POSITION_EXTERNAL_ID)\\b",
+            "match": "\\b(POSITION_COMMENT|POSITION_EXTERNAL_ID|POSITION_IDENTIFIER|POSITION_MAGIC|POSITION_PRICE_CURRENT|POSITION_PRICE_OPEN|POSITION_PROFIT|POSITION_REASON|POSITION_SL|POSITION_SWAP|POSITION_SYMBOL|POSITION_TICKET|POSITION_TIME|POSITION_TIME_MSC|POSITION_TIME_UPDATE|POSITION_TP|POSITION_TYPE|POSITION_VOLUME)\\b",
             "name": "support.constant.position-property.mql5"
         },
         {
-            "match": "\\b(SYMBOL_EXIST|SYMBOL_DIGITS|SYMBOL_SPREAD|SYMBOL_TRADE_MODE|SYMBOL_TRADE_CALC_MODE|SYMBOL_TRADE_TICK_SIZE|SYMBOL_TRADE_TICK_VALUE|SYMBOL_VOLUME_MIN|SYMBOL_VOLUME_MAX|SYMBOL_VOLUME_STEP|SYMBOL_SWAP_LONG|SYMBOL_SWAP_SHORT|SYMBOL_MARGIN_INITIAL|SYMBOL_BID|SYMBOL_ASK|SYMBOL_POINT|SYMBOL_TRADE_STOPS_LEVEL)\\b",
+            "match": "\\b(SYMBOL_ASK|SYMBOL_BID|SYMBOL_DIGITS|SYMBOL_EXIST|SYMBOL_MARGIN_INITIAL|SYMBOL_POINT|SYMBOL_SPREAD|SYMBOL_SWAP_LONG|SYMBOL_SWAP_SHORT|SYMBOL_TRADE_CALC_MODE|SYMBOL_TRADE_MODE|SYMBOL_TRADE_STOPS_LEVEL|SYMBOL_TRADE_TICK_SIZE|SYMBOL_TRADE_TICK_VALUE|SYMBOL_VOLUME_MAX|SYMBOL_VOLUME_MIN|SYMBOL_VOLUME_STEP)\\b",
             "name": "support.constant.symbol-info.mql5"
         },
         {
-            "match": "\\b(SYMBOL_TRADE_MODE_DISABLED|SYMBOL_TRADE_MODE_LONGONLY|SYMBOL_TRADE_MODE_SHORTONLY|SYMBOL_TRADE_MODE_CLOSEONLY|SYMBOL_TRADE_MODE_FULL)\\b",
+            "match": "\\b(SYMBOL_TRADE_MODE_CLOSEONLY|SYMBOL_TRADE_MODE_DISABLED|SYMBOL_TRADE_MODE_FULL|SYMBOL_TRADE_MODE_LONGONLY|SYMBOL_TRADE_MODE_SHORTONLY)\\b",
             "name": "support.constant.symbol-trade-mode.mql5"
         },
         {
@@ -99,31 +99,31 @@
             "name": "support.constant.symbol-filling.mql5"
         },
         {
-            "match": "\\b(ACCOUNT_LOGIN|ACCOUNT_TRADE_MODE|ACCOUNT_LEVERAGE|ACCOUNT_LIMIT_ORDERS|ACCOUNT_MARGIN_SO_MODE|ACCOUNT_TRADE_ALLOWED|ACCOUNT_TRADE_EXPERT|ACCOUNT_BALANCE|ACCOUNT_CREDIT|ACCOUNT_PROFIT|ACCOUNT_EQUITY|ACCOUNT_MARGIN|ACCOUNT_MARGIN_FREE|ACCOUNT_MARGIN_LEVEL|ACCOUNT_MARGIN_SO_CALL|ACCOUNT_MARGIN_SO_SO|ACCOUNT_CURRENCY|ACCOUNT_COMPANY|ACCOUNT_NAME|ACCOUNT_SERVER)\\b",
+            "match": "\\b(ACCOUNT_BALANCE|ACCOUNT_COMPANY|ACCOUNT_CREDIT|ACCOUNT_CURRENCY|ACCOUNT_EQUITY|ACCOUNT_LEVERAGE|ACCOUNT_LIMIT_ORDERS|ACCOUNT_LOGIN|ACCOUNT_MARGIN|ACCOUNT_MARGIN_FREE|ACCOUNT_MARGIN_LEVEL|ACCOUNT_MARGIN_SO_CALL|ACCOUNT_MARGIN_SO_MODE|ACCOUNT_MARGIN_SO_SO|ACCOUNT_NAME|ACCOUNT_PROFIT|ACCOUNT_SERVER|ACCOUNT_TRADE_ALLOWED|ACCOUNT_TRADE_EXPERT|ACCOUNT_TRADE_MODE)\\b",
             "name": "support.constant.account-info.mql5"
         },
         {
-            "match": "\\b(ACCOUNT_TRADE_MODE_DEMO|ACCOUNT_TRADE_MODE_CONTEST|ACCOUNT_TRADE_MODE_REAL)\\b",
+            "match": "\\b(ACCOUNT_TRADE_MODE_CONTEST|ACCOUNT_TRADE_MODE_DEMO|ACCOUNT_TRADE_MODE_REAL)\\b",
             "name": "support.constant.account-trade-mode.mql5"
         },
         {
-            "match": "\\b(ACCOUNT_STOPOUT_MODE_PERCENT|ACCOUNT_STOPOUT_MODE_MONEY)\\b",
+            "match": "\\b(ACCOUNT_STOPOUT_MODE_MONEY|ACCOUNT_STOPOUT_MODE_PERCENT)\\b",
             "name": "support.constant.account-stopout.mql5"
         },
         {
-            "match": "\\b(DEAL_TYPE_BUY|DEAL_TYPE_SELL|DEAL_TYPE_BALANCE|DEAL_TYPE_CREDIT|DEAL_TYPE_CHARGE|DEAL_TYPE_CORRECTION|DEAL_TYPE_BONUS|DEAL_TYPE_COMMISSION|DEAL_TYPE_COMMISSION_DAILY|DEAL_ENTRY_IN|DEAL_ENTRY_OUT|DEAL_ENTRY_INOUT|DEAL_ENTRY_OUT_BY|DEAL_TICKET|DEAL_ORDER|DEAL_TIME|DEAL_TYPE|DEAL_ENTRY|DEAL_MAGIC|DEAL_REASON|DEAL_COMMISSION|DEAL_SWAP|DEAL_PROFIT|DEAL_VOLUME|DEAL_PRICE|DEAL_SYMBOL|DEAL_COMMENT)\\b",
+            "match": "\\b(DEAL_COMMENT|DEAL_COMMISSION|DEAL_ENTRY|DEAL_ENTRY_IN|DEAL_ENTRY_INOUT|DEAL_ENTRY_OUT|DEAL_ENTRY_OUT_BY|DEAL_MAGIC|DEAL_ORDER|DEAL_PRICE|DEAL_PROFIT|DEAL_REASON|DEAL_SWAP|DEAL_SYMBOL|DEAL_TICKET|DEAL_TIME|DEAL_TYPE|DEAL_TYPE_BALANCE|DEAL_TYPE_BONUS|DEAL_TYPE_BUY|DEAL_TYPE_CHARGE|DEAL_TYPE_COMMISSION|DEAL_TYPE_COMMISSION_DAILY|DEAL_TYPE_CORRECTION|DEAL_TYPE_CREDIT|DEAL_TYPE_SELL|DEAL_VOLUME)\\b",
             "name": "support.constant.deal.mql5"
         },
         {
-            "match": "\\b(iTime|iOpen|iHigh|iLow|iClose|iVolume|iSpread|iTickVolume|iRealVolume|iBars|iBarShift|iHighest|iLowest|CopyRates|CopyTime|CopyOpen|CopyHigh|CopyLow|CopyClose|CopyTickVolume|CopyRealVolume|CopySpread|CopyTicks|CopySeries)\\b",
+            "match": "\\b(CopyClose|CopyHigh|CopyLow|CopyOpen|CopyRates|CopyRealVolume|CopySeries|CopySpread|CopyTickVolume|CopyTicks|CopyTime|iBarShift|iBars|iClose|iHigh|iHighest|iLow|iLowest|iOpen|iRealVolume|iSpread|iTickVolume|iTime|iVolume)\\b",
             "name": "support.function.timeseries.mql5"
         },
         {
-            "match": "\\b(PERIOD_CURRENT|PERIOD_M1|PERIOD_M2|PERIOD_M3|PERIOD_M4|PERIOD_M5|PERIOD_M6|PERIOD_M10|PERIOD_M12|PERIOD_M15|PERIOD_M20|PERIOD_M30|PERIOD_H1|PERIOD_H2|PERIOD_H3|PERIOD_H4|PERIOD_H6|PERIOD_H8|PERIOD_H12|PERIOD_D1|PERIOD_W1|PERIOD_MN1)\\b",
+            "match": "\\b(PERIOD_CURRENT|PERIOD_D1|PERIOD_H1|PERIOD_H12|PERIOD_H2|PERIOD_H3|PERIOD_H4|PERIOD_H6|PERIOD_H8|PERIOD_M1|PERIOD_M10|PERIOD_M12|PERIOD_M15|PERIOD_M2|PERIOD_M20|PERIOD_M3|PERIOD_M30|PERIOD_M4|PERIOD_M5|PERIOD_M6|PERIOD_MN1|PERIOD_W1)\\b",
             "name": "support.constant.timeframe.mql5"
         },
         {
-            "match": "\\b(SymbolInfoDouble|SymbolInfoInteger|SymbolInfoString|SymbolInfoTick|SymbolInfoSessionQuote|SymbolInfoSessionTrade|SymbolName|SymbolSelect|SymbolsTotal|SymbolExist|MarketBookAdd|MarketBookRelease|MarketBookGet)\\b",
+            "match": "\\b(MarketBookAdd|MarketBookGet|MarketBookRelease|SymbolExist|SymbolInfoDouble|SymbolInfoInteger|SymbolInfoSessionQuote|SymbolInfoSessionTrade|SymbolInfoString|SymbolInfoTick|SymbolName|SymbolSelect|SymbolsTotal)\\b",
             "name": "support.function.symbol-info.mql5"
         },
         {
@@ -131,76 +131,120 @@
             "name": "support.function.account-info.mql5"
         },
         {
-            "match": "\\b(Print|PrintFormat|Alert|Comment|SendNotification|SendMail|SendFTP|Sleep|GetTickCount|GetMicrosecondCount|MessageBox|PlaySound|ExpertRemove|TerminalClose)\\b",
+            "match": "\\b(Alert|Comment|ExpertRemove|GetHashCode|GetKernel|GetKernelName|GetMicrosecondCount|GetPointer|GetReverse|GetTickCount|GetViewBetween|MessageBox|PlaySound|Print|PrintFormat|SendFTP|SendMail|SendNotification|Sleep|TerminalClose)\\b",
             "name": "support.function.common.mql5"
         },
         {
-            "match": "\\b(CharToString|StringToCharArray|TimeToString|StringToTime|DoubleToString|IntegerToString|NormalizeDouble|StringToDouble|ColorToString|StringToColor|EnumToString)\\b",
+            "match": "\\b(CharToString|ColorToARGB|ColorToString|DoubleToString|EnumToString|IntegerToString|NormalizeDouble|StringToCharArray|StringToColor|StringToDouble|StringToTime|TimeToString|TimeToStruct)\\b",
             "name": "support.function.conversion.mql5"
         },
         {
-            "match": "\\b(StringLen|StringFind|StringSubstr|StringReplace|StringTrimLeft|StringTrimRight|StringSplit|StringConcatenate|StringFormat|StringCompare|StringToLower|StringToUpper)\\b",
+            "match": "\\b(StringAdd|StringCompare|StringConcatenate|StringFill|StringFind|StringFormat|StringGetCharacter|StringInit|StringLen|StringReplace|StringReserve|StringSetCharacter|StringSetLength|StringSplit|StringSubstr|StringToInteger|StringToLower|StringToShortArray|StringToUpper|StringTrimLeft|StringTrimRight)\\b",
             "name": "support.function.string.mql5"
         },
         {
-            "match": "\\b(ArraySize|ArrayResize|ArrayInitialize|ArrayFree|ArrayCopy|ArraySort|ArrayMaximum|ArrayMinimum|ArrayBsearch|ArraySetAsSeries|ArrayIsSeries|ArrayIsDynamic)\\b",
+            "match": "\\b(ArrayBinarySearch|ArrayBsearch|ArrayCompare|ArrayCopy|ArrayFill|ArrayFree|ArrayFromFP16|ArrayFromFP8|ArrayGetAsSeries|ArrayIndexOf|ArrayInitialize|ArrayInsert|ArrayIsDynamic|ArrayIsSeries|ArrayLastIndexOf|ArrayMaximum|ArrayMinimum|ArrayPrint|ArrayRange|ArrayRemove|ArrayResize|ArrayReverse|ArraySetAsSeries|ArraySize|ArraySort|ArraySwap|ArrayToFP16|ArrayToFP8)\\b",
             "name": "support.function.array.mql5"
         },
         {
-            "match": "\\b(MathAbs|MathCeil|MathFloor|MathRound|MathPow|MathSqrt|MathLog|MathLog10|MathExp|MathMod|MathMax|MathMin|MathSin|MathCos|MathTan|MathArcsin|MathArccos|MathArctan|MathRand|MathSrand|MathIsValidNumber)\\b",
+            "match": "\\b(MathAbs|MathArccos|MathArccosh|MathArcsin|MathArcsinh|MathArctan|MathArctan2|MathArctanh|MathAverageDeviation|MathCeil|MathClassify|MathCos|MathCosh|MathCumulativeDistributionBeta|MathCumulativeDistributionBinomial|MathCumulativeDistributionCauchy|MathCumulativeDistributionChiSquare|MathCumulativeDistributionExponential|MathCumulativeDistributionF|MathCumulativeDistributionGamma|MathCumulativeDistributionGeometric|MathCumulativeDistributionHypergeometric|MathCumulativeDistributionLogistic|MathCumulativeDistributionLognormal|MathCumulativeDistributionNegativeBinomial|MathCumulativeDistributionNoncentralBeta|MathCumulativeDistributionNoncentralChiSquare|MathCumulativeDistributionNoncentralF|MathCumulativeDistributionNoncentralT|MathCumulativeDistributionNormal|MathCumulativeDistributionPoisson|MathCumulativeDistributionT|MathCumulativeDistributionUniform|MathCumulativeDistributionWeibull|MathExp|MathExpm1|MathFloor|MathIsValidNumber|MathKurtosis|MathLog|MathLog10|MathLog1p|MathMax|MathMean|MathMedian|MathMin|MathMod|MathMoments|MathMomentsBeta|MathMomentsBinomial|MathMomentsCauchy|MathMomentsChiSquare|MathMomentsExponential|MathMomentsF|MathMomentsGamma|MathMomentsGeometric|MathMomentsHypergeometric|MathMomentsLogistic|MathMomentsLognormal|MathMomentsNegativeBinomial|MathMomentsNoncentralBeta|MathMomentsNoncentralChiSquare|MathMomentsNoncentralF|MathMomentsNoncentralT|MathMomentsNormal|MathMomentsPoisson|MathMomentsT|MathMomentsUniform|MathMomentsWeibull|MathPow|MathProbabilityDensityBeta|MathProbabilityDensityBinomial|MathProbabilityDensityCauchy|MathProbabilityDensityChiSquare|MathProbabilityDensityExponential|MathProbabilityDensityF|MathProbabilityDensityGamma|MathProbabilityDensityGeometric|MathProbabilityDensityHypergeometric|MathProbabilityDensityLogistic|MathProbabilityDensityLognormal|MathProbabilityDensityNegativeBinomial|MathProbabilityDensityNoncentralBeta|MathProbabilityDensityNoncentralChiSquare|MathProbabilityDensityNoncentralF|MathProbabilityDensityNoncentralT|MathProbabilityDensityNormal|MathProbabilityDensityPoisson|MathProbabilityDensityT|MathProbabilityDensityUniform|MathProbabilityDensityWeibull|MathQuantileBeta|MathQuantileBinomial|MathQuantileCauchy|MathQuantileChiSquare|MathQuantileExponential|MathQuantileF|MathQuantileGamma|MathQuantileGeometric|MathQuantileHypergeometric|MathQuantileLogistic|MathQuantileLognormal|MathQuantileNegativeBinomial|MathQuantileNoncentralBeta|MathQuantileNoncentralChiSquare|MathQuantileNoncentralT|MathQuantileNormal|MathQuantilePoisson|MathQuantileT|MathQuantileUniform|MathQuantileWeibull|MathRand|MathRandomBeta|MathRandomBinomial|MathRandomCauchy|MathRandomChiSquare|MathRandomExponential|MathRandomF|MathRandomGamma|MathRandomGeometric|MathRandomHypergeometric|MathRandomLogistic|MathRandomLognormal|MathRandomNegativeBinomial|MathRandomNoncentralBeta|MathRandomNoncentralChiSquare|MathRandomNoncentralF|MathRandomNoncentralT|MathRandomNormal|MathRandomPoisson|MathRandomT|MathRandomUniform|MathRandomWeibull|MathRound|MathSin|MathSinh|MathSkewness|MathSqrt|MathSrand|MathStandardDeviation|MathSwap|MathTan|MathTanh|MathVariance)\\b",
             "name": "support.function.math.mql5"
         },
         {
-            "match": "\\b(FileOpen|FileClose|FileDelete|FileFlush|FileSeek|FileTell|FileRead|FileWrite|FileReadArray|FileWriteArray|FileReadDouble|FileReadInteger|FileReadString|FileWriteDouble|FileWriteInteger|FileWriteString|FileIsExist|FileCopy|FileMove|FileSize)\\b",
+            "match": "\\b(FileClose|FileCopy|FileDelete|FileFindClose|FileFindFirst|FileFindNext|FileFlush|FileGetInteger|FileIsEnding|FileIsExist|FileIsLineEnding|FileLoad|FileMove|FileOpen|FileRead|FileReadArray|FileReadBool|FileReadDatetime|FileReadDouble|FileReadFloat|FileReadInteger|FileReadLong|FileReadNumber|FileReadString|FileReadStruct|FileSave|FileSeek|FileSelectDialog|FileSize|FileTell|FileWrite|FileWriteArray|FileWriteDouble|FileWriteFloat|FileWriteInteger|FileWriteLong|FileWriteString|FileWriteStruct)\\b",
             "name": "support.function.file.mql5"
         },
         {
-            "match": "\\b(MqlRates|MqlTick|MqlDateTime|MqlBookInfo|MqlTradeRequest|MqlTradeCheckResult|MqlTradeResult|MqlTradeTransaction|MqlParam|MqlSymbolInfo)\\b",
+            "match": "\\b(MqlBookInfo|MqlDateTime|MqlParam|MqlRates|MqlSymbolInfo|MqlTick|MqlTradeCheckResult|MqlTradeRequest|MqlTradeResult|MqlTradeTransaction)\\b",
             "name": "support.type.struct.mql5"
         },
         {
-            "match": "\\b(CTrade|CPositionInfo|COrderInfo|CDealInfo|CHistoryOrderInfo|CSymbolInfo|CAccountInfo|CTerminalInfo|CExpertBase|CArray|CArrayObj|CArrayInt|CArrayDouble|CArrayString|CObject|CList|CHashMap|CDictionary|CIndicators|CIndicatorBuffer|CChartObject|CChartObjectText|CChartObjectLine|CChartObjectTrend)\\b",
+            "match": "\\b(CAccountInfo|CArray|CArrayDouble|CArrayInt|CArrayObj|CArrayString|CChartObject|CChartObjectLine|CChartObjectText|CChartObjectTrend|CDealInfo|CDictionary|CExpertBase|CHashMap|CHistoryOrderInfo|CIndicatorBuffer|CIndicators|CLBufferCreate|CLBufferFree|CLBufferRead|CLBufferWrite|CLContextCreate|CLContextFree|CLExecute|CLExecutionStatus|CLGetDeviceInfo|CLGetInfoInteger|CLGetInfoString|CLHandleType|CLKernelCreate|CLKernelFree|CLProgramCreate|CLProgramFree|CLSetKernelArg|CLSetKernelArgMem|CLSetKernelArgMemLocal|CList|CObject|COrderInfo|CPositionInfo|CSymbolInfo|CTerminalInfo|CTrade)\\b",
             "name": "support.class.stdlib.mql5"
         },
         {
-            "match": "\\b(_Symbol|_Digits|_Point|_Period|_LastError|_StopFlag|_UninitReason|_RandomSeed|_IsX64|Ask|Bid|Bars|Volume|Time|Open|High|Low|Close)\\b",
+            "match": "\\b(Ask|Bars|Bid|Close|High|Low|Open|Time|Volume|_Digits|_IsX64|_LastError|_Period|_Point|_RandomSeed|_StopFlag|_Symbol|_UninitReason)\\b",
             "name": "support.variable.predefined.mql5"
         },
         {
-            "match": "\\b(OnInit|OnDeinit|OnStart|OnTick|OnTimer|OnTrade|OnTradeTransaction|OnBookEvent|OnChartEvent|OnCalculate|OnTester|OnTesterInit|OnTesterDeinit|OnTesterPass)\\b",
+            "match": "\\b(OnBookEvent|OnCalculate|OnChartEvent|OnDeinit|OnInit|OnStart|OnTester|OnTesterDeinit|OnTesterInit|OnTesterPass|OnTick|OnTimer|OnTrade|OnTradeTransaction|OnnxCreate|OnnxCreateFromBuffer|OnnxGetInputCount|OnnxGetInputName|OnnxGetInputTypeInfo|OnnxGetOutputCount|OnnxGetOutputName|OnnxGetOutputTypeInfo|OnnxRelease|OnnxSetInputShape|OnnxSetOutputShape)\\b",
             "name": "support.function.event.mql5"
         },
         {
-            "match": "\\b(INIT_SUCCEEDED|INIT_FAILED|INIT_PARAMETERS_INCORRECT|INIT_AGENT_NOT_SUITABLE)\\b",
+            "match": "\\b(INIT_AGENT_NOT_SUITABLE|INIT_FAILED|INIT_PARAMETERS_INCORRECT|INIT_SUCCEEDED)\\b",
             "name": "support.constant.init-retcode.mql5"
         },
         {
-            "match": "\\b(TERMINAL_CONNECTED|TERMINAL_TRADE_ALLOWED|TERMINAL_DLLS_ALLOWED|TERMINAL_EMAIL_ENABLED|TERMINAL_FTP_ENABLED|TERMINAL_NOTIFICATIONS_ENABLED|TERMINAL_MAXBARS|TERMINAL_CODEPAGE|TERMINAL_LANGUAGE|TERMINAL_COMPANY|TERMINAL_NAME|TERMINAL_PATH|TERMINAL_DATA_PATH)\\b",
+            "match": "\\b(TERMINAL_CODEPAGE|TERMINAL_COMPANY|TERMINAL_CONNECTED|TERMINAL_DATA_PATH|TERMINAL_DLLS_ALLOWED|TERMINAL_EMAIL_ENABLED|TERMINAL_FTP_ENABLED|TERMINAL_LANGUAGE|TERMINAL_MAXBARS|TERMINAL_NAME|TERMINAL_NOTIFICATIONS_ENABLED|TERMINAL_PATH|TERMINAL_TRADE_ALLOWED)\\b",
             "name": "support.constant.terminal.mql5"
         },
         {
-            "match": "\\b(OBJPROP_COLOR|OBJPROP_STYLE|OBJPROP_WIDTH|OBJPROP_BACK|OBJPROP_RAY_LEFT|OBJPROP_RAY_RIGHT|OBJPROP_SELECTABLE|OBJPROP_SELECTED|OBJPROP_TIME|OBJPROP_PRICE|OBJPROP_ANCHOR|OBJPROP_TEXT|OBJPROP_FONTSIZE|OBJPROP_CORNER|OBJPROP_XDISTANCE|OBJPROP_YDISTANCE)\\b",
+            "match": "\\b(OBJPROP_ANCHOR|OBJPROP_BACK|OBJPROP_COLOR|OBJPROP_CORNER|OBJPROP_FONTSIZE|OBJPROP_PRICE|OBJPROP_RAY_LEFT|OBJPROP_RAY_RIGHT|OBJPROP_SELECTABLE|OBJPROP_SELECTED|OBJPROP_STYLE|OBJPROP_TEXT|OBJPROP_TIME|OBJPROP_WIDTH|OBJPROP_XDISTANCE|OBJPROP_YDISTANCE)\\b",
             "name": "support.constant.objprop.mql5"
         },
         {
-            "match": "\\b(true|false)\\b",
+            "match": "\\b(false|true)\\b",
             "name": "constant.language.boolean"
         },
         {
-            "match": "\\b(DBL_MAX|DBL_MIN|DBL_EPSILON|INT_MAX|INT_MIN|ULONG_MAX|LONG_MAX|LONG_MIN|EMPTY_VALUE|EMPTY|CLR_NONE|WRONG_VALUE|NULL|CHARTS_MAX|WHOLE_ARRAY)\\b",
+            "match": "\\b(CHARTS_MAX|CLR_NONE|DBL_EPSILON|DBL_MAX|DBL_MIN|EMPTY|EMPTY_VALUE|INT_MAX|INT_MIN|LONG_MAX|LONG_MIN|NULL|ULONG_MAX|WHOLE_ARRAY|WRONG_VALUE)\\b",
             "name": "support.constant.numeric-limits.mql5"
         },
         {
-            "match": "\\b(clrRed|clrGreen|clrBlue|clrYellow|clrWhite|clrBlack|clrGray|clrSilver|clrOrange|clrPurple|clrMagenta|clrCyan|clrLime|clrMaroon|clrNavy|clrOlive|clrTeal|clrAqua|clrFuchsia|clrPink|clrGold|clrLavender|clrCoral|clrCrimson|clrDarkGreen|clrDarkBlue|clrDarkRed|clrDodgerBlue|clrFireBrick|clrForestGreen|clrIndigo|clrKhaki|clrMediumBlue|clrNone)\\b",
+            "match": "\\b(clrAqua|clrBlack|clrBlue|clrCoral|clrCrimson|clrCyan|clrDarkBlue|clrDarkGreen|clrDarkRed|clrDodgerBlue|clrFireBrick|clrForestGreen|clrFuchsia|clrGold|clrGray|clrGreen|clrIndigo|clrKhaki|clrLavender|clrLime|clrMagenta|clrMaroon|clrMediumBlue|clrNavy|clrNone|clrOlive|clrOrange|clrPink|clrPurple|clrRed|clrSilver|clrTeal|clrWhite|clrYellow)\\b",
             "name": "support.constant.color.mql5"
         },
         {
-            "match": "\\b(CHART_IS_OBJECT|CHART_BRING_TO_TOP|CHART_SHIFT|CHART_AUTOSCROLL|CHART_MODE|CHART_FOREGROUND|CHART_SHOW_GRID|CHART_SHOW_VOLUMES|CHART_SHOW_OBJECT_DESCR|CHART_VISIBLE_BARS|CHART_ID|CHART_WINDOW_HANDLE|CHART_FIRST_VISIBLE_BAR|CHART_PRICE_MIN|CHART_PRICE_MAX|CHART_COMMENT|CHART_SCALE|CHART_COLOR_BACKGROUND)\\b",
+            "match": "\\b(CHART_AUTOSCROLL|CHART_BRING_TO_TOP|CHART_COLOR_BACKGROUND|CHART_COMMENT|CHART_FIRST_VISIBLE_BAR|CHART_FOREGROUND|CHART_ID|CHART_IS_OBJECT|CHART_MODE|CHART_PRICE_MAX|CHART_PRICE_MIN|CHART_SCALE|CHART_SHIFT|CHART_SHOW_GRID|CHART_SHOW_OBJECT_DESCR|CHART_SHOW_VOLUMES|CHART_VISIBLE_BARS|CHART_WINDOW_HANDLE)\\b",
             "name": "support.constant.chart.mql5"
         },
         {
-            "match": "\\b(OBJ_VLINE|OBJ_HLINE|OBJ_TREND|OBJ_TRENDBYANGLE|OBJ_CHANNEL|OBJ_STDDEVCHANNEL|OBJ_REGRESSION|OBJ_PITCHFORK|OBJ_GANNLINE|OBJ_GANNFAN|OBJ_GANNGRID|OBJ_FIBO|OBJ_FIBOTIMES|OBJ_FIBOFAN|OBJ_FIBOARC|OBJ_FIBOCHANNEL|OBJ_EXPANSION|OBJ_ELLIPSE|OBJ_ARROW|OBJ_ARROW_BUY|OBJ_ARROW_SELL|OBJ_TEXT|OBJ_LABEL|OBJ_BUTTON|OBJ_CHART|OBJ_BITMAP|OBJ_BITMAP_LABEL|OBJ_EDIT|OBJ_RECTANGLE|OBJ_RECTANGLE_LABEL|OBJ_EVENT)\\b",
+            "match": "\\b(OBJ_ARROW|OBJ_ARROW_BUY|OBJ_ARROW_SELL|OBJ_BITMAP|OBJ_BITMAP_LABEL|OBJ_BUTTON|OBJ_CHANNEL|OBJ_CHART|OBJ_EDIT|OBJ_ELLIPSE|OBJ_EVENT|OBJ_EXPANSION|OBJ_FIBO|OBJ_FIBOARC|OBJ_FIBOCHANNEL|OBJ_FIBOFAN|OBJ_FIBOTIMES|OBJ_GANNFAN|OBJ_GANNGRID|OBJ_GANNLINE|OBJ_HLINE|OBJ_LABEL|OBJ_PITCHFORK|OBJ_RECTANGLE|OBJ_RECTANGLE_LABEL|OBJ_REGRESSION|OBJ_STDDEVCHANNEL|OBJ_TEXT|OBJ_TREND|OBJ_TRENDBYANGLE|OBJ_VLINE)\\b",
             "name": "support.constant.object-type.mql5"
+        },
+        {
+            "match": "\\b(iAC|iAD|iADX|iADXWilder|iAMA|iAO|iATR|iBWMFI|iBands|iBearsPower|iBullsPower|iCCI|iChaikin|iDEMA|iDeMarker|iEnvelopes|iForce|iFrAMA|iFractals|iIchimoku|iMA|iMACD|iMFI|iMomentum|iOBV|iOsMA|iRSI|iRVI|iSAR|iStdDev|iStochastic|iTEMA|iTriX|iVIDyA|iWPR)\\b",
+            "name": "support.function.indicator.mql5"
+        },
+        {
+            "match": "\\b(TimeCurrent|TimeGMT|TimeLocal|TimeTradeServer)\\b",
+            "name": "support.function.datetime.mql5"
+        },
+        {
+            "match": "\\b(ChartApplyTemplate|ChartClose|ChartGetDouble|ChartGetInteger|ChartGetString|ChartIndicatorAdd|ChartIndicatorDelete|ChartIndicatorGet|ChartIndicatorName|ChartIndicatorsTotal|ChartNavigate|ChartNext|ChartOpen|ChartPeriod|ChartRedraw|ChartSaveTemplate|ChartScreenShot|ChartSetDouble|ChartSetInteger|ChartSetString|ChartSetSymbolPeriod|ChartSymbol|ChartTimePriceToXY|ChartWindowFind|ChartXYToTimePrice)\\b",
+            "name": "support.function.chart.mql5"
+        },
+        {
+            "match": "\\b(ObjectAdd|ObjectDelete|ObjectFind|ObjectGetDouble|ObjectGetInteger|ObjectGetString|ObjectGetTimeByValue|ObjectGetValueByTime|ObjectMove|ObjectName|ObjectSetDouble|ObjectSetInteger|ObjectSetString|ObjectsDeleteAll|ObjectsTotal)\\b",
+            "name": "support.function.object.mql5"
+        },
+        {
+            "match": "\\b(TextGetSize|TextHeight|TextOut|TextSetFont|TextSize|TextWidth)\\b",
+            "name": "support.function.text.mql5"
+        },
+        {
+            "match": "\\b(GlobalVariableCheck|GlobalVariableDel|GlobalVariableGet|GlobalVariableName|GlobalVariableSet|GlobalVariableSetOnCondition|GlobalVariableTemp|GlobalVariableTime|GlobalVariablesDeleteAll)\\b",
+            "name": "support.function.global-variable.mql5"
+        },
+        {
+            "match": "\\b(IndicatorAdd|IndicatorCreate|IndicatorDelete|IndicatorName|IndicatorParameters|IndicatorRelease|IndicatorSetDouble|IndicatorSetInteger|IndicatorSetString|IndicatorsTotal)\\b",
+            "name": "support.function.custom-indicator.mql5"
+        },
+        {
+            "match": "\\b(SignalBaseGetDouble|SignalBaseGetInteger|SignalBaseGetString|SignalBaseSelect|SignalInfoGetDouble|SignalInfoGetInteger|SignalInfoGetString|SignalInfoSetDouble|SignalInfoSetInteger|SignalSubscribe)\\b",
+            "name": "support.function.signal.mql5"
+        },
+        {
+            "match": "\\b(SymbolInfoMarginRate|SymbolIsSynchronized)\\b",
+            "name": "support.function.market-info.mql5"
+        },
+        {
+            "match": "\\b(CheckPointer)\\b",
+            "name": "support.function.check.mql5"
+        },
+        {
+            "match": "\\b(Activation|Add|AddAfter|AddBefore|AddFirst|AddLast|AddRange|AmbientColorGet|AmbientColorSet|Arc|ArgMax|ArgMin|Assign|Average|BarsCalculated|BinarySearch|BufferCreate|BufferFree|BufferFromArray|BufferRead|BufferWrite|CalendarCountries|CalendarCountryById|CalendarEventByCountry|CalendarEventByCurrency|CalendarEventById|CalendarValueById|CalendarValueHistory|CalendarValueHistoryByEvent|CalendarValueLast|CalendarValueLastByEvent|Capacity|CharArrayToString|CharArrayToStruct|Cholesky|CholeskyCondNumReciprocal|CholeskyInverse|CholeskyLinearEquationsSolution|Circle|CircleAA|CircleWu|ClassificationMetric|ClassificationScore|Clip|Col|Color|Compare|CompareByDigits|CompareEqual|Concat|Cond|CondNumReciprocalTriangular|ConfusionMatrix|ConfusionMatrixMultiLabel|Contains|ContainsKey|ContainsValue|Convolve|Copy|CopyBuffer|CopyIndicatorBuffer|CopyTicksRange|CopyTo|CorrCoef|Correlate|Cov|CreateBitmap|CreateBitmapLabel|CryptEncode|CumProd|CumSum|CustomBookAdd|CustomRatesDelete|CustomRatesReplace|CustomRatesUpdate|CustomSymbolCreate|CustomSymbolDelete|CustomSymbolSetDouble|CustomSymbolSetInteger|CustomSymbolSetMarginRate|CustomSymbolSetSessionQuote|CustomSymbolSetSessionTrade|CustomSymbolSetString|CustomTicksAdd|CustomTicksDelete|CustomTicksReplace|DXBufferCreate|DXBufferSet|DXContextClearColors|DXContextClearDepth|DXContextCreate|DXContextGetColors|DXContextGetDepth|DXContextGetSize|DXContextSetSize|DXDraw|DXDrawIndexed|DXHandleType|DXInputCreate|DXInputSet|DXPrimiveTopologySet|DXRelease|DXShaderCreate|DXShaderInputsSet|DXShaderSet|DXShaderSetLayout|DXShaderTexturesSet|DatabaseBind|DatabaseClose|DatabaseColumnBlob|DatabaseColumnDouble|DatabaseColumnInteger|DatabaseColumnLong|DatabaseColumnName|DatabaseColumnSize|DatabaseColumnText|DatabaseColumnType|DatabaseColumnsCount|DatabaseExecute|DatabaseExport|DatabaseFinalize|DatabaseImport|DatabaseOpen|DatabasePrint|DatabaseRead|DatabaseReadBind|DatabaseReset|DatabaseTableExists|DatabaseTransactionBegin|DatabaseTransactionCommit|DatabaseTransactionRollback|Derivative|Diag|Dot|ENUM_CLASSIFICATION_METRIC|ENUM_TRADE_EVENTS|Eig|EigVals|EigenSolver|EigenSolver2|EigenSolver2Blocked|EigenSolver2Schur|EigenSolver2SchurBlocked|EigenSolverSchur|EigenSymmetric2DC|EigenSymmetric2QR|EigenSymmetricBisect|EigenSymmetricBisect2s|EigenSymmetricDC|EigenSymmetricDC2s|EigenSymmetricQR|EigenSymmetricQR2s|EigenSymmetricRobust|EigenSymmetricRobust2s|EigenTridiagonalBisect|EigenTridiagonalDC|EigenTridiagonalDCQ|EigenTridiagonalPosDefQ|EigenTridiagonalQL|EigenTridiagonalQR|EigenTridiagonalQRQ|EigenTridiagonalRobust|Ellipse|EllipseAA|EllipseWu|Enqueue|Equals|Erase|EventChartCustom|EventSetMillisecondTimer|EventSetTimer|ExceptWith|Execute|Exp|FactorizationCholesky|FactorizationCholeskySyPS|FactorizationLDL|FactorizationLDLComplexSy|FactorizationLDLRaw|FactorizationLDLSyTridPD|FactorizationLQ|FactorizationPLU|FactorizationPLUGeTrid|FactorizationPLUGeTridRaw|FactorizationPLUQ|FactorizationPLUQRaw|FactorizationPLURaw|FactorizationQL|FactorizationQR|FactorizationQRNonNeg|FactorizationQRPivot|FactorizationRQ|Fill|FillCircle|FillPolygon|FillRectangle|FillTriangle|Find|FindLast|Flat|FolderClean|FolderCreate|FolderDelete|FontAngleSet|FontFlagsSet|FontGet|FontNameSet|FontSet|FontSizeSet|FrameAdd|FrameFilter|FrameInputs|FrameNext|GeMM|HashCode|Hsplit|IndexOf|Initialize|Inner|Insert|InsertRange|IntersectWith|InverseTriangular|IsProperSubsetOf|IsProperSupersetOf|IsSubsetOf|IsSupersetOf|KernelCreate|KernelFree|Key|Kron|LDLCondNumReciprocal|LDLInverse|LDLLinearEquationsSolution|LDLSyTridPDCondNumReciprocal|LDLSyTridPDLinearEquationsSolution|LU|LUP|LastIndexOf|LeastSquaresSolution|LeastSquaresSolutionDC|LeastSquaresSolutionQRPivot|LeastSquaresSolutionQRTallSkinny|LeastSquaresSolutionSVD|LeastSquaresSolutionWY|Left|LightColorGet|LightColorSet|LightDirectionGet|LightDirectionSet|Line|LineAA|LineHorizontal|LineStyleSet|LineVertical|LineWu|LinearEquationsSolution|LinearEquationsSolutionComplexSy|LinearEquationsSolutionGeTrid|LinearEquationsSolutionSy|LinearEquationsSolutionSyPD|LinearEquationsSolutionSyTridPD|LinearEquationsSolutionTriangular|LinearRegression|List|LoadFromFile|Loss|LossGradient|LstSq|MQLInfoInteger|MQLInfoString|MatMul|Max|Mean|Median|Min|Next|Norm|Outer|Overlaps|PLUCondNumReciprocal|PLUGeTridCondNumReciprocal|PLUGeTridLinearEquationsSolution|PLUInverse|PLULinearEquationsSolution|PLUQLinearEquationsSolution|ParameterGetRange|ParameterSetRange|Parent|Percentile|PeriodSeconds|Pie|PixelGet|PixelSet|PixelSetAA|PlotIndexGetInteger|PlotIndexSetDouble|PlotIndexSetInteger|PlotIndexSetString|Polygon|PolygonAA|PolygonWu|Polyline|PolylineAA|PolylineWu|Power|PrecisionRecall|Previous|Prod|ProjectionMatrixGet|ProjectionMatrixSet|Ptp|Push|QR|Quantile|Random|ReceiverOperatingCharacteristic|Rectangle|ReduceSymmetricToTridiagonal|ReduceToBidiagonal|ReflectBidiagonalToQP|ReflectTridiagonalToQ|RegressionMetric|Remove|RemoveAt|RemoveRange|Render|Reshape|Resize|ResourceCreate|ResourceFree|ResourceReadImage|ResourceSave|Reverse|Right|Row|SLogDet|SVD|SelectByIndex|SelectByMagic|SelectByTicket|SeriesInfoInteger|Set|SetArgument|SetArgumentBuffer|SetArgumentLocalMemory|SetBuffersCount|SetEquals|SetIndexBuffer|SetKernelsCount|SetReturnError|SetUserError|ShortArrayToString|ShortToString|SingularSpectrumAnalysisForecast|SingularSpectrumAnalysisReconstructComponents|SingularSpectrumAnalysisReconstructSeries|SingularSpectrumAnalysisSpectrum|SingularValueDecompositionBidiagBisect|SingularValueDecompositionBidiagDC|SingularValueDecompositionBidiagQR|SingularValueDecompositionBisect|SingularValueDecompositionDC|SingularValueDecompositionJacobiLow|SingularValueDecompositionQR|SingularValueDecompositionQRPivot|SocketClose|SocketConnect|SocketCreate|SocketIsConnected|SocketIsReadable|SocketIsWritable|SocketRead|SocketSend|SocketTimeouts|SocketTlsCertificate|SocketTlsHandshake|SocketTlsRead|SocketTlsReadAvailable|SocketTlsSend|Solve|Sort|Split|Std|StructToCharArray|StructToTime|Sum|SwapCols|SwapRows|SymmetricExceptWith|TerminalInfoDouble|TerminalInfoInteger|TerminalInfoString|TesterDeposit|TesterHideIndicators|TesterStatistics|TesterWithdrawal|TranslateKey|TransparentLevelSet|Triangle|TriangleAA|TriangleWu|Tril|Triu|TryGetMax|TryGetMin|TryGetValue|TrySetValue|UnionWith|Update|Value|Var|ViewMatrixGet|ViewMatrixSet|ViewPositionSet|ViewRotationSet|ViewTargetSet|ViewUpDirectionSet|Vsplit|WebRequest|ZeroMemory|a|b|characteristic|deviation|distribution|draws|folder|kurtosis|mean|midline|name|objects|order|parameter|period|series|settings|skewness|terminals|trade_settings|value|values|variable|variance)\\b",
+            "name": "support.function.uncategorized.mql5"
         }
     ],
     "scopeName": "source.mql5"
