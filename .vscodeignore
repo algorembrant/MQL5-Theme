@@ -3,8 +3,6 @@
 .git/
 Python/
 Dump/
-mql5.md
-mql5.pdf
 *.vsix
 build-themes.js
 syntax-colors.json
@@ -17,3 +15,5 @@ mores.md
 moress.md
 220BOFx_v5.mq5
 mql5_capslock_syntax.md
+mql5.md
+mql5.pdf
