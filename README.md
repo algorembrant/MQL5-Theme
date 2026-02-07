@@ -12,7 +12,7 @@ Provide professional MQL5 (MetaQuotes Language 5) development support in Visual 
 
 > **Note**: These are **Syntax-Only** color schemes. They do not change your workbench colors (sidebar, status bar, etc.), allowing you to keep your preferred UI aesthetics.
 
-It supports `1335 syntaxes` from 7112-page official [MQL5-reference.pdf](https://www.mql5.com/files/docs/mql5.pdf) which was parsed into 426702-line [MD](https://github.com/algorembrant/MQL5-Theme/blob/main/mql5.md) file using [MarkItDown](https://github.com/microsoft/markitdown) Python. ***Dont worry, These heavy-files are not included on the extension.***
+- **Extensive Coverage**: Supports `1,335 syntax definitions` extracted from the official 7,112-page [MQL5 Reference PDF](https://www.mql5.com/files/docs/mql5.pdf). These definitions were parsed from a 426,702-line [Markdown conversion](https://github.com/algorembrant/MQL5-Theme/blob/main/mql5.md) generated via [MarkItDown](https://github.com/microsoft/markitdown) using Python. *(Note: Do not worry, these large source files are used for development only and are not bundled with the extension).*
 
 > [!CAUTION]
 > **Disclaimer: Unofficial Extension**
