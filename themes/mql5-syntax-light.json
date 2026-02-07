@@ -93,7 +93,8 @@
             "name": "Parameters",
             "scope": [
                 "variable.parameter",
-                "variable.parameter.function"
+                "variable.parameter.function",
+                "variable.other.input.mql5"
             ],
             "settings": {
                 "foreground": "#E45649",
@@ -131,7 +132,8 @@
             "name": "Enums",
             "scope": [
                 "entity.name.type.enum",
-                "variable.other.enummember"
+                "variable.other.enummember",
+                "constant.other.caps.mql5"
             ],
             "settings": {
                 "foreground": "#4078F2"

@@ -39,6 +39,14 @@
             "name": "constant.numeric.mql5"
         },
         {
+            "match": "\\bInp\\w+\\b",
+            "name": "variable.other.input.mql5"
+        },
+        {
+            "match": "\\b[A-Z0-9]+(?:_[A-Z0-9]+)+\\b",
+            "name": "constant.other.caps.mql5"
+        },
+        {
             "match": "\\b(#define|#import|#include|#property|#resource)\\b",
             "name": "keyword.other.preprocessor"
         },
