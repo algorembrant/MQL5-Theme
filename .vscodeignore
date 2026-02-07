@@ -9,6 +9,7 @@ mql5.pdf
 build-themes.js
 syntax-colors.json
 syntax.md
+syntax copy.mq5
 install_theme.ps1
 example.mq5
 more.md
