@@ -1,0 +1,16 @@
+.venv/
+.vscode/
+.git/
+Python/
+Dump/
+mql5.md
+mql5.pdf
+*.vsix
+build-themes.js
+syntax-colors.json
+syntax.md
+install_theme.ps1
+example.mq5
+more.md
+mores.md
+moress.md

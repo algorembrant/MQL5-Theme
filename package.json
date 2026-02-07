@@ -3,7 +3,7 @@
     "publisher": "MQL5-Theme-syntax",
     "displayName": "MQL5 Support",
     "description": "MQL5 Syntax Highlighting and Themes",
-    "version": "1.3.0",
+    "version": "1.3.2",
     "icon": "icon.png",
     "repository": {
         "type": "git",
