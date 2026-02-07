@@ -16,7 +16,7 @@ Dump/
 
 220BOFx_v5.mq5
 
-Python/
+Python/markitdown-main/
 
 .env
 
@@ -25,3 +25,5 @@ Python/
 more.md
 mores.md
 moress.md
+
+220BOFx_v5.mq5
