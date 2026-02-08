@@ -35,6 +35,22 @@
             ]
         },
         {
+            "match": "\\b(File|Indicator|Plot[Ii]ndex|Object|Frame|Parameter|Even|Event|Database|Onnx|Math|Buffer|Get|Set|Kernel|C|Add|Insert|Assign|Compare|Search|Delete|Free|Sort|Detach|Index|Move|Balance|Save|Create|Load|Hash|Try|Last|Remove|Copy|Except|Intersect|Union|Is|Symetric|Trim|Binary|Contains|Find|Enqueue|Dequeue|Comparer|Folder|Write|Read)[A-Z0-9_]\\w*\\b",
+            "name": "support.function.prefix.mql5"
+        },
+        {
+            "match": "\\b(i|CL|DX|I)[A-Z]\\w*\\b",
+            "name": "support.function.special-prefix.mql5"
+        },
+        {
+            "match": "\\b(initialize|login|shutdown|version|last_error|account_info|terminal_info|symbols_total|symbols_get|symbols_info|symbols_info_tick|symbol_select|market_book_add|market_book_get|market_book_release|copy_rate_from|copy_ticks_from|copy_tick_range|orfers_total|orders_total|orders_get|orders_calc_margin|orders_calc_profit|order_check|order_send|positions_total|positions_get|history_orders_total|history_orders_get|history_deals_total|history_deals_get)\\b",
+            "name": "support.function.python-style.mql5"
+        },
+        {
+            "match": "\\b(A|A1|A2|Add|AddArray|AddTerm|AggregationMethod|Angle|Append|AssignArray|Attach|Available|B|B1|B2|Background|Balance|C|C1|C2|Calculate|Capacity|CCompositeMembershipFunction|CConstantMembershipFunction|CConditions|CDifferentTwoSigmoidalMembershipFunction|CFuzzyVariable|CGeneralizedBellShapedMembershipFunction|CGenericFuzzyRule|ChartId|Clear|Clone|Close|CMamdaniFuzzyRule|CNormalCombinationMembershipFunction|CNormalMembershipFunction|Color|Compare|CompareArray|CompareNoCase|ComppositionType|Conclusions|Condition|ConditionList|Copy|Count|CP_ShapedMembershipFunction|CProductTwoSigmoidalMembershipFunctions|CreateCondition|CreateSugenoFunctions|CreateTime|CS_ShapedMembershipFunctions|CSigmoidalMembershipFunction|CSingleCondition|CSugenoFuzzyRule|CSurgenoVariable|CTrapezoidMembershipFunction|CTriangualarMembershipFunction|CZ_ShapedMembershipFunctions|D|DefuzzificationMethod|Delete|DeleteRange|Delta|Description|Deviations|EmptyRule|Equal|Exchange|Execute|Filename|Fill|Find|FindRev|Flags|Flush|Functions|GetDouble|GetFuncByName|GetInteger|GetString|GetTermByName|GetValue|Handle|ImplicationMethod|IMembershipFunction|Initialize|Insert|InsertArray|InsertSort|Key|Left|Len|LevelColor|LevelDescription|LevelStyle|LevelValue|LevelWidth|LevelsCount|List|Load|MamdaniSystem|Max|Maximum|MembershipFunctions|Mid|Min|Minimum|Move|Name|Not|NumPoints|Op|Open|Output|OutputByName|Owner|Parent|ParseRule|Pointer|Prev|Price|RayLeft|RayRight|Remove|Replace|Reserve|Resize|Reverse|Right|Root|Rules|Save|Search|SearchGreat|SearchLess|Selectable|Selected|SetDouble|SetInteger|SetPoint|SetString|Shift|ShiftObject|ShiftPoint|Shutdown|Sigma|Sigma1|Sigma2|Sort|Step|Str|Style|SugenoSystem|SupportDouble|Tell|Term|Terms|Time|Timeframes|ToNormalMF|ToLower|Tooltip|ToUpper|TrimLeft|TrimRight|Type|Update|Value|Values|Var|Weight|Width|Window|X1|X2|X3|X4|Z_Order)\\b",
+            "name": "support.function.misc.mql5"
+        },
+        {
             "match": "\\b\\d+(\\.\\d+)?\\b",
             "name": "constant.numeric.mql5"
         },

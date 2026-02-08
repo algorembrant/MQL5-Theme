@@ -628,6 +628,34 @@
             }
         },
         {
+            "name": "Prefix Functions",
+            "scope": [
+                "support.function.prefix.mql5",
+                "support.function.misc.mql5"
+            ],
+            "settings": {
+                "foreground": "#DCDCAA"
+            }
+        },
+        {
+            "name": "Special Prefixes",
+            "scope": [
+                "support.function.special-prefix.mql5"
+            ],
+            "settings": {
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "name": "Python Style Functions",
+            "scope": [
+                "support.function.python-style.mql5"
+            ],
+            "settings": {
+                "foreground": "#FFC107"
+            }
+        },
+        {
             "name": "Uncategorized",
             "scope": [
                 "support.function.uncategorized.mql5"
