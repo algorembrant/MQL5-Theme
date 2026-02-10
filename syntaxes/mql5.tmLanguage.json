@@ -35,7 +35,7 @@
             ]
         },
         {
-            "match": "\\b(File|Indicator|Plot[Ii]ndex|Object|Frame|Parameter|Even|Event|Database|Onnx|Math|Buffer|Get|Set|Kernel|C|Add|Insert|Assign|Compare|Search|Delete|Free|Sort|Detach|Index|Move|Balance|Save|Create|Load|Hash|Try|Last|Remove|Copy|Except|Intersect|Union|Is|Symetric|Trim|Binary|Contains|Find|Enqueue|Dequeue|Comparer|Folder|Write|Read)[A-Z0-9_]\\w*\\b",
+            "match": "\\\\b(3D|A|A1|A2|Accumulative|Activate|Activation|Add|Aggregation|Alert|Align|Alignment|Allowed|Ambient|Anchor|Angle|Append|Applied|Apply|Arc|Arg|Arrow|Arrows|Ask|Assign|At|Attach|Auto|Available|Average|B|B1|B2|Back|Background|Balance|Bank|Bar|Bars|Base|Basic|Bid|Bill|Binary|Bmp|Border|Bottom|Bring|Buffer|Buffers|Build|Buy|C|C1|C2|CL|CP|CPU|CS|CZ|Calc|Calculate|Calendar|Capacity|Caption|Channel|Char|Chart|Checked|Chinkou|Cholesky|CholeskyL|Ci|Circle|Classification|Clear|Client|Clip|Clone|Close|Cmo|Code|Col|Color|Cols|Comment|Commision|Commission|Common|Company|Compare|Comparer|Composition|Concat|Conclusion|Cond|Condition|Conditions|Confusion|Contains|Contract|Control|Controls|Convolve|Copy|Corner|Corr|Correlate|Count|Cov|Create|Credit|Crypt|Cum|Curr|Currency|Curve|Curves|Custom|D|DRAW|DX|Data|Database|Datastructures|Date|Day|Days|Deactivate|Deal|Debug|Decrease|Default|Defuzzification|Degree|Deinit|Delete|Delta|Dequeue|Derivative|Description|Descriptor|Destroy|Det|Detach|Deviation|Deviations|Diag|Digits|Direction|Disable|Disk|Dot|Double|Downtrend|Dperiod|Drag|Draw|Dynamic|Eig|Eigen|Elliott|Ellipse|Ema|Empty|Enable|Enqueue|Entry|Enum|Equals|Equity|Erase|Event|Every|Except|Exchange|Execute|Expert|Expiration|Eye|Factorization|Fast|Features|Fibonacci|File|Filename|Files|Fill|Filled|Find|First|Fixed|Flags|Flat|Flush|Folder|Font|Foreground|Format|Frame|Free|Freeze|Full|Functions|Fuzzy|Gann|Gap|Ge|General|Generic|Get|Global|Gradient|Graph|Graphic|Grid|H|Handle|Has|Hash|Head|Height|Hide|High|Histogram|History|Hour|Hsplit|I|Id|Identifier|Identity|Ignore|Implication|Ind|Indent|Index|Indic|Indicator|Indicators|Info|Ini|Init|Initialize|Inner|Input|Insert|Integer|Intersect|Inv|Inverse|Invert|Is|Jaw|Kernel|Key|Kijun|Kperiod|Kron|LDL|LU|LUP|Label|Language|Last|Least|Left|Legend|Len|Level|Levels|Leverage|Light|Limit|Line|Linear|Lines|Lips|List|Load|Locking|Log|Login|Long|Loss|Lot|Lots|Low|Lower|Lst|MQL|Ma|Machine|Magic|Main|Major|Mamdani|Manipulations|Margin|Market|Marks|Mat|Mathematics|Max|Maximize|Maximum|Mean|Median|Membership|Memory|Message|Method|Mid|Min|Minimize|Minimized|Minimum|Minus|Mode|Modules|Mon|Money|Month|Mouse|Move|Name|Navigate|Next|No|Norm|Normalize|Not|Num|ONNX|Objects|Offset|On|Ones|Onnx|Op|Open|Operations|Order|Orders|Organizing|Oscillators|Outer|Output|Overlaps|Owner|PInv|PLU|Panels|Param|Parameter|Parent|Parse|Path|Patterns|Peek|Percent|Percentile|Period|Pie|Pips|Pixel|Play|Plot|Plus|Point|Points|Polar|Polygon|Polyline|Pop|Position|Positions|Power|Precision|Prepare|Pressed|Prev|Previous|Pric|Price|Print|Processing|Prod|Products|Profit|Program|Projection|Prop|Pseudo|Push|QR|Quantile|Random|Rank|Ray|Read|Real|Rebound|Receiver|Rect|Rectangle|Redraw|Reduce|Reflect|Refresh|Regression|Remove|Render|Replace|Request|Reserve|Reset|Reshape|Resize|Resource|Result|Reverse|Right|Root|Row|Rows|Rules|Run|SLog|SVD|Sar|Save|Sc|Scale|Screen|Search|Sec|Seek|Select|Selectable|Selected|Sell|Send|Senkou|Series|Server|Session|Set|Shape|Shift|Short|Show|Shutdown|Sigma|Signal|Signals|Singular|Size|Sleep|Slow|Slowing|Socket|Solutions|Solve|Sort|Spectrum|Split|Spread|Start|State|Statistical|Statistics|Status|Std|Step|Steps|Stop|Stopout|Stops|Store|Str|Strategy|Strings|Struc|Struct|Style|Subwin|Sugeno|Sum|Support|Swap|Symbol|Symbols|Symmetric|Take|Teeth|Tell|Tenkan|Term|Terminal|Terms|Tester|Threshold|Tick|Ticket|Ticks|Time|Timeframe|Timeframes|Timeseries|To|Tooltip|Top|Total|Trace|Trade|Trailing|Transformations|Translate|Transparent|Transposepy|Trend|Tri|Triangle|Trim|Try|Type|Uninitialize|Union|Update|Upper|Used|V|Validation|Value|Values|Var|View|Visible|Volume|Vsplit|Wait|Web|Weight|Width|Window|Windows|Write|X|X1|X2|X3|X4|X_Distance|X_Offset|X_Size|Y|Y_Distance|Y_Offset|Y_Size|Year|Z|Z_Order|Zero|Zeros|account_info|copy_rates_from|copy_rates_from_pos|copy_rates_range|copy_ticks_from|copy_ticks_range|history_deals_get|history_deals_total|history_orders_get|history_orders_total|i|initialize|last_error|login|market_book_add|market_book_get|market_book_release|order_calc_margin|order_calc_profit|order_check|order_send|orders_get|orders_total|positions_get|positions_total|shutdown|symbol_info|symbol_info_tick|symbol_select|symbols_get|symbols_total|terminal_info|version|\ufeff_)[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.prefix.mql5"
         },
         {
@@ -71,7 +71,7 @@
             "name": "support.constant.account-info.mql5"
         },
         {
-            "match": "\\b(AccountInfoInteger|AccountInfoDouble|AccountInfoString)\\b",
+            "match": "\\\\bAccount[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.account-info.mql5"
         },
         {
@@ -83,7 +83,7 @@
             "name": "support.constant.account-trade-mode.mql5"
         },
         {
-            "match": "\\b(ARRAYPRINT_MINUTES|ARRAYPRINT_SECONDS|ARRAYPRINT_HEADER|ArrayBinarySearch|ARRAYPRINT_ALIGN|ARRAYPRINT_INDEX|ARRAYPRINT_LIMIT|ArrayGetAsSeries|ArrayLastIndexOf|ArraySetAsSeries|ARRAYPRINT_DATE|ArrayInitialize|ArrayIsDynamic|ArrayFromFP16|ArrayIsSeries|ArrayBsearch|ArrayCompare|ArrayFromFP8|ArrayIndexOf|ArrayMaximum|ArrayMinimum|ArrayReverse|ArrayInsert|ArrayRemove|ArrayResize|ArrayToFP16|ArrayPrint|ArrayRange|ArrayToFP8|ArrayCopy|ArrayFill|ArrayFree|ArraySize|ArraySort|ArraySwap)\\b",
+            "match": "\\\\bArray[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.array.mql5"
         },
         {
@@ -103,7 +103,7 @@
             "name": "support.function.chart.mql5"
         },
         {
-            "match": "\\b(CheckPointer)\\b",
+            "match": "\\\\bCheck[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.check.mql5"
         },
         {
@@ -167,7 +167,7 @@
             "name": "support.function.market-info.mql5"
         },
         {
-            "match": "\\b(MathCumulativeDistributionNoncentralChiSquare|MathCumulativeDistributionNegativeBinomial|MathProbabilityDensityNoncentralChiSquare|MathCumulativeDistributionHypergeometric|MathCumulativeDistributionNoncentralBeta|MathProbabilityDensityNegativeBinomial|MathCumulativeDistributionExponential|MathCumulativeDistributionNoncentralF|MathCumulativeDistributionNoncentralT|MathProbabilityDensityHypergeometric|MathProbabilityDensityNoncentralBeta|MathCumulativeDistributionChiSquare|MathCumulativeDistributionGeometric|MathCumulativeDistributionLognormal|MathCumulativeDistributionBinomial|MathCumulativeDistributionLogistic|MathCumulativeDistributionPoisson|MathCumulativeDistributionUniform|MathCumulativeDistributionWeibull|MathProbabilityDensityExponential|MathProbabilityDensityNoncentralF|MathProbabilityDensityNoncentralT|MathCumulativeDistributionCauchy|MathCumulativeDistributionNormal|MathCumulativeDistributionGamma|MathProbabilityDensityChiSquare|MathProbabilityDensityGeometric|MathProbabilityDensityLognormal|MathQuantileNoncentralChiSquare|MathCumulativeDistributionBeta|MathMomentsNoncentralChiSquare|MathProbabilityDensityBinomial|MathProbabilityDensityLogistic|MathProbabilityDensityPoisson|MathProbabilityDensityUniform|MathProbabilityDensityWeibull|MathRandomNoncentralChiSquare|MathProbabilityDensityCauchy|MathProbabilityDensityNormal|MathQuantileNegativeBinomial|MathCumulativeDistributionF|MathCumulativeDistributionT|MathMomentsNegativeBinomial|MathProbabilityDensityGamma|MathProbabilityDensityBeta|MathQuantileHypergeometric|MathQuantileNoncentralBeta|MathRandomNegativeBinomial|MathMomentsHypergeometric|MathMomentsNoncentralBeta|MathRandomHypergeometric|MathRandomNoncentralBeta|MathProbabilityDensityF|MathProbabilityDensityT|MathQuantileExponential|MathQuantileNoncentralT|MathMomentsExponential|MathMomentsNoncentralF|MathMomentsNoncentralT|MathQuantileChiSquare|MathQuantileGeometric|MathQuantileLognormal|MathRandomExponential|MathRandomNoncentralF|MathRandomNoncentralT|MathStandardDeviation|MathAverageDeviation|MathMomentsChiSquare|MathMomentsGeometric|MathMomentsLognormal|MathQuantileBinomial|MathQuantileLogistic|MathMomentsBinomial|MathMomentsLogistic|MathQuantilePoisson|MathQuantileUniform|MathQuantileWeibull|MathRandomChiSquare|MathRandomGeometric|MathRandomLognormal|MathMomentsPoisson|MathMomentsUniform|MathMomentsWeibull|MathQuantileCauchy|MathQuantileNormal|MathRandomBinomial|MathRandomLogistic|MathIsValidNumber|MathMomentsCauchy|MathMomentsNormal|MathQuantileGamma|MathRandomPoisson|MathRandomUniform|MathRandomWeibull|MathMomentsGamma|MathQuantileBeta|MathRandomCauchy|MathRandomNormal|MathMomentsBeta|MathRandomGamma|MathRandomBeta|MathQuantileF|MathQuantileT|MathClassify|MathKurtosis|MathMomentsF|MathMomentsT|MathSkewness|MathVariance|MathArccosh|MathArcsinh|MathArctan2|MathArctanh|MathMoments|MathRandomF|MathRandomT|MathArccos|MathArcsin|MathArctan|MathMedian|MathExpm1|MathFloor|MathLog10|MathLog1p|MathRound|MathSrand|MathCeil|MathCosh|MathMean|MathRand|MathSinh|MathSqrt|MathSwap|MathTanh|MathAbs|MathCos|MathExp|MathLog|MathMax|MathMin|MathMod|MathPow|MathSin|MathTan)\\b",
+            "match": "\\\\bMath[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.math.mql5"
         },
         {
@@ -175,7 +175,7 @@
             "name": "support.constant.numeric-limits.mql5"
         },
         {
-            "match": "\\b(ObjectGetTimeByValue|ObjectGetValueByTime|ObjectGetInteger|ObjectSetInteger|ObjectsDeleteAll|ObjectGetDouble|ObjectGetString|ObjectSetDouble|ObjectSetString|ObjectDelete|ObjectsTotal|ObjectFind|ObjectMove|ObjectName|ObjectAdd)\\b",
+            "match": "\\\\bObject[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.object.mql5"
         },
         {
@@ -231,7 +231,7 @@
             "name": "storage.modifier"
         },
         {
-            "match": "\\b(StringGetCharacter|StringSetCharacter|StringToShortArray|StringConcatenate|StringSetLength|StringToInteger|StringTrimRight|StringTrimLeft|StringCompare|StringReplace|StringReserve|StringToLower|StringToUpper|StringFormat|StringSubstr|StringSplit|StringFill|StringFind|StringInit|StringAdd|StringLen)\\b",
+            "match": "\\\\bString[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.string.mql5"
         },
         {
@@ -255,7 +255,7 @@
             "name": "support.constant.terminal.mql5"
         },
         {
-            "match": "\\b(TextGetSize|TextSetFont|TextHeight|TextWidth|TextSize|TextOut)\\b",
+            "match": "\\\\bText[A-Z0-9_]\\\\w*\\\\b",
             "name": "support.function.text.mql5"
         },
         {
