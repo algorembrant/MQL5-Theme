@@ -663,6 +663,4122 @@
             "settings": {
                 "foreground": "#32CD32"
             }
+        },
+        {
+            "name": "Prefix 3d",
+            "scope": "support.function.prefix.3d.mql5",
+            "settings": {
+                "foreground": "#df1515"
+            }
+        },
+        {
+            "name": "Prefix a",
+            "scope": "support.function.prefix.a.mql5",
+            "settings": {
+                "foreground": "#da1614"
+            }
+        },
+        {
+            "name": "Prefix a1",
+            "scope": "support.function.prefix.a1.mql5",
+            "settings": {
+                "foreground": "#eb4441"
+            }
+        },
+        {
+            "name": "Prefix a2",
+            "scope": "support.function.prefix.a2.mql5",
+            "settings": {
+                "foreground": "#d8312c"
+            }
+        },
+        {
+            "name": "Prefix account",
+            "scope": "support.function.prefix.account.mql5",
+            "settings": {
+                "foreground": "#d00056"
+            }
+        },
+        {
+            "name": "Prefix accumulative",
+            "scope": "support.function.prefix.accumulative.mql5",
+            "settings": {
+                "foreground": "#f94036"
+            }
+        },
+        {
+            "name": "Prefix activate",
+            "scope": "support.function.prefix.activate.mql5",
+            "settings": {
+                "foreground": "#da190d"
+            }
+        },
+        {
+            "name": "Prefix activation",
+            "scope": "support.function.prefix.activation.mql5",
+            "settings": {
+                "foreground": "#ec1d0e"
+            }
+        },
+        {
+            "name": "Prefix add",
+            "scope": "support.function.prefix.add.mql5",
+            "settings": {
+                "foreground": "#d43527"
+            }
+        },
+        {
+            "name": "Prefix aggregation",
+            "scope": "support.function.prefix.aggregation.mql5",
+            "settings": {
+                "foreground": "#e6402f"
+            }
+        },
+        {
+            "name": "Prefix alert",
+            "scope": "support.function.prefix.alert.mql5",
+            "settings": {
+                "foreground": "#d61c07"
+            }
+        },
+        {
+            "name": "Prefix align",
+            "scope": "support.function.prefix.align.mql5",
+            "settings": {
+                "foreground": "#fc4a34"
+            }
+        },
+        {
+            "name": "Prefix alignment",
+            "scope": "support.function.prefix.alignment.mql5",
+            "settings": {
+                "foreground": "#d92c15"
+            }
+        },
+        {
+            "name": "Prefix allowed",
+            "scope": "support.function.prefix.allowed.mql5",
+            "settings": {
+                "foreground": "#ee361b"
+            }
+        },
+        {
+            "name": "Prefix ambient",
+            "scope": "support.function.prefix.ambient.mql5",
+            "settings": {
+                "foreground": "#d4432b"
+            }
+        },
+        {
+            "name": "Prefix anchor",
+            "scope": "support.function.prefix.anchor.mql5",
+            "settings": {
+                "foreground": "#fb3917"
+            }
+        },
+        {
+            "name": "Prefix angle",
+            "scope": "support.function.prefix.angle.mql5",
+            "settings": {
+                "foreground": "#db2c0b"
+            }
+        },
+        {
+            "name": "Prefix append",
+            "scope": "support.function.prefix.append.mql5",
+            "settings": {
+                "foreground": "#de2905"
+            }
+        },
+        {
+            "name": "Prefix applied",
+            "scope": "support.function.prefix.applied.mql5",
+            "settings": {
+                "foreground": "#e14d2d"
+            }
+        },
+        {
+            "name": "Prefix apply",
+            "scope": "support.function.prefix.apply.mql5",
+            "settings": {
+                "foreground": "#e25130"
+            }
+        },
+        {
+            "name": "Prefix arc",
+            "scope": "support.function.prefix.arc.mql5",
+            "settings": {
+                "foreground": "#ef5e3a"
+            }
+        },
+        {
+            "name": "Prefix arg",
+            "scope": "support.function.prefix.arg.mql5",
+            "settings": {
+                "foreground": "#e43001"
+            }
+        },
+        {
+            "name": "Prefix array",
+            "scope": "support.function.prefix.array.mql5",
+            "settings": {
+                "foreground": "#f1592f"
+            }
+        },
+        {
+            "name": "Prefix arrow",
+            "scope": "support.function.prefix.arrow.mql5",
+            "settings": {
+                "foreground": "#de5931"
+            }
+        },
+        {
+            "name": "Prefix arrows",
+            "scope": "support.function.prefix.arrows.mql5",
+            "settings": {
+                "foreground": "#db4719"
+            }
+        },
+        {
+            "name": "Prefix ask",
+            "scope": "support.function.prefix.ask.mql5",
+            "settings": {
+                "foreground": "#e75f32"
+            }
+        },
+        {
+            "name": "Prefix assign",
+            "scope": "support.function.prefix.assign.mql5",
+            "settings": {
+                "foreground": "#cd3f0e"
+            }
+        },
+        {
+            "name": "Prefix at",
+            "scope": "support.function.prefix.at.mql5",
+            "settings": {
+                "foreground": "#da4f1c"
+            }
+        },
+        {
+            "name": "Prefix attach",
+            "scope": "support.function.prefix.attach.mql5",
+            "settings": {
+                "foreground": "#cd3e07"
+            }
+        },
+        {
+            "name": "Prefix auto",
+            "scope": "support.function.prefix.auto.mql5",
+            "settings": {
+                "foreground": "#ef6e3a"
+            }
+        },
+        {
+            "name": "Prefix available",
+            "scope": "support.function.prefix.available.mql5",
+            "settings": {
+                "foreground": "#d04910"
+            }
+        },
+        {
+            "name": "Prefix average",
+            "scope": "support.function.prefix.average.mql5",
+            "settings": {
+                "foreground": "#f85a14"
+            }
+        },
+        {
+            "name": "Prefix b",
+            "scope": "support.function.prefix.b.mql5",
+            "settings": {
+                "foreground": "#d4632e"
+            }
+        },
+        {
+            "name": "Prefix b1",
+            "scope": "support.function.prefix.b1.mql5",
+            "settings": {
+                "foreground": "#e76b2f"
+            }
+        },
+        {
+            "name": "Prefix b2",
+            "scope": "support.function.prefix.b2.mql5",
+            "settings": {
+                "foreground": "#d56d38"
+            }
+        },
+        {
+            "name": "Prefix back",
+            "scope": "support.function.prefix.back.mql5",
+            "settings": {
+                "foreground": "#db6b2f"
+            }
+        },
+        {
+            "name": "Prefix background",
+            "scope": "support.function.prefix.background.mql5",
+            "settings": {
+                "foreground": "#ed5c0b"
+            }
+        },
+        {
+            "name": "Prefix balance",
+            "scope": "support.function.prefix.balance.mql5",
+            "settings": {
+                "foreground": "#da6928"
+            }
+        },
+        {
+            "name": "Prefix bank",
+            "scope": "support.function.prefix.bank.mql5",
+            "settings": {
+                "foreground": "#d66522"
+            }
+        },
+        {
+            "name": "Prefix bar",
+            "scope": "support.function.prefix.bar.mql5",
+            "settings": {
+                "foreground": "#e56a1c"
+            }
+        },
+        {
+            "name": "Prefix bars",
+            "scope": "support.function.prefix.bars.mql5",
+            "settings": {
+                "foreground": "#e46c1d"
+            }
+        },
+        {
+            "name": "Prefix base",
+            "scope": "support.function.prefix.base.mql5",
+            "settings": {
+                "foreground": "#f86907"
+            }
+        },
+        {
+            "name": "Prefix basic",
+            "scope": "support.function.prefix.basic.mql5",
+            "settings": {
+                "foreground": "#fe964c"
+            }
+        },
+        {
+            "name": "Prefix bid",
+            "scope": "support.function.prefix.bid.mql5",
+            "settings": {
+                "foreground": "#fb8c3a"
+            }
+        },
+        {
+            "name": "Prefix bill",
+            "scope": "support.function.prefix.bill.mql5",
+            "settings": {
+                "foreground": "#e28843"
+            }
+        },
+        {
+            "name": "Prefix binary",
+            "scope": "support.function.prefix.binary.mql5",
+            "settings": {
+                "foreground": "#ed7a1e"
+            }
+        },
+        {
+            "name": "Prefix bmp",
+            "scope": "support.function.prefix.bmp.mql5",
+            "settings": {
+                "foreground": "#f69645"
+            }
+        },
+        {
+            "name": "Prefix border",
+            "scope": "support.function.prefix.border.mql5",
+            "settings": {
+                "foreground": "#ec8d39"
+            }
+        },
+        {
+            "name": "Prefix bottom",
+            "scope": "support.function.prefix.bottom.mql5",
+            "settings": {
+                "foreground": "#f5933a"
+            }
+        },
+        {
+            "name": "Prefix bring",
+            "scope": "support.function.prefix.bring.mql5",
+            "settings": {
+                "foreground": "#f49740"
+            }
+        },
+        {
+            "name": "Prefix buffer",
+            "scope": "support.function.prefix.buffer.mql5",
+            "settings": {
+                "foreground": "#ea8420"
+            }
+        },
+        {
+            "name": "Prefix buffers",
+            "scope": "support.function.prefix.buffers.mql5",
+            "settings": {
+                "foreground": "#cf7416"
+            }
+        },
+        {
+            "name": "Prefix build",
+            "scope": "support.function.prefix.build.mql5",
+            "settings": {
+                "foreground": "#d77f21"
+            }
+        },
+        {
+            "name": "Prefix buy",
+            "scope": "support.function.prefix.buy.mql5",
+            "settings": {
+                "foreground": "#d58730"
+            }
+        },
+        {
+            "name": "Prefix c",
+            "scope": "support.function.prefix.c.mql5",
+            "settings": {
+                "foreground": "#f68d14"
+            }
+        },
+        {
+            "name": "Prefix c1",
+            "scope": "support.function.prefix.c1.mql5",
+            "settings": {
+                "foreground": "#e68510"
+            }
+        },
+        {
+            "name": "Prefix c2",
+            "scope": "support.function.prefix.c2.mql5",
+            "settings": {
+                "foreground": "#d38f39"
+            }
+        },
+        {
+            "name": "Prefix cl",
+            "scope": "support.function.prefix.cl.mql5",
+            "settings": {
+                "foreground": "#f4971f"
+            }
+        },
+        {
+            "name": "Prefix cp",
+            "scope": "support.function.prefix.cp.mql5",
+            "settings": {
+                "foreground": "#cd903d"
+            }
+        },
+        {
+            "name": "Prefix cpu",
+            "scope": "support.function.prefix.cpu.mql5",
+            "settings": {
+                "foreground": "#f2a943"
+            }
+        },
+        {
+            "name": "Prefix cs",
+            "scope": "support.function.prefix.cs.mql5",
+            "settings": {
+                "foreground": "#fd9e14"
+            }
+        },
+        {
+            "name": "Prefix cz",
+            "scope": "support.function.prefix.cz.mql5",
+            "settings": {
+                "foreground": "#da9222"
+            }
+        },
+        {
+            "name": "Prefix calc",
+            "scope": "support.function.prefix.calc.mql5",
+            "settings": {
+                "foreground": "#f0a836"
+            }
+        },
+        {
+            "name": "Prefix calculate",
+            "scope": "support.function.prefix.calculate.mql5",
+            "settings": {
+                "foreground": "#ec9a12"
+            }
+        },
+        {
+            "name": "Prefix calendar",
+            "scope": "support.function.prefix.calendar.mql5",
+            "settings": {
+                "foreground": "#ec9a0d"
+            }
+        },
+        {
+            "name": "Prefix capacity",
+            "scope": "support.function.prefix.capacity.mql5",
+            "settings": {
+                "foreground": "#d5941e"
+            }
+        },
+        {
+            "name": "Prefix caption",
+            "scope": "support.function.prefix.caption.mql5",
+            "settings": {
+                "foreground": "#efa00c"
+            }
+        },
+        {
+            "name": "Prefix channel",
+            "scope": "support.function.prefix.channel.mql5",
+            "settings": {
+                "foreground": "#dda028"
+            }
+        },
+        {
+            "name": "Prefix char",
+            "scope": "support.function.prefix.char.mql5",
+            "settings": {
+                "foreground": "#fabe44"
+            }
+        },
+        {
+            "name": "Prefix chart",
+            "scope": "support.function.prefix.chart.mql5",
+            "settings": {
+                "foreground": "#eeac1c"
+            }
+        },
+        {
+            "name": "Prefix check",
+            "scope": "support.function.prefix.check.mql5",
+            "settings": {
+                "foreground": "#f1a803"
+            }
+        },
+        {
+            "name": "Prefix checked",
+            "scope": "support.function.prefix.checked.mql5",
+            "settings": {
+                "foreground": "#e7a301"
+            }
+        },
+        {
+            "name": "Prefix chinkou",
+            "scope": "support.function.prefix.chinkou.mql5",
+            "settings": {
+                "foreground": "#d29f1f"
+            }
+        },
+        {
+            "name": "Prefix cholesky",
+            "scope": "support.function.prefix.cholesky.mql5",
+            "settings": {
+                "foreground": "#fbc330"
+            }
+        },
+        {
+            "name": "Prefix ci",
+            "scope": "support.function.prefix.ci.mql5",
+            "settings": {
+                "foreground": "#f1b307"
+            }
+        },
+        {
+            "name": "Prefix circle",
+            "scope": "support.function.prefix.circle.mql5",
+            "settings": {
+                "foreground": "#ebb30e"
+            }
+        },
+        {
+            "name": "Prefix classification",
+            "scope": "support.function.prefix.classification.mql5",
+            "settings": {
+                "foreground": "#d4ab2d"
+            }
+        },
+        {
+            "name": "Prefix clear",
+            "scope": "support.function.prefix.clear.mql5",
+            "settings": {
+                "foreground": "#f6c834"
+            }
+        },
+        {
+            "name": "Prefix client",
+            "scope": "support.function.prefix.client.mql5",
+            "settings": {
+                "foreground": "#f9cc34"
+            }
+        },
+        {
+            "name": "Prefix clip",
+            "scope": "support.function.prefix.clip.mql5",
+            "settings": {
+                "foreground": "#f0ca40"
+            }
+        },
+        {
+            "name": "Prefix clone",
+            "scope": "support.function.prefix.clone.mql5",
+            "settings": {
+                "foreground": "#f5d148"
+            }
+        },
+        {
+            "name": "Prefix close",
+            "scope": "support.function.prefix.close.mql5",
+            "settings": {
+                "foreground": "#fecf0e"
+            }
+        },
+        {
+            "name": "Prefix cmo",
+            "scope": "support.function.prefix.cmo.mql5",
+            "settings": {
+                "foreground": "#f0cc2f"
+            }
+        },
+        {
+            "name": "Prefix code",
+            "scope": "support.function.prefix.code.mql5",
+            "settings": {
+                "foreground": "#f8d532"
+            }
+        },
+        {
+            "name": "Prefix col",
+            "scope": "support.function.prefix.col.mql5",
+            "settings": {
+                "foreground": "#f0c801"
+            }
+        },
+        {
+            "name": "Prefix color",
+            "scope": "support.function.prefix.color.mql5",
+            "settings": {
+                "foreground": "#d6be3c"
+            }
+        },
+        {
+            "name": "Prefix cols",
+            "scope": "support.function.prefix.cols.mql5",
+            "settings": {
+                "foreground": "#dabb09"
+            }
+        },
+        {
+            "name": "Prefix comment",
+            "scope": "support.function.prefix.comment.mql5",
+            "settings": {
+                "foreground": "#e5c91a"
+            }
+        },
+        {
+            "name": "Prefix commision",
+            "scope": "support.function.prefix.commision.mql5",
+            "settings": {
+                "foreground": "#dcc527"
+            }
+        },
+        {
+            "name": "Prefix commission",
+            "scope": "support.function.prefix.commission.mql5",
+            "settings": {
+                "foreground": "#e0c603"
+            }
+        },
+        {
+            "name": "Prefix common",
+            "scope": "support.function.prefix.common.mql5",
+            "settings": {
+                "foreground": "#d0bc19"
+            }
+        },
+        {
+            "name": "Prefix company",
+            "scope": "support.function.prefix.company.mql5",
+            "settings": {
+                "foreground": "#ecd92a"
+            }
+        },
+        {
+            "name": "Prefix compare",
+            "scope": "support.function.prefix.compare.mql5",
+            "settings": {
+                "foreground": "#f0e03c"
+            }
+        },
+        {
+            "name": "Prefix comparer",
+            "scope": "support.function.prefix.comparer.mql5",
+            "settings": {
+                "foreground": "#ded134"
+            }
+        },
+        {
+            "name": "Prefix composition",
+            "scope": "support.function.prefix.composition.mql5",
+            "settings": {
+                "foreground": "#feee0c"
+            }
+        },
+        {
+            "name": "Prefix concat",
+            "scope": "support.function.prefix.concat.mql5",
+            "settings": {
+                "foreground": "#d8cc07"
+            }
+        },
+        {
+            "name": "Prefix conclusion",
+            "scope": "support.function.prefix.conclusion.mql5",
+            "settings": {
+                "foreground": "#e2d80c"
+            }
+        },
+        {
+            "name": "Prefix cond",
+            "scope": "support.function.prefix.cond.mql5",
+            "settings": {
+                "foreground": "#e9e012"
+            }
+        },
+        {
+            "name": "Prefix condition",
+            "scope": "support.function.prefix.condition.mql5",
+            "settings": {
+                "foreground": "#dbd632"
+            }
+        },
+        {
+            "name": "Prefix conditions",
+            "scope": "support.function.prefix.conditions.mql5",
+            "settings": {
+                "foreground": "#d7d31a"
+            }
+        },
+        {
+            "name": "Prefix confusion",
+            "scope": "support.function.prefix.confusion.mql5",
+            "settings": {
+                "foreground": "#e5e310"
+            }
+        },
+        {
+            "name": "Prefix contains",
+            "scope": "support.function.prefix.contains.mql5",
+            "settings": {
+                "foreground": "#eded14"
+            }
+        },
+        {
+            "name": "Prefix contract",
+            "scope": "support.function.prefix.contract.mql5",
+            "settings": {
+                "foreground": "#dee040"
+            }
+        },
+        {
+            "name": "Prefix control",
+            "scope": "support.function.prefix.control.mql5",
+            "settings": {
+                "foreground": "#f9fd33"
+            }
+        },
+        {
+            "name": "Prefix controls",
+            "scope": "support.function.prefix.controls.mql5",
+            "settings": {
+                "foreground": "#cfd41e"
+            }
+        },
+        {
+            "name": "Prefix convolve",
+            "scope": "support.function.prefix.convolve.mql5",
+            "settings": {
+                "foreground": "#e0ea00"
+            }
+        },
+        {
+            "name": "Prefix copy",
+            "scope": "support.function.prefix.copy.mql5",
+            "settings": {
+                "foreground": "#fd0a6d"
+            }
+        },
+        {
+            "name": "Prefix corner",
+            "scope": "support.function.prefix.corner.mql5",
+            "settings": {
+                "foreground": "#e8f521"
+            }
+        },
+        {
+            "name": "Prefix corr",
+            "scope": "support.function.prefix.corr.mql5",
+            "settings": {
+                "foreground": "#e7f442"
+            }
+        },
+        {
+            "name": "Prefix correlate",
+            "scope": "support.function.prefix.correlate.mql5",
+            "settings": {
+                "foreground": "#e9fb25"
+            }
+        },
+        {
+            "name": "Prefix count",
+            "scope": "support.function.prefix.count.mql5",
+            "settings": {
+                "foreground": "#e3f43a"
+            }
+        },
+        {
+            "name": "Prefix cov",
+            "scope": "support.function.prefix.cov.mql5",
+            "settings": {
+                "foreground": "#bcce23"
+            }
+        },
+        {
+            "name": "Prefix create",
+            "scope": "support.function.prefix.create.mql5",
+            "settings": {
+                "foreground": "#bed30e"
+            }
+        },
+        {
+            "name": "Prefix credit",
+            "scope": "support.function.prefix.credit.mql5",
+            "settings": {
+                "foreground": "#c0d909"
+            }
+        },
+        {
+            "name": "Prefix crypt",
+            "scope": "support.function.prefix.crypt.mql5",
+            "settings": {
+                "foreground": "#d6ef32"
+            }
+        },
+        {
+            "name": "Prefix cum",
+            "scope": "support.function.prefix.cum.mql5",
+            "settings": {
+                "foreground": "#cfea2f"
+            }
+        },
+        {
+            "name": "Prefix curr",
+            "scope": "support.function.prefix.curr.mql5",
+            "settings": {
+                "foreground": "#bad61c"
+            }
+        },
+        {
+            "name": "Prefix currency",
+            "scope": "support.function.prefix.currency.mql5",
+            "settings": {
+                "foreground": "#accc06"
+            }
+        },
+        {
+            "name": "Prefix curve",
+            "scope": "support.function.prefix.curve.mql5",
+            "settings": {
+                "foreground": "#c9f109"
+            }
+        },
+        {
+            "name": "Prefix curves",
+            "scope": "support.function.prefix.curves.mql5",
+            "settings": {
+                "foreground": "#cff815"
+            }
+        },
+        {
+            "name": "Prefix custom",
+            "scope": "support.function.prefix.custom.mql5",
+            "settings": {
+                "foreground": "#adce21"
+            }
+        },
+        {
+            "name": "Prefix d",
+            "scope": "support.function.prefix.d.mql5",
+            "settings": {
+                "foreground": "#d1fc24"
+            }
+        },
+        {
+            "name": "Prefix draw",
+            "scope": "support.function.prefix.draw.mql5",
+            "settings": {
+                "foreground": "#6ad61b"
+            }
+        },
+        {
+            "name": "Prefix dx",
+            "scope": "support.function.prefix.dx.mql5",
+            "settings": {
+                "foreground": "#aacd2e"
+            }
+        },
+        {
+            "name": "Prefix data",
+            "scope": "support.function.prefix.data.mql5",
+            "settings": {
+                "foreground": "#b4d640"
+            }
+        },
+        {
+            "name": "Prefix database",
+            "scope": "support.function.prefix.database.mql5",
+            "settings": {
+                "foreground": "#bee543"
+            }
+        },
+        {
+            "name": "Prefix datastructures",
+            "scope": "support.function.prefix.datastructures.mql5",
+            "settings": {
+                "foreground": "#a8df02"
+            }
+        },
+        {
+            "name": "Prefix date",
+            "scope": "support.function.prefix.date.mql5",
+            "settings": {
+                "foreground": "#abdd1d"
+            }
+        },
+        {
+            "name": "Prefix day",
+            "scope": "support.function.prefix.day.mql5",
+            "settings": {
+                "foreground": "#ade419"
+            }
+        },
+        {
+            "name": "Prefix days",
+            "scope": "support.function.prefix.days.mql5",
+            "settings": {
+                "foreground": "#a5df0f"
+            }
+        },
+        {
+            "name": "Prefix deactivate",
+            "scope": "support.function.prefix.deactivate.mql5",
+            "settings": {
+                "foreground": "#a9ea0a"
+            }
+        },
+        {
+            "name": "Prefix deal",
+            "scope": "support.function.prefix.deal.mql5",
+            "settings": {
+                "foreground": "#b5f71b"
+            }
+        },
+        {
+            "name": "Prefix debug",
+            "scope": "support.function.prefix.debug.mql5",
+            "settings": {
+                "foreground": "#96cc1e"
+            }
+        },
+        {
+            "name": "Prefix decrease",
+            "scope": "support.function.prefix.decrease.mql5",
+            "settings": {
+                "foreground": "#bdf742"
+            }
+        },
+        {
+            "name": "Prefix default",
+            "scope": "support.function.prefix.default.mql5",
+            "settings": {
+                "foreground": "#a3d53b"
+            }
+        },
+        {
+            "name": "Prefix defuzzification",
+            "scope": "support.function.prefix.defuzzification.mql5",
+            "settings": {
+                "foreground": "#92d116"
+            }
+        },
+        {
+            "name": "Prefix degree",
+            "scope": "support.function.prefix.degree.mql5",
+            "settings": {
+                "foreground": "#a8f21d"
+            }
+        },
+        {
+            "name": "Prefix deinit",
+            "scope": "support.function.prefix.deinit.mql5",
+            "settings": {
+                "foreground": "#bdfd49"
+            }
+        },
+        {
+            "name": "Prefix delete",
+            "scope": "support.function.prefix.delete.mql5",
+            "settings": {
+                "foreground": "#99df21"
+            }
+        },
+        {
+            "name": "Prefix delta",
+            "scope": "support.function.prefix.delta.mql5",
+            "settings": {
+                "foreground": "#9bd837"
+            }
+        },
+        {
+            "name": "Prefix dequeue",
+            "scope": "support.function.prefix.dequeue.mql5",
+            "settings": {
+                "foreground": "#93ef02"
+            }
+        },
+        {
+            "name": "Prefix derivative",
+            "scope": "support.function.prefix.derivative.mql5",
+            "settings": {
+                "foreground": "#9ddc3e"
+            }
+        },
+        {
+            "name": "Prefix description",
+            "scope": "support.function.prefix.description.mql5",
+            "settings": {
+                "foreground": "#9ae927"
+            }
+        },
+        {
+            "name": "Prefix descriptor",
+            "scope": "support.function.prefix.descriptor.mql5",
+            "settings": {
+                "foreground": "#95e02c"
+            }
+        },
+        {
+            "name": "Prefix destroy",
+            "scope": "support.function.prefix.destroy.mql5",
+            "settings": {
+                "foreground": "#80d311"
+            }
+        },
+        {
+            "name": "Prefix det",
+            "scope": "support.function.prefix.det.mql5",
+            "settings": {
+                "foreground": "#98eb2d"
+            }
+        },
+        {
+            "name": "Prefix detach",
+            "scope": "support.function.prefix.detach.mql5",
+            "settings": {
+                "foreground": "#95ea2c"
+            }
+        },
+        {
+            "name": "Prefix deviation",
+            "scope": "support.function.prefix.deviation.mql5",
+            "settings": {
+                "foreground": "#8aea18"
+            }
+        },
+        {
+            "name": "Prefix deviations",
+            "scope": "support.function.prefix.deviations.mql5",
+            "settings": {
+                "foreground": "#8fe927"
+            }
+        },
+        {
+            "name": "Prefix diag",
+            "scope": "support.function.prefix.diag.mql5",
+            "settings": {
+                "foreground": "#84f705"
+            }
+        },
+        {
+            "name": "Prefix digits",
+            "scope": "support.function.prefix.digits.mql5",
+            "settings": {
+                "foreground": "#89d539"
+            }
+        },
+        {
+            "name": "Prefix direction",
+            "scope": "support.function.prefix.direction.mql5",
+            "settings": {
+                "foreground": "#68cc02"
+            }
+        },
+        {
+            "name": "Prefix disable",
+            "scope": "support.function.prefix.disable.mql5",
+            "settings": {
+                "foreground": "#81e222"
+            }
+        },
+        {
+            "name": "Prefix disk",
+            "scope": "support.function.prefix.disk.mql5",
+            "settings": {
+                "foreground": "#74d01e"
+            }
+        },
+        {
+            "name": "Prefix dot",
+            "scope": "support.function.prefix.dot.mql5",
+            "settings": {
+                "foreground": "#72df10"
+            }
+        },
+        {
+            "name": "Prefix double",
+            "scope": "support.function.prefix.double.mql5",
+            "settings": {
+                "foreground": "#80d437"
+            }
+        },
+        {
+            "name": "Prefix downtrend",
+            "scope": "support.function.prefix.downtrend.mql5",
+            "settings": {
+                "foreground": "#89f033"
+            }
+        },
+        {
+            "name": "Prefix dperiod",
+            "scope": "support.function.prefix.dperiod.mql5",
+            "settings": {
+                "foreground": "#99fc49"
+            }
+        },
+        {
+            "name": "Prefix drag",
+            "scope": "support.function.prefix.drag.mql5",
+            "settings": {
+                "foreground": "#5fcc0b"
+            }
+        },
+        {
+            "name": "Prefix dynamic",
+            "scope": "support.function.prefix.dynamic.mql5",
+            "settings": {
+                "foreground": "#7aec29"
+            }
+        },
+        {
+            "name": "Prefix eig",
+            "scope": "support.function.prefix.eig.mql5",
+            "settings": {
+                "foreground": "#64eb08"
+            }
+        },
+        {
+            "name": "Prefix eigen",
+            "scope": "support.function.prefix.eigen.mql5",
+            "settings": {
+                "foreground": "#67d122"
+            }
+        },
+        {
+            "name": "Prefix elliott",
+            "scope": "support.function.prefix.elliott.mql5",
+            "settings": {
+                "foreground": "#57d707"
+            }
+        },
+        {
+            "name": "Prefix ellipse",
+            "scope": "support.function.prefix.ellipse.mql5",
+            "settings": {
+                "foreground": "#6fe02b"
+            }
+        },
+        {
+            "name": "Prefix ema",
+            "scope": "support.function.prefix.ema.mql5",
+            "settings": {
+                "foreground": "#6cf71d"
+            }
+        },
+        {
+            "name": "Prefix empty",
+            "scope": "support.function.prefix.empty.mql5",
+            "settings": {
+                "foreground": "#5dfb06"
+            }
+        },
+        {
+            "name": "Prefix enable",
+            "scope": "support.function.prefix.enable.mql5",
+            "settings": {
+                "foreground": "#7bf53a"
+            }
+        },
+        {
+            "name": "Prefix enqueue",
+            "scope": "support.function.prefix.enqueue.mql5",
+            "settings": {
+                "foreground": "#6adb32"
+            }
+        },
+        {
+            "name": "Prefix entry",
+            "scope": "support.function.prefix.entry.mql5",
+            "settings": {
+                "foreground": "#6be72f"
+            }
+        },
+        {
+            "name": "Prefix enum",
+            "scope": "support.function.prefix.enum.mql5",
+            "settings": {
+                "foreground": "#56d51c"
+            }
+        },
+        {
+            "name": "Prefix equals",
+            "scope": "support.function.prefix.equals.mql5",
+            "settings": {
+                "foreground": "#58e21b"
+            }
+        },
+        {
+            "name": "Prefix equity",
+            "scope": "support.function.prefix.equity.mql5",
+            "settings": {
+                "foreground": "#5ad129"
+            }
+        },
+        {
+            "name": "Prefix erase",
+            "scope": "support.function.prefix.erase.mql5",
+            "settings": {
+                "foreground": "#5bec22"
+            }
+        },
+        {
+            "name": "Prefix event",
+            "scope": "support.function.prefix.event.mql5",
+            "settings": {
+                "foreground": "#4dd11b"
+            }
+        },
+        {
+            "name": "Prefix every",
+            "scope": "support.function.prefix.every.mql5",
+            "settings": {
+                "foreground": "#5df427"
+            }
+        },
+        {
+            "name": "Prefix except",
+            "scope": "support.function.prefix.except.mql5",
+            "settings": {
+                "foreground": "#56e924"
+            }
+        },
+        {
+            "name": "Prefix exchange",
+            "scope": "support.function.prefix.exchange.mql5",
+            "settings": {
+                "foreground": "#5acf35"
+            }
+        },
+        {
+            "name": "Prefix execute",
+            "scope": "support.function.prefix.execute.mql5",
+            "settings": {
+                "foreground": "#5ae32f"
+            }
+        },
+        {
+            "name": "Prefix expert",
+            "scope": "support.function.prefix.expert.mql5",
+            "settings": {
+                "foreground": "#4afb16"
+            }
+        },
+        {
+            "name": "Prefix expiration",
+            "scope": "support.function.prefix.expiration.mql5",
+            "settings": {
+                "foreground": "#62ea3d"
+            }
+        },
+        {
+            "name": "Prefix eye",
+            "scope": "support.function.prefix.eye.mql5",
+            "settings": {
+                "foreground": "#2bd400"
+            }
+        },
+        {
+            "name": "Prefix factorization",
+            "scope": "support.function.prefix.factorization.mql5",
+            "settings": {
+                "foreground": "#43ea1b"
+            }
+        },
+        {
+            "name": "Prefix fast",
+            "scope": "support.function.prefix.fast.mql5",
+            "settings": {
+                "foreground": "#36fa09"
+            }
+        },
+        {
+            "name": "Prefix features",
+            "scope": "support.function.prefix.features.mql5",
+            "settings": {
+                "foreground": "#55f932"
+            }
+        },
+        {
+            "name": "Prefix fibonacci",
+            "scope": "support.function.prefix.fibonacci.mql5",
+            "settings": {
+                "foreground": "#4eda32"
+            }
+        },
+        {
+            "name": "Prefix file",
+            "scope": "support.function.prefix.file.mql5",
+            "settings": {
+                "foreground": "#35d218"
+            }
+        },
+        {
+            "name": "Prefix filename",
+            "scope": "support.function.prefix.filename.mql5",
+            "settings": {
+                "foreground": "#24d007"
+            }
+        },
+        {
+            "name": "Prefix files",
+            "scope": "support.function.prefix.files.mql5",
+            "settings": {
+                "foreground": "#55e83e"
+            }
+        },
+        {
+            "name": "Prefix fill",
+            "scope": "support.function.prefix.fill.mql5",
+            "settings": {
+                "foreground": "#29cf11"
+            }
+        },
+        {
+            "name": "Prefix filled",
+            "scope": "support.function.prefix.filled.mql5",
+            "settings": {
+                "foreground": "#4edb3c"
+            }
+        },
+        {
+            "name": "Prefix find",
+            "scope": "support.function.prefix.find.mql5",
+            "settings": {
+                "foreground": "#4cea39"
+            }
+        },
+        {
+            "name": "Prefix first",
+            "scope": "support.function.prefix.first.mql5",
+            "settings": {
+                "foreground": "#38fa23"
+            }
+        },
+        {
+            "name": "Prefix fixed",
+            "scope": "support.function.prefix.fixed.mql5",
+            "settings": {
+                "foreground": "#35d726"
+            }
+        },
+        {
+            "name": "Prefix flags",
+            "scope": "support.function.prefix.flags.mql5",
+            "settings": {
+                "foreground": "#21dd11"
+            }
+        },
+        {
+            "name": "Prefix flat",
+            "scope": "support.function.prefix.flat.mql5",
+            "settings": {
+                "foreground": "#2bdc1f"
+            }
+        },
+        {
+            "name": "Prefix flush",
+            "scope": "support.function.prefix.flush.mql5",
+            "settings": {
+                "foreground": "#37ea2c"
+            }
+        },
+        {
+            "name": "Prefix folder",
+            "scope": "support.function.prefix.folder.mql5",
+            "settings": {
+                "foreground": "#31e528"
+            }
+        },
+        {
+            "name": "Prefix font",
+            "scope": "support.function.prefix.font.mql5",
+            "settings": {
+                "foreground": "#2acf23"
+            }
+        },
+        {
+            "name": "Prefix foreground",
+            "scope": "support.function.prefix.foreground.mql5",
+            "settings": {
+                "foreground": "#25d320"
+            }
+        },
+        {
+            "name": "Prefix format",
+            "scope": "support.function.prefix.format.mql5",
+            "settings": {
+                "foreground": "#37d634"
+            }
+        },
+        {
+            "name": "Prefix frame",
+            "scope": "support.function.prefix.frame.mql5",
+            "settings": {
+                "foreground": "#26f225"
+            }
+        },
+        {
+            "name": "Prefix free",
+            "scope": "support.function.prefix.free.mql5",
+            "settings": {
+                "foreground": "#31ed31"
+            }
+        },
+        {
+            "name": "Prefix freeze",
+            "scope": "support.function.prefix.freeze.mql5",
+            "settings": {
+                "foreground": "#42f544"
+            }
+        },
+        {
+            "name": "Prefix full",
+            "scope": "support.function.prefix.full.mql5",
+            "settings": {
+                "foreground": "#27f52c"
+            }
+        },
+        {
+            "name": "Prefix functions",
+            "scope": "support.function.prefix.functions.mql5",
+            "settings": {
+                "foreground": "#0ce814"
+            }
+        },
+        {
+            "name": "Prefix fuzzy",
+            "scope": "support.function.prefix.fuzzy.mql5",
+            "settings": {
+                "foreground": "#33e13b"
+            }
+        },
+        {
+            "name": "Prefix gann",
+            "scope": "support.function.prefix.gann.mql5",
+            "settings": {
+                "foreground": "#10e01b"
+            }
+        },
+        {
+            "name": "Prefix gap",
+            "scope": "support.function.prefix.gap.mql5",
+            "settings": {
+                "foreground": "#01fb10"
+            }
+        },
+        {
+            "name": "Prefix ge",
+            "scope": "support.function.prefix.ge.mql5",
+            "settings": {
+                "foreground": "#46ec52"
+            }
+        },
+        {
+            "name": "Prefix general",
+            "scope": "support.function.prefix.general.mql5",
+            "settings": {
+                "foreground": "#10e322"
+            }
+        },
+        {
+            "name": "Prefix generic",
+            "scope": "support.function.prefix.generic.mql5",
+            "settings": {
+                "foreground": "#11cc23"
+            }
+        },
+        {
+            "name": "Prefix get",
+            "scope": "support.function.prefix.get.mql5",
+            "settings": {
+                "foreground": "#18ee2e"
+            }
+        },
+        {
+            "name": "Prefix global",
+            "scope": "support.function.prefix.global.mql5",
+            "settings": {
+                "foreground": "#40f054"
+            }
+        },
+        {
+            "name": "Prefix gradient",
+            "scope": "support.function.prefix.gradient.mql5",
+            "settings": {
+                "foreground": "#13d02a"
+            }
+        },
+        {
+            "name": "Prefix graph",
+            "scope": "support.function.prefix.graph.mql5",
+            "settings": {
+                "foreground": "#3bcc4e"
+            }
+        },
+        {
+            "name": "Prefix graphic",
+            "scope": "support.function.prefix.graphic.mql5",
+            "settings": {
+                "foreground": "#22d53b"
+            }
+        },
+        {
+            "name": "Prefix grid",
+            "scope": "support.function.prefix.grid.mql5",
+            "settings": {
+                "foreground": "#41d958"
+            }
+        },
+        {
+            "name": "Prefix h",
+            "scope": "support.function.prefix.h.mql5",
+            "settings": {
+                "foreground": "#24ce3f"
+            }
+        },
+        {
+            "name": "Prefix handle",
+            "scope": "support.function.prefix.handle.mql5",
+            "settings": {
+                "foreground": "#35cd4f"
+            }
+        },
+        {
+            "name": "Prefix has",
+            "scope": "support.function.prefix.has.mql5",
+            "settings": {
+                "foreground": "#24f349"
+            }
+        },
+        {
+            "name": "Prefix hash",
+            "scope": "support.function.prefix.hash.mql5",
+            "settings": {
+                "foreground": "#27d749"
+            }
+        },
+        {
+            "name": "Prefix head",
+            "scope": "support.function.prefix.head.mql5",
+            "settings": {
+                "foreground": "#2de752"
+            }
+        },
+        {
+            "name": "Prefix height",
+            "scope": "support.function.prefix.height.mql5",
+            "settings": {
+                "foreground": "#0bee3b"
+            }
+        },
+        {
+            "name": "Prefix hide",
+            "scope": "support.function.prefix.hide.mql5",
+            "settings": {
+                "foreground": "#03fd3b"
+            }
+        },
+        {
+            "name": "Prefix high",
+            "scope": "support.function.prefix.high.mql5",
+            "settings": {
+                "foreground": "#34df5c"
+            }
+        },
+        {
+            "name": "Prefix histogram",
+            "scope": "support.function.prefix.histogram.mql5",
+            "settings": {
+                "foreground": "#3de866"
+            }
+        },
+        {
+            "name": "Prefix history",
+            "scope": "support.function.prefix.history.mql5",
+            "settings": {
+                "foreground": "#de095d"
+            }
+        },
+        {
+            "name": "Prefix hour",
+            "scope": "support.function.prefix.hour.mql5",
+            "settings": {
+                "foreground": "#31f665"
+            }
+        },
+        {
+            "name": "Prefix hsplit",
+            "scope": "support.function.prefix.hsplit.mql5",
+            "settings": {
+                "foreground": "#1ed951"
+            }
+        },
+        {
+            "name": "Prefix i",
+            "scope": "support.function.prefix.i.mql5",
+            "settings": {
+                "foreground": "#f62878"
+            }
+        },
+        {
+            "name": "Prefix id",
+            "scope": "support.function.prefix.id.mql5",
+            "settings": {
+                "foreground": "#03f148"
+            }
+        },
+        {
+            "name": "Prefix identifier",
+            "scope": "support.function.prefix.identifier.mql5",
+            "settings": {
+                "foreground": "#06f64e"
+            }
+        },
+        {
+            "name": "Prefix identity",
+            "scope": "support.function.prefix.identity.mql5",
+            "settings": {
+                "foreground": "#1de15a"
+            }
+        },
+        {
+            "name": "Prefix ignore",
+            "scope": "support.function.prefix.ignore.mql5",
+            "settings": {
+                "foreground": "#01e34a"
+            }
+        },
+        {
+            "name": "Prefix implication",
+            "scope": "support.function.prefix.implication.mql5",
+            "settings": {
+                "foreground": "#32db6a"
+            }
+        },
+        {
+            "name": "Prefix ind",
+            "scope": "support.function.prefix.ind.mql5",
+            "settings": {
+                "foreground": "#3be274"
+            }
+        },
+        {
+            "name": "Prefix indent",
+            "scope": "support.function.prefix.indent.mql5",
+            "settings": {
+                "foreground": "#33d26b"
+            }
+        },
+        {
+            "name": "Prefix index",
+            "scope": "support.function.prefix.index.mql5",
+            "settings": {
+                "foreground": "#2bfc76"
+            }
+        },
+        {
+            "name": "Prefix indicator",
+            "scope": "support.function.prefix.indicator.mql5",
+            "settings": {
+                "foreground": "#46ef85"
+            }
+        },
+        {
+            "name": "Prefix indicators",
+            "scope": "support.function.prefix.indicators.mql5",
+            "settings": {
+                "foreground": "#2cec75"
+            }
+        },
+        {
+            "name": "Prefix info",
+            "scope": "support.function.prefix.info.mql5",
+            "settings": {
+                "foreground": "#18f96f"
+            }
+        },
+        {
+            "name": "Prefix ini",
+            "scope": "support.function.prefix.ini.mql5",
+            "settings": {
+                "foreground": "#1fee72"
+            }
+        },
+        {
+            "name": "Prefix init",
+            "scope": "support.function.prefix.init.mql5",
+            "settings": {
+                "foreground": "#3dfd8b"
+            }
+        },
+        {
+            "name": "Prefix initialize",
+            "scope": "support.function.prefix.initialize.mql5",
+            "settings": {
+                "foreground": "#f63b81"
+            }
+        },
+        {
+            "name": "Prefix inner",
+            "scope": "support.function.prefix.inner.mql5",
+            "settings": {
+                "foreground": "#0dd161"
+            }
+        },
+        {
+            "name": "Prefix input",
+            "scope": "support.function.prefix.input.mql5",
+            "settings": {
+                "foreground": "#35d37a"
+            }
+        },
+        {
+            "name": "Prefix insert",
+            "scope": "support.function.prefix.insert.mql5",
+            "settings": {
+                "foreground": "#23d372"
+            }
+        },
+        {
+            "name": "Prefix integer",
+            "scope": "support.function.prefix.integer.mql5",
+            "settings": {
+                "foreground": "#22e57c"
+            }
+        },
+        {
+            "name": "Prefix intersect",
+            "scope": "support.function.prefix.intersect.mql5",
+            "settings": {
+                "foreground": "#31e988"
+            }
+        },
+        {
+            "name": "Prefix inv",
+            "scope": "support.function.prefix.inv.mql5",
+            "settings": {
+                "foreground": "#36df87"
+            }
+        },
+        {
+            "name": "Prefix inverse",
+            "scope": "support.function.prefix.inverse.mql5",
+            "settings": {
+                "foreground": "#2ad47d"
+            }
+        },
+        {
+            "name": "Prefix invert",
+            "scope": "support.function.prefix.invert.mql5",
+            "settings": {
+                "foreground": "#31d583"
+            }
+        },
+        {
+            "name": "Prefix is",
+            "scope": "support.function.prefix.is.mql5",
+            "settings": {
+                "foreground": "#34eb91"
+            }
+        },
+        {
+            "name": "Prefix jaw",
+            "scope": "support.function.prefix.jaw.mql5",
+            "settings": {
+                "foreground": "#39fc9f"
+            }
+        },
+        {
+            "name": "Prefix kernel",
+            "scope": "support.function.prefix.kernel.mql5",
+            "settings": {
+                "foreground": "#09f586"
+            }
+        },
+        {
+            "name": "Prefix key",
+            "scope": "support.function.prefix.key.mql5",
+            "settings": {
+                "foreground": "#0cf388"
+            }
+        },
+        {
+            "name": "Prefix kijun",
+            "scope": "support.function.prefix.kijun.mql5",
+            "settings": {
+                "foreground": "#26e28d"
+            }
+        },
+        {
+            "name": "Prefix kperiod",
+            "scope": "support.function.prefix.kperiod.mql5",
+            "settings": {
+                "foreground": "#0ae987"
+            }
+        },
+        {
+            "name": "Prefix kron",
+            "scope": "support.function.prefix.kron.mql5",
+            "settings": {
+                "foreground": "#10d47f"
+            }
+        },
+        {
+            "name": "Prefix ldl",
+            "scope": "support.function.prefix.ldl.mql5",
+            "settings": {
+                "foreground": "#18d284"
+            }
+        },
+        {
+            "name": "Prefix lu",
+            "scope": "support.function.prefix.lu.mql5",
+            "settings": {
+                "foreground": "#39e9a1"
+            }
+        },
+        {
+            "name": "Prefix lup",
+            "scope": "support.function.prefix.lup.mql5",
+            "settings": {
+                "foreground": "#40d69a"
+            }
+        },
+        {
+            "name": "Prefix label",
+            "scope": "support.function.prefix.label.mql5",
+            "settings": {
+                "foreground": "#44f7b1"
+            }
+        },
+        {
+            "name": "Prefix language",
+            "scope": "support.function.prefix.language.mql5",
+            "settings": {
+                "foreground": "#3ee7a6"
+            }
+        },
+        {
+            "name": "Prefix last",
+            "scope": "support.function.prefix.last.mql5",
+            "settings": {
+                "foreground": "#d93873"
+            }
+        },
+        {
+            "name": "Prefix least",
+            "scope": "support.function.prefix.least.mql5",
+            "settings": {
+                "foreground": "#41efb0"
+            }
+        },
+        {
+            "name": "Prefix left",
+            "scope": "support.function.prefix.left.mql5",
+            "settings": {
+                "foreground": "#41f1b3"
+            }
+        },
+        {
+            "name": "Prefix legend",
+            "scope": "support.function.prefix.legend.mql5",
+            "settings": {
+                "foreground": "#30f1af"
+            }
+        },
+        {
+            "name": "Prefix len",
+            "scope": "support.function.prefix.len.mql5",
+            "settings": {
+                "foreground": "#1ce7a4"
+            }
+        },
+        {
+            "name": "Prefix level",
+            "scope": "support.function.prefix.level.mql5",
+            "settings": {
+                "foreground": "#24d79d"
+            }
+        },
+        {
+            "name": "Prefix levels",
+            "scope": "support.function.prefix.levels.mql5",
+            "settings": {
+                "foreground": "#36d3a2"
+            }
+        },
+        {
+            "name": "Prefix leverage",
+            "scope": "support.function.prefix.leverage.mql5",
+            "settings": {
+                "foreground": "#1ce4a8"
+            }
+        },
+        {
+            "name": "Prefix light",
+            "scope": "support.function.prefix.light.mql5",
+            "settings": {
+                "foreground": "#35d5a6"
+            }
+        },
+        {
+            "name": "Prefix limit",
+            "scope": "support.function.prefix.limit.mql5",
+            "settings": {
+                "foreground": "#0bda9f"
+            }
+        },
+        {
+            "name": "Prefix line",
+            "scope": "support.function.prefix.line.mql5",
+            "settings": {
+                "foreground": "#18e2ab"
+            }
+        },
+        {
+            "name": "Prefix linear",
+            "scope": "support.function.prefix.linear.mql5",
+            "settings": {
+                "foreground": "#17cd9d"
+            }
+        },
+        {
+            "name": "Prefix lines",
+            "scope": "support.function.prefix.lines.mql5",
+            "settings": {
+                "foreground": "#3ce3b9"
+            }
+        },
+        {
+            "name": "Prefix lips",
+            "scope": "support.function.prefix.lips.mql5",
+            "settings": {
+                "foreground": "#29e6b8"
+            }
+        },
+        {
+            "name": "Prefix list",
+            "scope": "support.function.prefix.list.mql5",
+            "settings": {
+                "foreground": "#37d1ad"
+            }
+        },
+        {
+            "name": "Prefix load",
+            "scope": "support.function.prefix.load.mql5",
+            "settings": {
+                "foreground": "#38face"
+            }
+        },
+        {
+            "name": "Prefix locking",
+            "scope": "support.function.prefix.locking.mql5",
+            "settings": {
+                "foreground": "#39d3b2"
+            }
+        },
+        {
+            "name": "Prefix log",
+            "scope": "support.function.prefix.log.mql5",
+            "settings": {
+                "foreground": "#29dfba"
+            }
+        },
+        {
+            "name": "Prefix login",
+            "scope": "support.function.prefix.login.mql5",
+            "settings": {
+                "foreground": "#d32563"
+            }
+        },
+        {
+            "name": "Prefix long",
+            "scope": "support.function.prefix.long.mql5",
+            "settings": {
+                "foreground": "#16ddb9"
+            }
+        },
+        {
+            "name": "Prefix loss",
+            "scope": "support.function.prefix.loss.mql5",
+            "settings": {
+                "foreground": "#37eccd"
+            }
+        },
+        {
+            "name": "Prefix lot",
+            "scope": "support.function.prefix.lot.mql5",
+            "settings": {
+                "foreground": "#15f5d0"
+            }
+        },
+        {
+            "name": "Prefix lots",
+            "scope": "support.function.prefix.lots.mql5",
+            "settings": {
+                "foreground": "#2be9cb"
+            }
+        },
+        {
+            "name": "Prefix low",
+            "scope": "support.function.prefix.low.mql5",
+            "settings": {
+                "foreground": "#0bd8bb"
+            }
+        },
+        {
+            "name": "Prefix lower",
+            "scope": "support.function.prefix.lower.mql5",
+            "settings": {
+                "foreground": "#13d8bd"
+            }
+        },
+        {
+            "name": "Prefix lst",
+            "scope": "support.function.prefix.lst.mql5",
+            "settings": {
+                "foreground": "#10f7db"
+            }
+        },
+        {
+            "name": "Prefix mql",
+            "scope": "support.function.prefix.mql.mql5",
+            "settings": {
+                "foreground": "#3fe1ce"
+            }
+        },
+        {
+            "name": "Prefix ma",
+            "scope": "support.function.prefix.ma.mql5",
+            "settings": {
+                "foreground": "#16f1da"
+            }
+        },
+        {
+            "name": "Prefix machine",
+            "scope": "support.function.prefix.machine.mql5",
+            "settings": {
+                "foreground": "#04fce4"
+            }
+        },
+        {
+            "name": "Prefix magic",
+            "scope": "support.function.prefix.magic.mql5",
+            "settings": {
+                "foreground": "#0ed8c7"
+            }
+        },
+        {
+            "name": "Prefix main",
+            "scope": "support.function.prefix.main.mql5",
+            "settings": {
+                "foreground": "#27f1e2"
+            }
+        },
+        {
+            "name": "Prefix major",
+            "scope": "support.function.prefix.major.mql5",
+            "settings": {
+                "foreground": "#04d4c7"
+            }
+        },
+        {
+            "name": "Prefix mamdani",
+            "scope": "support.function.prefix.mamdani.mql5",
+            "settings": {
+                "foreground": "#07f9ec"
+            }
+        },
+        {
+            "name": "Prefix manipulations",
+            "scope": "support.function.prefix.manipulations.mql5",
+            "settings": {
+                "foreground": "#06cfc6"
+            }
+        },
+        {
+            "name": "Prefix margin",
+            "scope": "support.function.prefix.margin.mql5",
+            "settings": {
+                "foreground": "#07ebe3"
+            }
+        },
+        {
+            "name": "Prefix market",
+            "scope": "support.function.prefix.market.mql5",
+            "settings": {
+                "foreground": "#de2162"
+            }
+        },
+        {
+            "name": "Prefix marks",
+            "scope": "support.function.prefix.marks.mql5",
+            "settings": {
+                "foreground": "#10d4d1"
+            }
+        },
+        {
+            "name": "Prefix mat",
+            "scope": "support.function.prefix.mat.mql5",
+            "settings": {
+                "foreground": "#34f8f7"
+            }
+        },
+        {
+            "name": "Prefix math",
+            "scope": "support.function.prefix.math.mql5",
+            "settings": {
+                "foreground": "#00e7e9"
+            }
+        },
+        {
+            "name": "Prefix mathematics",
+            "scope": "support.function.prefix.mathematics.mql5",
+            "settings": {
+                "foreground": "#1ff9fd"
+            }
+        },
+        {
+            "name": "Prefix max",
+            "scope": "support.function.prefix.max.mql5",
+            "settings": {
+                "foreground": "#10dadf"
+            }
+        },
+        {
+            "name": "Prefix maximize",
+            "scope": "support.function.prefix.maximize.mql5",
+            "settings": {
+                "foreground": "#37dee4"
+            }
+        },
+        {
+            "name": "Prefix maximum",
+            "scope": "support.function.prefix.maximum.mql5",
+            "settings": {
+                "foreground": "#0ed1da"
+            }
+        },
+        {
+            "name": "Prefix mean",
+            "scope": "support.function.prefix.mean.mql5",
+            "settings": {
+                "foreground": "#43e5ee"
+            }
+        },
+        {
+            "name": "Prefix median",
+            "scope": "support.function.prefix.median.mql5",
+            "settings": {
+                "foreground": "#05cbd8"
+            }
+        },
+        {
+            "name": "Prefix membership",
+            "scope": "support.function.prefix.membership.mql5",
+            "settings": {
+                "foreground": "#0bccdc"
+            }
+        },
+        {
+            "name": "Prefix memory",
+            "scope": "support.function.prefix.memory.mql5",
+            "settings": {
+                "foreground": "#1bc3d3"
+            }
+        },
+        {
+            "name": "Prefix message",
+            "scope": "support.function.prefix.message.mql5",
+            "settings": {
+                "foreground": "#24e9fe"
+            }
+        },
+        {
+            "name": "Prefix method",
+            "scope": "support.function.prefix.method.mql5",
+            "settings": {
+                "foreground": "#39c1d1"
+            }
+        },
+        {
+            "name": "Prefix mid",
+            "scope": "support.function.prefix.mid.mql5",
+            "settings": {
+                "foreground": "#45d4e7"
+            }
+        },
+        {
+            "name": "Prefix min",
+            "scope": "support.function.prefix.min.mql5",
+            "settings": {
+                "foreground": "#01bcd6"
+            }
+        },
+        {
+            "name": "Prefix minimize",
+            "scope": "support.function.prefix.minimize.mql5",
+            "settings": {
+                "foreground": "#43e1f9"
+            }
+        },
+        {
+            "name": "Prefix minimized",
+            "scope": "support.function.prefix.minimized.mql5",
+            "settings": {
+                "foreground": "#16ccea"
+            }
+        },
+        {
+            "name": "Prefix minimum",
+            "scope": "support.function.prefix.minimum.mql5",
+            "settings": {
+                "foreground": "#14d8fc"
+            }
+        },
+        {
+            "name": "Prefix minus",
+            "scope": "support.function.prefix.minus.mql5",
+            "settings": {
+                "foreground": "#15d8fe"
+            }
+        },
+        {
+            "name": "Prefix mode",
+            "scope": "support.function.prefix.mode.mql5",
+            "settings": {
+                "foreground": "#08badf"
+            }
+        },
+        {
+            "name": "Prefix modules",
+            "scope": "support.function.prefix.modules.mql5",
+            "settings": {
+                "foreground": "#1cc1e6"
+            }
+        },
+        {
+            "name": "Prefix mon",
+            "scope": "support.function.prefix.mon.mql5",
+            "settings": {
+                "foreground": "#21cbf4"
+            }
+        },
+        {
+            "name": "Prefix money",
+            "scope": "support.function.prefix.money.mql5",
+            "settings": {
+                "foreground": "#33badc"
+            }
+        },
+        {
+            "name": "Prefix month",
+            "scope": "support.function.prefix.month.mql5",
+            "settings": {
+                "foreground": "#27cdfa"
+            }
+        },
+        {
+            "name": "Prefix mouse",
+            "scope": "support.function.prefix.mouse.mql5",
+            "settings": {
+                "foreground": "#14abd6"
+            }
+        },
+        {
+            "name": "Prefix move",
+            "scope": "support.function.prefix.move.mql5",
+            "settings": {
+                "foreground": "#14c7fd"
+            }
+        },
+        {
+            "name": "Prefix name",
+            "scope": "support.function.prefix.name.mql5",
+            "settings": {
+                "foreground": "#019cce"
+            }
+        },
+        {
+            "name": "Prefix navigate",
+            "scope": "support.function.prefix.navigate.mql5",
+            "settings": {
+                "foreground": "#33bcea"
+            }
+        },
+        {
+            "name": "Prefix next",
+            "scope": "support.function.prefix.next.mql5",
+            "settings": {
+                "foreground": "#0eb4ef"
+            }
+        },
+        {
+            "name": "Prefix no",
+            "scope": "support.function.prefix.no.mql5",
+            "settings": {
+                "foreground": "#38c2f5"
+            }
+        },
+        {
+            "name": "Prefix norm",
+            "scope": "support.function.prefix.norm.mql5",
+            "settings": {
+                "foreground": "#2aa2d1"
+            }
+        },
+        {
+            "name": "Prefix normalize",
+            "scope": "support.function.prefix.normalize.mql5",
+            "settings": {
+                "foreground": "#25a9df"
+            }
+        },
+        {
+            "name": "Prefix not",
+            "scope": "support.function.prefix.not.mql5",
+            "settings": {
+                "foreground": "#05aaf1"
+            }
+        },
+        {
+            "name": "Prefix num",
+            "scope": "support.function.prefix.num.mql5",
+            "settings": {
+                "foreground": "#22a3de"
+            }
+        },
+        {
+            "name": "Prefix onnx",
+            "scope": "support.function.prefix.onnx.mql5",
+            "settings": {
+                "foreground": "#41aaea"
+            }
+        },
+        {
+            "name": "Prefix object",
+            "scope": "support.function.prefix.object.mql5",
+            "settings": {
+                "foreground": "#299fda"
+            }
+        },
+        {
+            "name": "Prefix objects",
+            "scope": "support.function.prefix.objects.mql5",
+            "settings": {
+                "foreground": "#0aa9fc"
+            }
+        },
+        {
+            "name": "Prefix offset",
+            "scope": "support.function.prefix.offset.mql5",
+            "settings": {
+                "foreground": "#27a0e2"
+            }
+        },
+        {
+            "name": "Prefix on",
+            "scope": "support.function.prefix.on.mql5",
+            "settings": {
+                "foreground": "#1d91d3"
+            }
+        },
+        {
+            "name": "Prefix ones",
+            "scope": "support.function.prefix.ones.mql5",
+            "settings": {
+                "foreground": "#3193cd"
+            }
+        },
+        {
+            "name": "Prefix op",
+            "scope": "support.function.prefix.op.mql5",
+            "settings": {
+                "foreground": "#2e93d5"
+            }
+        },
+        {
+            "name": "Prefix open",
+            "scope": "support.function.prefix.open.mql5",
+            "settings": {
+                "foreground": "#2098e9"
+            }
+        },
+        {
+            "name": "Prefix operations",
+            "scope": "support.function.prefix.operations.mql5",
+            "settings": {
+                "foreground": "#46b0fa"
+            }
+        },
+        {
+            "name": "Prefix order",
+            "scope": "support.function.prefix.order.mql5",
+            "settings": {
+                "foreground": "#ef0e5a"
+            }
+        },
+        {
+            "name": "Prefix orders",
+            "scope": "support.function.prefix.orders.mql5",
+            "settings": {
+                "foreground": "#e60c53"
+            }
+        },
+        {
+            "name": "Prefix organizing",
+            "scope": "support.function.prefix.organizing.mql5",
+            "settings": {
+                "foreground": "#2588d7"
+            }
+        },
+        {
+            "name": "Prefix oscillators",
+            "scope": "support.function.prefix.oscillators.mql5",
+            "settings": {
+                "foreground": "#0e86e9"
+            }
+        },
+        {
+            "name": "Prefix outer",
+            "scope": "support.function.prefix.outer.mql5",
+            "settings": {
+                "foreground": "#0486f5"
+            }
+        },
+        {
+            "name": "Prefix output",
+            "scope": "support.function.prefix.output.mql5",
+            "settings": {
+                "foreground": "#398bd5"
+            }
+        },
+        {
+            "name": "Prefix overlaps",
+            "scope": "support.function.prefix.overlaps.mql5",
+            "settings": {
+                "foreground": "#328cde"
+            }
+        },
+        {
+            "name": "Prefix owner",
+            "scope": "support.function.prefix.owner.mql5",
+            "settings": {
+                "foreground": "#3799f8"
+            }
+        },
+        {
+            "name": "Prefix pinv",
+            "scope": "support.function.prefix.pinv.mql5",
+            "settings": {
+                "foreground": "#3882cd"
+            }
+        },
+        {
+            "name": "Prefix plu",
+            "scope": "support.function.prefix.plu.mql5",
+            "settings": {
+                "foreground": "#1772d1"
+            }
+        },
+        {
+            "name": "Prefix panels",
+            "scope": "support.function.prefix.panels.mql5",
+            "settings": {
+                "foreground": "#1483fc"
+            }
+        },
+        {
+            "name": "Prefix param",
+            "scope": "support.function.prefix.param.mql5",
+            "settings": {
+                "foreground": "#247adc"
+            }
+        },
+        {
+            "name": "Prefix parameter",
+            "scope": "support.function.prefix.parameter.mql5",
+            "settings": {
+                "foreground": "#438fe9"
+            }
+        },
+        {
+            "name": "Prefix parent",
+            "scope": "support.function.prefix.parent.mql5",
+            "settings": {
+                "foreground": "#3289f3"
+            }
+        },
+        {
+            "name": "Prefix parse",
+            "scope": "support.function.prefix.parse.mql5",
+            "settings": {
+                "foreground": "#127afe"
+            }
+        },
+        {
+            "name": "Prefix path",
+            "scope": "support.function.prefix.path.mql5",
+            "settings": {
+                "foreground": "#2a73d5"
+            }
+        },
+        {
+            "name": "Prefix patterns",
+            "scope": "support.function.prefix.patterns.mql5",
+            "settings": {
+                "foreground": "#2d7ff1"
+            }
+        },
+        {
+            "name": "Prefix peek",
+            "scope": "support.function.prefix.peek.mql5",
+            "settings": {
+                "foreground": "#1573fa"
+            }
+        },
+        {
+            "name": "Prefix percent",
+            "scope": "support.function.prefix.percent.mql5",
+            "settings": {
+                "foreground": "#0b60df"
+            }
+        },
+        {
+            "name": "Prefix percentile",
+            "scope": "support.function.prefix.percentile.mql5",
+            "settings": {
+                "foreground": "#2768cc"
+            }
+        },
+        {
+            "name": "Prefix period",
+            "scope": "support.function.prefix.period.mql5",
+            "settings": {
+                "foreground": "#3979e1"
+            }
+        },
+        {
+            "name": "Prefix pie",
+            "scope": "support.function.prefix.pie.mql5",
+            "settings": {
+                "foreground": "#0955d6"
+            }
+        },
+        {
+            "name": "Prefix pips",
+            "scope": "support.function.prefix.pips.mql5",
+            "settings": {
+                "foreground": "#286adf"
+            }
+        },
+        {
+            "name": "Prefix pixel",
+            "scope": "support.function.prefix.pixel.mql5",
+            "settings": {
+                "foreground": "#4183fd"
+            }
+        },
+        {
+            "name": "Prefix play",
+            "scope": "support.function.prefix.play.mql5",
+            "settings": {
+                "foreground": "#1156db"
+            }
+        },
+        {
+            "name": "Prefix plot",
+            "scope": "support.function.prefix.plot.mql5",
+            "settings": {
+                "foreground": "#014ee8"
+            }
+        },
+        {
+            "name": "Prefix plus",
+            "scope": "support.function.prefix.plus.mql5",
+            "settings": {
+                "foreground": "#0f58f3"
+            }
+        },
+        {
+            "name": "Prefix point",
+            "scope": "support.function.prefix.point.mql5",
+            "settings": {
+                "foreground": "#0f4bd2"
+            }
+        },
+        {
+            "name": "Prefix points",
+            "scope": "support.function.prefix.points.mql5",
+            "settings": {
+                "foreground": "#2364fb"
+            }
+        },
+        {
+            "name": "Prefix polar",
+            "scope": "support.function.prefix.polar.mql5",
+            "settings": {
+                "foreground": "#497bf6"
+            }
+        },
+        {
+            "name": "Prefix polygon",
+            "scope": "support.function.prefix.polygon.mql5",
+            "settings": {
+                "foreground": "#1d52d9"
+            }
+        },
+        {
+            "name": "Prefix polyline",
+            "scope": "support.function.prefix.polyline.mql5",
+            "settings": {
+                "foreground": "#1b56f7"
+            }
+        },
+        {
+            "name": "Prefix pop",
+            "scope": "support.function.prefix.pop.mql5",
+            "settings": {
+                "foreground": "#003ef0"
+            }
+        },
+        {
+            "name": "Prefix position",
+            "scope": "support.function.prefix.position.mql5",
+            "settings": {
+                "foreground": "#093ed9"
+            }
+        },
+        {
+            "name": "Prefix positions",
+            "scope": "support.function.prefix.positions.mql5",
+            "settings": {
+                "foreground": "#f81c62"
+            }
+        },
+        {
+            "name": "Prefix power",
+            "scope": "support.function.prefix.power.mql5",
+            "settings": {
+                "foreground": "#1b49e3"
+            }
+        },
+        {
+            "name": "Prefix precision",
+            "scope": "support.function.prefix.precision.mql5",
+            "settings": {
+                "foreground": "#365ad7"
+            }
+        },
+        {
+            "name": "Prefix prepare",
+            "scope": "support.function.prefix.prepare.mql5",
+            "settings": {
+                "foreground": "#244bde"
+            }
+        },
+        {
+            "name": "Prefix pressed",
+            "scope": "support.function.prefix.pressed.mql5",
+            "settings": {
+                "foreground": "#103ff7"
+            }
+        },
+        {
+            "name": "Prefix prev",
+            "scope": "support.function.prefix.prev.mql5",
+            "settings": {
+                "foreground": "#3c5eeb"
+            }
+        },
+        {
+            "name": "Prefix previous",
+            "scope": "support.function.prefix.previous.mql5",
+            "settings": {
+                "foreground": "#1f47fd"
+            }
+        },
+        {
+            "name": "Prefix price",
+            "scope": "support.function.prefix.price.mql5",
+            "settings": {
+                "foreground": "#0e30d7"
+            }
+        },
+        {
+            "name": "Prefix print",
+            "scope": "support.function.prefix.print.mql5",
+            "settings": {
+                "foreground": "#1437e9"
+            }
+        },
+        {
+            "name": "Prefix processing",
+            "scope": "support.function.prefix.processing.mql5",
+            "settings": {
+                "foreground": "#1f40f6"
+            }
+        },
+        {
+            "name": "Prefix prod",
+            "scope": "support.function.prefix.prod.mql5",
+            "settings": {
+                "foreground": "#102bd2"
+            }
+        },
+        {
+            "name": "Prefix products",
+            "scope": "support.function.prefix.products.mql5",
+            "settings": {
+                "foreground": "#0626fc"
+            }
+        },
+        {
+            "name": "Prefix profit",
+            "scope": "support.function.prefix.profit.mql5",
+            "settings": {
+                "foreground": "#132ef0"
+            }
+        },
+        {
+            "name": "Prefix program",
+            "scope": "support.function.prefix.program.mql5",
+            "settings": {
+                "foreground": "#1b30d5"
+            }
+        },
+        {
+            "name": "Prefix projection",
+            "scope": "support.function.prefix.projection.mql5",
+            "settings": {
+                "foreground": "#1328e3"
+            }
+        },
+        {
+            "name": "Prefix prop",
+            "scope": "support.function.prefix.prop.mql5",
+            "settings": {
+                "foreground": "#0215d0"
+            }
+        },
+        {
+            "name": "Prefix pseudo",
+            "scope": "support.function.prefix.pseudo.mql5",
+            "settings": {
+                "foreground": "#1021e2"
+            }
+        },
+        {
+            "name": "Prefix ptp-",
+            "scope": "support.function.prefix.ptp-.mql5",
+            "settings": {
+                "foreground": "#3e4ae5"
+            }
+        },
+        {
+            "name": "Prefix push",
+            "scope": "support.function.prefix.push.mql5",
+            "settings": {
+                "foreground": "#0817f8"
+            }
+        },
+        {
+            "name": "Prefix qr",
+            "scope": "support.function.prefix.qr.mql5",
+            "settings": {
+                "foreground": "#1923dc"
+            }
+        },
+        {
+            "name": "Prefix quantile",
+            "scope": "support.function.prefix.quantile.mql5",
+            "settings": {
+                "foreground": "#2e36db"
+            }
+        },
+        {
+            "name": "Prefix random",
+            "scope": "support.function.prefix.random.mql5",
+            "settings": {
+                "foreground": "#242adc"
+            }
+        },
+        {
+            "name": "Prefix rank",
+            "scope": "support.function.prefix.rank.mql5",
+            "settings": {
+                "foreground": "#1f23d0"
+            }
+        },
+        {
+            "name": "Prefix ray",
+            "scope": "support.function.prefix.ray.mql5",
+            "settings": {
+                "foreground": "#0508d7"
+            }
+        },
+        {
+            "name": "Prefix read",
+            "scope": "support.function.prefix.read.mql5",
+            "settings": {
+                "foreground": "#0c0dcd"
+            }
+        },
+        {
+            "name": "Prefix real",
+            "scope": "support.function.prefix.real.mql5",
+            "settings": {
+                "foreground": "#2d2bec"
+            }
+        },
+        {
+            "name": "Prefix rebound",
+            "scope": "support.function.prefix.rebound.mql5",
+            "settings": {
+                "foreground": "#221ef7"
+            }
+        },
+        {
+            "name": "Prefix receiver",
+            "scope": "support.function.prefix.receiver.mql5",
+            "settings": {
+                "foreground": "#0802e3"
+            }
+        },
+        {
+            "name": "Prefix rect",
+            "scope": "support.function.prefix.rect.mql5",
+            "settings": {
+                "foreground": "#4b45fb"
+            }
+        },
+        {
+            "name": "Prefix rectangle",
+            "scope": "support.function.prefix.rectangle.mql5",
+            "settings": {
+                "foreground": "#1e14e9"
+            }
+        },
+        {
+            "name": "Prefix redraw",
+            "scope": "support.function.prefix.redraw.mql5",
+            "settings": {
+                "foreground": "#4940e3"
+            }
+        },
+        {
+            "name": "Prefix reduce",
+            "scope": "support.function.prefix.reduce.mql5",
+            "settings": {
+                "foreground": "#382ce5"
+            }
+        },
+        {
+            "name": "Prefix reflect",
+            "scope": "support.function.prefix.reflect.mql5",
+            "settings": {
+                "foreground": "#4233f8"
+            }
+        },
+        {
+            "name": "Prefix refresh",
+            "scope": "support.function.prefix.refresh.mql5",
+            "settings": {
+                "foreground": "#4536de"
+            }
+        },
+        {
+            "name": "Prefix regression",
+            "scope": "support.function.prefix.regression.mql5",
+            "settings": {
+                "foreground": "#4333dc"
+            }
+        },
+        {
+            "name": "Prefix remove",
+            "scope": "support.function.prefix.remove.mql5",
+            "settings": {
+                "foreground": "#2912ea"
+            }
+        },
+        {
+            "name": "Prefix render",
+            "scope": "support.function.prefix.render.mql5",
+            "settings": {
+                "foreground": "#1d03ea"
+            }
+        },
+        {
+            "name": "Prefix replace",
+            "scope": "support.function.prefix.replace.mql5",
+            "settings": {
+                "foreground": "#2b0ff2"
+            }
+        },
+        {
+            "name": "Prefix request",
+            "scope": "support.function.prefix.request.mql5",
+            "settings": {
+                "foreground": "#5840f0"
+            }
+        },
+        {
+            "name": "Prefix reserve",
+            "scope": "support.function.prefix.reserve.mql5",
+            "settings": {
+                "foreground": "#3215db"
+            }
+        },
+        {
+            "name": "Prefix reset",
+            "scope": "support.function.prefix.reset.mql5",
+            "settings": {
+                "foreground": "#2602e7"
+            }
+        },
+        {
+            "name": "Prefix reshape",
+            "scope": "support.function.prefix.reshape.mql5",
+            "settings": {
+                "foreground": "#5c3ef5"
+            }
+        },
+        {
+            "name": "Prefix resize",
+            "scope": "support.function.prefix.resize.mql5",
+            "settings": {
+                "foreground": "#3c14fa"
+            }
+        },
+        {
+            "name": "Prefix resource",
+            "scope": "support.function.prefix.resource.mql5",
+            "settings": {
+                "foreground": "#2d03e5"
+            }
+        },
+        {
+            "name": "Prefix result",
+            "scope": "support.function.prefix.result.mql5",
+            "settings": {
+                "foreground": "#3e15e7"
+            }
+        },
+        {
+            "name": "Prefix reverse",
+            "scope": "support.function.prefix.reverse.mql5",
+            "settings": {
+                "foreground": "#370dd8"
+            }
+        },
+        {
+            "name": "Prefix right",
+            "scope": "support.function.prefix.right.mql5",
+            "settings": {
+                "foreground": "#5c34ee"
+            }
+        },
+        {
+            "name": "Prefix root",
+            "scope": "support.function.prefix.root.mql5",
+            "settings": {
+                "foreground": "#491fdc"
+            }
+        },
+        {
+            "name": "Prefix row",
+            "scope": "support.function.prefix.row.mql5",
+            "settings": {
+                "foreground": "#5128d9"
+            }
+        },
+        {
+            "name": "Prefix rows",
+            "scope": "support.function.prefix.rows.mql5",
+            "settings": {
+                "foreground": "#5924fd"
+            }
+        },
+        {
+            "name": "Prefix rules",
+            "scope": "support.function.prefix.rules.mql5",
+            "settings": {
+                "foreground": "#5722f1"
+            }
+        },
+        {
+            "name": "Prefix run",
+            "scope": "support.function.prefix.run.mql5",
+            "settings": {
+                "foreground": "#7443fc"
+            }
+        },
+        {
+            "name": "Prefix slog",
+            "scope": "support.function.prefix.slog.mql5",
+            "settings": {
+                "foreground": "#5620e5"
+            }
+        },
+        {
+            "name": "Prefix svd",
+            "scope": "support.function.prefix.svd.mql5",
+            "settings": {
+                "foreground": "#4c16d3"
+            }
+        },
+        {
+            "name": "Prefix sar",
+            "scope": "support.function.prefix.sar.mql5",
+            "settings": {
+                "foreground": "#5314eb"
+            }
+        },
+        {
+            "name": "Prefix save",
+            "scope": "support.function.prefix.save.mql5",
+            "settings": {
+                "foreground": "#5c2ad0"
+            }
+        },
+        {
+            "name": "Prefix scale",
+            "scope": "support.function.prefix.scale.mql5",
+            "settings": {
+                "foreground": "#6b30eb"
+            }
+        },
+        {
+            "name": "Prefix scientific",
+            "scope": "support.function.prefix.scientific.mql5",
+            "settings": {
+                "foreground": "#7743e4"
+            }
+        },
+        {
+            "name": "Prefix screen",
+            "scope": "support.function.prefix.screen.mql5",
+            "settings": {
+                "foreground": "#4904d3"
+            }
+        },
+        {
+            "name": "Prefix search",
+            "scope": "support.function.prefix.search.mql5",
+            "settings": {
+                "foreground": "#7236e4"
+            }
+        },
+        {
+            "name": "Prefix sec",
+            "scope": "support.function.prefix.sec.mql5",
+            "settings": {
+                "foreground": "#6325d5"
+            }
+        },
+        {
+            "name": "Prefix seek",
+            "scope": "support.function.prefix.seek.mql5",
+            "settings": {
+                "foreground": "#7d43e2"
+            }
+        },
+        {
+            "name": "Prefix select",
+            "scope": "support.function.prefix.select.mql5",
+            "settings": {
+                "foreground": "#6d2ed8"
+            }
+        },
+        {
+            "name": "Prefix selectable",
+            "scope": "support.function.prefix.selectable.mql5",
+            "settings": {
+                "foreground": "#6821d9"
+            }
+        },
+        {
+            "name": "Prefix selected",
+            "scope": "support.function.prefix.selected.mql5",
+            "settings": {
+                "foreground": "#7c2cf7"
+            }
+        },
+        {
+            "name": "Prefix sell",
+            "scope": "support.function.prefix.sell.mql5",
+            "settings": {
+                "foreground": "#802bfc"
+            }
+        },
+        {
+            "name": "Prefix send",
+            "scope": "support.function.prefix.send.mql5",
+            "settings": {
+                "foreground": "#7f3cdd"
+            }
+        },
+        {
+            "name": "Prefix senkou",
+            "scope": "support.function.prefix.senkou.mql5",
+            "settings": {
+                "foreground": "#6507e5"
+            }
+        },
+        {
+            "name": "Prefix series",
+            "scope": "support.function.prefix.series.mql5",
+            "settings": {
+                "foreground": "#833edd"
+            }
+        },
+        {
+            "name": "Prefix server",
+            "scope": "support.function.prefix.server.mql5",
+            "settings": {
+                "foreground": "#5f07ce"
+            }
+        },
+        {
+            "name": "Prefix session",
+            "scope": "support.function.prefix.session.mql5",
+            "settings": {
+                "foreground": "#8028eb"
+            }
+        },
+        {
+            "name": "Prefix set",
+            "scope": "support.function.prefix.set.mql5",
+            "settings": {
+                "foreground": "#893edf"
+            }
+        },
+        {
+            "name": "Prefix shape",
+            "scope": "support.function.prefix.shape.mql5",
+            "settings": {
+                "foreground": "#8030d9"
+            }
+        },
+        {
+            "name": "Prefix shift",
+            "scope": "support.function.prefix.shift.mql5",
+            "settings": {
+                "foreground": "#8414fc"
+            }
+        },
+        {
+            "name": "Prefix short",
+            "scope": "support.function.prefix.short.mql5",
+            "settings": {
+                "foreground": "#9b3dfb"
+            }
+        },
+        {
+            "name": "Prefix show",
+            "scope": "support.function.prefix.show.mql5",
+            "settings": {
+                "foreground": "#8c1df9"
+            }
+        },
+        {
+            "name": "Prefix shutdown",
+            "scope": "support.function.prefix.shutdown.mql5",
+            "settings": {
+                "foreground": "#e73068"
+            }
+        },
+        {
+            "name": "Prefix sigma",
+            "scope": "support.function.prefix.sigma.mql5",
+            "settings": {
+                "foreground": "#8627dd"
+            }
+        },
+        {
+            "name": "Prefix signal",
+            "scope": "support.function.prefix.signal.mql5",
+            "settings": {
+                "foreground": "#8b19f0"
+            }
+        },
+        {
+            "name": "Prefix signals",
+            "scope": "support.function.prefix.signals.mql5",
+            "settings": {
+                "foreground": "#8021d1"
+            }
+        },
+        {
+            "name": "Prefix singular",
+            "scope": "support.function.prefix.singular.mql5",
+            "settings": {
+                "foreground": "#9a1ffe"
+            }
+        },
+        {
+            "name": "Prefix size",
+            "scope": "support.function.prefix.size.mql5",
+            "settings": {
+                "foreground": "#892ed0"
+            }
+        },
+        {
+            "name": "Prefix sleep",
+            "scope": "support.function.prefix.sleep.mql5",
+            "settings": {
+                "foreground": "#851bd5"
+            }
+        },
+        {
+            "name": "Prefix slow",
+            "scope": "support.function.prefix.slow.mql5",
+            "settings": {
+                "foreground": "#9a13fa"
+            }
+        },
+        {
+            "name": "Prefix slowing",
+            "scope": "support.function.prefix.slowing.mql5",
+            "settings": {
+                "foreground": "#9611f2"
+            }
+        },
+        {
+            "name": "Prefix socket",
+            "scope": "support.function.prefix.socket.mql5",
+            "settings": {
+                "foreground": "#aa2bfd"
+            }
+        },
+        {
+            "name": "Prefix solutions",
+            "scope": "support.function.prefix.solutions.mql5",
+            "settings": {
+                "foreground": "#952cd8"
+            }
+        },
+        {
+            "name": "Prefix solve",
+            "scope": "support.function.prefix.solve.mql5",
+            "settings": {
+                "foreground": "#8714cc"
+            }
+        },
+        {
+            "name": "Prefix sort",
+            "scope": "support.function.prefix.sort.mql5",
+            "settings": {
+                "foreground": "#9007e0"
+            }
+        },
+        {
+            "name": "Prefix spectrum",
+            "scope": "support.function.prefix.spectrum.mql5",
+            "settings": {
+                "foreground": "#ab35ed"
+            }
+        },
+        {
+            "name": "Prefix split",
+            "scope": "support.function.prefix.split.mql5",
+            "settings": {
+                "foreground": "#9b05eb"
+            }
+        },
+        {
+            "name": "Prefix spread",
+            "scope": "support.function.prefix.spread.mql5",
+            "settings": {
+                "foreground": "#991dd9"
+            }
+        },
+        {
+            "name": "Prefix start",
+            "scope": "support.function.prefix.start.mql5",
+            "settings": {
+                "foreground": "#9210d1"
+            }
+        },
+        {
+            "name": "Prefix state",
+            "scope": "support.function.prefix.state.mql5",
+            "settings": {
+                "foreground": "#b329f4"
+            }
+        },
+        {
+            "name": "Prefix statistical",
+            "scope": "support.function.prefix.statistical.mql5",
+            "settings": {
+                "foreground": "#ac0ff3"
+            }
+        },
+        {
+            "name": "Prefix statistics",
+            "scope": "support.function.prefix.statistics.mql5",
+            "settings": {
+                "foreground": "#b241e2"
+            }
+        },
+        {
+            "name": "Prefix status",
+            "scope": "support.function.prefix.status.mql5",
+            "settings": {
+                "foreground": "#ad0bf0"
+            }
+        },
+        {
+            "name": "Prefix std",
+            "scope": "support.function.prefix.std.mql5",
+            "settings": {
+                "foreground": "#b504fa"
+            }
+        },
+        {
+            "name": "Prefix step",
+            "scope": "support.function.prefix.step.mql5",
+            "settings": {
+                "foreground": "#bc17f8"
+            }
+        },
+        {
+            "name": "Prefix steps",
+            "scope": "support.function.prefix.steps.mql5",
+            "settings": {
+                "foreground": "#a908e2"
+            }
+        },
+        {
+            "name": "Prefix stop",
+            "scope": "support.function.prefix.stop.mql5",
+            "settings": {
+                "foreground": "#bc1cf1"
+            }
+        },
+        {
+            "name": "Prefix stopout",
+            "scope": "support.function.prefix.stopout.mql5",
+            "settings": {
+                "foreground": "#9d04ce"
+            }
+        },
+        {
+            "name": "Prefix stops",
+            "scope": "support.function.prefix.stops.mql5",
+            "settings": {
+                "foreground": "#ad37d0"
+            }
+        },
+        {
+            "name": "Prefix store",
+            "scope": "support.function.prefix.store.mql5",
+            "settings": {
+                "foreground": "#ad1ed5"
+            }
+        },
+        {
+            "name": "Prefix str",
+            "scope": "support.function.prefix.str.mql5",
+            "settings": {
+                "foreground": "#b93fda"
+            }
+        },
+        {
+            "name": "Prefix strategy",
+            "scope": "support.function.prefix.strategy.mql5",
+            "settings": {
+                "foreground": "#cd0afd"
+            }
+        },
+        {
+            "name": "Prefix string",
+            "scope": "support.function.prefix.string.mql5",
+            "settings": {
+                "foreground": "#b431d2"
+            }
+        },
+        {
+            "name": "Prefix strings",
+            "scope": "support.function.prefix.strings.mql5",
+            "settings": {
+                "foreground": "#b324d2"
+            }
+        },
+        {
+            "name": "Prefix struct",
+            "scope": "support.function.prefix.struct.mql5",
+            "settings": {
+                "foreground": "#c800f2"
+            }
+        },
+        {
+            "name": "Prefix style",
+            "scope": "support.function.prefix.style.mql5",
+            "settings": {
+                "foreground": "#af09ce"
+            }
+        },
+        {
+            "name": "Prefix subwin",
+            "scope": "support.function.prefix.subwin.mql5",
+            "settings": {
+                "foreground": "#cf0cf2"
+            }
+        },
+        {
+            "name": "Prefix sugeno",
+            "scope": "support.function.prefix.sugeno.mql5",
+            "settings": {
+                "foreground": "#c30de0"
+            }
+        },
+        {
+            "name": "Prefix sum",
+            "scope": "support.function.prefix.sum.mql5",
+            "settings": {
+                "foreground": "#c93ddd"
+            }
+        },
+        {
+            "name": "Prefix support",
+            "scope": "support.function.prefix.support.mql5",
+            "settings": {
+                "foreground": "#d218eb"
+            }
+        },
+        {
+            "name": "Prefix swap",
+            "scope": "support.function.prefix.swap.mql5",
+            "settings": {
+                "foreground": "#ba26cd"
+            }
+        },
+        {
+            "name": "Prefix symbol",
+            "scope": "support.function.prefix.symbol.mql5",
+            "settings": {
+                "foreground": "#f0064c"
+            }
+        },
+        {
+            "name": "Prefix symbols",
+            "scope": "support.function.prefix.symbols.mql5",
+            "settings": {
+                "foreground": "#d23965"
+            }
+        },
+        {
+            "name": "Prefix symmetric",
+            "scope": "support.function.prefix.symmetric.mql5",
+            "settings": {
+                "foreground": "#c01bcf"
+            }
+        },
+        {
+            "name": "Prefix take",
+            "scope": "support.function.prefix.take.mql5",
+            "settings": {
+                "foreground": "#d811e7"
+            }
+        },
+        {
+            "name": "Prefix teeth",
+            "scope": "support.function.prefix.teeth.mql5",
+            "settings": {
+                "foreground": "#c70ad4"
+            }
+        },
+        {
+            "name": "Prefix tell",
+            "scope": "support.function.prefix.tell.mql5",
+            "settings": {
+                "foreground": "#ee15f9"
+            }
+        },
+        {
+            "name": "Prefix tenkan",
+            "scope": "support.function.prefix.tenkan.mql5",
+            "settings": {
+                "foreground": "#da3ce0"
+            }
+        },
+        {
+            "name": "Prefix term",
+            "scope": "support.function.prefix.term.mql5",
+            "settings": {
+                "foreground": "#d600dd"
+            }
+        },
+        {
+            "name": "Prefix terminal",
+            "scope": "support.function.prefix.terminal.mql5",
+            "settings": {
+                "foreground": "#f13c6f"
+            }
+        },
+        {
+            "name": "Prefix terms",
+            "scope": "support.function.prefix.terms.mql5",
+            "settings": {
+                "foreground": "#cb33cd"
+            }
+        },
+        {
+            "name": "Prefix tester",
+            "scope": "support.function.prefix.tester.mql5",
+            "settings": {
+                "foreground": "#fb31fb"
+            }
+        },
+        {
+            "name": "Prefix text",
+            "scope": "support.function.prefix.text.mql5",
+            "settings": {
+                "foreground": "#f43df2"
+            }
+        },
+        {
+            "name": "Prefix threshold",
+            "scope": "support.function.prefix.threshold.mql5",
+            "settings": {
+                "foreground": "#de40db"
+            }
+        },
+        {
+            "name": "Prefix tick",
+            "scope": "support.function.prefix.tick.mql5",
+            "settings": {
+                "foreground": "#f53df0"
+            }
+        },
+        {
+            "name": "Prefix ticket",
+            "scope": "support.function.prefix.ticket.mql5",
+            "settings": {
+                "foreground": "#f636ef"
+            }
+        },
+        {
+            "name": "Prefix ticks",
+            "scope": "support.function.prefix.ticks.mql5",
+            "settings": {
+                "foreground": "#fd37f3"
+            }
+        },
+        {
+            "name": "Prefix time",
+            "scope": "support.function.prefix.time.mql5",
+            "settings": {
+                "foreground": "#f210e5"
+            }
+        },
+        {
+            "name": "Prefix timeframe",
+            "scope": "support.function.prefix.timeframe.mql5",
+            "settings": {
+                "foreground": "#dc2ad0"
+            }
+        },
+        {
+            "name": "Prefix timeframes",
+            "scope": "support.function.prefix.timeframes.mql5",
+            "settings": {
+                "foreground": "#d00cc1"
+            }
+        },
+        {
+            "name": "Prefix timeseries",
+            "scope": "support.function.prefix.timeseries.mql5",
+            "settings": {
+                "foreground": "#fd10e8"
+            }
+        },
+        {
+            "name": "Prefix to",
+            "scope": "support.function.prefix.to.mql5",
+            "settings": {
+                "foreground": "#cc13ba"
+            }
+        },
+        {
+            "name": "Prefix tooltip",
+            "scope": "support.function.prefix.tooltip.mql5",
+            "settings": {
+                "foreground": "#f221db"
+            }
+        },
+        {
+            "name": "Prefix top",
+            "scope": "support.function.prefix.top.mql5",
+            "settings": {
+                "foreground": "#f803db"
+            }
+        },
+        {
+            "name": "Prefix total",
+            "scope": "support.function.prefix.total.mql5",
+            "settings": {
+                "foreground": "#f322d8"
+            }
+        },
+        {
+            "name": "Prefix trace",
+            "scope": "support.function.prefix.trace.mql5",
+            "settings": {
+                "foreground": "#d808bb"
+            }
+        },
+        {
+            "name": "Prefix trade",
+            "scope": "support.function.prefix.trade.mql5",
+            "settings": {
+                "foreground": "#fc1cdb"
+            }
+        },
+        {
+            "name": "Prefix trailing",
+            "scope": "support.function.prefix.trailing.mql5",
+            "settings": {
+                "foreground": "#d613b8"
+            }
+        },
+        {
+            "name": "Prefix transformations",
+            "scope": "support.function.prefix.transformations.mql5",
+            "settings": {
+                "foreground": "#f411ce"
+            }
+        },
+        {
+            "name": "Prefix translate",
+            "scope": "support.function.prefix.translate.mql5",
+            "settings": {
+                "foreground": "#cf04ab"
+            }
+        },
+        {
+            "name": "Prefix transparent",
+            "scope": "support.function.prefix.transparent.mql5",
+            "settings": {
+                "foreground": "#ee1ac7"
+            }
+        },
+        {
+            "name": "Prefix transposepy",
+            "scope": "support.function.prefix.transposepy.mql5",
+            "settings": {
+                "foreground": "#e038bf"
+            }
+        },
+        {
+            "name": "Prefix trend",
+            "scope": "support.function.prefix.trend.mql5",
+            "settings": {
+                "foreground": "#f125c7"
+            }
+        },
+        {
+            "name": "Prefix tri",
+            "scope": "support.function.prefix.tri.mql5",
+            "settings": {
+                "foreground": "#ed11bd"
+            }
+        },
+        {
+            "name": "Prefix triangle",
+            "scope": "support.function.prefix.triangle.mql5",
+            "settings": {
+                "foreground": "#d711aa"
+            }
+        },
+        {
+            "name": "Prefix trim",
+            "scope": "support.function.prefix.trim.mql5",
+            "settings": {
+                "foreground": "#f234c5"
+            }
+        },
+        {
+            "name": "Prefix try",
+            "scope": "support.function.prefix.try.mql5",
+            "settings": {
+                "foreground": "#e723b6"
+            }
+        },
+        {
+            "name": "Prefix type",
+            "scope": "support.function.prefix.type.mql5",
+            "settings": {
+                "foreground": "#fd33c9"
+            }
+        },
+        {
+            "name": "Prefix uninitialize",
+            "scope": "support.function.prefix.uninitialize.mql5",
+            "settings": {
+                "foreground": "#d40b9f"
+            }
+        },
+        {
+            "name": "Prefix union",
+            "scope": "support.function.prefix.union.mql5",
+            "settings": {
+                "foreground": "#f305b2"
+            }
+        },
+        {
+            "name": "Prefix update",
+            "scope": "support.function.prefix.update.mql5",
+            "settings": {
+                "foreground": "#fb25be"
+            }
+        },
+        {
+            "name": "Prefix upper",
+            "scope": "support.function.prefix.upper.mql5",
+            "settings": {
+                "foreground": "#d6159d"
+            }
+        },
+        {
+            "name": "Prefix used",
+            "scope": "support.function.prefix.used.mql5",
+            "settings": {
+                "foreground": "#d12f9f"
+            }
+        },
+        {
+            "name": "Prefix v",
+            "scope": "support.function.prefix.v.mql5",
+            "settings": {
+                "foreground": "#d92ea3"
+            }
+        },
+        {
+            "name": "Prefix validation",
+            "scope": "support.function.prefix.validation.mql5",
+            "settings": {
+                "foreground": "#cc3b9d"
+            }
+        },
+        {
+            "name": "Prefix value",
+            "scope": "support.function.prefix.value.mql5",
+            "settings": {
+                "foreground": "#db1b9a"
+            }
+        },
+        {
+            "name": "Prefix values",
+            "scope": "support.function.prefix.values.mql5",
+            "settings": {
+                "foreground": "#ea2da8"
+            }
+        },
+        {
+            "name": "Prefix var",
+            "scope": "support.function.prefix.var.mql5",
+            "settings": {
+                "foreground": "#fe19ad"
+            }
+        },
+        {
+            "name": "Prefix view",
+            "scope": "support.function.prefix.view.mql5",
+            "settings": {
+                "foreground": "#d71e93"
+            }
+        },
+        {
+            "name": "Prefix visible",
+            "scope": "support.function.prefix.visible.mql5",
+            "settings": {
+                "foreground": "#ee179d"
+            }
+        },
+        {
+            "name": "Prefix volume",
+            "scope": "support.function.prefix.volume.mql5",
+            "settings": {
+                "foreground": "#e30c90"
+            }
+        },
+        {
+            "name": "Prefix vsplit",
+            "scope": "support.function.prefix.vsplit.mql5",
+            "settings": {
+                "foreground": "#dd3299"
+            }
+        },
+        {
+            "name": "Prefix wait",
+            "scope": "support.function.prefix.wait.mql5",
+            "settings": {
+                "foreground": "#d63996"
+            }
+        },
+        {
+            "name": "Prefix web",
+            "scope": "support.function.prefix.web.mql5",
+            "settings": {
+                "foreground": "#ce2889"
+            }
+        },
+        {
+            "name": "Prefix weight",
+            "scope": "support.function.prefix.weight.mql5",
+            "settings": {
+                "foreground": "#f5068f"
+            }
+        },
+        {
+            "name": "Prefix width",
+            "scope": "support.function.prefix.width.mql5",
+            "settings": {
+                "foreground": "#fe0291"
+            }
+        },
+        {
+            "name": "Prefix window",
+            "scope": "support.function.prefix.window.mql5",
+            "settings": {
+                "foreground": "#ec0786"
+            }
+        },
+        {
+            "name": "Prefix windows",
+            "scope": "support.function.prefix.windows.mql5",
+            "settings": {
+                "foreground": "#e03c96"
+            }
+        },
+        {
+            "name": "Prefix write",
+            "scope": "support.function.prefix.write.mql5",
+            "settings": {
+                "foreground": "#db3d92"
+            }
+        },
+        {
+            "name": "Prefix x",
+            "scope": "support.function.prefix.x.mql5",
+            "settings": {
+                "foreground": "#fe2095"
+            }
+        },
+        {
+            "name": "Prefix x1",
+            "scope": "support.function.prefix.x1.mql5",
+            "settings": {
+                "foreground": "#d80c75"
+            }
+        },
+        {
+            "name": "Prefix x2",
+            "scope": "support.function.prefix.x2.mql5",
+            "settings": {
+                "foreground": "#e92588"
+            }
+        },
+        {
+            "name": "Prefix x3",
+            "scope": "support.function.prefix.x3.mql5",
+            "settings": {
+                "foreground": "#d71d79"
+            }
+        },
+        {
+            "name": "Prefix x4",
+            "scope": "support.function.prefix.x4.mql5",
+            "settings": {
+                "foreground": "#e73d90"
+            }
+        },
+        {
+            "name": "Prefix y",
+            "scope": "support.function.prefix.y.mql5",
+            "settings": {
+                "foreground": "#d10968"
+            }
+        },
+        {
+            "name": "Prefix year",
+            "scope": "support.function.prefix.year.mql5",
+            "settings": {
+                "foreground": "#cf2e79"
+            }
+        },
+        {
+            "name": "Prefix z",
+            "scope": "support.function.prefix.z.mql5",
+            "settings": {
+                "foreground": "#ce3a7e"
+            }
+        },
+        {
+            "name": "Prefix zero",
+            "scope": "support.function.prefix.zero.mql5",
+            "settings": {
+                "foreground": "#db2a79"
+            }
+        },
+        {
+            "name": "Prefix zeros",
+            "scope": "support.function.prefix.zeros.mql5",
+            "settings": {
+                "foreground": "#ef1675"
+            }
+        },
+        {
+            "name": "Prefix -",
+            "scope": "support.function.prefix.-.mql5",
+            "settings": {
+                "foreground": "#e64489"
+            }
+        },
+        {
+            "name": "Prefix version",
+            "scope": "support.function.prefix.version.mql5",
+            "settings": {
+                "foreground": "#ce2f5a"
+            }
+        },
+        {
+            "name": "Fallback A",
+            "scope": "support.function.fallback.a.mql5",
+            "settings": {
+                "foreground": "#cd2e57"
+            }
+        },
+        {
+            "name": "Fallback B",
+            "scope": "support.function.fallback.b.mql5",
+            "settings": {
+                "foreground": "#d42752"
+            }
+        },
+        {
+            "name": "Fallback C",
+            "scope": "support.function.fallback.c.mql5",
+            "settings": {
+                "foreground": "#f34871"
+            }
+        },
+        {
+            "name": "Fallback D",
+            "scope": "support.function.fallback.d.mql5",
+            "settings": {
+                "foreground": "#d92d54"
+            }
+        },
+        {
+            "name": "Fallback E",
+            "scope": "support.function.fallback.e.mql5",
+            "settings": {
+                "foreground": "#e74467"
+            }
+        },
+        {
+            "name": "Fallback F",
+            "scope": "support.function.fallback.f.mql5",
+            "settings": {
+                "foreground": "#f8355e"
+            }
+        },
+        {
+            "name": "Fallback G",
+            "scope": "support.function.fallback.g.mql5",
+            "settings": {
+                "foreground": "#d10f35"
+            }
+        },
+        {
+            "name": "Fallback H",
+            "scope": "support.function.fallback.h.mql5",
+            "settings": {
+                "foreground": "#ce0228"
+            }
+        },
+        {
+            "name": "Fallback I",
+            "scope": "support.function.fallback.i.mql5",
+            "settings": {
+                "foreground": "#f1002b"
+            }
+        },
+        {
+            "name": "Fallback J",
+            "scope": "support.function.fallback.j.mql5",
+            "settings": {
+                "foreground": "#d00628"
+            }
+        },
+        {
+            "name": "Fallback K",
+            "scope": "support.function.fallback.k.mql5",
+            "settings": {
+                "foreground": "#ec1638"
+            }
+        },
+        {
+            "name": "Fallback L",
+            "scope": "support.function.fallback.l.mql5",
+            "settings": {
+                "foreground": "#e63953"
+            }
+        },
+        {
+            "name": "Fallback M",
+            "scope": "support.function.fallback.m.mql5",
+            "settings": {
+                "foreground": "#e2243f"
+            }
+        },
+        {
+            "name": "Fallback N",
+            "scope": "support.function.fallback.n.mql5",
+            "settings": {
+                "foreground": "#e1374d"
+            }
+        },
+        {
+            "name": "Fallback O",
+            "scope": "support.function.fallback.o.mql5",
+            "settings": {
+                "foreground": "#ed1d35"
+            }
+        },
+        {
+            "name": "Fallback P",
+            "scope": "support.function.fallback.p.mql5",
+            "settings": {
+                "foreground": "#d42a3c"
+            }
+        },
+        {
+            "name": "Fallback Q",
+            "scope": "support.function.fallback.q.mql5",
+            "settings": {
+                "foreground": "#d22133"
+            }
+        },
+        {
+            "name": "Fallback R",
+            "scope": "support.function.fallback.r.mql5",
+            "settings": {
+                "foreground": "#d43a48"
+            }
+        },
+        {
+            "name": "Fallback S",
+            "scope": "support.function.fallback.s.mql5",
+            "settings": {
+                "foreground": "#e71324"
+            }
+        },
+        {
+            "name": "Fallback T",
+            "scope": "support.function.fallback.t.mql5",
+            "settings": {
+                "foreground": "#ed0d1d"
+            }
+        },
+        {
+            "name": "Fallback U",
+            "scope": "support.function.fallback.u.mql5",
+            "settings": {
+                "foreground": "#e13c46"
+            }
+        },
+        {
+            "name": "Fallback V",
+            "scope": "support.function.fallback.v.mql5",
+            "settings": {
+                "foreground": "#e01822"
+            }
+        },
+        {
+            "name": "Fallback W",
+            "scope": "support.function.fallback.w.mql5",
+            "settings": {
+                "foreground": "#f5484e"
+            }
+        },
+        {
+            "name": "Fallback X",
+            "scope": "support.function.fallback.x.mql5",
+            "settings": {
+                "foreground": "#d8141a"
+            }
+        },
+        {
+            "name": "Fallback Y",
+            "scope": "support.function.fallback.y.mql5",
+            "settings": {
+                "foreground": "#ed161a"
+            }
+        },
+        {
+            "name": "Fallback Z",
+            "scope": "support.function.fallback.z.mql5",
+            "settings": {
+                "foreground": "#e33638"
+            }
         }
     ],
     "semanticTokenColors": {}
