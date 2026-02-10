@@ -26,3 +26,5 @@ mql5_cleaned.md
 .warning/
 syntax_List/
 syntax/
+mql5_syntaxes.md
+package-lock.json

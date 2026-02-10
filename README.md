@@ -13,9 +13,6 @@ Provide professional MQL5 (MetaQuotes Language 5) development support in Visual 
 - **Syntax Highlighting**: Comprehensive syntax highlighting for `.mq5` and `.mqh` files.
 - **Enhanced Scoping**: Includes support for over **500+ specific MQL5 syntax groups**, each with distinct scopes based on prefixes (e.g., `Order...`, `Chart...`, `Math...`) allowing for granular theme customization.
 - **Fallback Highlighting**: Intelligent fallback highlighting for identifiers starting with A-Z, ensuring every valid MQL5 token is colored even if not explicitly defined in a sub-group.
-- **Refined Themes**: 
-  - **MQL5 Syntax (Dark)**: High-contrast, vibrant colors optimized for dark environments.
-  - **MQL5 Syntax (Light)**: Balanced, readable colors optimized for light environments.
 
 > **Note**: These are **Syntax-Only** color schemes. They do not change your workbench colors (sidebar, status bar, etc.), allowing you to keep your preferred UI aesthetics.
 
