@@ -29,3 +29,6 @@ syntax/
 mql5_syntaxes.md
 package-lock.json
 example.md
+example.mq5
+refactor_grammar.py
+update_grammar.py
