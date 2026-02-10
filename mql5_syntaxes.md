@@ -1,4 +1,3 @@
-<group>
 OBJ_VLINE
 OBJ_HLINE
 OBJ_TREND
@@ -16,9 +15,6 @@ OBJ_FIBO
 OBJ_FIBOTIMES
 OBJ_FIBOFAN
 OBJ_FIBOARC
-</group>
-
-<group>
 OBJ_FIBOCHANNEL
 OBJ_EXPANSION
 OBJ_ELLIOTWAVE5
@@ -46,9 +42,6 @@ OBJ_BITMAP_LABEL
 OBJ_EDIT
 OBJ_EVENT
 OBJ_RECTANGLE_LABEL
-</group>
-
-<group>
 _AppliedTo
 _Digits
 _Point
@@ -59,9 +52,6 @@ _StopFlag
 _Sy mbol
 _UninitReason
 _IsX 64
-</group>
-
-<group>
 Alert
 CheckPointer
 Comment
@@ -94,9 +84,6 @@ TesterDeposit
 TesterWithdraw
 TranslateKey
 ZeroMemory
-</group>
-
-<group>
 GetTickCount
 GetTickCount64
 GetMicrosecondCount
@@ -121,9 +108,6 @@ TesterDeposit
 TesterWithdraw
 TranslateKey
 ZeroMemory
-</group>
-
-<group>
 ArrayBsearch
 ArrayCopy
 ArrayCompare
@@ -149,9 +133,6 @@ ArrayToFP16
 ArrayToFP8
 ArrayFromFP16
 ArrayFromFP8
-</group>
-
-<group>
 Assign
 CopyIndicatorBuffer
 CopyRates
@@ -166,9 +147,6 @@ Tri
 Init
 Fill
 Random
-</group>
-
-<group>
 CopyTicksRange
 Eye
 Identity
@@ -179,9 +157,6 @@ Tri
 Init
 Fill
 Random
-</group>
-
-<group>
 Manipulations
 HasNan
 Transpose
@@ -209,9 +184,6 @@ Vsplit
 ArgSort
 Sort
 Operations
-</group>
-
-<group>
 Products
 MatMul
 GeMM
@@ -231,9 +203,6 @@ EigVals
 LU
 LUP
 QR
-</group>
-
-<group>
 SVD
 Features
 Rows
@@ -268,9 +237,6 @@ Average
 Std
 Var
 LinearRegression
-</group>
-
-<group>
 Machinelearning
 Activation
 Derivative
@@ -283,9 +249,6 @@ ClassificationMetric
 ClassificationScore
 PrecisionRecall
 ReceiverOperatingCharacteristic
-</group>
-
-<group>
 SingularValueDecompositionDC
 SingularValueDecompositionQR
 SingularValueDecompositionQRPivot
@@ -295,9 +258,6 @@ SingularValueDecompositionJacobiLow
 SingularValueDecompositionBidiagDC
 SingularValueDecompositionBidiagBisect
 SingularValueDecompositionBidiagQR
-</group>
-
-<group>
 EigenSolver
 EigenSolverX
 EigenSolverSchur
@@ -325,9 +285,6 @@ EigenTridiagonalQL
 EigenTridiagonalDCQ
 EigenTridiagonalQRQ
 EigenTridiagonalPosDefQ
-</group>
-
-<group>
 LinearEquationsSolution
 LinearEquationsSolutionTriangular
 InverseTriangular
@@ -351,9 +308,6 @@ FactorizationQL
 FactorizationRQ
 FactorizationPLU
 FactorizationPLUQ
-</group>
-
-<group>
 FactorizationPLUGeTrid
 FactorizationLDL
 FactorizationLDLComplexSy
@@ -381,9 +335,6 @@ CholeskyCondNumReciprocal
 Pseudo Inverse
 Polar Decomposition
 Dynamic Mode Decomposition
-</group>
-
-<group>
 SingularSpectrumAnalysisSpectrum
 SingularSpectrumAnalysisForecast
 SingularSpectrumAnalysisReconstructComponents
@@ -394,9 +345,6 @@ ReduceSymmetricToTridiagonal
 ReflectTridiagonalToQ
 DynamicModeDecomposition
 DynamicModeDecompositionQR
-</group>
-
-<group>
 CharToString
 CharArray ToString
 CharArray ToStruc t
@@ -417,9 +365,6 @@ StringToInteger
 StringToShortArray
 StringToTime
 StringFormat
-</group>
-
-<group>
 MathAbs
 MathArccos
 MathArccin
@@ -452,9 +397,6 @@ MathCosh
 MathSinh
 MathTanh
 MathSwap
-</group>
-
-<group>
 StringAdd
 StringBufferLen
 StringCompare
@@ -474,9 +416,6 @@ StringToLow er
 StringToUpper
 StringTrimLeft
 StringTrimRight
-</group>
-
-<group>
 TimeCurrent
 TimeTradeServer
 TimeLocal
@@ -485,15 +424,9 @@ TimeDaylightSavings
 TimeGMTOffset
 TimeToStruct
 StructToTime
-</group>
-
-<group>
 AccountInfoDouble
 AccountInfoInteger
 AccountInfoString
-</group>
-
-<group>
 GetLastError
 IsStopped
 UninitializeReason
@@ -506,9 +439,6 @@ Symbol
 Period
 Digits
 Point
-</group>
-
-<group>
 OnStart
 OnInit
 OnDeinit
@@ -523,9 +453,6 @@ OnTester
 OnTesterInit
 OnTesterDeinit
 OnTesterPass
-</group>
-
-<group>
 SymbolsTotal
 SymbolExist
 SymbolName
@@ -541,9 +468,6 @@ SymbolInfoSessionTrade
 MarketBookAdd
 MarketBookRelease
 MarketBookGet
-</group>
-
-<group>
 CalendarCountryById
 CalendarEventById
 CalendarV alueById
@@ -554,9 +478,6 @@ CalendarValueHistoryByEvent
 CalendarValueHistory
 CalendarValueLastByEvent
 CalendarValueLast
-</group>
-
-<group>
 OrganizingDataAccess
 SeriesInfoInteger
 Bars
@@ -590,9 +511,6 @@ iTickVolume
 iRealVolume
 iVolume
 iSpread
-</group>
-
-<group>
 CustomSymbolCreate
 CustomSymbolDelete
 CustomSymbolSetInteger
@@ -603,17 +521,11 @@ CustomSymbolSetSessionQuote
 CustomSymbolSetSessionTrade
 CustomRatesDelete
 CustomRatesReplace
-</group>
-
-<group>
 CustomRatesUpdate
 CustomTicksAdd
 CustomTicksDelete
 CustomTicksReplace
 CustomBookAdd
-</group>
-
-<group>
 ChartApplyTemplate
 ChartSaveTemplate
 ChartWindowFind
@@ -646,9 +558,6 @@ ChartXOnDropped
 ChartYOnDropped
 ChartSetSymbolPeriod
 ChartScreenShot
-</group>
-
-<group>
 OrderCalcMargin
 OrderCalcProfit
 OrderCheck
@@ -668,9 +577,6 @@ OrderSelect
 OrderGetDouble
 OrderGetInteger
 OrderGetString
-</group>
-
-<group>
 HistorySelect
 HistorySelectByPosition
 HistoryOrderSelect
@@ -685,9 +591,6 @@ HistoryDealGetTicket
 HistoryDealGetDouble
 HistoryDealGetInteger
 HistoryDealGetString
-</group>
-
-<group>
 SignalBaseGetDouble
 SignalBaseGetInteger
 SignalBaseGetString
@@ -700,9 +603,6 @@ SignalInfoSetDouble
 SignalInfoSetInteger
 SignalSubscribe
 SignalUnSubscribe
-</group>
-
-<group>
 SocketCreate
 SocketClose
 SocketConnect
@@ -721,9 +621,6 @@ WebRequest
 SendFTP
 SendMail
 SendNotification
-</group>
-
-<group>
 GlobalVariableCheck
 GlobalVariableTime
 GlobalVariableDel
@@ -734,9 +631,6 @@ GlobalVariablesFlush
 GlobalVariableTemp
 GlobalVariableSetOnCondition
 GlobalVariablesDeleteAll
-</group>
-
-<group>
 FileSelectDialog
 FileFindFirst
 FileFindNext
@@ -777,9 +671,6 @@ FileSave
 FolderCreate
 FolderDelete
 FolderClean
-</group>
-
-<group>
 DRAW_NONE
 DRAW_LINE
 DRAW_SECTION
@@ -794,16 +685,10 @@ DRAW_COLOR_LINE
 DRAW_COLOR_SECTION
 DRAW_COLOR_HISTOGRAM
 DRAW_COLOR_HISTOGRAM2
-</group>
-
-<group>
 DRAW_COLOR_ARROW
 DRAW_COLOR_ZIGZAG
 DRAW_COLOR_BARS
 DRAW_COLOR_CANDLES
-</group>
-
-<group>
 SetIndexBuffer
 IndicatorSetDouble
 IndicatorSetInteger
@@ -812,9 +697,6 @@ PlotIndexSetDouble
 PlotIndexSetInteger
 PlotIndexSetString
 PlotIndexGetInteger
-</group>
-
-<group>
 ObjectCreate
 ObjectName
 ObjectDelete
@@ -833,9 +715,6 @@ ObjectGetString
 TextSetFont
 TextOut
 TextGetSize
-</group>
-
-<group>
 iAC
 iAD
 iADX
@@ -861,9 +740,6 @@ iIc himoku
 iBW MFI
 iMomentum
 iMFI
-</group>
-
-<group>
 iMA
 iOsMA
 iMACD
@@ -878,9 +754,6 @@ iTriX
 iWPR
 iVIDyA
 iVolumes
-</group>
-
-<group>
 FrameFirst
 FrameFilter
 FrameNext
@@ -888,16 +761,10 @@ FrameInputs
 FrameAdd
 ParameterGetRange
 ParameterSetRange
-</group>
-
-<group>
 EventSetMillisecondTimer
 EventSetTimer
 EventKillTimer
 EventChartCustom
-</group>
-
-<group>
 CLHandleType
 CLGetInfoInteger
 CLGetInfoString
@@ -917,9 +784,6 @@ CLBufferW rite
 CLBufferRead
 CLExecute
 CLExecutionStatus
-</group>
-
-<group>
 DatabaseOpen
 DatabaseClose
 DatabaseImport
@@ -929,9 +793,6 @@ DatabaseTableExists
 DatabaseExecute
 DatabasePrepare
 DatabaseReset
-</group>
-
-<group>
 DatabaseBind
 DatabaseBindArray
 DatabaseRead
@@ -949,9 +810,6 @@ DatabaseColumnInteger
 DatabaseColumnLong
 DatabaseColumnDouble
 DatabaseColumnBlob
-</group>
-
-<group>
 DXContextCreate
 DXContextSetSize
 DXContextGetSize
@@ -974,9 +832,6 @@ DXBufferSet
 DXShaderSet
 DXHandleType
 DXRelease
-</group>
-
-<group>
 initialize
 login
 shutdown
@@ -994,9 +849,6 @@ market_book_get
 market_book_release
 copy_rates_from
 copy_rates_from_pos
-</group>
-
-<group>
 copy_rates_range
 copy_ticks_from
 copy_ticks_range
@@ -1012,9 +864,6 @@ history_orders_total
 history_orders_get
 history_deals_total
 history_deals_get
-</group>
-
-<group>
 ONNXSupport
 FormatConversion
 OnnxCreate
@@ -1030,9 +879,6 @@ OnnxGetOutputTypeInfo
 OnnxSetInputShape
 OnnxSetOutputShape
 Datastructures
-</group>
-
-<group>
 Mathematics
 Statistics
 StatisticalCharacteristics
@@ -1234,9 +1080,6 @@ MathCorrelationKendall
 MathQuantile
 MathProbabilityDensityEmpirical
 MathCumulativeDistributionEmpirical
-</group>
-
-<group>
 CConstantMembershipFunction
 GetValue
 CCompositeMembershipFunction
