@@ -1,34 +1,29 @@
-.venv/
+# Editor/System
 .vscode/
+.vscodeignore
 .git/
-Python/
-Dump/
+.gitignore
+
+# Dependencies
+node_modules/
+.venv/
+
+# Build artifacts
 *.vsix
-build-themes.js
-syntax-colors.json
-syntax.md
-syntax copy.mq5
-install_theme.ps1
-example.mq5
-more.md
-mores.md
-moress.md
+
+# Documentation
+prefixes.md
+
+# Scripts
+update_mql5_extension.py
+fix_package_json.py
+*.py
+# Tests
+test.mq5
+
+# Misc
+.nevermind/
+
 220BOFx_v5.mq5
-mql5_capslock_syntax.md
-mql5.md
-mql5.pdf
-WARNING.md
-add.md
-extracted_inp.md
-mql5 copy.md
-mql5 copy 2.md
-mql5_cleaned.md
-.warning/
-syntax_List/
-syntax/
-mql5_syntaxes.md
-package-lock.json
-example.md
-example.mq5
-refactor_grammar.py
-update_grammar.py
+
+Python/

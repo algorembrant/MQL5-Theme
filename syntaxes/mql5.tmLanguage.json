@@ -1,7 +1,28 @@
 {
     "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
     "name": "MQL5",
+    "scopeName": "source.mql5",
     "patterns": [
+        {
+            "match": "^\\s*(#define|#import|#include|#property|#resource)\\b",
+            "name": "keyword.control.directive.mql5"
+        },
+        {
+            "match": "\\b(bool|char|color|datetime|double|float|group|int|long|short|string|uchar|uint|ulong|ushort|void)\\b",
+            "name": "storage.type.mql5"
+        },
+        {
+            "match": "\\b(break|case|continue|default|do|else|for|goto|if|return|switch|while)\\b",
+            "name": "keyword.control.mql5"
+        },
+        {
+            "match": "\\b(class|const|enum|extern|input|override|private|protected|public|static|struct|virtual)\\b",
+            "name": "storage.modifier.mql5"
+        },
+        {
+            "match": "\\b[A-Z]+(?:_[A-Z]+)+\\b",
+            "name": "constant.other.caps-underscore.mql5"
+        },
         {
             "begin": "//",
             "end": "$",
@@ -28,76 +49,12 @@
             "name": "constant.numeric.mql5"
         },
         {
-            "match": "\\bhistory_orders_total[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.history_orders_total.mql5"
-        },
-        {
-            "match": "\\bmarket_book_release[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.market_book_release.mql5"
-        },
-        {
-            "match": "\\bcopy_rates_from_pos[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.copy_rates_from_pos.mql5"
-        },
-        {
-            "match": "\\bhistory_deals_total[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.history_deals_total.mql5"
-        },
-        {
-            "match": "\\bhistory_orders_get[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.history_orders_get.mql5"
-        },
-        {
-            "match": "\\border_calc_margin[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.order_calc_margin.mql5"
-        },
-        {
-            "match": "\\border_calc_profit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.order_calc_profit.mql5"
-        },
-        {
-            "match": "\\bhistory_deals_get[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.history_deals_get.mql5"
-        },
-        {
-            "match": "\\bsymbol_info_tick[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.symbol_info_tick.mql5"
-        },
-        {
-            "match": "\\bcopy_rates_range[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.copy_rates_range.mql5"
-        },
-        {
-            "match": "\\bcopy_ticks_range[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.copy_ticks_range.mql5"
+            "match": "\\bDefuzzification[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Defuzzification.mql5"
         },
         {
             "match": "\\bTransformations[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Transformations.mql5"
-        },
-        {
-            "match": "\\bmarket_book_add[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.market_book_add.mql5"
-        },
-        {
-            "match": "\\bmarket_book_get[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.market_book_get.mql5"
-        },
-        {
-            "match": "\\bcopy_rates_from[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.copy_rates_from.mql5"
-        },
-        {
-            "match": "\\bcopy_ticks_from[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.copy_ticks_from.mql5"
-        },
-        {
-            "match": "\\bpositions_total[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.positions_total.mql5"
-        },
-        {
-            "match": "\\bDefuzzification[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Defuzzification.mql5"
         },
         {
             "match": "\\bClassification[A-Za-z0-9_]*\\b",
@@ -108,140 +65,68 @@
             "name": "support.function.prefix.Datastructures.mql5"
         },
         {
-            "match": "\\bManipulations[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Manipulations.mql5"
-        },
-        {
             "match": "\\bFactorization[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Factorization.mql5"
         },
         {
-            "match": "\\bterminal_info[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.terminal_info.mql5"
-        },
-        {
-            "match": "\\bsymbols_total[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.symbols_total.mql5"
-        },
-        {
-            "match": "\\bsymbol_select[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.symbol_select.mql5"
-        },
-        {
-            "match": "\\bpositions_get[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.positions_get.mql5"
-        },
-        {
-            "match": "\\bUninitialize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Uninitialize.mql5"
-        },
-        {
-            "match": "\\baccount_info[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.account_info.mql5"
-        },
-        {
-            "match": "\\borders_total[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.orders_total.mql5"
+            "match": "\\bManipulations[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Manipulations.mql5"
         },
         {
             "match": "\\bAccumulative[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Accumulative.mql5"
         },
         {
-            "match": "\\bTransposepy[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Transposepy.mql5"
-        },
-        {
-            "match": "\\bsymbols_get[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.symbols_get.mql5"
-        },
-        {
-            "match": "\\bsymbol_info[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.symbol_info.mql5"
-        },
-        {
-            "match": "\\border_check[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.order_check.mql5"
-        },
-        {
-            "match": "\\bMathematics[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Mathematics.mql5"
-        },
-        {
-            "match": "\\bStatistical[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Statistical.mql5"
-        },
-        {
-            "match": "\\bComposition[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Composition.mql5"
+            "match": "\\bUninitialize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Uninitialize.mql5"
         },
         {
             "match": "\\bAggregation[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Aggregation.mql5"
         },
         {
-            "match": "\\bImplication[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Implication.mql5"
+            "match": "\\bComposition[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Composition.mql5"
         },
         {
             "match": "\\bDescription[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Description.mql5"
         },
         {
-            "match": "\\bTransparent[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Transparent.mql5"
+            "match": "\\bImplication[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Implication.mql5"
+        },
+        {
+            "match": "\\bMathematics[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Mathematics.mql5"
         },
         {
             "match": "\\bOscillators[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Oscillators.mql5"
         },
         {
-            "match": "\\bOperations[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Operations.mql5"
+            "match": "\\bStatistical[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Statistical.mql5"
         },
         {
-            "match": "\\bPercentile[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Percentile.mql5"
+            "match": "\\bTransparent[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Transparent.mql5"
+        },
+        {
+            "match": "\\bTransposepy[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Transposepy.mql5"
         },
         {
             "match": "\\bActivation[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Activation.mql5"
         },
         {
-            "match": "\\bDerivative[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Derivative.mql5"
+            "match": "\\bBackground[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Background.mql5"
         },
         {
-            "match": "\\bRegression[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Regression.mql5"
-        },
-        {
-            "match": "\\bOrganizing[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Organizing.mql5"
-        },
-        {
-            "match": "\\binitialize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.initialize.mql5"
-        },
-        {
-            "match": "\\blast_error[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.last_error.mql5"
-        },
-        {
-            "match": "\\borders_get[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.orders_get.mql5"
-        },
-        {
-            "match": "\\border_send[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.order_send.mql5"
-        },
-        {
-            "match": "\\bStatistics[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Statistics.mql5"
-        },
-        {
-            "match": "\\bMembership[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Membership.mql5"
+            "match": "\\bCommission[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Commission.mql5"
         },
         {
             "match": "\\bConclusion[A-Za-z0-9_]*\\b",
@@ -252,216 +137,316 @@
             "name": "support.function.prefix.Conditions.mql5"
         },
         {
-            "match": "\\bInitialize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Initialize.mql5"
+            "match": "\\bDeactivate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Deactivate.mql5"
         },
         {
-            "match": "\\bBackground[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Background.mql5"
-        },
-        {
-            "match": "\\bSelectable[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Selectable.mql5"
-        },
-        {
-            "match": "\\bTimeframes[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Timeframes.mql5"
-        },
-        {
-            "match": "\\bDeviations[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Deviations.mql5"
-        },
-        {
-            "match": "\\bX_Distance[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.X_Distance.mql5"
-        },
-        {
-            "match": "\\bY_Distance[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Y_Distance.mql5"
+            "match": "\\bDerivative[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Derivative.mql5"
         },
         {
             "match": "\\bDescriptor[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Descriptor.mql5"
         },
         {
-            "match": "\\bProjection[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Projection.mql5"
-        },
-        {
-            "match": "\\bForeground[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Foreground.mql5"
-        },
-        {
-            "match": "\\bIndicators[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Indicators.mql5"
-        },
-        {
-            "match": "\\bTimeseries[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Timeseries.mql5"
-        },
-        {
-            "match": "\\bIdentifier[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Identifier.mql5"
-        },
-        {
-            "match": "\\bCommission[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Commission.mql5"
-        },
-        {
-            "match": "\\bValidation[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Validation.mql5"
-        },
-        {
-            "match": "\\bProcessing[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Processing.mql5"
+            "match": "\\bDeviations[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Deviations.mql5"
         },
         {
             "match": "\\bExpiration[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Expiration.mql5"
         },
         {
-            "match": "\\bDeactivate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Deactivate.mql5"
+            "match": "\\bForeground[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Foreground.mql5"
         },
         {
-            "match": "\\bTranslate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Translate.mql5"
+            "match": "\\bIdentifier[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Identifier.mql5"
         },
         {
-            "match": "\\bCorrelate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Correlate.mql5"
+            "match": "\\bIndicators[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Indicators.mql5"
         },
         {
-            "match": "\\bSolutions[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Solutions.mql5"
+            "match": "\\binitialize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.initialize.mql5"
         },
         {
-            "match": "\\bConfusion[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Confusion.mql5"
+            "match": "\\bInitialize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Initialize.mql5"
         },
         {
-            "match": "\\bPrecision[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Precision.mql5"
+            "match": "\\bMembership[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Membership.mql5"
         },
         {
-            "match": "\\bCholeskyL[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.CholeskyL.mql5"
+            "match": "\\bOperations[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Operations.mql5"
         },
         {
-            "match": "\\bNormalize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Normalize.mql5"
+            "match": "\\bOrganizing[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Organizing.mql5"
         },
         {
-            "match": "\\bIndicator[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Indicator.mql5"
+            "match": "\\bPercentile[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Percentile.mql5"
         },
         {
-            "match": "\\bPositions[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Positions.mql5"
+            "match": "\\bProcessing[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Processing.mql5"
         },
         {
-            "match": "\\bParameter[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Parameter.mql5"
+            "match": "\\bProjection[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Projection.mql5"
         },
         {
-            "match": "\\bCondition[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Condition.mql5"
+            "match": "\\bRegression[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Regression.mql5"
         },
         {
-            "match": "\\bFunctions[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Functions.mql5"
+            "match": "\\bScientific[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Scientific.mql5"
         },
         {
-            "match": "\\bCalculate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Calculate.mql5"
+            "match": "\\bSelectable[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Selectable.mql5"
         },
         {
-            "match": "\\bAvailable[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Available.mql5"
+            "match": "\\bStatistics[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Statistics.mql5"
         },
         {
-            "match": "\\bIntersect[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Intersect.mql5"
+            "match": "\\bTimeframes[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Timeframes.mql5"
         },
         {
-            "match": "\\bSymmetric[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Symmetric.mql5"
+            "match": "\\bTimeseries[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Timeseries.mql5"
         },
         {
-            "match": "\\bFibonacci[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Fibonacci.mql5"
-        },
-        {
-            "match": "\\bDowntrend[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Downtrend.mql5"
-        },
-        {
-            "match": "\\bRectangle[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Rectangle.mql5"
-        },
-        {
-            "match": "\\bHistogram[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Histogram.mql5"
-        },
-        {
-            "match": "\\bTimeframe[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Timeframe.mql5"
-        },
-        {
-            "match": "\\bDeviation[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Deviation.mql5"
-        },
-        {
-            "match": "\\bCommision[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Commision.mql5"
-        },
-        {
-            "match": "\\bThreshold[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Threshold.mql5"
-        },
-        {
-            "match": "\\bDirection[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Direction.mql5"
+            "match": "\\bValidation[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Validation.mql5"
         },
         {
             "match": "\\bAlignment[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Alignment.mql5"
         },
         {
+            "match": "\\bAvailable[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Available.mql5"
+        },
+        {
+            "match": "\\bCalculate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Calculate.mql5"
+        },
+        {
+            "match": "\\bCholeskyL[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.CholeskyL.mql5"
+        },
+        {
+            "match": "\\bCommision[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Commision.mql5"
+        },
+        {
+            "match": "\\bCondition[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Condition.mql5"
+        },
+        {
+            "match": "\\bConfusion[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Confusion.mql5"
+        },
+        {
+            "match": "\\bCorrelate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Correlate.mql5"
+        },
+        {
+            "match": "\\bDeviation[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Deviation.mql5"
+        },
+        {
+            "match": "\\bDirection[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Direction.mql5"
+        },
+        {
+            "match": "\\bDowntrend[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Downtrend.mql5"
+        },
+        {
+            "match": "\\bFibonacci[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Fibonacci.mql5"
+        },
+        {
+            "match": "\\bFunctions[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Functions.mql5"
+        },
+        {
+            "match": "\\bHistogram[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Histogram.mql5"
+        },
+        {
+            "match": "\\bIndicator[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Indicator.mql5"
+        },
+        {
+            "match": "\\bIntersect[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Intersect.mql5"
+        },
+        {
             "match": "\\bMinimized[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Minimized.mql5"
         },
         {
-            "match": "\\bResource[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Resource.mql5"
+            "match": "\\bNormalize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Normalize.mql5"
         },
         {
-            "match": "\\bTerminal[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Terminal.mql5"
+            "match": "\\bParameter[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Parameter.mql5"
         },
         {
-            "match": "\\bIdentity[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Identity.mql5"
+            "match": "\\bPositions[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Positions.mql5"
         },
         {
-            "match": "\\bProducts[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Products.mql5"
+            "match": "\\bPrecision[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Precision.mql5"
         },
         {
-            "match": "\\bConvolve[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Convolve.mql5"
+            "match": "\\bRectangle[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Rectangle.mql5"
+        },
+        {
+            "match": "\\bSolutions[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Solutions.mql5"
+        },
+        {
+            "match": "\\bSymmetric[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Symmetric.mql5"
+        },
+        {
+            "match": "\\bThreshold[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Threshold.mql5"
+        },
+        {
+            "match": "\\bTimeframe[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Timeframe.mql5"
+        },
+        {
+            "match": "\\bTranslate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Translate.mql5"
+        },
+        {
+            "match": "\\bActivate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Activate.mql5"
+        },
+        {
+            "match": "\\bCalendar[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Calendar.mql5"
+        },
+        {
+            "match": "\\bCapacity[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Capacity.mql5"
         },
         {
             "match": "\\bCholesky[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Cholesky.mql5"
         },
         {
+            "match": "\\bComparer[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Comparer.mql5"
+        },
+        {
+            "match": "\\bContains[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Contains.mql5"
+        },
+        {
+            "match": "\\bContract[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Contract.mql5"
+        },
+        {
+            "match": "\\bControls[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Controls.mql5"
+        },
+        {
+            "match": "\\bConvolve[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Convolve.mql5"
+        },
+        {
+            "match": "\\bCurrency[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Currency.mql5"
+        },
+        {
+            "match": "\\bDatabase[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Database.mql5"
+        },
+        {
+            "match": "\\bDecrease[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Decrease.mql5"
+        },
+        {
+            "match": "\\bExchange[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Exchange.mql5"
+        },
+        {
             "match": "\\bFeatures[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Features.mql5"
         },
         {
-            "match": "\\bSpectrum[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Spectrum.mql5"
+            "match": "\\bFilename[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Filename.mql5"
+        },
+        {
+            "match": "\\bGradient[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Gradient.mql5"
+        },
+        {
+            "match": "\\bIdentity[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Identity.mql5"
+        },
+        {
+            "match": "\\bLanguage[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Language.mql5"
+        },
+        {
+            "match": "\\bLeverage[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Leverage.mql5"
+        },
+        {
+            "match": "\\bMaximize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Maximize.mql5"
+        },
+        {
+            "match": "\\bMinimize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Minimize.mql5"
+        },
+        {
+            "match": "\\bNavigate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Navigate.mql5"
+        },
+        {
+            "match": "\\bOverlaps[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Overlaps.mql5"
+        },
+        {
+            "match": "\\bPatterns[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Patterns.mql5"
+        },
+        {
+            "match": "\\bPolyline[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Polyline.mql5"
+        },
+        {
+            "match": "\\bPosition[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Position.mql5"
+        },
+        {
+            "match": "\\bPrevious[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Previous.mql5"
+        },
+        {
+            "match": "\\bProducts[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Products.mql5"
         },
         {
             "match": "\\bQuantile[A-Za-z0-9_]*\\b",
@@ -472,280 +457,48 @@
             "name": "support.function.prefix.Receiver.mql5"
         },
         {
-            "match": "\\bSingular[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Singular.mql5"
-        },
-        {
-            "match": "\\bCalendar[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Calendar.mql5"
-        },
-        {
-            "match": "\\bPosition[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Position.mql5"
-        },
-        {
-            "match": "\\bDatabase[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Database.mql5"
-        },
-        {
-            "match": "\\bshutdown[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.shutdown.mql5"
-        },
-        {
-            "match": "\\bShutdown[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Shutdown.mql5"
-        },
-        {
-            "match": "\\bExchange[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Exchange.mql5"
-        },
-        {
-            "match": "\\bContains[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Contains.mql5"
-        },
-        {
-            "match": "\\bOverlaps[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Overlaps.mql5"
-        },
-        {
-            "match": "\\bCapacity[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Capacity.mql5"
-        },
-        {
-            "match": "\\bPrevious[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Previous.mql5"
-        },
-        {
-            "match": "\\bComparer[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Comparer.mql5"
-        },
-        {
-            "match": "\\bFilename[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Filename.mql5"
+            "match": "\\bResource[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Resource.mql5"
         },
         {
             "match": "\\bSelected[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Selected.mql5"
         },
         {
-            "match": "\\bX_Offset[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.X_Offset.mql5"
+            "match": "\\bShutdown[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Shutdown.mql5"
         },
         {
-            "match": "\\bY_Offset[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Y_Offset.mql5"
+            "match": "\\bshutdown[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.shutdown.mql5"
         },
         {
-            "match": "\\bPolyline[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Polyline.mql5"
+            "match": "\\bSingular[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Singular.mql5"
         },
         {
-            "match": "\\bTriangle[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Triangle.mql5"
-        },
-        {
-            "match": "\\bGradient[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Gradient.mql5"
-        },
-        {
-            "match": "\\bNavigate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Navigate.mql5"
-        },
-        {
-            "match": "\\bLeverage[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Leverage.mql5"
-        },
-        {
-            "match": "\\bCurrency[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Currency.mql5"
-        },
-        {
-            "match": "\\bContract[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Contract.mql5"
-        },
-        {
-            "match": "\\bLanguage[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Language.mql5"
+            "match": "\\bSpectrum[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Spectrum.mql5"
         },
         {
             "match": "\\bStrategy[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Strategy.mql5"
         },
         {
+            "match": "\\bTerminal[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Terminal.mql5"
+        },
+        {
             "match": "\\bTrailing[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Trailing.mql5"
         },
         {
-            "match": "\\bPatterns[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Patterns.mql5"
-        },
-        {
-            "match": "\\bDecrease[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Decrease.mql5"
-        },
-        {
-            "match": "\\bControls[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Controls.mql5"
-        },
-        {
-            "match": "\\bActivate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Activate.mql5"
-        },
-        {
-            "match": "\\bMinimize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Minimize.mql5"
-        },
-        {
-            "match": "\\bMaximize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Maximize.mql5"
-        },
-        {
-            "match": "\\bMessage[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Message.mql5"
-        },
-        {
-            "match": "\\bCompare[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Compare.mql5"
-        },
-        {
-            "match": "\\bReshape[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Reshape.mql5"
-        },
-        {
-            "match": "\\bAverage[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Average.mql5"
-        },
-        {
-            "match": "\\bMachine[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Machine.mql5"
-        },
-        {
-            "match": "\\bInverse[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Inverse.mql5"
-        },
-        {
-            "match": "\\bDynamic[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Dynamic.mql5"
-        },
-        {
-            "match": "\\bReflect[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Reflect.mql5"
-        },
-        {
-            "match": "\\bInteger[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Integer.mql5"
+            "match": "\\bTriangle[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Triangle.mql5"
         },
         {
             "match": "\\bAccount[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Account.mql5"
-        },
-        {
-            "match": "\\bSymbols[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Symbols.mql5"
-        },
-        {
-            "match": "\\bHistory[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.History.mql5"
-        },
-        {
-            "match": "\\bObjects[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Objects.mql5"
-        },
-        {
-            "match": "\\bversion[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.version.mql5"
-        },
-        {
-            "match": "\\bMamdani[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Mamdani.mql5"
-        },
-        {
-            "match": "\\bExecute[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Execute.mql5"
-        },
-        {
-            "match": "\\bSupport[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Support.mql5"
-        },
-        {
-            "match": "\\bReserve[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Reserve.mql5"
-        },
-        {
-            "match": "\\bMinimum[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Minimum.mql5"
-        },
-        {
-            "match": "\\bMaximum[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Maximum.mql5"
-        },
-        {
-            "match": "\\bBalance[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Balance.mql5"
-        },
-        {
-            "match": "\\bRefresh[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Refresh.mql5"
-        },
-        {
-            "match": "\\bGeneric[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Generic.mql5"
-        },
-        {
-            "match": "\\bReverse[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Reverse.mql5"
-        },
-        {
-            "match": "\\bEnqueue[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Enqueue.mql5"
-        },
-        {
-            "match": "\\bDequeue[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Dequeue.mql5"
-        },
-        {
-            "match": "\\bStrings[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Strings.mql5"
-        },
-        {
-            "match": "\\bReplace[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Replace.mql5"
-        },
-        {
-            "match": "\\bGraphic[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Graphic.mql5"
-        },
-        {
-            "match": "\\bTooltip[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Tooltip.mql5"
-        },
-        {
-            "match": "\\bZ_Order[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Z_Order.mql5"
-        },
-        {
-            "match": "\\bChannel[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Channel.mql5"
-        },
-        {
-            "match": "\\bEllipse[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ellipse.mql5"
-        },
-        {
-            "match": "\\bElliott[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Elliott.mql5"
-        },
-        {
-            "match": "\\bControl[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Control.mql5"
-        },
-        {
-            "match": "\\bDestroy[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Destroy.mql5"
-        },
-        {
-            "match": "\\bPolygon[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Polygon.mql5"
         },
         {
             "match": "\\bAllowed[A-Za-z0-9_]*\\b",
@@ -756,36 +509,212 @@
             "name": "support.function.prefix.Ambient.mql5"
         },
         {
-            "match": "\\bVisible[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Visible.mql5"
+            "match": "\\bApplied[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Applied.mql5"
         },
         {
-            "match": "\\bWindows[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Windows.mql5"
+            "match": "\\bAverage[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Average.mql5"
         },
         {
-            "match": "\\bDefault[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Default.mql5"
+            "match": "\\bBalance[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Balance.mql5"
         },
         {
             "match": "\\bBuffers[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Buffers.mql5"
         },
         {
-            "match": "\\bApplied[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Applied.mql5"
+            "match": "\\bCaption[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Caption.mql5"
+        },
+        {
+            "match": "\\bChannel[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Channel.mql5"
+        },
+        {
+            "match": "\\bChecked[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Checked.mql5"
         },
         {
             "match": "\\bChinkou[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Chinkou.mql5"
         },
         {
-            "match": "\\bKperiod[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Kperiod.mql5"
+            "match": "\\bComment[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Comment.mql5"
+        },
+        {
+            "match": "\\bCompany[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Company.mql5"
+        },
+        {
+            "match": "\\bCompare[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Compare.mql5"
+        },
+        {
+            "match": "\\bControl[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Control.mql5"
+        },
+        {
+            "match": "\\bDefault[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Default.mql5"
+        },
+        {
+            "match": "\\bDequeue[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Dequeue.mql5"
+        },
+        {
+            "match": "\\bDestroy[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Destroy.mql5"
+        },
+        {
+            "match": "\\bDisable[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Disable.mql5"
         },
         {
             "match": "\\bDperiod[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Dperiod.mql5"
+        },
+        {
+            "match": "\\bDynamic[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Dynamic.mql5"
+        },
+        {
+            "match": "\\bElliott[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Elliott.mql5"
+        },
+        {
+            "match": "\\bEllipse[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ellipse.mql5"
+        },
+        {
+            "match": "\\bEnqueue[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Enqueue.mql5"
+        },
+        {
+            "match": "\\bExecute[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Execute.mql5"
+        },
+        {
+            "match": "\\bGeneral[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.General.mql5"
+        },
+        {
+            "match": "\\bGeneric[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Generic.mql5"
+        },
+        {
+            "match": "\\bGraphic[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Graphic.mql5"
+        },
+        {
+            "match": "\\bHistory[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.History.mql5"
+        },
+        {
+            "match": "\\bInteger[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Integer.mql5"
+        },
+        {
+            "match": "\\bInverse[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Inverse.mql5"
+        },
+        {
+            "match": "\\bKperiod[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Kperiod.mql5"
+        },
+        {
+            "match": "\\bLocking[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Locking.mql5"
+        },
+        {
+            "match": "\\bMachine[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Machine.mql5"
+        },
+        {
+            "match": "\\bMamdani[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Mamdani.mql5"
+        },
+        {
+            "match": "\\bMaximum[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Maximum.mql5"
+        },
+        {
+            "match": "\\bMessage[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Message.mql5"
+        },
+        {
+            "match": "\\bMinimum[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Minimum.mql5"
+        },
+        {
+            "match": "\\bModules[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Modules.mql5"
+        },
+        {
+            "match": "\\bObjects[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Objects.mql5"
+        },
+        {
+            "match": "\\bPercent[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Percent.mql5"
+        },
+        {
+            "match": "\\bPolygon[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Polygon.mql5"
+        },
+        {
+            "match": "\\bPrepare[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Prepare.mql5"
+        },
+        {
+            "match": "\\bPressed[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Pressed.mql5"
+        },
+        {
+            "match": "\\bProgram[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Program.mql5"
+        },
+        {
+            "match": "\\bRebound[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Rebound.mql5"
+        },
+        {
+            "match": "\\bReflect[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Reflect.mql5"
+        },
+        {
+            "match": "\\bRefresh[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Refresh.mql5"
+        },
+        {
+            "match": "\\bReplace[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Replace.mql5"
+        },
+        {
+            "match": "\\bRequest[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Request.mql5"
+        },
+        {
+            "match": "\\bReserve[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Reserve.mql5"
+        },
+        {
+            "match": "\\bReshape[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Reshape.mql5"
+        },
+        {
+            "match": "\\bReverse[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Reverse.mql5"
+        },
+        {
+            "match": "\\bSession[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Session.mql5"
+        },
+        {
+            "match": "\\bSignals[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Signals.mql5"
         },
         {
             "match": "\\bSlowing[A-Za-z0-9_]*\\b",
@@ -796,156 +725,320 @@
             "name": "support.function.prefix.Stopout.mql5"
         },
         {
-            "match": "\\bCompany[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Company.mql5"
+            "match": "\\bStrings[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Strings.mql5"
         },
         {
-            "match": "\\bSession[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Session.mql5"
+            "match": "\\bSupport[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Support.mql5"
         },
         {
-            "match": "\\bComment[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Comment.mql5"
+            "match": "\\bTooltip[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Tooltip.mql5"
         },
         {
-            "match": "\\bRequest[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Request.mql5"
+            "match": "\\bversion[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.version.mql5"
         },
         {
-            "match": "\\bPrepare[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Prepare.mql5"
+            "match": "\\bVisible[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Visible.mql5"
         },
         {
-            "match": "\\bGeneral[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.General.mql5"
+            "match": "\\bWindows[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Windows.mql5"
         },
         {
-            "match": "\\bPercent[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Percent.mql5"
+            "match": "\\bAnchor[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Anchor.mql5"
         },
         {
-            "match": "\\bSignals[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Signals.mql5"
+            "match": "\\bAppend[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Append.mql5"
         },
         {
-            "match": "\\bModules[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Modules.mql5"
-        },
-        {
-            "match": "\\bDisable[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Disable.mql5"
-        },
-        {
-            "match": "\\bPressed[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Pressed.mql5"
-        },
-        {
-            "match": "\\bLocking[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Locking.mql5"
-        },
-        {
-            "match": "\\bRebound[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Rebound.mql5"
-        },
-        {
-            "match": "\\bChecked[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Checked.mql5"
-        },
-        {
-            "match": "\\bCaption[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Caption.mql5"
-        },
-        {
-            "match": "\\bProgram[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Program.mql5"
-        },
-        {
-            "match": "\\bExpert[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Expert.mql5"
-        },
-        {
-            "match": "\\bTester[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Tester.mql5"
-        },
-        {
-            "match": "\\bPeriod[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Period.mql5"
+            "match": "\\bArrows[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Arrows.mql5"
         },
         {
             "match": "\\bAssign[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Assign.mql5"
         },
         {
-            "match": "\\bRandom[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Random.mql5"
+            "match": "\\bAttach[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Attach.mql5"
+        },
+        {
+            "match": "\\bBinary[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Binary.mql5"
+        },
+        {
+            "match": "\\bBorder[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Border.mql5"
+        },
+        {
+            "match": "\\bBottom[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Bottom.mql5"
+        },
+        {
+            "match": "\\bBuffer[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Buffer.mql5"
+        },
+        {
+            "match": "\\bCircle[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Circle.mql5"
+        },
+        {
+            "match": "\\bClient[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Client.mql5"
+        },
+        {
+            "match": "\\bCommon[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Common.mql5"
         },
         {
             "match": "\\bConcat[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Concat.mql5"
         },
         {
-            "match": "\\bResize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Resize.mql5"
+            "match": "\\bCorner[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Corner.mql5"
         },
         {
-            "match": "\\bHsplit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Hsplit.mql5"
+            "match": "\\bCreate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Create.mql5"
         },
         {
-            "match": "\\bVsplit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Vsplit.mql5"
+            "match": "\\bCredit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Credit.mql5"
         },
         {
-            "match": "\\bMedian[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Median.mql5"
-        },
-        {
-            "match": "\\bLinear[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Linear.mql5"
-        },
-        {
-            "match": "\\bPseudo[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Pseudo.mql5"
-        },
-        {
-            "match": "\\bReduce[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Reduce.mql5"
-        },
-        {
-            "match": "\\bDouble[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Double.mql5"
-        },
-        {
-            "match": "\\bString[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.String.mql5"
-        },
-        {
-            "match": "\\bStruct[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Struct.mql5"
-        },
-        {
-            "match": "\\bSymbol[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Symbol.mql5"
-        },
-        {
-            "match": "\\bDigits[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Digits.mql5"
-        },
-        {
-            "match": "\\bMarket[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Market.mql5"
-        },
-        {
-            "match": "\\bSeries[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Series.mql5"
+            "match": "\\bCurves[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Curves.mql5"
         },
         {
             "match": "\\bCustom[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Custom.mql5"
         },
         {
+            "match": "\\bDegree[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Degree.mql5"
+        },
+        {
+            "match": "\\bDeinit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Deinit.mql5"
+        },
+        {
+            "match": "\\bDelete[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Delete.mql5"
+        },
+        {
+            "match": "\\bDetach[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Detach.mql5"
+        },
+        {
+            "match": "\\bDigits[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Digits.mql5"
+        },
+        {
+            "match": "\\bDouble[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Double.mql5"
+        },
+        {
+            "match": "\\bEnable[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Enable.mql5"
+        },
+        {
+            "match": "\\bEquals[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Equals.mql5"
+        },
+        {
+            "match": "\\bEquity[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Equity.mql5"
+        },
+        {
+            "match": "\\bExcept[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Except.mql5"
+        },
+        {
+            "match": "\\bExpert[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Expert.mql5"
+        },
+        {
+            "match": "\\bFilled[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Filled.mql5"
+        },
+        {
+            "match": "\\bFolder[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Folder.mql5"
+        },
+        {
+            "match": "\\bFormat[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Format.mql5"
+        },
+        {
+            "match": "\\bFreeze[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Freeze.mql5"
+        },
+        {
+            "match": "\\bGlobal[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Global.mql5"
+        },
+        {
+            "match": "\\bHandle[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Handle.mql5"
+        },
+        {
+            "match": "\\bHeight[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Height.mql5"
+        },
+        {
+            "match": "\\bHsplit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Hsplit.mql5"
+        },
+        {
+            "match": "\\bIgnore[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ignore.mql5"
+        },
+        {
+            "match": "\\bIndent[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Indent.mql5"
+        },
+        {
+            "match": "\\bInsert[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Insert.mql5"
+        },
+        {
+            "match": "\\bInvert[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Invert.mql5"
+        },
+        {
+            "match": "\\bKernel[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Kernel.mql5"
+        },
+        {
+            "match": "\\bLegend[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Legend.mql5"
+        },
+        {
+            "match": "\\bLevels[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Levels.mql5"
+        },
+        {
+            "match": "\\bLinear[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Linear.mql5"
+        },
+        {
+            "match": "\\bMargin[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Margin.mql5"
+        },
+        {
+            "match": "\\bMarket[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Market.mql5"
+        },
+        {
+            "match": "\\bMedian[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Median.mql5"
+        },
+        {
+            "match": "\\bMemory[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Memory.mql5"
+        },
+        {
+            "match": "\\bMethod[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Method.mql5"
+        },
+        {
+            "match": "\\bObject[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Object.mql5"
+        },
+        {
+            "match": "\\bOffset[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Offset.mql5"
+        },
+        {
             "match": "\\bOrders[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Orders.mql5"
+        },
+        {
+            "match": "\\bOutput[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Output.mql5"
+        },
+        {
+            "match": "\\bPanels[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Panels.mql5"
+        },
+        {
+            "match": "\\bParent[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Parent.mql5"
+        },
+        {
+            "match": "\\bPeriod[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Period.mql5"
+        },
+        {
+            "match": "\\bPoints[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Points.mql5"
+        },
+        {
+            "match": "\\bProfit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Profit.mql5"
+        },
+        {
+            "match": "\\bPseudo[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Pseudo.mql5"
+        },
+        {
+            "match": "\\bRandom[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Random.mql5"
+        },
+        {
+            "match": "\\bRedraw[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Redraw.mql5"
+        },
+        {
+            "match": "\\bReduce[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Reduce.mql5"
+        },
+        {
+            "match": "\\bRemove[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Remove.mql5"
+        },
+        {
+            "match": "\\bRender[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Render.mql5"
+        },
+        {
+            "match": "\\bResize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Resize.mql5"
+        },
+        {
+            "match": "\\bResult[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Result.mql5"
+        },
+        {
+            "match": "\\bScreen[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Screen.mql5"
+        },
+        {
+            "match": "\\bSearch[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Search.mql5"
+        },
+        {
+            "match": "\\bSelect[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Select.mql5"
+        },
+        {
+            "match": "\\bSenkou[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Senkou.mql5"
+        },
+        {
+            "match": "\\bSeries[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Series.mql5"
+        },
+        {
+            "match": "\\bServer[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Server.mql5"
         },
         {
             "match": "\\bSignal[A-Za-z0-9_]*\\b",
@@ -956,652 +1049,276 @@
             "name": "support.function.prefix.Socket.mql5"
         },
         {
-            "match": "\\bGlobal[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Global.mql5"
-        },
-        {
-            "match": "\\bFolder[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Folder.mql5"
-        },
-        {
-            "match": "\\bObject[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Object.mql5"
-        },
-        {
-            "match": "\\bFormat[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Format.mql5"
-        },
-        {
-            "match": "\\bWeight[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Weight.mql5"
-        },
-        {
-            "match": "\\bCreate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Create.mql5"
-        },
-        {
-            "match": "\\bValues[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Values.mql5"
-        },
-        {
-            "match": "\\bOutput[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Output.mql5"
-        },
-        {
-            "match": "\\bSugeno[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sugeno.mql5"
-        },
-        {
-            "match": "\\bBuffer[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Buffer.mql5"
-        },
-        {
-            "match": "\\bKernel[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Kernel.mql5"
-        },
-        {
-            "match": "\\bInsert[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Insert.mql5"
-        },
-        {
-            "match": "\\bUpdate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Update.mql5"
-        },
-        {
-            "match": "\\bDelete[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Delete.mql5"
-        },
-        {
-            "match": "\\bSearch[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Search.mql5"
-        },
-        {
-            "match": "\\bDetach[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Detach.mql5"
-        },
-        {
-            "match": "\\bEquals[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Equals.mql5"
-        },
-        {
-            "match": "\\bRemove[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Remove.mql5"
-        },
-        {
-            "match": "\\bParent[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Parent.mql5"
-        },
-        {
-            "match": "\\bExcept[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Except.mql5"
-        },
-        {
-            "match": "\\bBinary[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Binary.mql5"
-        },
-        {
-            "match": "\\bHandle[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Handle.mql5"
-        },
-        {
-            "match": "\\bAppend[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Append.mql5"
-        },
-        {
-            "match": "\\bWindow[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Window.mql5"
-        },
-        {
-            "match": "\\bAttach[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Attach.mql5"
-        },
-        {
-            "match": "\\bLevels[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Levels.mql5"
-        },
-        {
-            "match": "\\bDegree[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Degree.mql5"
-        },
-        {
-            "match": "\\bArrows[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Arrows.mql5"
-        },
-        {
-            "match": "\\bAnchor[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Anchor.mql5"
-        },
-        {
-            "match": "\\bX_Size[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.X_Size.mql5"
-        },
-        {
-            "match": "\\bY_Size[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Y_Size.mql5"
-        },
-        {
-            "match": "\\bBorder[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Border.mql5"
-        },
-        {
-            "match": "\\bCorner[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Corner.mql5"
-        },
-        {
-            "match": "\\bCircle[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Circle.mql5"
-        },
-        {
-            "match": "\\bHeight[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Height.mql5"
-        },
-        {
-            "match": "\\bLegend[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Legend.mql5"
-        },
-        {
-            "match": "\\bRedraw[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Redraw.mql5"
-        },
-        {
-            "match": "\\bFilled[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Filled.mql5"
-        },
-        {
-            "match": "\\bRender[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Render.mql5"
-        },
-        {
-            "match": "\\bPoints[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Points.mql5"
-        },
-        {
-            "match": "\\bScreen[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Screen.mql5"
-        },
-        {
-            "match": "\\bSelect[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Select.mql5"
-        },
-        {
-            "match": "\\bCurves[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Curves.mql5"
-        },
-        {
-            "match": "\\bIndent[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Indent.mql5"
-        },
-        {
-            "match": "\\bOffset[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Offset.mql5"
+            "match": "\\bSpread[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Spread.mql5"
         },
         {
             "match": "\\bStatus[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Status.mql5"
         },
         {
-            "match": "\\bMethod[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Method.mql5"
+            "match": "\\bString[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.String.mql5"
         },
         {
-            "match": "\\bVolume[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Volume.mql5"
-        },
-        {
-            "match": "\\bTenkan[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Tenkan.mql5"
-        },
-        {
-            "match": "\\bSenkou[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Senkou.mql5"
-        },
-        {
-            "match": "\\bMargin[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Margin.mql5"
-        },
-        {
-            "match": "\\bCredit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Credit.mql5"
-        },
-        {
-            "match": "\\bProfit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Profit.mql5"
-        },
-        {
-            "match": "\\bEquity[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Equity.mql5"
-        },
-        {
-            "match": "\\bServer[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Server.mql5"
-        },
-        {
-            "match": "\\bSpread[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Spread.mql5"
-        },
-        {
-            "match": "\\bFreeze[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Freeze.mql5"
-        },
-        {
-            "match": "\\bTicket[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ticket.mql5"
-        },
-        {
-            "match": "\\bResult[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Result.mql5"
-        },
-        {
-            "match": "\\bMemory[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Memory.mql5"
-        },
-        {
-            "match": "\\bCommon[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Common.mql5"
-        },
-        {
-            "match": "\\bDeinit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Deinit.mql5"
-        },
-        {
-            "match": "\\bIgnore[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ignore.mql5"
-        },
-        {
-            "match": "\\bInvert[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Invert.mql5"
-        },
-        {
-            "match": "\\bPanels[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Panels.mql5"
-        },
-        {
-            "match": "\\bBottom[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Bottom.mql5"
-        },
-        {
-            "match": "\\bEnable[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Enable.mql5"
-        },
-        {
-            "match": "\\bClient[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Client.mql5"
+            "match": "\\bStruct[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Struct.mql5"
         },
         {
             "match": "\\bSubwin[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Subwin.mql5"
         },
         {
-            "match": "\\bCrypt[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Crypt.mql5"
+            "match": "\\bSugeno[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sugeno.mql5"
+        },
+        {
+            "match": "\\bSymbol[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Symbol.mql5"
+        },
+        {
+            "match": "\\bTenkan[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Tenkan.mql5"
+        },
+        {
+            "match": "\\bTester[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Tester.mql5"
+        },
+        {
+            "match": "\\bTicket[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ticket.mql5"
+        },
+        {
+            "match": "\\bUpdate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Update.mql5"
+        },
+        {
+            "match": "\\bValues[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Values.mql5"
+        },
+        {
+            "match": "\\bVolume[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Volume.mql5"
+        },
+        {
+            "match": "\\bVsplit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Vsplit.mql5"
+        },
+        {
+            "match": "\\bWeight[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Weight.mql5"
+        },
+        {
+            "match": "\\bWindow[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Window.mql5"
         },
         {
             "match": "\\bAlert[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Alert.mql5"
         },
         {
-            "match": "\\bCheck[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Check.mql5"
-        },
-        {
-            "match": "\\bDebug[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Debug.mql5"
-        },
-        {
-            "match": "\\bPrint[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Print.mql5"
-        },
-        {
-            "match": "\\bSleep[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sleep.mql5"
-        },
-        {
-            "match": "\\bReset[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Reset.mql5"
-        },
-        {
-            "match": "\\bArray[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Array.mql5"
-        },
-        {
-            "match": "\\bZeros[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Zeros.mql5"
-        },
-        {
-            "match": "\\bSplit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Split.mql5"
-        },
-        {
-            "match": "\\bPower[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Power.mql5"
-        },
-        {
-            "match": "\\bInner[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Inner.mql5"
-        },
-        {
-            "match": "\\bOuter[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Outer.mql5"
-        },
-        {
-            "match": "\\bTrace[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Trace.mql5"
-        },
-        {
-            "match": "\\bSolve[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Solve.mql5"
-        },
-        {
-            "match": "\\bEigen[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Eigen.mql5"
-        },
-        {
-            "match": "\\bLeast[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Least.mql5"
-        },
-        {
-            "match": "\\bPolar[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Polar.mql5"
-        },
-        {
-            "match": "\\bStruc[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Struc.mql5"
-        },
-        {
-            "match": "\\bColor[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Color.mql5"
-        },
-        {
-            "match": "\\bShort[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Short.mql5"
-        },
-        {
-            "match": "\\bPoint[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Point.mql5"
-        },
-        {
-            "match": "\\bChart[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Chart.mql5"
-        },
-        {
-            "match": "\\bOrder[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Order.mql5"
-        },
-        {
-            "match": "\\bFrame[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Frame.mql5"
-        },
-        {
-            "match": "\\bEvent[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Event.mql5"
-        },
-        {
-            "match": "\\blogin[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.login.mql5"
-        },
-        {
-            "match": "\\bSigma[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sigma.mql5"
-        },
-        {
-            "match": "\\bFuzzy[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Fuzzy.mql5"
-        },
-        {
-            "match": "\\bTerms[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Terms.mql5"
-        },
-        {
-            "match": "\\bEmpty[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Empty.mql5"
-        },
-        {
-            "match": "\\bParse[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Parse.mql5"
-        },
-        {
-            "match": "\\bRules[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Rules.mql5"
-        },
-        {
-            "match": "\\bBasic[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Basic.mql5"
-        },
-        {
-            "match": "\\bTotal[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Total.mql5"
-        },
-        {
-            "match": "\\bClear[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Clear.mql5"
-        },
-        {
-            "match": "\\bShift[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Shift.mql5"
-        },
-        {
-            "match": "\\bDelta[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Delta.mql5"
-        },
-        {
-            "match": "\\bIndex[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Index.mql5"
-        },
-        {
-            "match": "\\bOwner[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Owner.mql5"
-        },
-        {
-            "match": "\\bRight[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Right.mql5"
-        },
-        {
-            "match": "\\bCount[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Count.mql5"
-        },
-        {
-            "match": "\\bValue[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Value.mql5"
-        },
-        {
-            "match": "\\bUnion[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Union.mql5"
-        },
-        {
-            "match": "\\bClone[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Clone.mql5"
-        },
-        {
-            "match": "\\bFirst[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.First.mql5"
-        },
-        {
-            "match": "\\bFiles[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Files.mql5"
-        },
-        {
-            "match": "\\bFlags[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Flags.mql5"
-        },
-        {
-            "match": "\\bClose[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Close.mql5"
-        },
-        {
-            "match": "\\bFlush[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Flush.mql5"
-        },
-        {
-            "match": "\\bWrite[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Write.mql5"
-        },
-        {
-            "match": "\\bPrice[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Price.mql5"
-        },
-        {
-            "match": "\\bStyle[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Style.mql5"
-        },
-        {
-            "match": "\\bWidth[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Width.mql5"
-        },
-        {
-            "match": "\\bLevel[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Level.mql5"
+            "match": "\\bAlign[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Align.mql5"
         },
         {
             "match": "\\bAngle[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Angle.mql5"
         },
         {
-            "match": "\\bLines[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Lines.mql5"
+            "match": "\\bApply[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Apply.mql5"
         },
         {
-            "match": "\\bScale[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Scale.mql5"
-        },
-        {
-            "match": "\\bShape[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Shape.mql5"
+            "match": "\\bArray[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Array.mql5"
         },
         {
             "match": "\\bArrow[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Arrow.mql5"
         },
         {
-            "match": "\\bState[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.State.mql5"
-        },
-        {
-            "match": "\\bErase[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Erase.mql5"
-        },
-        {
-            "match": "\\bPixel[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Pixel.mql5"
-        },
-        {
-            "match": "\\bLabel[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Label.mql5"
-        },
-        {
-            "match": "\\bInput[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Input.mql5"
-        },
-        {
-            "match": "\\bLight[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Light.mql5"
-        },
-        {
-            "match": "\\bFixed[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Fixed.mql5"
+            "match": "\\bBasic[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Basic.mql5"
         },
         {
             "match": "\\bBring[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Bring.mql5"
         },
         {
-            "match": "\\bApply[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Apply.mql5"
+            "match": "\\bBuild[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Build.mql5"
         },
         {
-            "match": "\\bGraph[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Graph.mql5"
+            "match": "\\bChart[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Chart.mql5"
         },
         {
-            "match": "\\bSteps[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Steps.mql5"
+            "match": "\\bCheck[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Check.mql5"
         },
         {
-            "match": "\\bTrend[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Trend.mql5"
+            "match": "\\bClear[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Clear.mql5"
+        },
+        {
+            "match": "\\bClone[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Clone.mql5"
+        },
+        {
+            "match": "\\bClose[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Close.mql5"
+        },
+        {
+            "match": "\\bColor[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Color.mql5"
+        },
+        {
+            "match": "\\bCount[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Count.mql5"
+        },
+        {
+            "match": "\\bCrypt[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Crypt.mql5"
         },
         {
             "match": "\\bCurve[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Curve.mql5"
         },
         {
-            "match": "\\bMarks[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Marks.mql5"
+            "match": "\\bDebug[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Debug.mql5"
         },
         {
-            "match": "\\bMajor[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Major.mql5"
+            "match": "\\bDelta[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Delta.mql5"
         },
         {
-            "match": "\\bIndic[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Indic.mql5"
+            "match": "\\bEigen[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Eigen.mql5"
         },
         {
-            "match": "\\bUpper[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Upper.mql5"
-        },
-        {
-            "match": "\\bLower[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Lower.mql5"
-        },
-        {
-            "match": "\\bMinus[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Minus.mql5"
-        },
-        {
-            "match": "\\bKijun[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Kijun.mql5"
-        },
-        {
-            "match": "\\bTeeth[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Teeth.mql5"
-        },
-        {
-            "match": "\\bParam[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Param.mql5"
-        },
-        {
-            "match": "\\bTrade[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Trade.mql5"
-        },
-        {
-            "match": "\\bLogin[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Login.mql5"
-        },
-        {
-            "match": "\\bLimit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Limit.mql5"
-        },
-        {
-            "match": "\\bTicks[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ticks.mql5"
-        },
-        {
-            "match": "\\bStops[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Stops.mql5"
-        },
-        {
-            "match": "\\bMagic[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Magic.mql5"
-        },
-        {
-            "match": "\\bStore[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Store.mql5"
+            "match": "\\bEmpty[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Empty.mql5"
         },
         {
             "match": "\\bEntry[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Entry.mql5"
         },
         {
-            "match": "\\bBuild[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Build.mql5"
+            "match": "\\bErase[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Erase.mql5"
+        },
+        {
+            "match": "\\bEvent[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Event.mql5"
         },
         {
             "match": "\\bEvery[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Every.mql5"
         },
         {
-            "match": "\\bStart[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Start.mql5"
+            "match": "\\bFiles[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Files.mql5"
+        },
+        {
+            "match": "\\bFirst[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.First.mql5"
+        },
+        {
+            "match": "\\bFixed[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Fixed.mql5"
+        },
+        {
+            "match": "\\bFlags[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Flags.mql5"
+        },
+        {
+            "match": "\\bFlush[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Flush.mql5"
+        },
+        {
+            "match": "\\bFrame[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Frame.mql5"
+        },
+        {
+            "match": "\\bFuzzy[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Fuzzy.mql5"
+        },
+        {
+            "match": "\\bGraph[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Graph.mql5"
+        },
+        {
+            "match": "\\bIndex[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Index.mql5"
+        },
+        {
+            "match": "\\bIndic[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Indic.mql5"
+        },
+        {
+            "match": "\\bInner[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Inner.mql5"
+        },
+        {
+            "match": "\\bInput[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Input.mql5"
+        },
+        {
+            "match": "\\bKijun[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Kijun.mql5"
+        },
+        {
+            "match": "\\bLabel[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Label.mql5"
+        },
+        {
+            "match": "\\bLeast[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Least.mql5"
+        },
+        {
+            "match": "\\bLevel[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Level.mql5"
+        },
+        {
+            "match": "\\bLight[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Light.mql5"
+        },
+        {
+            "match": "\\bLimit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Limit.mql5"
+        },
+        {
+            "match": "\\bLines[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Lines.mql5"
+        },
+        {
+            "match": "\\bLogin[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Login.mql5"
+        },
+        {
+            "match": "\\blogin[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.login.mql5"
+        },
+        {
+            "match": "\\bLower[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Lower.mql5"
+        },
+        {
+            "match": "\\bMagic[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Magic.mql5"
+        },
+        {
+            "match": "\\bMajor[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Major.mql5"
+        },
+        {
+            "match": "\\bMarks[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Marks.mql5"
+        },
+        {
+            "match": "\\bMinus[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Minus.mql5"
         },
         {
             "match": "\\bMoney[A-Za-z0-9_]*\\b",
@@ -1612,156 +1329,404 @@
             "name": "support.function.prefix.Month.mql5"
         },
         {
-            "match": "\\bAlign[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Align.mql5"
-        },
-        {
             "match": "\\bMouse[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Mouse.mql5"
         },
         {
-            "match": "\\bPlay[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Play.mql5"
+            "match": "\\bOrder[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Order.mql5"
         },
         {
-            "match": "\\bZero[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Zero.mql5"
+            "match": "\\bOuter[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Outer.mql5"
         },
         {
-            "match": "\\bCopy[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Copy.mql5"
+            "match": "\\bOwner[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Owner.mql5"
         },
         {
-            "match": "\\bOnes[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ones.mql5"
+            "match": "\\bParam[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Param.mql5"
         },
         {
-            "match": "\\bFull[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Full.mql5"
+            "match": "\\bParse[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Parse.mql5"
         },
         {
-            "match": "\\bInit[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Init.mql5"
+            "match": "\\bPixel[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Pixel.mql5"
         },
         {
-            "match": "\\bFill[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Fill.mql5"
+            "match": "\\bPoint[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Point.mql5"
         },
         {
-            "match": "\\bDiag[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Diag.mql5"
+            "match": "\\bPolar[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Polar.mql5"
         },
         {
-            "match": "\\bFlat[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Flat.mql5"
+            "match": "\\bPower[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Power.mql5"
         },
         {
-            "match": "\\bClip[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Clip.mql5"
+            "match": "\\bPrice[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Price.mql5"
         },
         {
-            "match": "\\bSwap[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Swap.mql5"
+            "match": "\\bPrint[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Print.mql5"
         },
         {
-            "match": "\\bSort[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sort.mql5"
+            "match": "\\bReset[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Reset.mql5"
         },
         {
-            "match": "\\bKron[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Kron.mql5"
+            "match": "\\bRight[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Right.mql5"
         },
         {
-            "match": "\\bCorr[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Corr.mql5"
+            "match": "\\bRules[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Rules.mql5"
         },
         {
-            "match": "\\bRows[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Rows.mql5"
+            "match": "\\bScale[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Scale.mql5"
         },
         {
-            "match": "\\bCols[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Cols.mql5"
+            "match": "\\bShape[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Shape.mql5"
         },
         {
-            "match": "\\bSize[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Size.mql5"
+            "match": "\\bShift[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Shift.mql5"
         },
         {
-            "match": "\\bNorm[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Norm.mql5"
+            "match": "\\bShort[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Short.mql5"
         },
         {
-            "match": "\\bCond[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Cond.mql5"
+            "match": "\\bSigma[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sigma.mql5"
         },
         {
-            "match": "\\bSLog[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.SLog.mql5"
+            "match": "\\bSleep[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sleep.mql5"
         },
         {
-            "match": "\\bRank[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Rank.mql5"
+            "match": "\\bSolve[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Solve.mql5"
         },
         {
-            "match": "\\bPInv[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.PInv.mql5"
+            "match": "\\bSplit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Split.mql5"
         },
         {
-            "match": "\\bPtp\\\n[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ptp\n.mql5"
+            "match": "\\bStart[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Start.mql5"
         },
         {
-            "match": "\\bProd[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Prod.mql5"
+            "match": "\\bState[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.State.mql5"
         },
         {
-            "match": "\\bMean[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Mean.mql5"
+            "match": "\\bSteps[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Steps.mql5"
         },
         {
-            "match": "\\bLoss[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Loss.mql5"
+            "match": "\\bStops[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Stops.mql5"
         },
         {
-            "match": "\\bChar[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Char.mql5"
+            "match": "\\bStore[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Store.mql5"
         },
         {
-            "match": "\\bEnum[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Enum.mql5"
+            "match": "\\bStyle[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Style.mql5"
         },
         {
-            "match": "\\bTime[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Time.mql5"
+            "match": "\\bTeeth[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Teeth.mql5"
         },
         {
-            "match": "\\bMath[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Math.mql5"
+            "match": "\\bTerms[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Terms.mql5"
+        },
+        {
+            "match": "\\bTicks[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ticks.mql5"
+        },
+        {
+            "match": "\\bTotal[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Total.mql5"
+        },
+        {
+            "match": "\\bTrace[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Trace.mql5"
+        },
+        {
+            "match": "\\bTrade[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Trade.mql5"
+        },
+        {
+            "match": "\\bTrend[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Trend.mql5"
+        },
+        {
+            "match": "\\bUnion[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Union.mql5"
+        },
+        {
+            "match": "\\bUpper[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Upper.mql5"
+        },
+        {
+            "match": "\\bValue[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Value.mql5"
+        },
+        {
+            "match": "\\bWidth[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Width.mql5"
+        },
+        {
+            "match": "\\bWrite[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Write.mql5"
+        },
+        {
+            "match": "\\bZeros[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Zeros.mql5"
+        },
+        {
+            "match": "\\bAuto[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Auto.mql5"
+        },
+        {
+            "match": "\\bBack[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Back.mql5"
+        },
+        {
+            "match": "\\bBank[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Bank.mql5"
         },
         {
             "match": "\\bBars[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Bars.mql5"
         },
         {
-            "match": "\\bSend[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Send.mql5"
+            "match": "\\bBase[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Base.mql5"
         },
         {
-            "match": "\\bFile[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.File.mql5"
+            "match": "\\bBill[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Bill.mql5"
+        },
+        {
+            "match": "\\bChar[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Char.mql5"
+        },
+        {
+            "match": "\\bClip[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Clip.mql5"
+        },
+        {
+            "match": "\\bCode[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Code.mql5"
+        },
+        {
+            "match": "\\bCols[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Cols.mql5"
+        },
+        {
+            "match": "\\bCond[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Cond.mql5"
+        },
+        {
+            "match": "\\bCopy[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Copy.mql5"
+        },
+        {
+            "match": "\\bData[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Data.mql5"
+        },
+        {
+            "match": "\\bDate[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Date.mql5"
+        },
+        {
+            "match": "\\bDays[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Days.mql5"
+        },
+        {
+            "match": "\\bDeal[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Deal.mql5"
+        },
+        {
+            "match": "\\bDiag[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Diag.mql5"
+        },
+        {
+            "match": "\\bDisk[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Disk.mql5"
+        },
+        {
+            "match": "\\bDrag[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Drag.mql5"
         },
         {
             "match": "\\bDRAW[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.DRAW.mql5"
         },
         {
-            "match": "\\bPlot[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Plot.mql5"
+            "match": "\\bDraw[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Draw.mql5"
         },
         {
-            "match": "\\bText[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Text.mql5"
+            "match": "\\bEnum[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Enum.mql5"
+        },
+        {
+            "match": "\\bFast[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Fast.mql5"
+        },
+        {
+            "match": "\\bFile[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.File.mql5"
+        },
+        {
+            "match": "\\bFill[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Fill.mql5"
+        },
+        {
+            "match": "\\bFind[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Find.mql5"
+        },
+        {
+            "match": "\\bFlat[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Flat.mql5"
+        },
+        {
+            "match": "\\bFont[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Font.mql5"
+        },
+        {
+            "match": "\\bFree[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Free.mql5"
+        },
+        {
+            "match": "\\bFull[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Full.mql5"
+        },
+        {
+            "match": "\\bGann[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Gann.mql5"
+        },
+        {
+            "match": "\\bGrid[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Grid.mql5"
+        },
+        {
+            "match": "\\bHash[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Hash.mql5"
+        },
+        {
+            "match": "\\bHead[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Head.mql5"
+        },
+        {
+            "match": "\\bHide[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Hide.mql5"
+        },
+        {
+            "match": "\\bHigh[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.High.mql5"
+        },
+        {
+            "match": "\\bHour[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Hour.mql5"
+        },
+        {
+            "match": "\\bInfo[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Info.mql5"
+        },
+        {
+            "match": "\\bInit[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Init.mql5"
+        },
+        {
+            "match": "\\bKron[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Kron.mql5"
+        },
+        {
+            "match": "\\bLast[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Last.mql5"
+        },
+        {
+            "match": "\\bLeft[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Left.mql5"
+        },
+        {
+            "match": "\\bLine[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Line.mql5"
+        },
+        {
+            "match": "\\bLips[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Lips.mql5"
+        },
+        {
+            "match": "\\bList[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.List.mql5"
+        },
+        {
+            "match": "\\bLoad[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Load.mql5"
+        },
+        {
+            "match": "\\bLong[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Long.mql5"
+        },
+        {
+            "match": "\\bLoss[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Loss.mql5"
+        },
+        {
+            "match": "\\bLots[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Lots.mql5"
+        },
+        {
+            "match": "\\bMain[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Main.mql5"
+        },
+        {
+            "match": "\\bMath[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Math.mql5"
+        },
+        {
+            "match": "\\bMean[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Mean.mql5"
+        },
+        {
+            "match": "\\bMode[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Mode.mql5"
+        },
+        {
+            "match": "\\bMove[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Move.mql5"
+        },
+        {
+            "match": "\\bName[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Name.mql5"
+        },
+        {
+            "match": "\\bNext[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Next.mql5"
+        },
+        {
+            "match": "\\bNorm[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Norm.mql5"
+        },
+        {
+            "match": "\\bOnes[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ones.mql5"
         },
         {
             "match": "\\bONNX[A-Za-z0-9_]*\\b",
@@ -1772,512 +1737,340 @@
             "name": "support.function.prefix.Onnx.mql5"
         },
         {
-            "match": "\\bTerm[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Term.mql5"
-        },
-        {
             "match": "\\bOpen[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Open.mql5"
-        },
-        {
-            "match": "\\bPrev[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Prev.mql5"
-        },
-        {
-            "match": "\\bNext[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Next.mql5"
-        },
-        {
-            "match": "\\bSave[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Save.mql5"
-        },
-        {
-            "match": "\\bLoad[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Load.mql5"
-        },
-        {
-            "match": "\\bType[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Type.mql5"
-        },
-        {
-            "match": "\\bData[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Data.mql5"
-        },
-        {
-            "match": "\\bStep[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Step.mql5"
-        },
-        {
-            "match": "\\bFree[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Free.mql5"
-        },
-        {
-            "match": "\\bMove[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Move.mql5"
-        },
-        {
-            "match": "\\bLeft[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Left.mql5"
-        },
-        {
-            "match": "\\bRoot[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Root.mql5"
-        },
-        {
-            "match": "\\bFind[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Find.mql5"
-        },
-        {
-            "match": "\\bHash[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Hash.mql5"
-        },
-        {
-            "match": "\\bLast[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Last.mql5"
-        },
-        {
-            "match": "\\bTrim[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Trim.mql5"
-        },
-        {
-            "match": "\\bList[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.List.mql5"
-        },
-        {
-            "match": "\\bHead[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Head.mql5"
-        },
-        {
-            "match": "\\bPeek[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Peek.mql5"
-        },
-        {
-            "match": "\\bPush[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Push.mql5"
-        },
-        {
-            "match": "\\bTell[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Tell.mql5"
-        },
-        {
-            "match": "\\bSeek[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Seek.mql5"
-        },
-        {
-            "match": "\\bRead[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Read.mql5"
-        },
-        {
-            "match": "\\bName[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Name.mql5"
-        },
-        {
-            "match": "\\bLine[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Line.mql5"
-        },
-        {
-            "match": "\\bGann[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Gann.mql5"
-        },
-        {
-            "match": "\\bPips[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Pips.mql5"
-        },
-        {
-            "match": "\\bFont[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Font.mql5"
-        },
-        {
-            "match": "\\bBack[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Back.mql5"
-        },
-        {
-            "match": "\\bDate[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Date.mql5"
-        },
-        {
-            "match": "\\bShow[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Show.mql5"
-        },
-        {
-            "match": "\\bDraw[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Draw.mql5"
-        },
-        {
-            "match": "\\bCalc[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Calc.mql5"
-        },
-        {
-            "match": "\\bView[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.View.mql5"
-        },
-        {
-            "match": "\\bPric[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Pric.mql5"
-        },
-        {
-            "match": "\\bMode[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Mode.mql5"
-        },
-        {
-            "match": "\\bAuto[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Auto.mql5"
-        },
-        {
-            "match": "\\bGrid[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Grid.mql5"
-        },
-        {
-            "match": "\\bBase[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Base.mql5"
-        },
-        {
-            "match": "\\bMain[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Main.mql5"
-        },
-        {
-            "match": "\\bPlus[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Plus.mql5"
-        },
-        {
-            "match": "\\bFast[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Fast.mql5"
-        },
-        {
-            "match": "\\bSlow[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Slow.mql5"
-        },
-        {
-            "match": "\\bBill[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Bill.mql5"
-        },
-        {
-            "match": "\\bLips[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Lips.mql5"
-        },
-        {
-            "match": "\\bInfo[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Info.mql5"
-        },
-        {
-            "match": "\\bTick[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Tick.mql5"
-        },
-        {
-            "match": "\\bLots[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Lots.mql5"
-        },
-        {
-            "match": "\\bBank[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Bank.mql5"
         },
         {
             "match": "\\bPath[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Path.mql5"
         },
         {
-            "match": "\\bStop[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Stop.mql5"
+            "match": "\\bPeek[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Peek.mql5"
         },
         {
-            "match": "\\bTake[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Take.mql5"
+            "match": "\\bPips[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Pips.mql5"
         },
         {
-            "match": "\\bDeal[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Deal.mql5"
+            "match": "\\bPlay[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Play.mql5"
         },
         {
-            "match": "\\bSell[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sell.mql5"
+            "match": "\\bPlot[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Plot.mql5"
         },
         {
-            "match": "\\bCode[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Code.mql5"
+            "match": "\\bPlus[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Plus.mql5"
         },
         {
-            "match": "\\bDisk[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Disk.mql5"
-        },
-        {
-            "match": "\\bUsed[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Used.mql5"
-        },
-        {
-            "match": "\\bHigh[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.High.mql5"
-        },
-        {
-            "match": "\\bReal[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Real.mql5"
-        },
-        {
-            "match": "\\bWait[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Wait.mql5"
-        },
-        {
-            "match": "\\bLong[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Long.mql5"
-        },
-        {
-            "match": "\\bDays[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Days.mql5"
-        },
-        {
-            "match": "\\bHour[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Hour.mql5"
-        },
-        {
-            "match": "\\bYear[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Year.mql5"
-        },
-        {
-            "match": "\\bRect[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Rect.mql5"
-        },
-        {
-            "match": "\\bHide[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Hide.mql5"
+            "match": "\\bPrev[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Prev.mql5"
         },
         {
             "match": "\\bProp[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Prop.mql5"
         },
         {
-            "match": "\\bDrag[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Drag.mql5"
+            "match": "\\bPush[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Push.mql5"
         },
         {
-            "match": "\\bCurr[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Curr.mql5"
+            "match": "\\bRank[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Rank.mql5"
         },
         {
-            "match": "\\bGet[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Get.mql5"
+            "match": "\\bRead[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Read.mql5"
         },
         {
-            "match": "\\bSet[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Set.mql5"
+            "match": "\\bReal[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Real.mql5"
         },
         {
-            "match": "\\bEye[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Eye.mql5"
+            "match": "\\bRoot[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Root.mql5"
         },
         {
-            "match": "\\bTri[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Tri.mql5"
+            "match": "\\bRows[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Rows.mql5"
         },
         {
-            "match": "\\bHas[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Has.mql5"
+            "match": "\\bSave[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Save.mql5"
         },
         {
-            "match": "\\bCol[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Col.mql5"
+            "match": "\\bSeek[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Seek.mql5"
         },
         {
-            "match": "\\bArg[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Arg.mql5"
+            "match": "\\bSell[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sell.mql5"
         },
         {
-            "match": "\\bMat[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Mat.mql5"
+            "match": "\\bSend[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Send.mql5"
         },
         {
-            "match": "\\bDot[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Dot.mql5"
+            "match": "\\bShow[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Show.mql5"
         },
         {
-            "match": "\\bCov[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Cov.mql5"
+            "match": "\\bSize[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Size.mql5"
         },
         {
-            "match": "\\bEig[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Eig.mql5"
+            "match": "\\bSLog[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.SLog.mql5"
         },
         {
-            "match": "\\bLUP[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.LUP.mql5"
+            "match": "\\bSlow[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Slow.mql5"
         },
         {
-            "match": "\\bSVD[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.SVD.mql5"
+            "match": "\\bSort[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sort.mql5"
         },
         {
-            "match": "\\bDet[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Det.mql5"
+            "match": "\\bStep[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Step.mql5"
         },
         {
-            "match": "\\bLst[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Lst.mql5"
+            "match": "\\bStop[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Stop.mql5"
         },
         {
-            "match": "\\bInv[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Inv.mql5"
+            "match": "\\bSwap[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Swap.mql5"
         },
         {
-            "match": "\\bMax[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Max.mql5"
+            "match": "\\bTake[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Take.mql5"
         },
         {
-            "match": "\\bMin[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Min.mql5"
+            "match": "\\bTell[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Tell.mql5"
         },
         {
-            "match": "\\bSum[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sum.mql5"
+            "match": "\\bTerm[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Term.mql5"
         },
         {
-            "match": "\\bCum[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Cum.mql5"
+            "match": "\\bText[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Text.mql5"
         },
         {
-            "match": "\\bStd[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Std.mql5"
+            "match": "\\bTick[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Tick.mql5"
         },
         {
-            "match": "\\bVar[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Var.mql5"
+            "match": "\\bTime[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Time.mql5"
         },
         {
-            "match": "\\bPLU[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.PLU.mql5"
+            "match": "\\bTrim[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Trim.mql5"
         },
         {
-            "match": "\\bLDL[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.LDL.mql5"
+            "match": "\\bType[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Type.mql5"
         },
         {
-            "match": "\\bMQL[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.MQL.mql5"
+            "match": "\\bUsed[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Used.mql5"
         },
         {
-            "match": "\\bWeb[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Web.mql5"
+            "match": "\\bView[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.View.mql5"
         },
         {
-            "match": "\\bNot[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Not.mql5"
+            "match": "\\bWait[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Wait.mql5"
+        },
+        {
+            "match": "\\bYear[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Year.mql5"
+        },
+        {
+            "match": "\\bZero[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Zero.mql5"
         },
         {
             "match": "\\bAdd[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Add.mql5"
         },
         {
-            "match": "\\bTry[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Try.mql5"
-        },
-        {
-            "match": "\\bKey[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Key.mql5"
-        },
-        {
-            "match": "\\bPop[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Pop.mql5"
-        },
-        {
-            "match": "\\bStr[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Str.mql5"
-        },
-        {
-            "match": "\\bLen[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Len.mql5"
-        },
-        {
-            "match": "\\bMid[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Mid.mql5"
-        },
-        {
-            "match": "\\bNum[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Num.mql5"
-        },
-        {
-            "match": "\\bRay[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ray.mql5"
-        },
-        {
-            "match": "\\bBmp[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Bmp.mql5"
-        },
-        {
             "match": "\\bArc[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Arc.mql5"
         },
         {
-            "match": "\\bPie[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Pie.mql5"
-        },
-        {
-            "match": "\\bBar[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Bar.mql5"
-        },
-        {
-            "match": "\\bGap[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Gap.mql5"
-        },
-        {
-            "match": "\\bSar[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sar.mql5"
-        },
-        {
-            "match": "\\bInd[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ind.mql5"
-        },
-        {
-            "match": "\\bCmo[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Cmo.mql5"
-        },
-        {
-            "match": "\\bEma[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ema.mql5"
-        },
-        {
-            "match": "\\bJaw[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Jaw.mql5"
-        },
-        {
-            "match": "\\bBid[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Bid.mql5"
+            "match": "\\bArg[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Arg.mql5"
         },
         {
             "match": "\\bAsk[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Ask.mql5"
         },
         {
-            "match": "\\bLog[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Log.mql5"
+            "match": "\\bBar[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Bar.mql5"
+        },
+        {
+            "match": "\\bBid[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Bid.mql5"
+        },
+        {
+            "match": "\\bBmp[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Bmp.mql5"
         },
         {
             "match": "\\bBuy[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Buy.mql5"
         },
         {
+            "match": "\\bCmo[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Cmo.mql5"
+        },
+        {
+            "match": "\\bCol[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Col.mql5"
+        },
+        {
+            "match": "\\bCov[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Cov.mql5"
+        },
+        {
             "match": "\\bCPU[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.CPU.mql5"
         },
         {
-            "match": "\\bLow[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Low.mql5"
-        },
-        {
-            "match": "\\bLot[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Lot.mql5"
-        },
-        {
-            "match": "\\bTop[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Top.mql5"
+            "match": "\\bCum[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Cum.mql5"
         },
         {
             "match": "\\bDay[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Day.mql5"
         },
         {
-            "match": "\\bSec[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sec.mql5"
+            "match": "\\bDot[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Dot.mql5"
+        },
+        {
+            "match": "\\bEma[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ema.mql5"
+        },
+        {
+            "match": "\\bEye[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Eye.mql5"
+        },
+        {
+            "match": "\\bGap[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Gap.mql5"
+        },
+        {
+            "match": "\\bGet[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Get.mql5"
+        },
+        {
+            "match": "\\bHas[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Has.mql5"
+        },
+        {
+            "match": "\\bInd[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ind.mql5"
+        },
+        {
+            "match": "\\bIni[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ini.mql5"
+        },
+        {
+            "match": "\\bInv[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Inv.mql5"
+        },
+        {
+            "match": "\\bJaw[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Jaw.mql5"
+        },
+        {
+            "match": "\\bKey[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Key.mql5"
+        },
+        {
+            "match": "\\bLDL[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.LDL.mql5"
+        },
+        {
+            "match": "\\bLen[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Len.mql5"
+        },
+        {
+            "match": "\\bLog[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Log.mql5"
+        },
+        {
+            "match": "\\bLot[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Lot.mql5"
+        },
+        {
+            "match": "\\bLow[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Low.mql5"
+        },
+        {
+            "match": "\\bLst[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Lst.mql5"
+        },
+        {
+            "match": "\\bLUP[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.LUP.mql5"
+        },
+        {
+            "match": "\\bMat[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Mat.mql5"
+        },
+        {
+            "match": "\\bMax[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Max.mql5"
+        },
+        {
+            "match": "\\bMid[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Mid.mql5"
+        },
+        {
+            "match": "\\bMin[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Min.mql5"
         },
         {
             "match": "\\bMon[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Mon.mql5"
+        },
+        {
+            "match": "\\bMQL[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.MQL.mql5"
+        },
+        {
+            "match": "\\bNot[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Not.mql5"
+        },
+        {
+            "match": "\\bNum[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Num.mql5"
+        },
+        {
+            "match": "\\bPie[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Pie.mql5"
+        },
+        {
+            "match": "\\bPLU[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.PLU.mql5"
+        },
+        {
+            "match": "\\bPop[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Pop.mql5"
+        },
+        {
+            "match": "\\bRay[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ray.mql5"
         },
         {
             "match": "\\bRow[A-Za-z0-9_]*\\b",
@@ -2288,36 +2081,52 @@
             "name": "support.function.prefix.Run.mql5"
         },
         {
-            "match": "\\bIni[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ini.mql5"
+            "match": "\\bSar[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sar.mql5"
         },
         {
-            "match": "\\bGe[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ge.mql5"
+            "match": "\\bSec[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sec.mql5"
         },
         {
-            "match": "\\bLU[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.LU.mql5"
+            "match": "\\bSet[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Set.mql5"
         },
         {
-            "match": "\\bQR[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.QR.mql5"
+            "match": "\\bStd[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Std.mql5"
         },
         {
-            "match": "\\bIs[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Is.mql5"
+            "match": "\\bSum[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Sum.mql5"
         },
         {
-            "match": "\\bOn[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.On.mql5"
+            "match": "\\bSVD[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.SVD.mql5"
         },
         {
-            "match": "\\bCL[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.CL.mql5"
+            "match": "\\bTop[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Top.mql5"
         },
         {
-            "match": "\\bDX[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.DX.mql5"
+            "match": "\\bTri[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Tri.mql5"
+        },
+        {
+            "match": "\\bTry[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Try.mql5"
+        },
+        {
+            "match": "\\bVar[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Var.mql5"
+        },
+        {
+            "match": "\\bWeb[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Web.mql5"
+        },
+        {
+            "match": "\\b3D[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.3D.mql5"
         },
         {
             "match": "\\bA1[A-Za-z0-9_]*\\b",
@@ -2328,12 +2137,8 @@
             "name": "support.function.prefix.A2.mql5"
         },
         {
-            "match": "\\bC1[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.C1.mql5"
-        },
-        {
-            "match": "\\bC2[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.C2.mql5"
+            "match": "\\bAt[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.At.mql5"
         },
         {
             "match": "\\bB1[A-Za-z0-9_]*\\b",
@@ -2344,12 +2149,72 @@
             "name": "support.function.prefix.B2.mql5"
         },
         {
+            "match": "\\bC1[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.C1.mql5"
+        },
+        {
+            "match": "\\bC2[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.C2.mql5"
+        },
+        {
+            "match": "\\bCi[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ci.mql5"
+        },
+        {
+            "match": "\\bCL[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.CL.mql5"
+        },
+        {
             "match": "\\bCP[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.CP.mql5"
         },
         {
             "match": "\\bCS[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.CS.mql5"
+        },
+        {
+            "match": "\\bCZ[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.CZ.mql5"
+        },
+        {
+            "match": "\\bDX[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.DX.mql5"
+        },
+        {
+            "match": "\\bId[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Id.mql5"
+        },
+        {
+            "match": "\\bIs[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Is.mql5"
+        },
+        {
+            "match": "\\bLU[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.LU.mql5"
+        },
+        {
+            "match": "\\bMa[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Ma.mql5"
+        },
+        {
+            "match": "\\bNo[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.No.mql5"
+        },
+        {
+            "match": "\\bOn[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.On.mql5"
+        },
+        {
+            "match": "\\bOp[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.Op.mql5"
+        },
+        {
+            "match": "\\bQR[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.QR.mql5"
+        },
+        {
+            "match": "\\bTo[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.To.mql5"
         },
         {
             "match": "\\bX1[A-Za-z0-9_]*\\b",
@@ -2368,58 +2233,6 @@
             "name": "support.function.prefix.X4.mql5"
         },
         {
-            "match": "\\bTo[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.To.mql5"
-        },
-        {
-            "match": "\\bCZ[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.CZ.mql5"
-        },
-        {
-            "match": "\\bOp[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Op.mql5"
-        },
-        {
-            "match": "\\bAt[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.At.mql5"
-        },
-        {
-            "match": "\\b3D[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.3D.mql5"
-        },
-        {
-            "match": "\\bSc[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Sc.mql5"
-        },
-        {
-            "match": "\\bCi[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ci.mql5"
-        },
-        {
-            "match": "\\bMa[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Ma.mql5"
-        },
-        {
-            "match": "\\bNo[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.No.mql5"
-        },
-        {
-            "match": "\\bId[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.Id.mql5"
-        },
-        {
-            "match": "\\b_[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix._.mql5"
-        },
-        {
-            "match": "\\bi[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.i.mql5"
-        },
-        {
-            "match": "\\bC[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.C.mql5"
-        },
-        {
             "match": "\\bA[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.A.mql5"
         },
@@ -2428,12 +2241,24 @@
             "name": "support.function.prefix.B.mql5"
         },
         {
+            "match": "\\bC[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.C.mql5"
+        },
+        {
             "match": "\\bD[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.D.mql5"
         },
         {
+            "match": "\\bH[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.H.mql5"
+        },
+        {
             "match": "\\bI[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.I.mql5"
+        },
+        {
+            "match": "\\bi[A-Za-z0-9_]*\\b",
+            "name": "support.function.prefix.i.mql5"
         },
         {
             "match": "\\bV[A-Za-z0-9_]*\\b",
@@ -2450,11 +2275,6 @@
         {
             "match": "\\bZ[A-Za-z0-9_]*\\b",
             "name": "support.function.prefix.Z.mql5"
-        },
-        {
-            "match": "\\bH[A-Za-z0-9_]*\\b",
-            "name": "support.function.prefix.H.mql5"
         }
-    ],
-    "scopeName": "source.mql5"
+    ]
 }
