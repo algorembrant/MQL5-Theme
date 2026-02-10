@@ -3478,3 +3478,17 @@
 @mql5.tmLanguage.json
   automatically highlights syntax (with different color) that has 'Subwin' prefix.
 </another_group>
+
+
+
+
+
+
+<another_group>
+  is it possible to make the  
+@mql5.tmLanguage.json
+  automatically highlights normal syntax (with different color) that atleast starts withh a or A, b or B, c or C, etc...(single syntax that may have non-space or '_' connector) that is not written on 
+@mql5.tmLanguage.json
+  yet? (color a or A to z or Z with different colors individually)
+</another_group>
+

@@ -35,22 +35,6 @@
             ]
         },
         {
-            "match": "\\b(Defuzzification|Transformations|Classification|Datastructures|Factorization|Manipulations|Accumulative|Plot[Ii]ndex|Uninitialize|Aggregation|Composition|Description|Implication|Mathematics|Oscillators|Statistical|Transparent|Transposepy|Activation|Background|Commission|Conclusion|Conditions|Deactivate|Derivative|Descriptor|Deviations|Expiration|Foreground|Identifier|Indicators|Initialize|Membership|Operations|Organizing|Percentile|Processing|Projection|Regression|Scientific|Selectable|Statistics|Timeframes|Timeseries|Validation|initialize|Alignment|Available|Calculate|Commision|Condition|Confusion|Correlate|Deviation|Direction|Downtrend|Fibonacci|Functions|Histogram|Indicator|Intersect|Minimized|Normalize|Parameter|Positions|Precision|Rectangle|Solutions|Symmetric|Threshold|Timeframe|Translate|positions|Activate|Calendar|Capacity|Cholesky|Comparer|Contains|Contract|Controls|Convolve|Currency|Database|Decrease|Exchange|Features|Filename|Gradient|Identity|Language|Leverage|Maximize|Minimize|Navigate|Overlaps|Patterns|Polyline|Position|Previous|Products|Quantile|Receiver|Resource|Selected|Shutdown|Singular|Spectrum|Strategy|Symetric|Terminal|Trailing|Triangle|shutdown|terminal|Account|Allowed|Ambient|Applied|Average|Balance|Buffers|Caption|Channel|Checked|Chinkou|Comment|Company|Compare|Control|Default|Dequeue|Destroy|Disable|Dperiod|Dynamic|Elliott|Ellipse|Enqueue|Execute|General|Generic|Graphic|History|Integer|Inverse|Kperiod|Locking|Machine|Mamdani|Maximum|Message|Minimum|Modules|Objects|Percent|Polygon|Prepare|Pressed|Program|Rebound|Reflect|Refresh|Replace|Request|Reserve|Reshape|Reverse|Session|Signals|Slowing|Stopout|Strings|Support|Symbols|Tooltip|Visible|Windows|account|history|symbols|version|Anchor|Append|Arrows|Assign|Attach|Binary|Border|Bottom|Buffer|Circle|Client|Common|Concat|Corner|Create|Credit|Curves|Custom|Degree|Deinit|Delete|Detach|Digits|Double|Enable|Equals|Equity|Except|Expert|Filled|Folder|Format|Freeze|Global|Handle|Height|Hsplit|Ignore|Indent|Insert|Invert|Kernel|Legend|Levels|Linear|Margin|Market|Median|Memory|Method|Object|Offset|Orders|Output|Panels|Parent|Period|Points|Profit|Pseudo|Random|Redraw|Reduce|Remove|Render|Resize|Result|Screen|Search|Select|Senkou|Series|Server|Signal|Socket|Spread|Status|String|Struct|Subwin|Sugeno|Symbol|Tenkan|Tester|Ticket|Update|Values|Volume|Vsplit|Weight|Window|market|orders|symbol|Alert|Align|Angle|Apply|Array|Arrow|Basic|Bring|Build|Chart|Check|Clear|Clone|Close|Color|Count|Crypt|Curve|Debug|Delta|Eigen|Empty|Entry|Erase|Event|Every|Files|First|Fixed|Flags|Flush|Frame|Fuzzy|Graph|Index|Inner|Input|Kijun|Label|Least|Level|Light|Limit|Lines|Login|Lower|Magic|Major|Marks|Minus|Money|Month|Mouse|Order|Outer|Owner|Param|Parse|Pixel|Point|Polar|Power|Price|Print|Reset|Right|Rules|Scale|Shape|Shift|Short|Sigma|Sleep|Solve|Split|Start|State|Steps|Stops|Store|Style|Teeth|Terms|Ticks|Total|Trace|Trade|Trend|Union|Upper|Value|Width|Write|Zeros|login|order|Auto|Back|Bank|Bars|Base|Bill|Calc|Char|Clip|Code|Cols|Cond|Copy|Corr|Curr|DRAW|Data|Date|Days|Deal|Diag|Disk|Drag|Draw|Enum|Even|Fast|File|Fill|Find|Flat|Font|Free|Full|Gann|Grid|Hash|Head|Hide|High|Hour|Info|Init|Kron|Last|Left|Line|Lips|List|Load|Long|Loss|Lots|Main|Math|Mean|Mode|Move|Name|Next|Norm|ONNX|Ones|Onnx|Open|PInv|Path|Peek|Pips|Play|Plot|Plus|Prev|Prod|Prop|Ptp\n|Push|Rank|Read|Real|Rect|Root|Rows|SLog|Save|Seek|Sell|Send|Show|Size|Slow|Sort|Step|Stop|Swap|Take|Tell|Term|Text|Tick|Time|Trim|Type|Used|View|Wait|Year|Zero|copy|last|Add|Arc|Arg|Ask|Bar|Bid|Bmp|Buy|CPU|Cmo|Col|Cov|Cum|Day|Det|Dot|Eig|Ema|Eye|Gap|Get|Has|Ind|Ini|Inv|Jaw|Key|LDL|LUP|Len|Log|Lot|Low|Lst|MQL|Mat|Max|Mid|Min|Mon|Not|Num|PLU|Pie|Pop|Ray|Row|Run|SVD|Sar|Sec|Set|Std|Str|Sum|Top|Tri|Try|Var|Web|3D|A1|A2|At|B1|B2|C1|C2|CL|CP|CS|CZ|Ci|DX|Ge|Id|Is|LU|Ma|No|On|Op|QR|To|X1|X2|X3|X4|A|B|C|D|H|I|V|X|Y|Z|_|i)[A-Z0-9_]\\w*\\b",
-            "name": "support.function.prefix.mql5"
-        },
-        {
-            "match": "\\b(i|CL|DX|I)[A-Z]\\w*\\b",
-            "name": "support.function.special-prefix.mql5"
-        },
-        {
-            "match": "\\b(initialize|login|shutdown|version|last_error|account_info|terminal_info|symbols_total|symbols_get|symbols_info|symbols_info_tick|symbol_select|market_book_add|market_book_get|market_book_release|copy_rate_from|copy_ticks_from|copy_tick_range|orfers_total|orders_total|orders_get|orders_calc_margin|orders_calc_profit|order_check|order_send|positions_total|positions_get|history_orders_total|history_orders_get|history_deals_total|history_deals_get)\\b",
-            "name": "support.function.python-style.mql5"
-        },
-        {
-            "match": "\\b(A|A1|A2|Add|AddArray|AddTerm|AggregationMethod|Angle|Append|AssignArray|Attach|Available|B|B1|B2|Background|Balance|C|C1|C2|Calculate|Capacity|CCompositeMembershipFunction|CConstantMembershipFunction|CConditions|CDifferentTwoSigmoidalMembershipFunction|CFuzzyVariable|CGeneralizedBellShapedMembershipFunction|CGenericFuzzyRule|ChartId|Clear|Clone|Close|CMamdaniFuzzyRule|CNormalCombinationMembershipFunction|CNormalMembershipFunction|Color|Compare|CompareArray|CompareNoCase|ComppositionType|Conclusions|Condition|ConditionList|Copy|Count|CP_ShapedMembershipFunction|CProductTwoSigmoidalMembershipFunctions|CreateCondition|CreateSugenoFunctions|CreateTime|CS_ShapedMembershipFunctions|CSigmoidalMembershipFunction|CSingleCondition|CSugenoFuzzyRule|CSurgenoVariable|CTrapezoidMembershipFunction|CTriangualarMembershipFunction|CZ_ShapedMembershipFunctions|D|DefuzzificationMethod|Delete|DeleteRange|Delta|Description|Deviations|EmptyRule|Equal|Exchange|Execute|Filename|Fill|Find|FindRev|Flags|Flush|Functions|GetDouble|GetFuncByName|GetInteger|GetString|GetTermByName|GetValue|Handle|ImplicationMethod|IMembershipFunction|Initialize|Insert|InsertArray|InsertSort|Key|Left|Len|LevelColor|LevelDescription|LevelStyle|LevelValue|LevelWidth|LevelsCount|List|Load|MamdaniSystem|Max|Maximum|MembershipFunctions|Mid|Min|Minimum|Move|Name|Not|NumPoints|Op|Open|Output|OutputByName|Owner|Parent|ParseRule|Pointer|Prev|Price|RayLeft|RayRight|Remove|Replace|Reserve|Resize|Reverse|Right|Root|Rules|Save|Search|SearchGreat|SearchLess|Selectable|Selected|SetDouble|SetInteger|SetPoint|SetString|Shift|ShiftObject|ShiftPoint|Shutdown|Sigma|Sigma1|Sigma2|Sort|Step|Str|Style|SugenoSystem|SupportDouble|Tell|Term|Terms|Time|Timeframes|ToNormalMF|ToLower|Tooltip|ToUpper|TrimLeft|TrimRight|Type|Update|Value|Values|Var|Weight|Width|Window|X1|X2|X3|X4|Z_Order)\\b",
-            "name": "support.function.misc.mql5"
-        },
-        {
             "match": "\\b\\d+(\\.\\d+)?\\b",
             "name": "constant.numeric.mql5"
         },
@@ -67,91 +51,2359 @@
             "name": "keyword.other.preprocessor"
         },
         {
-            "match": "\\b(ACCOUNT_MARGIN_MODE_RETAIL_HEDGING|ACCOUNT_MARGIN_MODE_RETAIL_NETTING|ACCOUNT_MARGIN_MODE_EXCHANGE|ACCOUNT_STOPOUT_MODE_PERCENT|ACCOUNT_COMMISSION_BLOCKED|ACCOUNT_MARGIN_MAINTENANCE|ACCOUNT_MARGIN_MODE_RETAIL|ACCOUNT_STOPOUT_MODE_MONEY|ACCOUNT_TRADE_MODE_CONTEST|ACCOUNT_CURRENCY_DIGITS|ACCOUNT_TRADE_MODE_DEMO|ACCOUNT_TRADE_MODE_REAL|ACCOUNT_MARGIN_INITIAL|ACCOUNT_MARGIN_SO_CALL|ACCOUNT_MARGIN_SO_MODE|ACCOUNT_HEDGE_ALLOWED|ACCOUNT_TRADE_ALLOWED|ACCOUNT_LIMIT_ORDERS|ACCOUNT_MARGIN_LEVEL|ACCOUNT_MARGIN_SO_SO|ACCOUNT_TRADE_EXPERT|ACCOUNT_LIABILITIES|ACCOUNT_MARGIN_FREE|ACCOUNT_MARGIN_MODE|ACCOUNT_FIFO_CLOSE|ACCOUNT_TRADE_MODE|ACCOUNT_CURRENCY|ACCOUNT_LEVERAGE|ACCOUNT_BALANCE|ACCOUNT_COMPANY|ACCOUNT_ASSETS|ACCOUNT_CREDIT|ACCOUNT_EQUITY|ACCOUNT_MARGIN|ACCOUNT_PROFIT|ACCOUNT_SERVER|ACCOUNT_LOGIN|ACCOUNT_NAME|ACCOUNT_MAR)\\b",
-            "name": "support.constant.account-info.mql5"
-        },
-        {
-            "match": "\\b(AccountInfoInteger|AccountInfoDouble|AccountInfoString)\\b",
-            "name": "support.function.account-info.mql5"
-        },
-        {
-            "match": "\\b(ACCOUNT_STOPOUT_MODE_PERCENT|ACCOUNT_STOPOUT_MODE_MONEY)\\b",
-            "name": "support.constant.account-stopout.mql5"
-        },
-        {
-            "match": "\\b(ACCOUNT_TRADE_MODE_CONTEST|ACCOUNT_TRADE_MODE_DEMO|ACCOUNT_TRADE_MODE_REAL)\\b",
-            "name": "support.constant.account-trade-mode.mql5"
-        },
-        {
-            "match": "\\b(ARRAYPRINT_MINUTES|ARRAYPRINT_SECONDS|ARRAYPRINT_HEADER|ArrayBinarySearch|ARRAYPRINT_ALIGN|ARRAYPRINT_INDEX|ARRAYPRINT_LIMIT|ArrayGetAsSeries|ArrayLastIndexOf|ArraySetAsSeries|ARRAYPRINT_DATE|ArrayInitialize|ArrayIsDynamic|ArrayFromFP16|ArrayIsSeries|ArrayBsearch|ArrayCompare|ArrayFromFP8|ArrayIndexOf|ArrayMaximum|ArrayMinimum|ArrayReverse|ArrayInsert|ArrayRemove|ArrayResize|ArrayToFP16|ArrayPrint|ArrayRange|ArrayToFP8|ArrayCopy|ArrayFill|ArrayFree|ArraySize|ArraySort|ArraySwap)\\b",
-            "name": "support.function.array.mql5"
-        },
-        {
             "match": "\\b(false|true)\\b",
             "name": "constant.language.boolean"
-        },
-        {
-            "match": "\\b(PositionClosePartial|SetDeviationInPoints|SetExpertMagicNumber|PositionCloseBy|PositionModify|SetTypeFilling|PositionClose|PositionOpen|SetAsyncMode|OrderDelete|OrderModify|OrderOpen|SellLimit|BuyLimit|SellStop|BuyStop|Sell|Buy)\\b",
-            "name": "support.function.ctrade.mql5"
-        },
-        {
-            "match": "\\b(CHARTEVENT_OBJECT_ENDEDIT|CHART_EVENT_OBJECT_CREATE|CHART_EVENT_OBJECT_DELETE|CHARTEVENT_OBJECT_CHANGE|CHARTEVENT_OBJECT_CREATE|CHARTEVENT_OBJECT_DELETE|CHARTEVENT_CHART_CHANGE|CHARTEVENT_OBJECT_CLICK|CHART_COLOR_CANDLE_BEAR|CHART_COLOR_CANDLE_BULL|CHART_DRAG_TRADE_LEVELS|CHART_EVENT_MOUSE_WHEEL|CHART_FIRST_VISIBLE_BAR|CHART_SHOW_OBJECT_DESCR|CHART_SHOW_TRADE_LEVELS|CHART_WINDOW_IS_VISIBLE|CHARTEVENT_CUSTOM_LAST|CHARTEVENT_MOUSE_WHEEL|CHARTEVENT_OBJECT_DRAG|CHART_COLOR_BACKGROUND|CHART_COLOR_CHART_DOWN|CHART_COLOR_CHART_LINE|CHART_COLOR_FOREGROUND|CHART_COLOR_STOP_LEVEL|CHART_EVENT_MOUSE_MOVE|CHART_HEIGHT_IN_PIXELS|CHART_KEYBOARD_CONTROL|CHART_SCALE_PT_PER_BAR|CHART_SHOW_PRICE_SCALE|CHART_WINDOW_YDISTANCE|CHARTEVENT_MOUSE_MOVE|CHART_SHOW_DATE_SCALE|CHART_SHOW_PERIOD_SEP|CHART_WIDTH_IN_PIXELS|CHART_COLOR_CHART_UP|CHART_CROSSHAIR_TOOL|CHART_FIXED_POSITION|CHART_POINTS_PER_BAR|CHART_SHOW_LAST_LINE|CHART_SHOW_ONE_CLICK|CHART_FIRST_VISIBLE|CHART_SHOW_ASK_LINE|CHART_SHOW_BID_LINE|CHART_WIDTH_IN_BARS|CHART_WINDOWS_TOTAL|CHART_WINDOW_HANDLE|CHARTEVENT_KEYDOWN|CHART_BRING_TO_TOP|CHART_COLOR_VOLUME|CHART_CONTEXT_MENU|CHART_HEIGHT_IN_PI|CHART_IS_MAXIMIZED|CHART_IS_MINIMIZED|CHART_MOUSE_SCROLL|CHART_SHOW_VOLUMES|CHART_VISIBLE_BARS|CHARTEVENT_CUSTOM|CHART_BRING_TO_TO|CHART_CROSSHAIR_T|CHART_CURRENT_POS|CHART_EVENT_OBJEC|CHART_EXPERT_NAME|CHART_FLOAT_RIGHT|CHART_QUICK_NAVIG|CHART_SCALEFIX_11|CHART_SCALE_PT_PE|CHART_SCRIPT_NAME|CHART_SHOW_ASK_LI|CHART_SHOW_BID_LI|CHART_SHOW_TICKER|CHART_VOLUME_HIDE|CHART_VOLUME_REAL|CHART_VOLUME_TICK|CHART_WIDTH_IN_BA|CHART_WIDTH_IN_PI|CHARTEVENT_CLICK|CHART_AUTOSCROLL|CHART_COLOR_BACK|CHART_COLOR_CAND|CHART_COLOR_CHAR|CHART_COLOR_FORE|CHART_COLOR_GRID|CHART_COLOR_LAST|CHART_COLOR_STOP|CHART_COLOR_VOLU|CHART_CONTEXT_ME|CHART_DRAG_TRADE|CHART_EVENT_MOUS|CHART_FLOAT_BOTT|CHART_FLOAT_LEFT|CHART_FOREGROUND|CHART_KEYBOARD_C|CHART_MOUSE_SCRO|CHART_SHIFT_SIZE|CHART_SHOW_OBJEC|CHART_SHOW_ONE_C|CHART_SHOW_PERIO|CHART_SHOW_PRICE|CHART_SHOW_TICKE|CHART_SHOW_TRADE|CHART_WINDOWS_TO|CHART_WINDOW_YDI|CHART_COLOR_ASK|CHART_COLOR_BID|CHART_FIXED_MAX|CHART_FIXED_MIN|CHART_FLOAT_TOP|CHART_IS_DOCKED|CHART_IS_OBJECT|CHART_PRICE_MAX|CHART_PRICE_MIN|CHART_SHOW_GRID|CHART_SHOW_OHLC|CHART_SHOW_VOLU|CHART_WINDOW_HA|CHART_SCALEFIX|CHARTEVENT_CU|CHARTEVENT_KE|CHARTEVENT_MO|CHARTEVENT_OB|CHART_AUTOSCR|CHART_CANDLES|CHART_COMMENT|CHART_EVENT_O|CHARTEVENT_C|CHARTEVENT_M|CHARTEVENT_O|CHART_PERIOD|CHART_SYMBOL|CHART_BEGIN|CHART_SCALE|CHART_SHIFT|CHART_BARS|CHART_LINE|CHART_MODE|CHART_SHOW|CHART_END|CHART_ID)\\b",
-            "name": "support.constant.chart.mql5"
-        },
-        {
-            "match": "\\b(ChartIndicatorDelete|ChartIndicatorsTotal|ChartSetSymbolPeriod|ChartApplyTemplate|ChartIndicatorName|ChartTimePriceToXY|ChartXYToTimePrice|ChartIndicatorAdd|ChartIndicatorGet|ChartSaveTemplate|ChartGetInteger|ChartScreenShot|ChartSetInteger|ChartWindowFind|ChartGetDouble|ChartGetString|ChartSetDouble|ChartSetString|ChartNavigate|ChartPeriod|ChartRedraw|ChartSymbol|ChartClose|ChartNext|ChartOpen)\\b",
-            "name": "support.function.chart.mql5"
-        },
-        {
-            "match": "\\b(CheckPointer)\\b",
-            "name": "support.function.check.mql5"
-        },
-        {
-            "match": "\\b(COLOR_FORMAT_ARGB_NORMALIZE|COLOR_FORMAT_XRGB_NOALPHA|COLOR_FORMAT_ARGB_RAW|clrForestGreen|clrDodgerBlue|clrMediumBlue|clrDarkGreen|clrFireBrick|clrDarkBlue|clrLavender|clrCrimson|clrDarkRed|clrFuchsia|clrMagenta|clrIndigo|clrMaroon|clrOrange|clrPurple|clrSilver|clrYellow|clrBlack|clrCoral|clrGreen|clrKhaki|clrOlive|clrWhite|clrAqua|clrBlue|clrCyan|clrGold|clrGray|clrLime|clrNavy|clrNone|clrPink|clrTeal|clrRed)\\b",
-            "name": "support.constant.color.mql5"
-        },
-        {
-            "match": "\\b(GetMicrosecondCount|SendNotification|GetViewBetween|GetKernelName|TerminalClose|ExpertRemove|GetTickCount|GetHashCode|PrintFormat|GetPointer|GetReverse|MessageBox|GetKernel|PlaySound|SendMail|Comment|SendFTP|Alert|Print|Sleep)\\b",
-            "name": "support.function.common.mql5"
         },
         {
             "match": "\\b(continue|default|return|switch|break|while|case|else|goto|for|do|if)\\b",
             "name": "keyword.control"
         },
         {
-            "match": "\\b(StringToCharArray|IntegerToString|NormalizeDouble|DoubleToString|StringToDouble|ColorToString|StringToColor|CharToString|EnumToString|StringToTime|TimeToString|TimeToStruct|ColorToARGB)\\b",
-            "name": "support.function.conversion.mql5"
-        },
-        {
-            "match": "\\b(IndicatorParameters|IndicatorSetInteger|IndicatorSetDouble|IndicatorSetString|IndicatorRelease|IndicatorCreate|IndicatorDelete|IndicatorsTotal|IndicatorName|IndicatorAdd)\\b",
-            "name": "support.function.custom-indicator.mql5"
-        },
-        {
             "match": "\\b(datetime|double|string|ushort|color|float|group|short|uchar|ulong|bool|char|long|uint|void|int)\\b",
             "name": "storage.type"
         },
         {
-            "match": "\\b(TimeTradeServer|TIME_SPECIFIED|TIME_MINUTES|TIME_SECONDS|TimeCurrent|TIME_DATE|TimeLocal|TIME_MSC|TIME_OUT|TIME_IN|TimeGMT)\\b",
+            "match": "(\\#property|\\#resource|\\#include|\\#define|\\#import)",
+            "name": "keyword.other.preprocessor"
+        },
+        {
+            "match": "\\b3D\\w*\\b",
+            "name": "support.function.prefix.3d.mql5"
+        },
+        {
+            "match": "\\bA\\w*\\b",
+            "name": "support.function.prefix.a.mql5"
+        },
+        {
+            "match": "\\bA1\\w*\\b",
+            "name": "support.function.prefix.a1.mql5"
+        },
+        {
+            "match": "\\bA2\\w*\\b",
+            "name": "support.function.prefix.a2.mql5"
+        },
+        {
+            "match": "\\bAccount\\w*\\b",
+            "name": "support.function.prefix.account.mql5"
+        },
+        {
+            "match": "\\bAccumulative\\w*\\b",
+            "name": "support.function.prefix.accumulative.mql5"
+        },
+        {
+            "match": "\\bActivate\\w*\\b",
+            "name": "support.function.prefix.activate.mql5"
+        },
+        {
+            "match": "\\bActivation\\w*\\b",
+            "name": "support.function.prefix.activation.mql5"
+        },
+        {
+            "match": "\\bAdd\\w*\\b",
+            "name": "support.function.prefix.add.mql5"
+        },
+        {
+            "match": "\\bAggregation\\w*\\b",
+            "name": "support.function.prefix.aggregation.mql5"
+        },
+        {
+            "match": "\\bAlert\\w*\\b",
+            "name": "support.function.prefix.alert.mql5"
+        },
+        {
+            "match": "\\bAlign\\w*\\b",
+            "name": "support.function.prefix.align.mql5"
+        },
+        {
+            "match": "\\bAlignment\\w*\\b",
+            "name": "support.function.prefix.alignment.mql5"
+        },
+        {
+            "match": "\\bAllowed\\w*\\b",
+            "name": "support.function.prefix.allowed.mql5"
+        },
+        {
+            "match": "\\bAmbient\\w*\\b",
+            "name": "support.function.prefix.ambient.mql5"
+        },
+        {
+            "match": "\\bAnchor\\w*\\b",
+            "name": "support.function.prefix.anchor.mql5"
+        },
+        {
+            "match": "\\bAngle\\w*\\b",
+            "name": "support.function.prefix.angle.mql5"
+        },
+        {
+            "match": "\\bAppend\\w*\\b",
+            "name": "support.function.prefix.append.mql5"
+        },
+        {
+            "match": "\\bApplied\\w*\\b",
+            "name": "support.function.prefix.applied.mql5"
+        },
+        {
+            "match": "\\bApply\\w*\\b",
+            "name": "support.function.prefix.apply.mql5"
+        },
+        {
+            "match": "\\bArc\\w*\\b",
+            "name": "support.function.prefix.arc.mql5"
+        },
+        {
+            "match": "\\bArg\\w*\\b",
+            "name": "support.function.prefix.arg.mql5"
+        },
+        {
+            "match": "\\bArray\\w*\\b",
+            "name": "support.function.prefix.array.mql5"
+        },
+        {
+            "match": "\\bArrow\\w*\\b",
+            "name": "support.function.prefix.arrow.mql5"
+        },
+        {
+            "match": "\\bArrows\\w*\\b",
+            "name": "support.function.prefix.arrows.mql5"
+        },
+        {
+            "match": "\\bAsk\\w*\\b",
+            "name": "support.function.prefix.ask.mql5"
+        },
+        {
+            "match": "\\bAssign\\w*\\b",
+            "name": "support.function.prefix.assign.mql5"
+        },
+        {
+            "match": "\\bAt\\w*\\b",
+            "name": "support.function.prefix.at.mql5"
+        },
+        {
+            "match": "\\bAttach\\w*\\b",
+            "name": "support.function.prefix.attach.mql5"
+        },
+        {
+            "match": "\\bAuto\\w*\\b",
+            "name": "support.function.prefix.auto.mql5"
+        },
+        {
+            "match": "\\bAvailable\\w*\\b",
+            "name": "support.function.prefix.available.mql5"
+        },
+        {
+            "match": "\\bAverage\\w*\\b",
+            "name": "support.function.prefix.average.mql5"
+        },
+        {
+            "match": "\\bB\\w*\\b",
+            "name": "support.function.prefix.b.mql5"
+        },
+        {
+            "match": "\\bB1\\w*\\b",
+            "name": "support.function.prefix.b1.mql5"
+        },
+        {
+            "match": "\\bB2\\w*\\b",
+            "name": "support.function.prefix.b2.mql5"
+        },
+        {
+            "match": "\\bBack\\w*\\b",
+            "name": "support.function.prefix.back.mql5"
+        },
+        {
+            "match": "\\bBackground\\w*\\b",
+            "name": "support.function.prefix.background.mql5"
+        },
+        {
+            "match": "\\bBalance\\w*\\b",
+            "name": "support.function.prefix.balance.mql5"
+        },
+        {
+            "match": "\\bBank\\w*\\b",
+            "name": "support.function.prefix.bank.mql5"
+        },
+        {
+            "match": "\\bBar\\w*\\b",
+            "name": "support.function.prefix.bar.mql5"
+        },
+        {
+            "match": "\\bBars\\w*\\b",
+            "name": "support.function.prefix.bars.mql5"
+        },
+        {
+            "match": "\\bBase\\w*\\b",
+            "name": "support.function.prefix.base.mql5"
+        },
+        {
+            "match": "\\bBasic\\w*\\b",
+            "name": "support.function.prefix.basic.mql5"
+        },
+        {
+            "match": "\\bBid\\w*\\b",
+            "name": "support.function.prefix.bid.mql5"
+        },
+        {
+            "match": "\\bBill\\w*\\b",
+            "name": "support.function.prefix.bill.mql5"
+        },
+        {
+            "match": "\\bBinary\\w*\\b",
+            "name": "support.function.prefix.binary.mql5"
+        },
+        {
+            "match": "\\bBmp\\w*\\b",
+            "name": "support.function.prefix.bmp.mql5"
+        },
+        {
+            "match": "\\bBorder\\w*\\b",
+            "name": "support.function.prefix.border.mql5"
+        },
+        {
+            "match": "\\bBottom\\w*\\b",
+            "name": "support.function.prefix.bottom.mql5"
+        },
+        {
+            "match": "\\bBring\\w*\\b",
+            "name": "support.function.prefix.bring.mql5"
+        },
+        {
+            "match": "\\bBuffer\\w*\\b",
+            "name": "support.function.prefix.buffer.mql5"
+        },
+        {
+            "match": "\\bBuffers\\w*\\b",
+            "name": "support.function.prefix.buffers.mql5"
+        },
+        {
+            "match": "\\bBuild\\w*\\b",
+            "name": "support.function.prefix.build.mql5"
+        },
+        {
+            "match": "\\bBuy\\w*\\b",
+            "name": "support.function.prefix.buy.mql5"
+        },
+        {
+            "match": "\\bC\\w*\\b",
+            "name": "support.function.prefix.c.mql5"
+        },
+        {
+            "match": "\\bC1\\w*\\b",
+            "name": "support.function.prefix.c1.mql5"
+        },
+        {
+            "match": "\\bC2\\w*\\b",
+            "name": "support.function.prefix.c2.mql5"
+        },
+        {
+            "match": "\\bCL\\w*\\b",
+            "name": "support.function.prefix.cl.mql5"
+        },
+        {
+            "match": "\\bCP\\w*\\b",
+            "name": "support.function.prefix.cp.mql5"
+        },
+        {
+            "match": "\\bCPU\\w*\\b",
+            "name": "support.function.prefix.cpu.mql5"
+        },
+        {
+            "match": "\\bCS\\w*\\b",
+            "name": "support.function.prefix.cs.mql5"
+        },
+        {
+            "match": "\\bCZ\\w*\\b",
+            "name": "support.function.prefix.cz.mql5"
+        },
+        {
+            "match": "\\bCalc\\w*\\b",
+            "name": "support.function.prefix.calc.mql5"
+        },
+        {
+            "match": "\\bCalculate\\w*\\b",
+            "name": "support.function.prefix.calculate.mql5"
+        },
+        {
+            "match": "\\bCalendar\\w*\\b",
+            "name": "support.function.prefix.calendar.mql5"
+        },
+        {
+            "match": "\\bCapacity\\w*\\b",
+            "name": "support.function.prefix.capacity.mql5"
+        },
+        {
+            "match": "\\bCaption\\w*\\b",
+            "name": "support.function.prefix.caption.mql5"
+        },
+        {
+            "match": "\\bChannel\\w*\\b",
+            "name": "support.function.prefix.channel.mql5"
+        },
+        {
+            "match": "\\bChar\\w*\\b",
+            "name": "support.function.prefix.char.mql5"
+        },
+        {
+            "match": "\\bChart\\w*\\b",
+            "name": "support.function.prefix.chart.mql5"
+        },
+        {
+            "match": "\\bCheck\\w*\\b",
+            "name": "support.function.prefix.check.mql5"
+        },
+        {
+            "match": "\\bChecked\\w*\\b",
+            "name": "support.function.prefix.checked.mql5"
+        },
+        {
+            "match": "\\bChinkou\\w*\\b",
+            "name": "support.function.prefix.chinkou.mql5"
+        },
+        {
+            "match": "\\bCholesky\\w*\\b",
+            "name": "support.function.prefix.cholesky.mql5"
+        },
+        {
+            "match": "\\bCi\\w*\\b",
+            "name": "support.function.prefix.ci.mql5"
+        },
+        {
+            "match": "\\bCircle\\w*\\b",
+            "name": "support.function.prefix.circle.mql5"
+        },
+        {
+            "match": "\\bClassification\\w*\\b",
+            "name": "support.function.prefix.classification.mql5"
+        },
+        {
+            "match": "\\bClear\\w*\\b",
+            "name": "support.function.prefix.clear.mql5"
+        },
+        {
+            "match": "\\bClient\\w*\\b",
+            "name": "support.function.prefix.client.mql5"
+        },
+        {
+            "match": "\\bClip\\w*\\b",
+            "name": "support.function.prefix.clip.mql5"
+        },
+        {
+            "match": "\\bClone\\w*\\b",
+            "name": "support.function.prefix.clone.mql5"
+        },
+        {
+            "match": "\\bClose\\w*\\b",
+            "name": "support.function.prefix.close.mql5"
+        },
+        {
+            "match": "\\bCmo\\w*\\b",
+            "name": "support.function.prefix.cmo.mql5"
+        },
+        {
+            "match": "\\bCode\\w*\\b",
+            "name": "support.function.prefix.code.mql5"
+        },
+        {
+            "match": "\\bCol\\w*\\b",
+            "name": "support.function.prefix.col.mql5"
+        },
+        {
+            "match": "\\bColor\\w*\\b",
+            "name": "support.function.prefix.color.mql5"
+        },
+        {
+            "match": "\\bCols\\w*\\b",
+            "name": "support.function.prefix.cols.mql5"
+        },
+        {
+            "match": "\\bComment\\w*\\b",
+            "name": "support.function.prefix.comment.mql5"
+        },
+        {
+            "match": "\\bCommision\\w*\\b",
+            "name": "support.function.prefix.commision.mql5"
+        },
+        {
+            "match": "\\bCommission\\w*\\b",
+            "name": "support.function.prefix.commission.mql5"
+        },
+        {
+            "match": "\\bCommon\\w*\\b",
+            "name": "support.function.prefix.common.mql5"
+        },
+        {
+            "match": "\\bCompany\\w*\\b",
+            "name": "support.function.prefix.company.mql5"
+        },
+        {
+            "match": "\\bCompare\\w*\\b",
+            "name": "support.function.prefix.compare.mql5"
+        },
+        {
+            "match": "\\bComparer\\w*\\b",
+            "name": "support.function.prefix.comparer.mql5"
+        },
+        {
+            "match": "\\bComposition\\w*\\b",
+            "name": "support.function.prefix.composition.mql5"
+        },
+        {
+            "match": "\\bConcat\\w*\\b",
+            "name": "support.function.prefix.concat.mql5"
+        },
+        {
+            "match": "\\bConclusion\\w*\\b",
+            "name": "support.function.prefix.conclusion.mql5"
+        },
+        {
+            "match": "\\bCond\\w*\\b",
+            "name": "support.function.prefix.cond.mql5"
+        },
+        {
+            "match": "\\bCondition\\w*\\b",
+            "name": "support.function.prefix.condition.mql5"
+        },
+        {
+            "match": "\\bConditions\\w*\\b",
+            "name": "support.function.prefix.conditions.mql5"
+        },
+        {
+            "match": "\\bConfusion\\w*\\b",
+            "name": "support.function.prefix.confusion.mql5"
+        },
+        {
+            "match": "\\bContains\\w*\\b",
+            "name": "support.function.prefix.contains.mql5"
+        },
+        {
+            "match": "\\bContract\\w*\\b",
+            "name": "support.function.prefix.contract.mql5"
+        },
+        {
+            "match": "\\bControl\\w*\\b",
+            "name": "support.function.prefix.control.mql5"
+        },
+        {
+            "match": "\\bControls\\w*\\b",
+            "name": "support.function.prefix.controls.mql5"
+        },
+        {
+            "match": "\\bConvolve\\w*\\b",
+            "name": "support.function.prefix.convolve.mql5"
+        },
+        {
+            "match": "\\bCopy\\w*\\b",
+            "name": "support.function.prefix.copy.mql5"
+        },
+        {
+            "match": "\\bCorner\\w*\\b",
+            "name": "support.function.prefix.corner.mql5"
+        },
+        {
+            "match": "\\bCorr\\w*\\b",
+            "name": "support.function.prefix.corr.mql5"
+        },
+        {
+            "match": "\\bCorrelate\\w*\\b",
+            "name": "support.function.prefix.correlate.mql5"
+        },
+        {
+            "match": "\\bCount\\w*\\b",
+            "name": "support.function.prefix.count.mql5"
+        },
+        {
+            "match": "\\bCov\\w*\\b",
+            "name": "support.function.prefix.cov.mql5"
+        },
+        {
+            "match": "\\bCreate\\w*\\b",
+            "name": "support.function.prefix.create.mql5"
+        },
+        {
+            "match": "\\bCredit\\w*\\b",
+            "name": "support.function.prefix.credit.mql5"
+        },
+        {
+            "match": "\\bCrypt\\w*\\b",
+            "name": "support.function.prefix.crypt.mql5"
+        },
+        {
+            "match": "\\bCum\\w*\\b",
+            "name": "support.function.prefix.cum.mql5"
+        },
+        {
+            "match": "\\bCurr\\w*\\b",
+            "name": "support.function.prefix.curr.mql5"
+        },
+        {
+            "match": "\\bCurrency\\w*\\b",
+            "name": "support.function.prefix.currency.mql5"
+        },
+        {
+            "match": "\\bCurve\\w*\\b",
+            "name": "support.function.prefix.curve.mql5"
+        },
+        {
+            "match": "\\bCurves\\w*\\b",
+            "name": "support.function.prefix.curves.mql5"
+        },
+        {
+            "match": "\\bCustom\\w*\\b",
+            "name": "support.function.prefix.custom.mql5"
+        },
+        {
+            "match": "\\bD\\w*\\b",
+            "name": "support.function.prefix.d.mql5"
+        },
+        {
+            "match": "\\bDRAW\\w*\\b",
+            "name": "support.function.prefix.draw.mql5"
+        },
+        {
+            "match": "\\bDX\\w*\\b",
+            "name": "support.function.prefix.dx.mql5"
+        },
+        {
+            "match": "\\bData\\w*\\b",
+            "name": "support.function.prefix.data.mql5"
+        },
+        {
+            "match": "\\bDatabase\\w*\\b",
+            "name": "support.function.prefix.database.mql5"
+        },
+        {
+            "match": "\\bDatastructures\\w*\\b",
+            "name": "support.function.prefix.datastructures.mql5"
+        },
+        {
+            "match": "\\bDate\\w*\\b",
+            "name": "support.function.prefix.date.mql5"
+        },
+        {
+            "match": "\\bDay\\w*\\b",
+            "name": "support.function.prefix.day.mql5"
+        },
+        {
+            "match": "\\bDays\\w*\\b",
+            "name": "support.function.prefix.days.mql5"
+        },
+        {
+            "match": "\\bDeactivate\\w*\\b",
+            "name": "support.function.prefix.deactivate.mql5"
+        },
+        {
+            "match": "\\bDeal\\w*\\b",
+            "name": "support.function.prefix.deal.mql5"
+        },
+        {
+            "match": "\\bDebug\\w*\\b",
+            "name": "support.function.prefix.debug.mql5"
+        },
+        {
+            "match": "\\bDecrease\\w*\\b",
+            "name": "support.function.prefix.decrease.mql5"
+        },
+        {
+            "match": "\\bDefault\\w*\\b",
+            "name": "support.function.prefix.default.mql5"
+        },
+        {
+            "match": "\\bDefuzzification\\w*\\b",
+            "name": "support.function.prefix.defuzzification.mql5"
+        },
+        {
+            "match": "\\bDegree\\w*\\b",
+            "name": "support.function.prefix.degree.mql5"
+        },
+        {
+            "match": "\\bDeinit\\w*\\b",
+            "name": "support.function.prefix.deinit.mql5"
+        },
+        {
+            "match": "\\bDelete\\w*\\b",
+            "name": "support.function.prefix.delete.mql5"
+        },
+        {
+            "match": "\\bDelta\\w*\\b",
+            "name": "support.function.prefix.delta.mql5"
+        },
+        {
+            "match": "\\bDequeue\\w*\\b",
+            "name": "support.function.prefix.dequeue.mql5"
+        },
+        {
+            "match": "\\bDerivative\\w*\\b",
+            "name": "support.function.prefix.derivative.mql5"
+        },
+        {
+            "match": "\\bDescription\\w*\\b",
+            "name": "support.function.prefix.description.mql5"
+        },
+        {
+            "match": "\\bDescriptor\\w*\\b",
+            "name": "support.function.prefix.descriptor.mql5"
+        },
+        {
+            "match": "\\bDestroy\\w*\\b",
+            "name": "support.function.prefix.destroy.mql5"
+        },
+        {
+            "match": "\\bDet\\w*\\b",
+            "name": "support.function.prefix.det.mql5"
+        },
+        {
+            "match": "\\bDetach\\w*\\b",
+            "name": "support.function.prefix.detach.mql5"
+        },
+        {
+            "match": "\\bDeviation\\w*\\b",
+            "name": "support.function.prefix.deviation.mql5"
+        },
+        {
+            "match": "\\bDeviations\\w*\\b",
+            "name": "support.function.prefix.deviations.mql5"
+        },
+        {
+            "match": "\\bDiag\\w*\\b",
+            "name": "support.function.prefix.diag.mql5"
+        },
+        {
+            "match": "\\bDigits\\w*\\b",
+            "name": "support.function.prefix.digits.mql5"
+        },
+        {
+            "match": "\\bDirection\\w*\\b",
+            "name": "support.function.prefix.direction.mql5"
+        },
+        {
+            "match": "\\bDisable\\w*\\b",
+            "name": "support.function.prefix.disable.mql5"
+        },
+        {
+            "match": "\\bDisk\\w*\\b",
+            "name": "support.function.prefix.disk.mql5"
+        },
+        {
+            "match": "\\bDot\\w*\\b",
+            "name": "support.function.prefix.dot.mql5"
+        },
+        {
+            "match": "\\bDouble\\w*\\b",
+            "name": "support.function.prefix.double.mql5"
+        },
+        {
+            "match": "\\bDowntrend\\w*\\b",
+            "name": "support.function.prefix.downtrend.mql5"
+        },
+        {
+            "match": "\\bDperiod\\w*\\b",
+            "name": "support.function.prefix.dperiod.mql5"
+        },
+        {
+            "match": "\\bDrag\\w*\\b",
+            "name": "support.function.prefix.drag.mql5"
+        },
+        {
+            "match": "\\bDraw\\w*\\b",
+            "name": "support.function.prefix.draw.mql5"
+        },
+        {
+            "match": "\\bDynamic\\w*\\b",
+            "name": "support.function.prefix.dynamic.mql5"
+        },
+        {
+            "match": "\\bEig\\w*\\b",
+            "name": "support.function.prefix.eig.mql5"
+        },
+        {
+            "match": "\\bEigen\\w*\\b",
+            "name": "support.function.prefix.eigen.mql5"
+        },
+        {
+            "match": "\\bElliott\\w*\\b",
+            "name": "support.function.prefix.elliott.mql5"
+        },
+        {
+            "match": "\\bEllipse\\w*\\b",
+            "name": "support.function.prefix.ellipse.mql5"
+        },
+        {
+            "match": "\\bEma\\w*\\b",
+            "name": "support.function.prefix.ema.mql5"
+        },
+        {
+            "match": "\\bEmpty\\w*\\b",
+            "name": "support.function.prefix.empty.mql5"
+        },
+        {
+            "match": "\\bEnable\\w*\\b",
+            "name": "support.function.prefix.enable.mql5"
+        },
+        {
+            "match": "\\bEnqueue\\w*\\b",
+            "name": "support.function.prefix.enqueue.mql5"
+        },
+        {
+            "match": "\\bEntry\\w*\\b",
+            "name": "support.function.prefix.entry.mql5"
+        },
+        {
+            "match": "\\bEnum\\w*\\b",
+            "name": "support.function.prefix.enum.mql5"
+        },
+        {
+            "match": "\\bEquals\\w*\\b",
+            "name": "support.function.prefix.equals.mql5"
+        },
+        {
+            "match": "\\bEquity\\w*\\b",
+            "name": "support.function.prefix.equity.mql5"
+        },
+        {
+            "match": "\\bErase\\w*\\b",
+            "name": "support.function.prefix.erase.mql5"
+        },
+        {
+            "match": "\\bEvent\\w*\\b",
+            "name": "support.function.prefix.event.mql5"
+        },
+        {
+            "match": "\\bEvery\\w*\\b",
+            "name": "support.function.prefix.every.mql5"
+        },
+        {
+            "match": "\\bExcept\\w*\\b",
+            "name": "support.function.prefix.except.mql5"
+        },
+        {
+            "match": "\\bExchange\\w*\\b",
+            "name": "support.function.prefix.exchange.mql5"
+        },
+        {
+            "match": "\\bExecute\\w*\\b",
+            "name": "support.function.prefix.execute.mql5"
+        },
+        {
+            "match": "\\bExpert\\w*\\b",
+            "name": "support.function.prefix.expert.mql5"
+        },
+        {
+            "match": "\\bExpiration\\w*\\b",
+            "name": "support.function.prefix.expiration.mql5"
+        },
+        {
+            "match": "\\bEye\\w*\\b",
+            "name": "support.function.prefix.eye.mql5"
+        },
+        {
+            "match": "\\bFactorization\\w*\\b",
+            "name": "support.function.prefix.factorization.mql5"
+        },
+        {
+            "match": "\\bFast\\w*\\b",
+            "name": "support.function.prefix.fast.mql5"
+        },
+        {
+            "match": "\\bFeatures\\w*\\b",
+            "name": "support.function.prefix.features.mql5"
+        },
+        {
+            "match": "\\bFibonacci\\w*\\b",
+            "name": "support.function.prefix.fibonacci.mql5"
+        },
+        {
+            "match": "\\bFile\\w*\\b",
+            "name": "support.function.prefix.file.mql5"
+        },
+        {
+            "match": "\\bFilename\\w*\\b",
+            "name": "support.function.prefix.filename.mql5"
+        },
+        {
+            "match": "\\bFiles\\w*\\b",
+            "name": "support.function.prefix.files.mql5"
+        },
+        {
+            "match": "\\bFill\\w*\\b",
+            "name": "support.function.prefix.fill.mql5"
+        },
+        {
+            "match": "\\bFilled\\w*\\b",
+            "name": "support.function.prefix.filled.mql5"
+        },
+        {
+            "match": "\\bFind\\w*\\b",
+            "name": "support.function.prefix.find.mql5"
+        },
+        {
+            "match": "\\bFirst\\w*\\b",
+            "name": "support.function.prefix.first.mql5"
+        },
+        {
+            "match": "\\bFixed\\w*\\b",
+            "name": "support.function.prefix.fixed.mql5"
+        },
+        {
+            "match": "\\bFlags\\w*\\b",
+            "name": "support.function.prefix.flags.mql5"
+        },
+        {
+            "match": "\\bFlat\\w*\\b",
+            "name": "support.function.prefix.flat.mql5"
+        },
+        {
+            "match": "\\bFlush\\w*\\b",
+            "name": "support.function.prefix.flush.mql5"
+        },
+        {
+            "match": "\\bFolder\\w*\\b",
+            "name": "support.function.prefix.folder.mql5"
+        },
+        {
+            "match": "\\bFont\\w*\\b",
+            "name": "support.function.prefix.font.mql5"
+        },
+        {
+            "match": "\\bForeground\\w*\\b",
+            "name": "support.function.prefix.foreground.mql5"
+        },
+        {
+            "match": "\\bFormat\\w*\\b",
+            "name": "support.function.prefix.format.mql5"
+        },
+        {
+            "match": "\\bFrame\\w*\\b",
+            "name": "support.function.prefix.frame.mql5"
+        },
+        {
+            "match": "\\bFree\\w*\\b",
+            "name": "support.function.prefix.free.mql5"
+        },
+        {
+            "match": "\\bFreeze\\w*\\b",
+            "name": "support.function.prefix.freeze.mql5"
+        },
+        {
+            "match": "\\bFull\\w*\\b",
+            "name": "support.function.prefix.full.mql5"
+        },
+        {
+            "match": "\\bFunctions\\w*\\b",
+            "name": "support.function.prefix.functions.mql5"
+        },
+        {
+            "match": "\\bFuzzy\\w*\\b",
+            "name": "support.function.prefix.fuzzy.mql5"
+        },
+        {
+            "match": "\\bGann\\w*\\b",
+            "name": "support.function.prefix.gann.mql5"
+        },
+        {
+            "match": "\\bGap\\w*\\b",
+            "name": "support.function.prefix.gap.mql5"
+        },
+        {
+            "match": "\\bGe\\w*\\b",
+            "name": "support.function.prefix.ge.mql5"
+        },
+        {
+            "match": "\\bGeneral\\w*\\b",
+            "name": "support.function.prefix.general.mql5"
+        },
+        {
+            "match": "\\bGeneric\\w*\\b",
+            "name": "support.function.prefix.generic.mql5"
+        },
+        {
+            "match": "\\bGet\\w*\\b",
+            "name": "support.function.prefix.get.mql5"
+        },
+        {
+            "match": "\\bGlobal\\w*\\b",
+            "name": "support.function.prefix.global.mql5"
+        },
+        {
+            "match": "\\bGradient\\w*\\b",
+            "name": "support.function.prefix.gradient.mql5"
+        },
+        {
+            "match": "\\bGraph\\w*\\b",
+            "name": "support.function.prefix.graph.mql5"
+        },
+        {
+            "match": "\\bGraphic\\w*\\b",
+            "name": "support.function.prefix.graphic.mql5"
+        },
+        {
+            "match": "\\bGrid\\w*\\b",
+            "name": "support.function.prefix.grid.mql5"
+        },
+        {
+            "match": "\\bH\\w*\\b",
+            "name": "support.function.prefix.h.mql5"
+        },
+        {
+            "match": "\\bHandle\\w*\\b",
+            "name": "support.function.prefix.handle.mql5"
+        },
+        {
+            "match": "\\bHas\\w*\\b",
+            "name": "support.function.prefix.has.mql5"
+        },
+        {
+            "match": "\\bHash\\w*\\b",
+            "name": "support.function.prefix.hash.mql5"
+        },
+        {
+            "match": "\\bHead\\w*\\b",
+            "name": "support.function.prefix.head.mql5"
+        },
+        {
+            "match": "\\bHeight\\w*\\b",
+            "name": "support.function.prefix.height.mql5"
+        },
+        {
+            "match": "\\bHide\\w*\\b",
+            "name": "support.function.prefix.hide.mql5"
+        },
+        {
+            "match": "\\bHigh\\w*\\b",
+            "name": "support.function.prefix.high.mql5"
+        },
+        {
+            "match": "\\bHistogram\\w*\\b",
+            "name": "support.function.prefix.histogram.mql5"
+        },
+        {
+            "match": "\\bHistory\\w*\\b",
+            "name": "support.function.prefix.history.mql5"
+        },
+        {
+            "match": "\\bHour\\w*\\b",
+            "name": "support.function.prefix.hour.mql5"
+        },
+        {
+            "match": "\\bHsplit\\w*\\b",
+            "name": "support.function.prefix.hsplit.mql5"
+        },
+        {
+            "match": "\\bI\\w*\\b",
+            "name": "support.function.prefix.i.mql5"
+        },
+        {
+            "match": "\\bId\\w*\\b",
+            "name": "support.function.prefix.id.mql5"
+        },
+        {
+            "match": "\\bIdentifier\\w*\\b",
+            "name": "support.function.prefix.identifier.mql5"
+        },
+        {
+            "match": "\\bIdentity\\w*\\b",
+            "name": "support.function.prefix.identity.mql5"
+        },
+        {
+            "match": "\\bIgnore\\w*\\b",
+            "name": "support.function.prefix.ignore.mql5"
+        },
+        {
+            "match": "\\bImplication\\w*\\b",
+            "name": "support.function.prefix.implication.mql5"
+        },
+        {
+            "match": "\\bInd\\w*\\b",
+            "name": "support.function.prefix.ind.mql5"
+        },
+        {
+            "match": "\\bIndent\\w*\\b",
+            "name": "support.function.prefix.indent.mql5"
+        },
+        {
+            "match": "\\bIndex\\w*\\b",
+            "name": "support.function.prefix.index.mql5"
+        },
+        {
+            "match": "\\bIndicator\\w*\\b",
+            "name": "support.function.prefix.indicator.mql5"
+        },
+        {
+            "match": "\\bIndicators\\w*\\b",
+            "name": "support.function.prefix.indicators.mql5"
+        },
+        {
+            "match": "\\bInfo\\w*\\b",
+            "name": "support.function.prefix.info.mql5"
+        },
+        {
+            "match": "\\bIni\\w*\\b",
+            "name": "support.function.prefix.ini.mql5"
+        },
+        {
+            "match": "\\bInit\\w*\\b",
+            "name": "support.function.prefix.init.mql5"
+        },
+        {
+            "match": "\\bInitialize\\w*\\b",
+            "name": "support.function.prefix.initialize.mql5"
+        },
+        {
+            "match": "\\bInner\\w*\\b",
+            "name": "support.function.prefix.inner.mql5"
+        },
+        {
+            "match": "\\bInput\\w*\\b",
+            "name": "support.function.prefix.input.mql5"
+        },
+        {
+            "match": "\\bInsert\\w*\\b",
+            "name": "support.function.prefix.insert.mql5"
+        },
+        {
+            "match": "\\bInteger\\w*\\b",
+            "name": "support.function.prefix.integer.mql5"
+        },
+        {
+            "match": "\\bIntersect\\w*\\b",
+            "name": "support.function.prefix.intersect.mql5"
+        },
+        {
+            "match": "\\bInv\\w*\\b",
+            "name": "support.function.prefix.inv.mql5"
+        },
+        {
+            "match": "\\bInverse\\w*\\b",
+            "name": "support.function.prefix.inverse.mql5"
+        },
+        {
+            "match": "\\bInvert\\w*\\b",
+            "name": "support.function.prefix.invert.mql5"
+        },
+        {
+            "match": "\\bIs\\w*\\b",
+            "name": "support.function.prefix.is.mql5"
+        },
+        {
+            "match": "\\bJaw\\w*\\b",
+            "name": "support.function.prefix.jaw.mql5"
+        },
+        {
+            "match": "\\bKernel\\w*\\b",
+            "name": "support.function.prefix.kernel.mql5"
+        },
+        {
+            "match": "\\bKey\\w*\\b",
+            "name": "support.function.prefix.key.mql5"
+        },
+        {
+            "match": "\\bKijun\\w*\\b",
+            "name": "support.function.prefix.kijun.mql5"
+        },
+        {
+            "match": "\\bKperiod\\w*\\b",
+            "name": "support.function.prefix.kperiod.mql5"
+        },
+        {
+            "match": "\\bKron\\w*\\b",
+            "name": "support.function.prefix.kron.mql5"
+        },
+        {
+            "match": "\\bLDL\\w*\\b",
+            "name": "support.function.prefix.ldl.mql5"
+        },
+        {
+            "match": "\\bLU\\w*\\b",
+            "name": "support.function.prefix.lu.mql5"
+        },
+        {
+            "match": "\\bLUP\\w*\\b",
+            "name": "support.function.prefix.lup.mql5"
+        },
+        {
+            "match": "\\bLabel\\w*\\b",
+            "name": "support.function.prefix.label.mql5"
+        },
+        {
+            "match": "\\bLanguage\\w*\\b",
+            "name": "support.function.prefix.language.mql5"
+        },
+        {
+            "match": "\\bLast\\w*\\b",
+            "name": "support.function.prefix.last.mql5"
+        },
+        {
+            "match": "\\bLeast\\w*\\b",
+            "name": "support.function.prefix.least.mql5"
+        },
+        {
+            "match": "\\bLeft\\w*\\b",
+            "name": "support.function.prefix.left.mql5"
+        },
+        {
+            "match": "\\bLegend\\w*\\b",
+            "name": "support.function.prefix.legend.mql5"
+        },
+        {
+            "match": "\\bLen\\w*\\b",
+            "name": "support.function.prefix.len.mql5"
+        },
+        {
+            "match": "\\bLevel\\w*\\b",
+            "name": "support.function.prefix.level.mql5"
+        },
+        {
+            "match": "\\bLevels\\w*\\b",
+            "name": "support.function.prefix.levels.mql5"
+        },
+        {
+            "match": "\\bLeverage\\w*\\b",
+            "name": "support.function.prefix.leverage.mql5"
+        },
+        {
+            "match": "\\bLight\\w*\\b",
+            "name": "support.function.prefix.light.mql5"
+        },
+        {
+            "match": "\\bLimit\\w*\\b",
+            "name": "support.function.prefix.limit.mql5"
+        },
+        {
+            "match": "\\bLine\\w*\\b",
+            "name": "support.function.prefix.line.mql5"
+        },
+        {
+            "match": "\\bLinear\\w*\\b",
+            "name": "support.function.prefix.linear.mql5"
+        },
+        {
+            "match": "\\bLines\\w*\\b",
+            "name": "support.function.prefix.lines.mql5"
+        },
+        {
+            "match": "\\bLips\\w*\\b",
+            "name": "support.function.prefix.lips.mql5"
+        },
+        {
+            "match": "\\bList\\w*\\b",
+            "name": "support.function.prefix.list.mql5"
+        },
+        {
+            "match": "\\bLoad\\w*\\b",
+            "name": "support.function.prefix.load.mql5"
+        },
+        {
+            "match": "\\bLocking\\w*\\b",
+            "name": "support.function.prefix.locking.mql5"
+        },
+        {
+            "match": "\\bLog\\w*\\b",
+            "name": "support.function.prefix.log.mql5"
+        },
+        {
+            "match": "\\bLogin\\w*\\b",
+            "name": "support.function.prefix.login.mql5"
+        },
+        {
+            "match": "\\bLong\\w*\\b",
+            "name": "support.function.prefix.long.mql5"
+        },
+        {
+            "match": "\\bLoss\\w*\\b",
+            "name": "support.function.prefix.loss.mql5"
+        },
+        {
+            "match": "\\bLot\\w*\\b",
+            "name": "support.function.prefix.lot.mql5"
+        },
+        {
+            "match": "\\bLots\\w*\\b",
+            "name": "support.function.prefix.lots.mql5"
+        },
+        {
+            "match": "\\bLow\\w*\\b",
+            "name": "support.function.prefix.low.mql5"
+        },
+        {
+            "match": "\\bLower\\w*\\b",
+            "name": "support.function.prefix.lower.mql5"
+        },
+        {
+            "match": "\\bLst\\w*\\b",
+            "name": "support.function.prefix.lst.mql5"
+        },
+        {
+            "match": "\\bMQL\\w*\\b",
+            "name": "support.function.prefix.mql.mql5"
+        },
+        {
+            "match": "\\bMa\\w*\\b",
+            "name": "support.function.prefix.ma.mql5"
+        },
+        {
+            "match": "\\bMachine\\w*\\b",
+            "name": "support.function.prefix.machine.mql5"
+        },
+        {
+            "match": "\\bMagic\\w*\\b",
+            "name": "support.function.prefix.magic.mql5"
+        },
+        {
+            "match": "\\bMain\\w*\\b",
+            "name": "support.function.prefix.main.mql5"
+        },
+        {
+            "match": "\\bMajor\\w*\\b",
+            "name": "support.function.prefix.major.mql5"
+        },
+        {
+            "match": "\\bMamdani\\w*\\b",
+            "name": "support.function.prefix.mamdani.mql5"
+        },
+        {
+            "match": "\\bManipulations\\w*\\b",
+            "name": "support.function.prefix.manipulations.mql5"
+        },
+        {
+            "match": "\\bMargin\\w*\\b",
+            "name": "support.function.prefix.margin.mql5"
+        },
+        {
+            "match": "\\bMarket\\w*\\b",
+            "name": "support.function.prefix.market.mql5"
+        },
+        {
+            "match": "\\bMarks\\w*\\b",
+            "name": "support.function.prefix.marks.mql5"
+        },
+        {
+            "match": "\\bMat\\w*\\b",
+            "name": "support.function.prefix.mat.mql5"
+        },
+        {
+            "match": "\\bMath\\w*\\b",
+            "name": "support.function.prefix.math.mql5"
+        },
+        {
+            "match": "\\bMathematics\\w*\\b",
+            "name": "support.function.prefix.mathematics.mql5"
+        },
+        {
+            "match": "\\bMax\\w*\\b",
+            "name": "support.function.prefix.max.mql5"
+        },
+        {
+            "match": "\\bMaximize\\w*\\b",
+            "name": "support.function.prefix.maximize.mql5"
+        },
+        {
+            "match": "\\bMaximum\\w*\\b",
+            "name": "support.function.prefix.maximum.mql5"
+        },
+        {
+            "match": "\\bMean\\w*\\b",
+            "name": "support.function.prefix.mean.mql5"
+        },
+        {
+            "match": "\\bMedian\\w*\\b",
+            "name": "support.function.prefix.median.mql5"
+        },
+        {
+            "match": "\\bMembership\\w*\\b",
+            "name": "support.function.prefix.membership.mql5"
+        },
+        {
+            "match": "\\bMemory\\w*\\b",
+            "name": "support.function.prefix.memory.mql5"
+        },
+        {
+            "match": "\\bMessage\\w*\\b",
+            "name": "support.function.prefix.message.mql5"
+        },
+        {
+            "match": "\\bMethod\\w*\\b",
+            "name": "support.function.prefix.method.mql5"
+        },
+        {
+            "match": "\\bMid\\w*\\b",
+            "name": "support.function.prefix.mid.mql5"
+        },
+        {
+            "match": "\\bMin\\w*\\b",
+            "name": "support.function.prefix.min.mql5"
+        },
+        {
+            "match": "\\bMinimize\\w*\\b",
+            "name": "support.function.prefix.minimize.mql5"
+        },
+        {
+            "match": "\\bMinimized\\w*\\b",
+            "name": "support.function.prefix.minimized.mql5"
+        },
+        {
+            "match": "\\bMinimum\\w*\\b",
+            "name": "support.function.prefix.minimum.mql5"
+        },
+        {
+            "match": "\\bMinus\\w*\\b",
+            "name": "support.function.prefix.minus.mql5"
+        },
+        {
+            "match": "\\bMode\\w*\\b",
+            "name": "support.function.prefix.mode.mql5"
+        },
+        {
+            "match": "\\bModules\\w*\\b",
+            "name": "support.function.prefix.modules.mql5"
+        },
+        {
+            "match": "\\bMon\\w*\\b",
+            "name": "support.function.prefix.mon.mql5"
+        },
+        {
+            "match": "\\bMoney\\w*\\b",
+            "name": "support.function.prefix.money.mql5"
+        },
+        {
+            "match": "\\bMonth\\w*\\b",
+            "name": "support.function.prefix.month.mql5"
+        },
+        {
+            "match": "\\bMouse\\w*\\b",
+            "name": "support.function.prefix.mouse.mql5"
+        },
+        {
+            "match": "\\bMove\\w*\\b",
+            "name": "support.function.prefix.move.mql5"
+        },
+        {
+            "match": "\\bName\\w*\\b",
+            "name": "support.function.prefix.name.mql5"
+        },
+        {
+            "match": "\\bNavigate\\w*\\b",
+            "name": "support.function.prefix.navigate.mql5"
+        },
+        {
+            "match": "\\bNext\\w*\\b",
+            "name": "support.function.prefix.next.mql5"
+        },
+        {
+            "match": "\\bNo\\w*\\b",
+            "name": "support.function.prefix.no.mql5"
+        },
+        {
+            "match": "\\bNorm\\w*\\b",
+            "name": "support.function.prefix.norm.mql5"
+        },
+        {
+            "match": "\\bNormalize\\w*\\b",
+            "name": "support.function.prefix.normalize.mql5"
+        },
+        {
+            "match": "\\bNot\\w*\\b",
+            "name": "support.function.prefix.not.mql5"
+        },
+        {
+            "match": "\\bNum\\w*\\b",
+            "name": "support.function.prefix.num.mql5"
+        },
+        {
+            "match": "\\bONNX\\w*\\b",
+            "name": "support.function.prefix.onnx.mql5"
+        },
+        {
+            "match": "\\bObject\\w*\\b",
+            "name": "support.function.prefix.object.mql5"
+        },
+        {
+            "match": "\\bObjects\\w*\\b",
+            "name": "support.function.prefix.objects.mql5"
+        },
+        {
+            "match": "\\bOffset\\w*\\b",
+            "name": "support.function.prefix.offset.mql5"
+        },
+        {
+            "match": "\\bOn\\w*\\b",
+            "name": "support.function.prefix.on.mql5"
+        },
+        {
+            "match": "\\bOnes\\w*\\b",
+            "name": "support.function.prefix.ones.mql5"
+        },
+        {
+            "match": "\\bOnnx\\w*\\b",
+            "name": "support.function.prefix.onnx.mql5"
+        },
+        {
+            "match": "\\bOp\\w*\\b",
+            "name": "support.function.prefix.op.mql5"
+        },
+        {
+            "match": "\\bOpen\\w*\\b",
+            "name": "support.function.prefix.open.mql5"
+        },
+        {
+            "match": "\\bOperations\\w*\\b",
+            "name": "support.function.prefix.operations.mql5"
+        },
+        {
+            "match": "\\bOrder\\w*\\b",
+            "name": "support.function.prefix.order.mql5"
+        },
+        {
+            "match": "\\bOrders\\w*\\b",
+            "name": "support.function.prefix.orders.mql5"
+        },
+        {
+            "match": "\\bOrganizing\\w*\\b",
+            "name": "support.function.prefix.organizing.mql5"
+        },
+        {
+            "match": "\\bOscillators\\w*\\b",
+            "name": "support.function.prefix.oscillators.mql5"
+        },
+        {
+            "match": "\\bOuter\\w*\\b",
+            "name": "support.function.prefix.outer.mql5"
+        },
+        {
+            "match": "\\bOutput\\w*\\b",
+            "name": "support.function.prefix.output.mql5"
+        },
+        {
+            "match": "\\bOverlaps\\w*\\b",
+            "name": "support.function.prefix.overlaps.mql5"
+        },
+        {
+            "match": "\\bOwner\\w*\\b",
+            "name": "support.function.prefix.owner.mql5"
+        },
+        {
+            "match": "\\bPInv\\w*\\b",
+            "name": "support.function.prefix.pinv.mql5"
+        },
+        {
+            "match": "\\bPLU\\w*\\b",
+            "name": "support.function.prefix.plu.mql5"
+        },
+        {
+            "match": "\\bPanels\\w*\\b",
+            "name": "support.function.prefix.panels.mql5"
+        },
+        {
+            "match": "\\bParam\\w*\\b",
+            "name": "support.function.prefix.param.mql5"
+        },
+        {
+            "match": "\\bParameter\\w*\\b",
+            "name": "support.function.prefix.parameter.mql5"
+        },
+        {
+            "match": "\\bParent\\w*\\b",
+            "name": "support.function.prefix.parent.mql5"
+        },
+        {
+            "match": "\\bParse\\w*\\b",
+            "name": "support.function.prefix.parse.mql5"
+        },
+        {
+            "match": "\\bPath\\w*\\b",
+            "name": "support.function.prefix.path.mql5"
+        },
+        {
+            "match": "\\bPatterns\\w*\\b",
+            "name": "support.function.prefix.patterns.mql5"
+        },
+        {
+            "match": "\\bPeek\\w*\\b",
+            "name": "support.function.prefix.peek.mql5"
+        },
+        {
+            "match": "\\bPercent\\w*\\b",
+            "name": "support.function.prefix.percent.mql5"
+        },
+        {
+            "match": "\\bPercentile\\w*\\b",
+            "name": "support.function.prefix.percentile.mql5"
+        },
+        {
+            "match": "\\bPeriod\\w*\\b",
+            "name": "support.function.prefix.period.mql5"
+        },
+        {
+            "match": "\\bPie\\w*\\b",
+            "name": "support.function.prefix.pie.mql5"
+        },
+        {
+            "match": "\\bPips\\w*\\b",
+            "name": "support.function.prefix.pips.mql5"
+        },
+        {
+            "match": "\\bPixel\\w*\\b",
+            "name": "support.function.prefix.pixel.mql5"
+        },
+        {
+            "match": "\\bPlay\\w*\\b",
+            "name": "support.function.prefix.play.mql5"
+        },
+        {
+            "match": "\\bPlot\\w*\\b",
+            "name": "support.function.prefix.plot.mql5"
+        },
+        {
+            "match": "\\bPlus\\w*\\b",
+            "name": "support.function.prefix.plus.mql5"
+        },
+        {
+            "match": "\\bPoint\\w*\\b",
+            "name": "support.function.prefix.point.mql5"
+        },
+        {
+            "match": "\\bPoints\\w*\\b",
+            "name": "support.function.prefix.points.mql5"
+        },
+        {
+            "match": "\\bPolar\\w*\\b",
+            "name": "support.function.prefix.polar.mql5"
+        },
+        {
+            "match": "\\bPolygon\\w*\\b",
+            "name": "support.function.prefix.polygon.mql5"
+        },
+        {
+            "match": "\\bPolyline\\w*\\b",
+            "name": "support.function.prefix.polyline.mql5"
+        },
+        {
+            "match": "\\bPop\\w*\\b",
+            "name": "support.function.prefix.pop.mql5"
+        },
+        {
+            "match": "\\bPosition\\w*\\b",
+            "name": "support.function.prefix.position.mql5"
+        },
+        {
+            "match": "\\bPositions\\w*\\b",
+            "name": "support.function.prefix.positions.mql5"
+        },
+        {
+            "match": "\\bPower\\w*\\b",
+            "name": "support.function.prefix.power.mql5"
+        },
+        {
+            "match": "\\bPrecision\\w*\\b",
+            "name": "support.function.prefix.precision.mql5"
+        },
+        {
+            "match": "\\bPrepare\\w*\\b",
+            "name": "support.function.prefix.prepare.mql5"
+        },
+        {
+            "match": "\\bPressed\\w*\\b",
+            "name": "support.function.prefix.pressed.mql5"
+        },
+        {
+            "match": "\\bPrev\\w*\\b",
+            "name": "support.function.prefix.prev.mql5"
+        },
+        {
+            "match": "\\bPrevious\\w*\\b",
+            "name": "support.function.prefix.previous.mql5"
+        },
+        {
+            "match": "\\bPrice\\w*\\b",
+            "name": "support.function.prefix.price.mql5"
+        },
+        {
+            "match": "\\bPrint\\w*\\b",
+            "name": "support.function.prefix.print.mql5"
+        },
+        {
+            "match": "\\bProcessing\\w*\\b",
+            "name": "support.function.prefix.processing.mql5"
+        },
+        {
+            "match": "\\bProd\\w*\\b",
+            "name": "support.function.prefix.prod.mql5"
+        },
+        {
+            "match": "\\bProducts\\w*\\b",
+            "name": "support.function.prefix.products.mql5"
+        },
+        {
+            "match": "\\bProfit\\w*\\b",
+            "name": "support.function.prefix.profit.mql5"
+        },
+        {
+            "match": "\\bProgram\\w*\\b",
+            "name": "support.function.prefix.program.mql5"
+        },
+        {
+            "match": "\\bProjection\\w*\\b",
+            "name": "support.function.prefix.projection.mql5"
+        },
+        {
+            "match": "\\bProp\\w*\\b",
+            "name": "support.function.prefix.prop.mql5"
+        },
+        {
+            "match": "\\bPseudo\\w*\\b",
+            "name": "support.function.prefix.pseudo.mql5"
+        },
+        {
+            "match": "\\bPtp\\\n\\w*\\b",
+            "name": "support.function.prefix.ptp-.mql5"
+        },
+        {
+            "match": "\\bPush\\w*\\b",
+            "name": "support.function.prefix.push.mql5"
+        },
+        {
+            "match": "\\bQR\\w*\\b",
+            "name": "support.function.prefix.qr.mql5"
+        },
+        {
+            "match": "\\bQuantile\\w*\\b",
+            "name": "support.function.prefix.quantile.mql5"
+        },
+        {
+            "match": "\\bRandom\\w*\\b",
+            "name": "support.function.prefix.random.mql5"
+        },
+        {
+            "match": "\\bRank\\w*\\b",
+            "name": "support.function.prefix.rank.mql5"
+        },
+        {
+            "match": "\\bRay\\w*\\b",
+            "name": "support.function.prefix.ray.mql5"
+        },
+        {
+            "match": "\\bRead\\w*\\b",
+            "name": "support.function.prefix.read.mql5"
+        },
+        {
+            "match": "\\bReal\\w*\\b",
+            "name": "support.function.prefix.real.mql5"
+        },
+        {
+            "match": "\\bRebound\\w*\\b",
+            "name": "support.function.prefix.rebound.mql5"
+        },
+        {
+            "match": "\\bReceiver\\w*\\b",
+            "name": "support.function.prefix.receiver.mql5"
+        },
+        {
+            "match": "\\bRect\\w*\\b",
+            "name": "support.function.prefix.rect.mql5"
+        },
+        {
+            "match": "\\bRectangle\\w*\\b",
+            "name": "support.function.prefix.rectangle.mql5"
+        },
+        {
+            "match": "\\bRedraw\\w*\\b",
+            "name": "support.function.prefix.redraw.mql5"
+        },
+        {
+            "match": "\\bReduce\\w*\\b",
+            "name": "support.function.prefix.reduce.mql5"
+        },
+        {
+            "match": "\\bReflect\\w*\\b",
+            "name": "support.function.prefix.reflect.mql5"
+        },
+        {
+            "match": "\\bRefresh\\w*\\b",
+            "name": "support.function.prefix.refresh.mql5"
+        },
+        {
+            "match": "\\bRegression\\w*\\b",
+            "name": "support.function.prefix.regression.mql5"
+        },
+        {
+            "match": "\\bRemove\\w*\\b",
+            "name": "support.function.prefix.remove.mql5"
+        },
+        {
+            "match": "\\bRender\\w*\\b",
+            "name": "support.function.prefix.render.mql5"
+        },
+        {
+            "match": "\\bReplace\\w*\\b",
+            "name": "support.function.prefix.replace.mql5"
+        },
+        {
+            "match": "\\bRequest\\w*\\b",
+            "name": "support.function.prefix.request.mql5"
+        },
+        {
+            "match": "\\bReserve\\w*\\b",
+            "name": "support.function.prefix.reserve.mql5"
+        },
+        {
+            "match": "\\bReset\\w*\\b",
+            "name": "support.function.prefix.reset.mql5"
+        },
+        {
+            "match": "\\bReshape\\w*\\b",
+            "name": "support.function.prefix.reshape.mql5"
+        },
+        {
+            "match": "\\bResize\\w*\\b",
+            "name": "support.function.prefix.resize.mql5"
+        },
+        {
+            "match": "\\bResource\\w*\\b",
+            "name": "support.function.prefix.resource.mql5"
+        },
+        {
+            "match": "\\bResult\\w*\\b",
+            "name": "support.function.prefix.result.mql5"
+        },
+        {
+            "match": "\\bReverse\\w*\\b",
+            "name": "support.function.prefix.reverse.mql5"
+        },
+        {
+            "match": "\\bRight\\w*\\b",
+            "name": "support.function.prefix.right.mql5"
+        },
+        {
+            "match": "\\bRoot\\w*\\b",
+            "name": "support.function.prefix.root.mql5"
+        },
+        {
+            "match": "\\bRow\\w*\\b",
+            "name": "support.function.prefix.row.mql5"
+        },
+        {
+            "match": "\\bRows\\w*\\b",
+            "name": "support.function.prefix.rows.mql5"
+        },
+        {
+            "match": "\\bRules\\w*\\b",
+            "name": "support.function.prefix.rules.mql5"
+        },
+        {
+            "match": "\\bRun\\w*\\b",
+            "name": "support.function.prefix.run.mql5"
+        },
+        {
+            "match": "\\bSLog\\w*\\b",
+            "name": "support.function.prefix.slog.mql5"
+        },
+        {
+            "match": "\\bSVD\\w*\\b",
+            "name": "support.function.prefix.svd.mql5"
+        },
+        {
+            "match": "\\bSar\\w*\\b",
+            "name": "support.function.prefix.sar.mql5"
+        },
+        {
+            "match": "\\bSave\\w*\\b",
+            "name": "support.function.prefix.save.mql5"
+        },
+        {
+            "match": "\\bScale\\w*\\b",
+            "name": "support.function.prefix.scale.mql5"
+        },
+        {
+            "match": "\\bScientific\\w*\\b",
+            "name": "support.function.prefix.scientific.mql5"
+        },
+        {
+            "match": "\\bScreen\\w*\\b",
+            "name": "support.function.prefix.screen.mql5"
+        },
+        {
+            "match": "\\bSearch\\w*\\b",
+            "name": "support.function.prefix.search.mql5"
+        },
+        {
+            "match": "\\bSec\\w*\\b",
+            "name": "support.function.prefix.sec.mql5"
+        },
+        {
+            "match": "\\bSeek\\w*\\b",
+            "name": "support.function.prefix.seek.mql5"
+        },
+        {
+            "match": "\\bSelect\\w*\\b",
+            "name": "support.function.prefix.select.mql5"
+        },
+        {
+            "match": "\\bSelectable\\w*\\b",
+            "name": "support.function.prefix.selectable.mql5"
+        },
+        {
+            "match": "\\bSelected\\w*\\b",
+            "name": "support.function.prefix.selected.mql5"
+        },
+        {
+            "match": "\\bSell\\w*\\b",
+            "name": "support.function.prefix.sell.mql5"
+        },
+        {
+            "match": "\\bSend\\w*\\b",
+            "name": "support.function.prefix.send.mql5"
+        },
+        {
+            "match": "\\bSenkou\\w*\\b",
+            "name": "support.function.prefix.senkou.mql5"
+        },
+        {
+            "match": "\\bSeries\\w*\\b",
+            "name": "support.function.prefix.series.mql5"
+        },
+        {
+            "match": "\\bServer\\w*\\b",
+            "name": "support.function.prefix.server.mql5"
+        },
+        {
+            "match": "\\bSession\\w*\\b",
+            "name": "support.function.prefix.session.mql5"
+        },
+        {
+            "match": "\\bSet\\w*\\b",
+            "name": "support.function.prefix.set.mql5"
+        },
+        {
+            "match": "\\bShape\\w*\\b",
+            "name": "support.function.prefix.shape.mql5"
+        },
+        {
+            "match": "\\bShift\\w*\\b",
+            "name": "support.function.prefix.shift.mql5"
+        },
+        {
+            "match": "\\bShort\\w*\\b",
+            "name": "support.function.prefix.short.mql5"
+        },
+        {
+            "match": "\\bShow\\w*\\b",
+            "name": "support.function.prefix.show.mql5"
+        },
+        {
+            "match": "\\bShutdown\\w*\\b",
+            "name": "support.function.prefix.shutdown.mql5"
+        },
+        {
+            "match": "\\bSigma\\w*\\b",
+            "name": "support.function.prefix.sigma.mql5"
+        },
+        {
+            "match": "\\bSignal\\w*\\b",
+            "name": "support.function.prefix.signal.mql5"
+        },
+        {
+            "match": "\\bSignals\\w*\\b",
+            "name": "support.function.prefix.signals.mql5"
+        },
+        {
+            "match": "\\bSingular\\w*\\b",
+            "name": "support.function.prefix.singular.mql5"
+        },
+        {
+            "match": "\\bSize\\w*\\b",
+            "name": "support.function.prefix.size.mql5"
+        },
+        {
+            "match": "\\bSleep\\w*\\b",
+            "name": "support.function.prefix.sleep.mql5"
+        },
+        {
+            "match": "\\bSlow\\w*\\b",
+            "name": "support.function.prefix.slow.mql5"
+        },
+        {
+            "match": "\\bSlowing\\w*\\b",
+            "name": "support.function.prefix.slowing.mql5"
+        },
+        {
+            "match": "\\bSocket\\w*\\b",
+            "name": "support.function.prefix.socket.mql5"
+        },
+        {
+            "match": "\\bSolutions\\w*\\b",
+            "name": "support.function.prefix.solutions.mql5"
+        },
+        {
+            "match": "\\bSolve\\w*\\b",
+            "name": "support.function.prefix.solve.mql5"
+        },
+        {
+            "match": "\\bSort\\w*\\b",
+            "name": "support.function.prefix.sort.mql5"
+        },
+        {
+            "match": "\\bSpectrum\\w*\\b",
+            "name": "support.function.prefix.spectrum.mql5"
+        },
+        {
+            "match": "\\bSplit\\w*\\b",
+            "name": "support.function.prefix.split.mql5"
+        },
+        {
+            "match": "\\bSpread\\w*\\b",
+            "name": "support.function.prefix.spread.mql5"
+        },
+        {
+            "match": "\\bStart\\w*\\b",
+            "name": "support.function.prefix.start.mql5"
+        },
+        {
+            "match": "\\bState\\w*\\b",
+            "name": "support.function.prefix.state.mql5"
+        },
+        {
+            "match": "\\bStatistical\\w*\\b",
+            "name": "support.function.prefix.statistical.mql5"
+        },
+        {
+            "match": "\\bStatistics\\w*\\b",
+            "name": "support.function.prefix.statistics.mql5"
+        },
+        {
+            "match": "\\bStatus\\w*\\b",
+            "name": "support.function.prefix.status.mql5"
+        },
+        {
+            "match": "\\bStd\\w*\\b",
+            "name": "support.function.prefix.std.mql5"
+        },
+        {
+            "match": "\\bStep\\w*\\b",
+            "name": "support.function.prefix.step.mql5"
+        },
+        {
+            "match": "\\bSteps\\w*\\b",
+            "name": "support.function.prefix.steps.mql5"
+        },
+        {
+            "match": "\\bStop\\w*\\b",
+            "name": "support.function.prefix.stop.mql5"
+        },
+        {
+            "match": "\\bStopout\\w*\\b",
+            "name": "support.function.prefix.stopout.mql5"
+        },
+        {
+            "match": "\\bStops\\w*\\b",
+            "name": "support.function.prefix.stops.mql5"
+        },
+        {
+            "match": "\\bStore\\w*\\b",
+            "name": "support.function.prefix.store.mql5"
+        },
+        {
+            "match": "\\bStr\\w*\\b",
+            "name": "support.function.prefix.str.mql5"
+        },
+        {
+            "match": "\\bStrategy\\w*\\b",
+            "name": "support.function.prefix.strategy.mql5"
+        },
+        {
+            "match": "\\bString\\w*\\b",
+            "name": "support.function.prefix.string.mql5"
+        },
+        {
+            "match": "\\bStrings\\w*\\b",
+            "name": "support.function.prefix.strings.mql5"
+        },
+        {
+            "match": "\\bStruct\\w*\\b",
+            "name": "support.function.prefix.struct.mql5"
+        },
+        {
+            "match": "\\bStyle\\w*\\b",
+            "name": "support.function.prefix.style.mql5"
+        },
+        {
+            "match": "\\bSubwin\\w*\\b",
+            "name": "support.function.prefix.subwin.mql5"
+        },
+        {
+            "match": "\\bSugeno\\w*\\b",
+            "name": "support.function.prefix.sugeno.mql5"
+        },
+        {
+            "match": "\\bSum\\w*\\b",
+            "name": "support.function.prefix.sum.mql5"
+        },
+        {
+            "match": "\\bSupport\\w*\\b",
+            "name": "support.function.prefix.support.mql5"
+        },
+        {
+            "match": "\\bSwap\\w*\\b",
+            "name": "support.function.prefix.swap.mql5"
+        },
+        {
+            "match": "\\bSymbol\\w*\\b",
+            "name": "support.function.prefix.symbol.mql5"
+        },
+        {
+            "match": "\\bSymbols\\w*\\b",
+            "name": "support.function.prefix.symbols.mql5"
+        },
+        {
+            "match": "\\bSymmetric\\w*\\b",
+            "name": "support.function.prefix.symmetric.mql5"
+        },
+        {
+            "match": "\\bTake\\w*\\b",
+            "name": "support.function.prefix.take.mql5"
+        },
+        {
+            "match": "\\bTeeth\\w*\\b",
+            "name": "support.function.prefix.teeth.mql5"
+        },
+        {
+            "match": "\\bTell\\w*\\b",
+            "name": "support.function.prefix.tell.mql5"
+        },
+        {
+            "match": "\\bTenkan\\w*\\b",
+            "name": "support.function.prefix.tenkan.mql5"
+        },
+        {
+            "match": "\\bTerm\\w*\\b",
+            "name": "support.function.prefix.term.mql5"
+        },
+        {
+            "match": "\\bTerminal\\w*\\b",
+            "name": "support.function.prefix.terminal.mql5"
+        },
+        {
+            "match": "\\bTerms\\w*\\b",
+            "name": "support.function.prefix.terms.mql5"
+        },
+        {
+            "match": "\\bTester\\w*\\b",
+            "name": "support.function.prefix.tester.mql5"
+        },
+        {
+            "match": "\\bText\\w*\\b",
+            "name": "support.function.prefix.text.mql5"
+        },
+        {
+            "match": "\\bThreshold\\w*\\b",
+            "name": "support.function.prefix.threshold.mql5"
+        },
+        {
+            "match": "\\bTick\\w*\\b",
+            "name": "support.function.prefix.tick.mql5"
+        },
+        {
+            "match": "\\bTicket\\w*\\b",
+            "name": "support.function.prefix.ticket.mql5"
+        },
+        {
+            "match": "\\bTicks\\w*\\b",
+            "name": "support.function.prefix.ticks.mql5"
+        },
+        {
+            "match": "\\bTime\\w*\\b",
+            "name": "support.function.prefix.time.mql5"
+        },
+        {
+            "match": "\\bTimeframe\\w*\\b",
+            "name": "support.function.prefix.timeframe.mql5"
+        },
+        {
+            "match": "\\bTimeframes\\w*\\b",
+            "name": "support.function.prefix.timeframes.mql5"
+        },
+        {
+            "match": "\\bTimeseries\\w*\\b",
+            "name": "support.function.prefix.timeseries.mql5"
+        },
+        {
+            "match": "\\bTo\\w*\\b",
+            "name": "support.function.prefix.to.mql5"
+        },
+        {
+            "match": "\\bTooltip\\w*\\b",
+            "name": "support.function.prefix.tooltip.mql5"
+        },
+        {
+            "match": "\\bTop\\w*\\b",
+            "name": "support.function.prefix.top.mql5"
+        },
+        {
+            "match": "\\bTotal\\w*\\b",
+            "name": "support.function.prefix.total.mql5"
+        },
+        {
+            "match": "\\bTrace\\w*\\b",
+            "name": "support.function.prefix.trace.mql5"
+        },
+        {
+            "match": "\\bTrade\\w*\\b",
+            "name": "support.function.prefix.trade.mql5"
+        },
+        {
+            "match": "\\bTrailing\\w*\\b",
+            "name": "support.function.prefix.trailing.mql5"
+        },
+        {
+            "match": "\\bTransformations\\w*\\b",
+            "name": "support.function.prefix.transformations.mql5"
+        },
+        {
+            "match": "\\bTranslate\\w*\\b",
+            "name": "support.function.prefix.translate.mql5"
+        },
+        {
+            "match": "\\bTransparent\\w*\\b",
+            "name": "support.function.prefix.transparent.mql5"
+        },
+        {
+            "match": "\\bTransposepy\\w*\\b",
+            "name": "support.function.prefix.transposepy.mql5"
+        },
+        {
+            "match": "\\bTrend\\w*\\b",
+            "name": "support.function.prefix.trend.mql5"
+        },
+        {
+            "match": "\\bTri\\w*\\b",
+            "name": "support.function.prefix.tri.mql5"
+        },
+        {
+            "match": "\\bTriangle\\w*\\b",
+            "name": "support.function.prefix.triangle.mql5"
+        },
+        {
+            "match": "\\bTrim\\w*\\b",
+            "name": "support.function.prefix.trim.mql5"
+        },
+        {
+            "match": "\\bTry\\w*\\b",
+            "name": "support.function.prefix.try.mql5"
+        },
+        {
+            "match": "\\bType\\w*\\b",
+            "name": "support.function.prefix.type.mql5"
+        },
+        {
+            "match": "\\bUninitialize\\w*\\b",
+            "name": "support.function.prefix.uninitialize.mql5"
+        },
+        {
+            "match": "\\bUnion\\w*\\b",
+            "name": "support.function.prefix.union.mql5"
+        },
+        {
+            "match": "\\bUpdate\\w*\\b",
+            "name": "support.function.prefix.update.mql5"
+        },
+        {
+            "match": "\\bUpper\\w*\\b",
+            "name": "support.function.prefix.upper.mql5"
+        },
+        {
+            "match": "\\bUsed\\w*\\b",
+            "name": "support.function.prefix.used.mql5"
+        },
+        {
+            "match": "\\bV\\w*\\b",
+            "name": "support.function.prefix.v.mql5"
+        },
+        {
+            "match": "\\bValidation\\w*\\b",
+            "name": "support.function.prefix.validation.mql5"
+        },
+        {
+            "match": "\\bValue\\w*\\b",
+            "name": "support.function.prefix.value.mql5"
+        },
+        {
+            "match": "\\bValues\\w*\\b",
+            "name": "support.function.prefix.values.mql5"
+        },
+        {
+            "match": "\\bVar\\w*\\b",
+            "name": "support.function.prefix.var.mql5"
+        },
+        {
+            "match": "\\bView\\w*\\b",
+            "name": "support.function.prefix.view.mql5"
+        },
+        {
+            "match": "\\bVisible\\w*\\b",
+            "name": "support.function.prefix.visible.mql5"
+        },
+        {
+            "match": "\\bVolume\\w*\\b",
+            "name": "support.function.prefix.volume.mql5"
+        },
+        {
+            "match": "\\bVsplit\\w*\\b",
+            "name": "support.function.prefix.vsplit.mql5"
+        },
+        {
+            "match": "\\bWait\\w*\\b",
+            "name": "support.function.prefix.wait.mql5"
+        },
+        {
+            "match": "\\bWeb\\w*\\b",
+            "name": "support.function.prefix.web.mql5"
+        },
+        {
+            "match": "\\bWeight\\w*\\b",
+            "name": "support.function.prefix.weight.mql5"
+        },
+        {
+            "match": "\\bWidth\\w*\\b",
+            "name": "support.function.prefix.width.mql5"
+        },
+        {
+            "match": "\\bWindow\\w*\\b",
+            "name": "support.function.prefix.window.mql5"
+        },
+        {
+            "match": "\\bWindows\\w*\\b",
+            "name": "support.function.prefix.windows.mql5"
+        },
+        {
+            "match": "\\bWrite\\w*\\b",
+            "name": "support.function.prefix.write.mql5"
+        },
+        {
+            "match": "\\bX\\w*\\b",
+            "name": "support.function.prefix.x.mql5"
+        },
+        {
+            "match": "\\bX1\\w*\\b",
+            "name": "support.function.prefix.x1.mql5"
+        },
+        {
+            "match": "\\bX2\\w*\\b",
+            "name": "support.function.prefix.x2.mql5"
+        },
+        {
+            "match": "\\bX3\\w*\\b",
+            "name": "support.function.prefix.x3.mql5"
+        },
+        {
+            "match": "\\bX4\\w*\\b",
+            "name": "support.function.prefix.x4.mql5"
+        },
+        {
+            "match": "\\bY\\w*\\b",
+            "name": "support.function.prefix.y.mql5"
+        },
+        {
+            "match": "\\bYear\\w*\\b",
+            "name": "support.function.prefix.year.mql5"
+        },
+        {
+            "match": "\\bZ\\w*\\b",
+            "name": "support.function.prefix.z.mql5"
+        },
+        {
+            "match": "\\bZero\\w*\\b",
+            "name": "support.function.prefix.zero.mql5"
+        },
+        {
+            "match": "\\bZeros\\w*\\b",
+            "name": "support.function.prefix.zeros.mql5"
+        },
+        {
+            "match": "\\b_\\w*\\b",
+            "name": "support.function.prefix.-.mql5"
+        },
+        {
+            "match": "\\baccount\\w*\\b",
+            "name": "support.function.prefix.account.mql5"
+        },
+        {
+            "match": "\\bcopy\\w*\\b",
+            "name": "support.function.prefix.copy.mql5"
+        },
+        {
+            "match": "\\bhistory\\w*\\b",
+            "name": "support.function.prefix.history.mql5"
+        },
+        {
+            "match": "\\bi\\w*\\b",
+            "name": "support.function.prefix.i.mql5"
+        },
+        {
+            "match": "\\binitialize\\w*\\b",
+            "name": "support.function.prefix.initialize.mql5"
+        },
+        {
+            "match": "\\blast\\w*\\b",
+            "name": "support.function.prefix.last.mql5"
+        },
+        {
+            "match": "\\blogin\\w*\\b",
+            "name": "support.function.prefix.login.mql5"
+        },
+        {
+            "match": "\\bmarket\\w*\\b",
+            "name": "support.function.prefix.market.mql5"
+        },
+        {
+            "match": "\\border\\w*\\b",
+            "name": "support.function.prefix.order.mql5"
+        },
+        {
+            "match": "\\borders\\w*\\b",
+            "name": "support.function.prefix.orders.mql5"
+        },
+        {
+            "match": "\\bpositions\\w*\\b",
+            "name": "support.function.prefix.positions.mql5"
+        },
+        {
+            "match": "\\bshutdown\\w*\\b",
+            "name": "support.function.prefix.shutdown.mql5"
+        },
+        {
+            "match": "\\bsymbol\\w*\\b",
+            "name": "support.function.prefix.symbol.mql5"
+        },
+        {
+            "match": "\\bsymbols\\w*\\b",
+            "name": "support.function.prefix.symbols.mql5"
+        },
+        {
+            "match": "\\bterminal\\w*\\b",
+            "name": "support.function.prefix.terminal.mql5"
+        },
+        {
+            "match": "\\bversion\\w*\\b",
+            "name": "support.function.prefix.version.mql5"
+        },
+        {
+            "match": "\\b(orfers_total)\\b",
+            "name": "support.function.python-style.mql5"
+        },
+        {
+            "match": "\\b(Equal)\\b",
+            "name": "support.function.misc.mql5"
+        },
+        {
+            "match": "\\b(clrForestGreen|clrDodgerBlue|clrMediumBlue|clrDarkGreen|clrFireBrick|clrDarkBlue|clrLavender|clrCrimson|clrDarkRed|clrFuchsia|clrMagenta|clrIndigo|clrMaroon|clrOrange|clrPurple|clrSilver|clrYellow|clrBlack|clrCoral|clrGreen|clrKhaki|clrOlive|clrWhite|clrAqua|clrBlue|clrCyan|clrGold|clrGray|clrLime|clrNavy|clrNone|clrPink|clrTeal|clrRed)\\b",
+            "name": "support.constant.color.mql5"
+        },
+        {
+            "match": "\\b(TIME_SPECIFIED|TIME_MINUTES|TIME_SECONDS|TIME_DATE|TIME_MSC|TIME_OUT|TIME_IN)\\b",
             "name": "support.function.datetime.mql5"
         },
         {
-            "match": "\\b(DEAL_TYPE_COMMISSION_AGENT_MONTHLY|DEAL_TYPE_COMMISSION_AGENT_DAILY|DEAL_TYPE_COMMISSION_MONTHLY|DEAL_TYPE_COMMISSION_DAILY|DEAL_TYPE_COMMISSION_DAI|DEAL_TYPE_COMMISSION_AG|DEAL_TYPE_COMMISSION_MO|DEAL_TYPE_SELL_CANCELED|DEAL_TYPE_BUY_CANCELED|DEAL_DIVIDEND_FRANKED|DEAL_TYPE_COMMISSION|DEAL_TYPE_CORRECTION|DEAL_REASON_CLIENT|DEAL_REASON_CORPOR|DEAL_REASON_EXPERT|DEAL_REASON_MOBILE|DEAL_REASON_ROLLOV|DEAL_REASON_VMARGI|DEAL_TYPE_INTEREST|DEAL_ENTRY_OUT_BY|DEAL_REASON_SPLIT|DEAL_TYPE_BALANCE|DEAL_ENTRY_INOUT|DEAL_ENTRY_STATE|DEAL_EXTERNAL_ID|DEAL_POSITION_ID|DEAL_TYPE_CHARGE|DEAL_TYPE_CREDIT|DEAL_COMMISSION|DEAL_REASON_WEB|DEAL_TYPE_BONUS|DEAL_ENTRY_OUT|DEAL_REASON_SL|DEAL_REASON_SO|DEAL_REASON_TP|DEAL_TYPE_SELL|DEAL_DIVIDEND|DEAL_ENTRY_IN|DEAL_TIME_MSC|DEAL_TYPE_BUY|DEAL_COMMENT|DEAL_PROFIT|DEAL_REASON|DEAL_SYMBOL|DEAL_TICKET|DEAL_VOLUME|DEAL_ENTRY|DEAL_MAGIC|DEAL_ORDER|DEAL_PRICE|DEAL_SWAP|DEAL_TIME|DEAL_TYPE|DEAL_FEE|DEAL_TAX|DEAL_SL|DEAL_TP)\\b",
-            "name": "support.constant.deal.mql5"
-        },
-        {
-            "match": "\\b(ONNX_DATA_TYPE_COMPLEX128|ONNX_DATA_TYPE_COMPLEX64|ONNX_DATA_TYPE_UNDEFINED|ONNX_DATA_TYPE_BFLOAT16|ONNX_DATA_TYPE_FLOAT16|ONNX_TYPE_SPARSETENSOR|ONNX_DATA_TYPE_DOUBLE|ONNX_DATA_TYPE_STRING|ONNX_DATA_TYPE_UINT16|ONNX_DATA_TYPE_UINT32|ONNX_DATA_TYPE_UINT64|OnnxGetOutputTypeInfo|ONNX_DATA_TYPE_FLOAT|ONNX_DATA_TYPE_INT16|ONNX_DATA_TYPE_INT32|ONNX_DATA_TYPE_INT64|ONNX_DATA_TYPE_UINT8|OnnxCreateFromBuffer|OnnxGetInputTypeInfo|ONNX_DATA_TYPE_BOOL|ONNX_DATA_TYPE_INT8|ONNX_COMMON_FOLDER|ONNX_NO_CONVERSION|ONNX_TYPE_SEQUENCE|OnTradeTransaction|OnnxGetOutputCount|OnnxSetOutputShape|ONNX_TYPE_UNKNOWN|OnnxGetInputCount|OnnxGetOutputName|OnnxSetInputShape|ONNX_TYPE_OPAQUE|ONNX_TYPE_TENSOR|OnnxGetInputName|ONNX_DEBUG_LOGS|OnTesterDeinit|ONNX_TYPE_MAP|ONNX_DEFAULT|OnChartEvent|OnTesterInit|OnTesterPass|OnBookEvent|OnCalculate|OnnxRelease|OnnxCreate|OnDeinit|OnTester|OnStart|OnTimer|OnTrade|OnInit|OnTick)\\b",
-            "name": "support.function.event.mql5"
-        },
-        {
-            "match": "\\b(FILE_ACCESS_DATE|FILE_CREATE_DATE|FILE_IS_READABLE|FILE_IS_WRITABLE|FILE_MODIFY_DATE|FILE_SHARE_WRITE|FileIsLineEnding|FileReadDatetime|FileSelectDialog|FileWriteInteger|FILE_SHARE_READ|FileReadInteger|FileWriteDouble|FileWriteString|FileWriteStruct|FILE_IS_BINARY|FILE_IS_COMMON|FileGetInteger|FileReadDouble|FileReadNumber|FileReadString|FileReadStruct|FileWriteArray|FileWriteFloat|FILE_LINE_END|FILE_POSITION|FileFindClose|FileFindFirst|FileReadArray|FileReadFloat|FileWriteLong|FILE_IS_ANSI|FILE_IS_TEXT|FILE_REWRITE|FILE_UNICODE|FileFindNext|FileIsEnding|FileReadBool|FileReadLong|FILE_COMMON|FILE_EXISTS|FILE_IS_CSV|FileIsExist|FILE_WRITE|FileDelete|FILE_ANSI|FILE_READ|FILE_SIZE|FileClose|FileFlush|FileWrite|FILE_BIN|FILE_CSV|FILE_END|FILE_TXT|FileCopy|FileLoad|FileMove|FileOpen|FileRead|FileSave|FileSeek|FileSize|FileTell|SEEK_CUR|SEEK_END|SEEK_SET)\\b",
+            "match": "\\b(FILE_ACCESS_DATE|FILE_CREATE_DATE|FILE_IS_READABLE|FILE_IS_WRITABLE|FILE_MODIFY_DATE|FILE_SHARE_WRITE|FILE_SHARE_READ|FILE_IS_BINARY|FILE_IS_COMMON|FILE_LINE_END|FILE_POSITION|FILE_IS_ANSI|FILE_IS_TEXT|FILE_REWRITE|FILE_UNICODE|FILE_COMMON|FILE_EXISTS|FILE_IS_CSV|FILE_WRITE|FILE_ANSI|FILE_READ|FILE_SIZE|FILE_BIN|FILE_CSV|FILE_END|FILE_TXT|SEEK_CUR|SEEK_END|SEEK_SET)\\b",
             "name": "support.function.file.mql5"
         },
         {
-            "match": "\\b(GlobalVariableSetOnCondition|GlobalVariablesDeleteAll|GlobalVariableCheck|GlobalVariableName|GlobalVariableTemp|GlobalVariableTime|GlobalVariableDel|GlobalVariableGet|GlobalVariableSet)\\b",
-            "name": "support.function.global-variable.mql5"
-        },
-        {
-            "match": "\\b(INDICATOR_INDICATOR_HEIG|INDICATOR_FIXED_MAXIMUM|INDICATOR_FIXED_MINIMUM|INDICATOR_CALCULATIONS|INDICATOR_COLOR_INDEX|INDICATOR_EMPTY_VALUE|INDICATOR_LEVELCOLOR|INDICATOR_LEVELSTYLE|INDICATOR_LEVELVALUE|INDICATOR_LEVELWIDTH|INDICATOR_LEVELTEXT|INDICATOR_SHORTNAME|PLOT_COLOR_INDEXES|INDICATOR_MAXIMUM|INDICATOR_MINIMUM|INDICATOR_DIGITS|INDICATOR_HEIGHT|INDICATOR_LEVELS|PLOT_ARROW_SHIFT|PLOT_EMPTY_VALUE|PLOT_DRAW_BEGIN|PLOT_LINE_COLOR|PLOT_LINE_STYLE|PLOT_LINE_WIDTH|INDICATOR_DATA|IND_STOCHASTIC|PLOT_DRAW_TYPE|PLOT_SHOW_DATA|IND_ALLIGATOR|IND_ENVELOPES|IND_DEMARKER|IND_FRACTALS|IND_ICHIMOKU|IND_MOMENTUM|IND_CHAIKIN|IND_VOLUMES|iBearsPower|iBullsPower|iStochastic|IND_CUSTOM|IND_STDDEV|PLOT_ARROW|PLOT_LABEL|PLOT_SHIFT|iADXWilder|iEnvelopes|IND_BANDS|IND_BEARS|IND_BULLS|IND_BWMFI|IND_FORCE|IND_FRAMA|IND_GATOR|IND_VIDYA|iDeMarker|iFractals|iIchimoku|iMomentum|IND_ADXW|IND_DEMA|IND_MACD|IND_OSMA|IND_TEMA|IND_TRIX|iChaikin|IND_ADX|IND_AMA|IND_ATR|IND_CCI|IND_MFI|IND_OBV|IND_RSI|IND_RVI|IND_SAR|IND_WPR|iStdDev|IND_AC|IND_AD|IND_AO|IND_MA|iBWMFI|iBands|iForce|iFrAMA|iVIDyA|iDEMA|iMACD|iOsMA|iTEMA|iTriX|iADX|iAMA|iATR|iCCI|iMFI|iOBV|iRSI|iRVI|iSAR|iWPR|iAC|iAD|iAO|iMA)\\b",
+            "match": "\\b(PLOT_COLOR_INDEXES|PLOT_ARROW_SHIFT|PLOT_EMPTY_VALUE|PLOT_DRAW_BEGIN|PLOT_LINE_COLOR|PLOT_LINE_STYLE|PLOT_LINE_WIDTH|PLOT_DRAW_TYPE|PLOT_SHOW_DATA|PLOT_ARROW|PLOT_LABEL|PLOT_SHIFT)\\b",
             "name": "support.function.indicator.mql5"
         },
         {
@@ -159,24 +2411,8 @@
             "name": "support.type.struct.mql5"
         },
         {
-            "match": "\\b(MQL_STARTED_FROM_CONFIG|MQL_SIGNALS_ALLOWED|MQL_TRADE_ALLOWED|MQL_DLLS_ALLOWED|MQL_HANDLES_USED|MQL_LICENSE_TYPE|MQL_MEMORY_LIMIT|MQL_OPTIMIZATION|MQL_PROGRAM_NAME|MQL_PROGRAM_PATH|MQL_PROGRAM_TYPE|MQL_MEMORY_USED|MQL_VISUAL_MODE|MQL_FRAME_MODE|_UninitReason|MQL_PROFILER|MQL_FORWARD|_RandomSeed|MQL_TESTER|_LastError|MQL_DEBUG|_StopFlag|_Digits|_Period|_Symbol|Volume|_IsX64|_Point|Close|Bars|High|Open|Time|Ask|Bid|Low)\\b",
-            "name": "support.variable.predefined.mql5"
-        },
-        {
-            "match": "\\b(SymbolInfoMarginRate|SymbolIsSynchronized)\\b",
-            "name": "support.function.market-info.mql5"
-        },
-        {
-            "match": "\\b(MathCumulativeDistributionNoncentralChiSquare|MathCumulativeDistributionNegativeBinomial|MathProbabilityDensityNoncentralChiSquare|MathCumulativeDistributionHypergeometric|MathCumulativeDistributionNoncentralBeta|MathProbabilityDensityNegativeBinomial|MathCumulativeDistributionExponential|MathCumulativeDistributionNoncentralF|MathCumulativeDistributionNoncentralT|MathProbabilityDensityHypergeometric|MathProbabilityDensityNoncentralBeta|MathCumulativeDistributionChiSquare|MathCumulativeDistributionGeometric|MathCumulativeDistributionLognormal|MathCumulativeDistributionBinomial|MathCumulativeDistributionLogistic|MathCumulativeDistributionPoisson|MathCumulativeDistributionUniform|MathCumulativeDistributionWeibull|MathProbabilityDensityExponential|MathProbabilityDensityNoncentralF|MathProbabilityDensityNoncentralT|MathCumulativeDistributionCauchy|MathCumulativeDistributionNormal|MathCumulativeDistributionGamma|MathProbabilityDensityChiSquare|MathProbabilityDensityGeometric|MathProbabilityDensityLognormal|MathQuantileNoncentralChiSquare|MathCumulativeDistributionBeta|MathMomentsNoncentralChiSquare|MathProbabilityDensityBinomial|MathProbabilityDensityLogistic|MathProbabilityDensityPoisson|MathProbabilityDensityUniform|MathProbabilityDensityWeibull|MathRandomNoncentralChiSquare|MathProbabilityDensityCauchy|MathProbabilityDensityNormal|MathQuantileNegativeBinomial|MathCumulativeDistributionF|MathCumulativeDistributionT|MathMomentsNegativeBinomial|MathProbabilityDensityGamma|MathProbabilityDensityBeta|MathQuantileHypergeometric|MathQuantileNoncentralBeta|MathRandomNegativeBinomial|MathMomentsHypergeometric|MathMomentsNoncentralBeta|MathRandomHypergeometric|MathRandomNoncentralBeta|MathProbabilityDensityF|MathProbabilityDensityT|MathQuantileExponential|MathQuantileNoncentralT|MathMomentsExponential|MathMomentsNoncentralF|MathMomentsNoncentralT|MathQuantileChiSquare|MathQuantileGeometric|MathQuantileLognormal|MathRandomExponential|MathRandomNoncentralF|MathRandomNoncentralT|MathStandardDeviation|MathAverageDeviation|MathMomentsChiSquare|MathMomentsGeometric|MathMomentsLognormal|MathQuantileBinomial|MathQuantileLogistic|MathMomentsBinomial|MathMomentsLogistic|MathQuantilePoisson|MathQuantileUniform|MathQuantileWeibull|MathRandomChiSquare|MathRandomGeometric|MathRandomLognormal|MathMomentsPoisson|MathMomentsUniform|MathMomentsWeibull|MathQuantileCauchy|MathQuantileNormal|MathRandomBinomial|MathRandomLogistic|MathIsValidNumber|MathMomentsCauchy|MathMomentsNormal|MathQuantileGamma|MathRandomPoisson|MathRandomUniform|MathRandomWeibull|MathMomentsGamma|MathQuantileBeta|MathRandomCauchy|MathRandomNormal|MathMomentsBeta|MathRandomGamma|MathRandomBeta|MathQuantileF|MathQuantileT|MathClassify|MathKurtosis|MathMomentsF|MathMomentsT|MathSkewness|MathVariance|MathArccosh|MathArcsinh|MathArctan2|MathArctanh|MathMoments|MathRandomF|MathRandomT|MathArccos|MathArcsin|MathArctan|MathMedian|MathExpm1|MathFloor|MathLog10|MathLog1p|MathRound|MathSrand|MathCeil|MathCosh|MathMean|MathRand|MathSinh|MathSqrt|MathSwap|MathTanh|MathAbs|MathCos|MathExp|MathLog|MathMax|MathMin|MathMod|MathPow|MathSin|MathTan)\\b",
-            "name": "support.function.math.mql5"
-        },
-        {
-            "match": "\\b(ERR_CUSTOM_SYMBOL_PARAMETER_ERROR|ERR_ONNX_INVALID_PARAMETERS_COUNT|ERR_CUSTOM_SYMBOL_PARAMETER_LONG|ERR_CUSTOM_SYMBOL_PROPERTY_WRONG|ERR_INDICATOR_PARAMETERS_MISSING|ERR_NOTIFICATION_WRONG_PARAMETER|ERR_DATABASE_QUERY_NOT_READONLY|ERR_GLOBALVARIABLE_NOT_MODIFIED|ERR_NOTIFICATION_WRONG_SETTINGS|ERR_ONNX_INVALID_PARAMETER_SIZE|ERR_ONNX_INVALID_PARAMETER_TYPE|ERR_OPENCL_SET_KERNEL_PARAMETER|ERR_OPENCL_TOO_LONG_KERNEL_NAME|ERR_CHART_INDICATOR_CANNOT_ADD|ERR_CHART_INDICATOR_CANNOT_DEL|ERR_GLOBALVARIABLE_CANNOTWRITE|ERR_INDICATOR_WRONG_PARAMETERS|ERR_NETSOCKET_HANDSHAKE_FAILED|ERR_OPENCL_WRONG_BUFFER_OFFSET|ERR_STRUCT_WITHOBJECTS_ORCLASS|ERR_WEBREQUEST_INVALID_ADDRESS|ERR_CHART_CANNOT_CREATE_TIMER|ERR_CHART_INDICATOR_NOT_FOUND|ERR_DATABASE_TOO_MANY_OBJECTS|ERR_GLOBALVARIABLE_CANNOTREAD|ERR_NETSOCKET_TOO_MANY_OPENED|ERR_NOTIFICATION_TOO_FREQUENT|ERR_RESOURCE_NAME_IS_TOO_LONG|ERR_RESOURCE_UNSUPPORTED_TYPE|ERR_WEBREQUEST_CONNECT_FAILED|ERR_WEBREQUEST_REQUEST_FAILED|ERR_CUSTOM_SYMBOL_WRONG_NAME|ERR_CUSTOM_TICKS_WRONG_ORDER|ERR_DATABASE_BIND_PARAMETERS|ERR_GLOBALVARIABLE_NOT_FOUND|ERR_INDICATOR_DATA_NOT_FOUND|ERR_INDICATOR_PARAMETER_TYPE|ERR_INDICATOR_UNKNOWN_SYMBOL|ERR_NETSOCKET_CANNOT_CONNECT|ERR_NETSOCKET_NO_CERTIFICATE|ERR_NOTIFICATION_SEND_FAILED|ERR_OPENCL_WRONG_BUFFER_SIZE|ERR_RESOURCE_NAME_DUPLICATED|ERR_TRADE_POSITION_NOT_FOUND|ERR_WRONG_INTERNAL_PARAMETER|ERR_CANNOT_DELETE_DIRECTORY|ERR_CHART_SCREENSHOT_FAILED|ERR_CUSTOM_SYMBOL_NAME_LONG|ERR_CUSTOM_SYMBOL_PATH_LONG|ERR_DATABASE_INVALID_HANDLE|ERR_INDICATOR_CANNOT_CREATE|ERR_MARKET_LASTTIME_UNKNOWN|ERR_MATRIX_FUNC_NOT_ALLOWED|ERR_NETSOCKET_INVALIDHANDLE|ERR_OPENCL_TOO_MANY_OBJECTS|ERR_TERMINAL_WRONG_PROPERTY|ERR_ACCOUNT_WRONG_PROPERTY|ERR_BOOKS_CANNOT_SUBSCRIBE|ERR_CANNOT_CLEAN_DIRECTORY|ERR_CHART_WINDOW_NOT_FOUND|ERR_CUSTOM_SYMBOL_SELECTED|ERR_DATABASE_QUERY_PREPARE|ERR_FILE_CACHEBUFFER_ERROR|ERR_HISTORY_WRONG_PROPERTY|ERR_INDICATOR_CANNOT_APPLY|ERR_INDICATOR_WRONG_HANDLE|ERR_MATRIX_NOT_INITIALIZED|ERR_OBJECT_GETVALUE_FAILED|ERR_ONNX_INVALID_PARAMETER|ERR_WRONG_STRING_PARAMETER|ERR_CHART_NAVIGATE_FAILED|ERR_CHART_TEMPLATE_FAILED|ERR_CHART_WRONG_PARAMETER|ERR_CUSTOM_WRONG_PROPERTY|ERR_DATABASE_NO_MORE_DATA|ERR_GLOBALVARIABLE_EXISTS|ERR_INDICATOR_CUSTOM_NAME|ERR_INDICATOR_WRONG_INDEX|ERR_MARKET_UNKNOWN_SYMBOL|ERR_MARKET_WRONG_PROPERTY|ERR_MQL_FILE_IS_DIRECTORY|ERR_NOTINITIALIZED_STRING|ERR_OBJECT_GETDATE_FAILED|ERR_OBJECT_WRONG_PROPERTY|ERR_OPENCL_CONTEXT_CREATE|ERR_OPENCL_INVALID_HANDLE|ERR_OPENCL_PROGRAM_CREATE|ERR_TRADE_ORDER_NOT_FOUND|ERR_CHART_WRONG_PROPERTY|ERR_FILE_ISNOT_DIRECTORY|ERR_FUNCTION_NOT_ALLOWED|ERR_HISTORY_SMALL_BUFFER|ERR_INDICATOR_CANNOT_ADD|ERR_INVALID_POINTER_TYPE|ERR_MARKET_SESSION_INDEX|ERR_ONNX_NOT_INITIALIZED|ERR_ONNX_WRONG_DIMENSION|ERR_OPENCL_BUFFER_CREATE|ERR_OPENCL_KERNEL_CREATE|ERR_OPENCL_NOT_SUPPORTED|ERR_SMALL_ASSERIES_ARRAY|ERR_STRINGPOS_OUTOFRANGE|ERR_STRING_OUT_OF_MEMORY|ERR_STRING_TOO_BIGNUMBER|ERR_TRADE_DEAL_NOT_FOUND|ERR_TRADE_WRONG_PROPERTY|ERR_BOOKS_CANNOT_DELETE|ERR_BUFFERS_WRONG_INDEX|ERR_CHART_CANNOT_CHANGE|ERR_CUSTOM_SYMBOL_ERROR|ERR_CUSTOM_SYMBOL_EXIST|ERR_DATABASE_CONSTRAINT|ERR_DIRECTORY_NOT_EXIST|ERR_FILE_CANNOT_REWRITE|ERR_HISTORY_LOAD_ERRORS|ERR_INCOMPATIBLE_ARRAYS|ERR_INDICATOR_NO_MEMORY|ERR_MARKET_NOT_SELECTED|ERR_MARKET_SELECT_ERROR|ERR_MARKET_SELECT_LIMIT|ERR_MATRIX_CONTAINS_NAN|ERR_MATRIX_INCONSISTENT|ERR_MATRIX_INVALID_SIZE|ERR_MATRIX_INVALID_TYPE|ERR_MQL5_WRONG_PROPERTY|ERR_OPENCL_QUEUE_CREATE|ERR_OPENCL_SELECTDEVICE|ERR_STRING_RESIZE_ERROR|ERR_TOO_MANY_FORMATTERS|ERR_TOO_MANY_PARAMETERS|ERR_WRONG_DIRECTORYNAME|ERR_WRONG_STRING_OBJECT|ERR_ARRAY_RESIZE_ERROR|ERR_CALENDAR_MORE_DATA|ERR_CANNOT_DELETE_FILE|ERR_DATABASE_INTERRUPT|ERR_DATABASE_NOT_READY|ERR_FILE_BINSTRINGSIZE|ERR_FTP_CONNECT_FAILED|ERR_HISTORY_BARS_LIMIT|ERR_INVALID_FILEHANDLE|ERR_NETSOCKET_IO_ERROR|ERR_NUMBER_ARRAYS_ONLY|ERR_ONEDIM_ARRAYS_ONLY|ERR_ONNX_NOT_SUPPORTED|ERR_RESOURCE_NOT_FOUND|ERR_STRING_UNKNOWNTYPE|ERR_WEBREQUEST_TIMEOUT|ERR_WRONG_FORMATSTRING|DRAW_COLOR_HISTOGRAM2|ERR_BUFFERS_NO_MEMORY|ERR_CHART_CANNOT_OPEN|ERR_DATABASE_CANTOPEN|ERR_DATABASE_INTERNAL|ERR_DATABASE_MISMATCH|ERR_DATABASE_NOTFOUND|ERR_DATABASE_PROTOCOL|ERR_DATABASE_READONLY|ERR_DOUBLE_ARRAY_ONLY|ERR_FILE_IS_DIRECTORY|ERR_HISTORY_NOT_FOUND|ERR_INCOMPATIBLE_FILE|ERR_INVALID_PARAMETER|ERR_NOT_CUSTOM_SYMBOL|ERR_NOT_ENOUGH_MEMORY|ERR_PLAY_SOUND_FAILED|ERR_STRING_ARRAY_ONLY|ERR_STRING_TIME_ERROR|ERR_TOO_LONG_FILENAME|ERR_TRADE_CALC_FAILED|ERR_TRADE_SEND_FAILED|ERR_WRONG_STRING_DATE|ERR_WRONG_STRING_TIME|DRAW_COLOR_HISTOGRAM|ERR_BOOKS_CANNOT_ADD|ERR_BOOKS_CANNOT_GET|ERR_CALENDAR_NO_DATA|ERR_CALENDAR_TIMEOUT|ERR_CANNOT_OPEN_FILE|ERR_DATABASE_CONNECT|ERR_DATABASE_CORRUPT|ERR_DATABASE_EXECUTE|ERR_DATABASE_PREPARE|ERR_FILE_NOTTXTORCSV|ERR_FLOAT_ARRAY_ONLY|ERR_INVALID_DATETIME|ERR_MAIL_SEND_FAILED|ERR_OBJECT_NOT_FOUND|ERR_SHORT_ARRAY_ONLY|ERR_STRING_SMALL_LEN|ERR_STRING_ZEROADDED|ERR_TOO_MANY_OBJECTS|ERR_USER_ERROR_FIRST|ERR_WRONG_FILEHANDLE|ERR_CHART_NOT_FOUND|ERR_CHART_NO_EXPERT|ERR_CHAR_ARRAY_ONLY|ERR_DATABASE_FORMAT|ERR_DATABASE_LOCKED|ERR_DATABASE_MISUSE|ERR_DATABASE_NOTADB|ERR_DATABASE_SCHEMA|ERR_DATABASE_TOOBIG|ERR_FILE_NOTTOWRITE|ERR_FILE_WRITEERROR|ERR_FTP_SEND_FAILED|ERR_HISTORY_TIMEOUT|ERR_INVALID_POINTER|ERR_LONG_ARRAY_ONLY|ERR_MATRIX_INTERNAL|ERR_ONNX_RUN_FAILED|ERR_OPENCL_INTERNAL|ERR_PROGRAM_STOPPED|DRAW_COLOR_CANDLES|DRAW_COLOR_SECTION|ERR_ARRAY_BAD_SIZE|ERR_CHART_NO_REPLY|ERR_CHART_WRONG_ID|ERR_DATABASE_ABORT|ERR_DATABASE_EMPTY|ERR_DATABASE_ERROR|ERR_DATABASE_IOERR|ERR_DATABASE_LOGIC|ERR_DATABASE_NOLFS|ERR_DATABASE_NOMEM|ERR_DATABASE_RANGE|ERR_FILE_ENDOFFILE|ERR_FILE_NOTTOREAD|ERR_FILE_NOT_EXIST|ERR_FILE_READERROR|ERR_FTP_FILE_ERROR|ERR_INTERNAL_ERROR|ERR_INT_ARRAY_ONLY|ERR_INVALID_HANDLE|ERR_NO_STRING_DATE|ERR_OPENCL_EXECUTE|ERR_TOO_MANY_FILES|ERR_TRADE_DISABLED|ERR_WRONG_FILENAME|ERR_ZEROSIZE_ARRAY|DRAW_COLOR_ZIGZAG|ERR_DATABASE_AUTH|ERR_DATABASE_BUSY|ERR_DATABASE_FULL|ERR_DATABASE_PERM|ERR_DATABASE_STEP|ERR_FTP_CHANGEDIR|ERR_INVALID_ARRAY|ERR_MATH_OVERFLOW|ERR_ONNX_INTERNAL|DRAW_COLOR_ARROW|ERR_FTP_NOSERVER|ERR_INVALID_TYPE|ERR_OBJECT_ERROR|ERR_OUT_OF_RANGE|ERR_SERIES_ARRAY|MODE_REAL_VOLUME|DRAW_COLOR_BARS|DRAW_COLOR_LINE|DRAW_HISTOGRAM2|ERR_FILE_NOTBIN|ERR_FILE_NOTCSV|ERR_FILE_NOTTXT|ERR_FTP_NOLOGIN|ERR_SLEEP_ERROR|ERR_SMALL_ARRAY|DBL_MAX_10_EXP|DBL_MIN_10_EXP|DRAW_HISTOGRAM|FLT_MAX_10_EXP|FLT_MIN_10_EXP|PRICE_WEIGHTED|DBL_MIN_10_EX|DRAW_CANDLES1|FLT_MIN_10_EX|PRICE_TYPICAL|DBL_MANT_DIG|DBL_MAX_10_E|DRAW_CANDLES|DRAW_FILLING|DRAW_SECTION|FLT_MANT_DIG|FLT_MAX_10_E|PRICE_MEDIAN|DBL_EPSILON|DBL_MAX_EXP|DBL_MIN_EXP|DRAW_ZIGZAG|EMPTY_VALUE|ERR_SUCCESS|FLT_EPSILON|FLT_MAX_EXP|FLT_MIN_EXP|MODE_SPREAD|MODE_VOLUME|PRICE_CLOSE|SHORT_VALUE|WHOLE_ARRAY|WRONG_VALUE|CHARTS_MAX|CHAR_VALUE|DRAW_ARROW|MODE_CLOSE|PRICE_HIGH|PRICE_OPEN|DRAW_BARS|DRAW_LINE|DRAW_NONE|INT_VALUE|MODE_HIGH|MODE_LWMA|MODE_OPEN|MODE_SMMA|PRICE_LOW|PRICE_OUT|SHORT_MAX|SHORT_MIN|ULONG_MAX|CHAR_MAX|CHAR_MIN|CLR_NONE|LONG_MAX|LONG_MIN|MODE_EMA|MODE_LOW|MODE_SMA|PRICE_IN|DBL_DIG|DBL_MAX|DBL_MIN|DRAW_ZI|FLT_DIG|FLT_MAX|FLT_MIN|INT_MAX|INT_MIN|DRAW_A|DRAW_B|DRAW_C|DRAW_H|DRAW_S|ERR_OK|EMPTY|NULL)\\b",
+            "match": "\\b(ERR_CUSTOM_SYMBOL_PARAMETER_ERROR|ERR_ONNX_INVALID_PARAMETERS_COUNT|ERR_CUSTOM_SYMBOL_PARAMETER_LONG|ERR_CUSTOM_SYMBOL_PROPERTY_WRONG|ERR_INDICATOR_PARAMETERS_MISSING|ERR_NOTIFICATION_WRONG_PARAMETER|ERR_DATABASE_QUERY_NOT_READONLY|ERR_GLOBALVARIABLE_NOT_MODIFIED|ERR_NOTIFICATION_WRONG_SETTINGS|ERR_ONNX_INVALID_PARAMETER_SIZE|ERR_ONNX_INVALID_PARAMETER_TYPE|ERR_OPENCL_SET_KERNEL_PARAMETER|ERR_OPENCL_TOO_LONG_KERNEL_NAME|ERR_CHART_INDICATOR_CANNOT_ADD|ERR_CHART_INDICATOR_CANNOT_DEL|ERR_GLOBALVARIABLE_CANNOTWRITE|ERR_INDICATOR_WRONG_PARAMETERS|ERR_NETSOCKET_HANDSHAKE_FAILED|ERR_OPENCL_WRONG_BUFFER_OFFSET|ERR_STRUCT_WITHOBJECTS_ORCLASS|ERR_WEBREQUEST_INVALID_ADDRESS|ERR_CHART_CANNOT_CREATE_TIMER|ERR_CHART_INDICATOR_NOT_FOUND|ERR_DATABASE_TOO_MANY_OBJECTS|ERR_GLOBALVARIABLE_CANNOTREAD|ERR_NETSOCKET_TOO_MANY_OPENED|ERR_NOTIFICATION_TOO_FREQUENT|ERR_RESOURCE_NAME_IS_TOO_LONG|ERR_RESOURCE_UNSUPPORTED_TYPE|ERR_WEBREQUEST_CONNECT_FAILED|ERR_WEBREQUEST_REQUEST_FAILED|ERR_CUSTOM_SYMBOL_WRONG_NAME|ERR_CUSTOM_TICKS_WRONG_ORDER|ERR_DATABASE_BIND_PARAMETERS|ERR_GLOBALVARIABLE_NOT_FOUND|ERR_INDICATOR_DATA_NOT_FOUND|ERR_INDICATOR_PARAMETER_TYPE|ERR_INDICATOR_UNKNOWN_SYMBOL|ERR_NETSOCKET_CANNOT_CONNECT|ERR_NETSOCKET_NO_CERTIFICATE|ERR_NOTIFICATION_SEND_FAILED|ERR_OPENCL_WRONG_BUFFER_SIZE|ERR_RESOURCE_NAME_DUPLICATED|ERR_TRADE_POSITION_NOT_FOUND|ERR_WRONG_INTERNAL_PARAMETER|ERR_CANNOT_DELETE_DIRECTORY|ERR_CHART_SCREENSHOT_FAILED|ERR_CUSTOM_SYMBOL_NAME_LONG|ERR_CUSTOM_SYMBOL_PATH_LONG|ERR_DATABASE_INVALID_HANDLE|ERR_INDICATOR_CANNOT_CREATE|ERR_MARKET_LASTTIME_UNKNOWN|ERR_MATRIX_FUNC_NOT_ALLOWED|ERR_NETSOCKET_INVALIDHANDLE|ERR_OPENCL_TOO_MANY_OBJECTS|ERR_TERMINAL_WRONG_PROPERTY|ERR_ACCOUNT_WRONG_PROPERTY|ERR_BOOKS_CANNOT_SUBSCRIBE|ERR_CANNOT_CLEAN_DIRECTORY|ERR_CHART_WINDOW_NOT_FOUND|ERR_CUSTOM_SYMBOL_SELECTED|ERR_DATABASE_QUERY_PREPARE|ERR_FILE_CACHEBUFFER_ERROR|ERR_HISTORY_WRONG_PROPERTY|ERR_INDICATOR_CANNOT_APPLY|ERR_INDICATOR_WRONG_HANDLE|ERR_MATRIX_NOT_INITIALIZED|ERR_OBJECT_GETVALUE_FAILED|ERR_ONNX_INVALID_PARAMETER|ERR_WRONG_STRING_PARAMETER|ERR_CHART_NAVIGATE_FAILED|ERR_CHART_TEMPLATE_FAILED|ERR_CHART_WRONG_PARAMETER|ERR_CUSTOM_WRONG_PROPERTY|ERR_DATABASE_NO_MORE_DATA|ERR_GLOBALVARIABLE_EXISTS|ERR_INDICATOR_CUSTOM_NAME|ERR_INDICATOR_WRONG_INDEX|ERR_MARKET_UNKNOWN_SYMBOL|ERR_MARKET_WRONG_PROPERTY|ERR_MQL_FILE_IS_DIRECTORY|ERR_NOTINITIALIZED_STRING|ERR_OBJECT_GETDATE_FAILED|ERR_OBJECT_WRONG_PROPERTY|ERR_OPENCL_CONTEXT_CREATE|ERR_OPENCL_INVALID_HANDLE|ERR_OPENCL_PROGRAM_CREATE|ERR_TRADE_ORDER_NOT_FOUND|ERR_CHART_WRONG_PROPERTY|ERR_FILE_ISNOT_DIRECTORY|ERR_FUNCTION_NOT_ALLOWED|ERR_HISTORY_SMALL_BUFFER|ERR_INDICATOR_CANNOT_ADD|ERR_INVALID_POINTER_TYPE|ERR_MARKET_SESSION_INDEX|ERR_ONNX_NOT_INITIALIZED|ERR_ONNX_WRONG_DIMENSION|ERR_OPENCL_BUFFER_CREATE|ERR_OPENCL_KERNEL_CREATE|ERR_OPENCL_NOT_SUPPORTED|ERR_SMALL_ASSERIES_ARRAY|ERR_STRINGPOS_OUTOFRANGE|ERR_STRING_OUT_OF_MEMORY|ERR_STRING_TOO_BIGNUMBER|ERR_TRADE_DEAL_NOT_FOUND|ERR_TRADE_WRONG_PROPERTY|ERR_BOOKS_CANNOT_DELETE|ERR_BUFFERS_WRONG_INDEX|ERR_CHART_CANNOT_CHANGE|ERR_CUSTOM_SYMBOL_ERROR|ERR_CUSTOM_SYMBOL_EXIST|ERR_DATABASE_CONSTRAINT|ERR_DIRECTORY_NOT_EXIST|ERR_FILE_CANNOT_REWRITE|ERR_HISTORY_LOAD_ERRORS|ERR_INCOMPATIBLE_ARRAYS|ERR_INDICATOR_NO_MEMORY|ERR_MARKET_NOT_SELECTED|ERR_MARKET_SELECT_ERROR|ERR_MARKET_SELECT_LIMIT|ERR_MATRIX_CONTAINS_NAN|ERR_MATRIX_INCONSISTENT|ERR_MATRIX_INVALID_SIZE|ERR_MATRIX_INVALID_TYPE|ERR_MQL5_WRONG_PROPERTY|ERR_OPENCL_QUEUE_CREATE|ERR_OPENCL_SELECTDEVICE|ERR_STRING_RESIZE_ERROR|ERR_TOO_MANY_FORMATTERS|ERR_TOO_MANY_PARAMETERS|ERR_WRONG_DIRECTORYNAME|ERR_WRONG_STRING_OBJECT|ERR_ARRAY_RESIZE_ERROR|ERR_CALENDAR_MORE_DATA|ERR_CANNOT_DELETE_FILE|ERR_DATABASE_INTERRUPT|ERR_DATABASE_NOT_READY|ERR_FILE_BINSTRINGSIZE|ERR_FTP_CONNECT_FAILED|ERR_HISTORY_BARS_LIMIT|ERR_INVALID_FILEHANDLE|ERR_NETSOCKET_IO_ERROR|ERR_NUMBER_ARRAYS_ONLY|ERR_ONEDIM_ARRAYS_ONLY|ERR_ONNX_NOT_SUPPORTED|ERR_RESOURCE_NOT_FOUND|ERR_STRING_UNKNOWNTYPE|ERR_WEBREQUEST_TIMEOUT|ERR_WRONG_FORMATSTRING|ERR_BUFFERS_NO_MEMORY|ERR_CHART_CANNOT_OPEN|ERR_DATABASE_CANTOPEN|ERR_DATABASE_INTERNAL|ERR_DATABASE_MISMATCH|ERR_DATABASE_NOTFOUND|ERR_DATABASE_PROTOCOL|ERR_DATABASE_READONLY|ERR_DOUBLE_ARRAY_ONLY|ERR_FILE_IS_DIRECTORY|ERR_HISTORY_NOT_FOUND|ERR_INCOMPATIBLE_FILE|ERR_INVALID_PARAMETER|ERR_NOT_CUSTOM_SYMBOL|ERR_NOT_ENOUGH_MEMORY|ERR_PLAY_SOUND_FAILED|ERR_STRING_ARRAY_ONLY|ERR_STRING_TIME_ERROR|ERR_TOO_LONG_FILENAME|ERR_TRADE_CALC_FAILED|ERR_TRADE_SEND_FAILED|ERR_WRONG_STRING_DATE|ERR_WRONG_STRING_TIME|ERR_BOOKS_CANNOT_ADD|ERR_BOOKS_CANNOT_GET|ERR_CALENDAR_NO_DATA|ERR_CALENDAR_TIMEOUT|ERR_CANNOT_OPEN_FILE|ERR_DATABASE_CONNECT|ERR_DATABASE_CORRUPT|ERR_DATABASE_EXECUTE|ERR_DATABASE_PREPARE|ERR_FILE_NOTTXTORCSV|ERR_FLOAT_ARRAY_ONLY|ERR_INVALID_DATETIME|ERR_MAIL_SEND_FAILED|ERR_OBJECT_NOT_FOUND|ERR_SHORT_ARRAY_ONLY|ERR_STRING_SMALL_LEN|ERR_STRING_ZEROADDED|ERR_TOO_MANY_OBJECTS|ERR_USER_ERROR_FIRST|ERR_WRONG_FILEHANDLE|ERR_CHART_NOT_FOUND|ERR_CHART_NO_EXPERT|ERR_CHAR_ARRAY_ONLY|ERR_DATABASE_FORMAT|ERR_DATABASE_LOCKED|ERR_DATABASE_MISUSE|ERR_DATABASE_NOTADB|ERR_DATABASE_SCHEMA|ERR_DATABASE_TOOBIG|ERR_FILE_NOTTOWRITE|ERR_FILE_WRITEERROR|ERR_FTP_SEND_FAILED|ERR_HISTORY_TIMEOUT|ERR_INVALID_POINTER|ERR_LONG_ARRAY_ONLY|ERR_MATRIX_INTERNAL|ERR_ONNX_RUN_FAILED|ERR_OPENCL_INTERNAL|ERR_PROGRAM_STOPPED|ERR_ARRAY_BAD_SIZE|ERR_CHART_NO_REPLY|ERR_CHART_WRONG_ID|ERR_DATABASE_ABORT|ERR_DATABASE_EMPTY|ERR_DATABASE_ERROR|ERR_DATABASE_IOERR|ERR_DATABASE_LOGIC|ERR_DATABASE_NOLFS|ERR_DATABASE_NOMEM|ERR_DATABASE_RANGE|ERR_FILE_ENDOFFILE|ERR_FILE_NOTTOREAD|ERR_FILE_NOT_EXIST|ERR_FILE_READERROR|ERR_FTP_FILE_ERROR|ERR_INTERNAL_ERROR|ERR_INT_ARRAY_ONLY|ERR_INVALID_HANDLE|ERR_NO_STRING_DATE|ERR_OPENCL_EXECUTE|ERR_TOO_MANY_FILES|ERR_TRADE_DISABLED|ERR_WRONG_FILENAME|ERR_ZEROSIZE_ARRAY|ERR_DATABASE_AUTH|ERR_DATABASE_BUSY|ERR_DATABASE_FULL|ERR_DATABASE_PERM|ERR_DATABASE_STEP|ERR_FTP_CHANGEDIR|ERR_INVALID_ARRAY|ERR_MATH_OVERFLOW|ERR_ONNX_INTERNAL|ERR_FTP_NOSERVER|ERR_INVALID_TYPE|ERR_OBJECT_ERROR|ERR_OUT_OF_RANGE|ERR_SERIES_ARRAY|MODE_REAL_VOLUME|ERR_FILE_NOTBIN|ERR_FILE_NOTCSV|ERR_FILE_NOTTXT|ERR_FTP_NOLOGIN|ERR_SLEEP_ERROR|ERR_SMALL_ARRAY|FLT_MAX_10_EXP|FLT_MIN_10_EXP|PRICE_WEIGHTED|FLT_MIN_10_EX|PRICE_TYPICAL|FLT_MANT_DIG|FLT_MAX_10_E|PRICE_MEDIAN|EMPTY_VALUE|ERR_SUCCESS|FLT_EPSILON|FLT_MAX_EXP|FLT_MIN_EXP|MODE_SPREAD|MODE_VOLUME|PRICE_CLOSE|SHORT_VALUE|WHOLE_ARRAY|WRONG_VALUE|MODE_CLOSE|PRICE_HIGH|PRICE_OPEN|MODE_HIGH|MODE_LWMA|MODE_OPEN|MODE_SMMA|PRICE_LOW|PRICE_OUT|SHORT_MAX|SHORT_MIN|ULONG_MAX|LONG_MAX|LONG_MIN|MODE_EMA|MODE_LOW|MODE_SMA|PRICE_IN|FLT_DIG|FLT_MAX|FLT_MIN|ERR_OK|EMPTY|NULL)\\b",
             "name": "support.constant.numeric-limits.mql5"
-        },
-        {
-            "match": "\\b(ObjectGetTimeByValue|ObjectGetValueByTime|ObjectGetInteger|ObjectSetInteger|ObjectsDeleteAll|ObjectGetDouble|ObjectGetString|ObjectSetDouble|ObjectSetString|ObjectDelete|ObjectsTotal|ObjectFind|ObjectMove|ObjectName|ObjectAdd)\\b",
-            "name": "support.function.object.mql5"
         },
         {
             "match": "\\b(OBJPROP_BORDER_COLOR|OBJPROP_BORDER_TYPE|OBJPROP_CHART_SCALE|OBJPROP_PRICE_SCALE|OBJPROP_CREATETIME|OBJPROP_DATE_SCALE|OBJPROP_LEVELCOLOR|OBJPROP_LEVELSTYLE|OBJPROP_LEVELVALUE|OBJPROP_LEVELWIDTH|OBJPROP_SELECTABLE|OBJPROP_TIMEFRAMES|OBJPROP_ARROWCODE|OBJPROP_DEVIATION|OBJPROP_DIRECTION|OBJPROP_DRAWLINES|OBJPROP_LEVELTEXT|OBJPROP_RAY_RIGHT|OBJPROP_XDISTANCE|OBJPROP_YDISTANCE|OBJPROP_CHART_ID|OBJPROP_FONTSIZE|OBJPROP_RAY_LEFT|OBJPROP_READONLY|OBJPROP_SELECTED|OBJPROP_BGCOLOR|OBJPROP_BMPFILE|OBJPROP_ELLIPSE|OBJPROP_TOOLTIP|OBJPROP_XOFFSET|OBJPROP_YOFFSET|OBJPROP_ANCHOR|OBJPROP_CORNER|OBJPROP_DEGREE|OBJPROP_HIDDEN|OBJPROP_LEVELS|OBJPROP_PERIOD|OBJPROP_SYMBOL|OBJPROP_ZORDER|OBJPROP_ALIGN|OBJPROP_ANGLE|OBJPROP_COLOR|OBJPROP_PRICE|OBJPROP_SCALE|OBJPROP_STATE|OBJPROP_STYLE|OBJPROP_WIDTH|OBJPROP_XSIZE|OBJPROP_YSIZE|OBJPROP_BACK|OBJPROP_FILL|OBJPROP_FONT|OBJPROP_NAME|OBJPROP_TEXT|OBJPROP_TIME|OBJPROP_TYPE|OBJPROP_RAY)\\b",
@@ -211,28 +2447,20 @@
             "name": "support.constant.position-property.mql5"
         },
         {
-            "match": "(\\#property|\\#resource|\\#include|\\#define|\\#import)",
-            "name": "keyword.other.preprocessor"
-        },
-        {
-            "match": "\\b(INIT_PARAMETERS_INCORRECT|INIT_AGENT_NOT_SUITABLE|REASON_CHARTCHANGE|REASON_CHARTCLOSE|REASON_INITFAILED|REASON_PARAMETERS|REASON_RECOMPILE|REASON_TEMPLATE|INIT_SUCCEEDED|REASON_ACCOUNT|REASON_PROGRAM|REASON_REMOVE|REASON_CLOSE|INIT_FAILED)\\b",
+            "match": "\\b(REASON_CHARTCHANGE|REASON_CHARTCLOSE|REASON_INITFAILED|REASON_PARAMETERS|REASON_RECOMPILE|REASON_TEMPLATE|REASON_ACCOUNT|REASON_PROGRAM|REASON_REMOVE|REASON_CLOSE)\\b",
             "name": "support.constant.init-retcode.mql5"
         },
         {
-            "match": "\\b(SIGNAL_INFO_CONFIRMATIONS_DISABLED|SIGNAL_INFO_SUBSCRIPTION_ENABLED|SIGNAL_INFO_DEPOSIT_PERCENT|SIGNAL_BASE_DATE_PUBLISHED|SIGNAL_INFO_VOLUME_PERCENT|SIGNAL_BASE_BROKER_SERVER|SIGNAL_BASE_AUTHOR_LOGIN|SIGNAL_BASE_DATE_STARTED|SIGNAL_BASE_DATE_UPDATED|SIGNAL_BASE_MAX_DRAWDOWN|SIGNAL_INFO_EQUITY_LIMIT|SIGNAL_BASE_SUBSCRIBERS|SIGNAL_INFO_TERMS_AGREE|SIGNAL_BASE_TRADE_MODE|SIGNAL_INFO_COPY_SLTP|SIGNAL_BASE_CURRENCY|SIGNAL_BASE_LEVERAGE|SIGNAL_INFO_SLIPPAGE|SignalBaseGetInteger|SignalInfoGetInteger|SignalInfoSetInteger|SIGNAL_BASE_BALANCE|SignalBaseGetDouble|SignalBaseGetString|SignalInfoGetDouble|SignalInfoGetString|SignalInfoSetDouble|SIGNAL_BASE_BROKER|SIGNAL_BASE_EQUITY|SIGNAL_BASE_RATING|SIGNAL_BASE_TRADES|SIGNAL_BASE_PRICE|SIGNAL_BASE_GAIN|SIGNAL_BASE_NAME|SIGNAL_BASE_PIPS|SIGNAL_INFO_NAME|SignalBaseSelect|SIGNAL_BASE_ROI|SignalSubscribe|SIGNAL_BASE_ID|SIGNAL_INFO_ID|SIGNAL_LINE)\\b",
+            "match": "\\b(SIGNAL_INFO_CONFIRMATIONS_DISABLED|SIGNAL_INFO_SUBSCRIPTION_ENABLED|SIGNAL_INFO_DEPOSIT_PERCENT|SIGNAL_BASE_DATE_PUBLISHED|SIGNAL_INFO_VOLUME_PERCENT|SIGNAL_BASE_BROKER_SERVER|SIGNAL_BASE_AUTHOR_LOGIN|SIGNAL_BASE_DATE_STARTED|SIGNAL_BASE_DATE_UPDATED|SIGNAL_BASE_MAX_DRAWDOWN|SIGNAL_INFO_EQUITY_LIMIT|SIGNAL_BASE_SUBSCRIBERS|SIGNAL_INFO_TERMS_AGREE|SIGNAL_BASE_TRADE_MODE|SIGNAL_INFO_COPY_SLTP|SIGNAL_BASE_CURRENCY|SIGNAL_BASE_LEVERAGE|SIGNAL_INFO_SLIPPAGE|SIGNAL_BASE_BALANCE|SIGNAL_BASE_BROKER|SIGNAL_BASE_EQUITY|SIGNAL_BASE_RATING|SIGNAL_BASE_TRADES|SIGNAL_BASE_PRICE|SIGNAL_BASE_GAIN|SIGNAL_BASE_NAME|SIGNAL_BASE_PIPS|SIGNAL_INFO_NAME|SIGNAL_BASE_ROI|SIGNAL_BASE_ID|SIGNAL_INFO_ID|SIGNAL_LINE)\\b",
             "name": "support.function.signal.mql5"
         },
         {
-            "match": "\\b(CL_DEVICE_IMAGE_BASE_ADDRESS_ALIGNMEN|CL_DEVICE_PREFERRED_INTEROP_USER_SYNC|CL_DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE|CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHA|CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOU|CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLO|CL_DEVICE_PREFERRED_VECTOR_WIDTH_HAL|CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT|CL_DEVICE_PREFERRED_VECTOR_WIDTH_LON|CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHO|CL_DEVICE_PROFILING_TIMER_RESOLUTION|CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE|CL_DEVICE_NATIVE_VECTOR_WIDTH_FLOAT|CL_DEVICE_NATIVE_VECTOR_WIDTH_SHORT|CL_DEVICE_PARTITION_AFFINITY_DOMAIN|CL_DEVICE_PARTITION_MAX_SUB_DEVICES|CL_DEVICE_ERROR_CORRECTION_SUPPORT|CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE|CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS|CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE|CL_DEVICE_NATIVE_VECTOR_WIDTH_CHAR|CL_DEVICE_NATIVE_VECTOR_WIDTH_HALF|CL_DEVICE_NATIVE_VECTOR_WIDTH_LONG|CL_DEVICE_NATIVE_VECTOR_WIDTH_INT|CL_DEVICE_EXECUTION_CAPABILITIES|CL_DEVICE_GLOBAL_MEM_CACHE_SIZE|CL_DEVICE_GLOBAL_MEM_CACHE_TYPE|CL_DEVICE_IMAGE_MAX_BUFFER_SIZE|CL_DEVICE_IMAGE_PITCH_ALIGNMENT|CL_DEVICE_IMAGE_MAX_ARRAY_SIZE|CL_DEVICE_MAX_WRITE_IMAGE_ARGS|CL_DEVICE_PARTITION_PROPERTIES|CL_DEVICE_HOST_UNIFIED_MEMORY|CL_DEVICE_MAX_CLOCK_FREQUENCY|CL_DEVICE_MAX_READ_IMAGE_ARGS|CL_DEVICE_MAX_WORK_GROUP_SIZE|CL_DEVICE_MAX_WORK_ITEM_SIZES|CL_DEVICE_MEM_BASE_ADDR_ALIGN|CL_DEVICE_COMPILER_AVAILABLE|CL_DEVICE_IMAGE2D_MAX_HEIGHT|CL_DEVICE_IMAGE3D_MAX_HEIGHT|CL_DEVICE_MAX_MEM_ALLOC_SIZE|CL_DEVICE_MAX_PARAMETER_SIZE|CL_DEVICE_PRINTF_BUFFER_SIZE|CL_DEVICE_IMAGE2D_MAX_WIDTH|CL_DEVICE_IMAGE3D_MAX_DEPTH|CL_DEVICE_IMAGE3D_MAX_WIDTH|CL_DEVICE_MAX_COMPUTE_UNITS|CL_DEVICE_MAX_CONSTANT_ARGS|CL_DEVICE_BUILT_IN_KERNELS|CL_DEVICE_DOUBLE_FP_CONFIG|CL_DEVICE_LINKER_AVAILABLE|CL_DEVICE_OPENCL_C_VERSION|CL_DEVICE_QUEUE_PROPERTIES|CL_DEVICE_SINGLE_FP_CONFIG|CL_DEVICE_GLOBAL_MEM_SIZE|CL_DEVICE_REFERENCE_COUNT|CL_KERNEL_PRIVATE_MEM_SIZ|CL_DEVICE_GLOBAL_MEM_SIZ|CL_DEVICE_LOCAL_MEM_SIZE|CL_DEVICE_LOCAL_MEM_TYPE|CL_DEVICE_MAX_CLOCK_FREQ|CL_DEVICE_MAX_COMPUTE_UN|CL_DEVICE_PARTITION_TYPE|CL_KERNEL_LOCAL_MEM_SIZE|CL_KERNEL_WORK_GROUP_SIZ|CL_DEVICE_ENDIAN_LITTLE|CL_DEVICE_IMAGE_SUPPORT|CL_DEVICE_MAX_WORK_GROU|CL_DEVICE_PARENT_DEVICE|CLSetKernelArgMemLocal|CL_DEVICE_ADDRESS_BITS|CL_DEVICE_MAX_SAMPLERS|CL_INVALID_KERNEL_ARGS|CL_PLATFORM_EXTENSIONS|CL_USE_GPU_DOUBLE_ONLY|CL_DEVICE_ACCELERATOR|CL_DEVICE_TYPE_CUSTOM|CL_MEM_ALLOC_HOST_PTR|CL_DEVICE_EXTENSIONS|CL_ERROR_DESCRIPTION|CL_DEVICE_AVAILABLE|CL_DEVICE_VENDOR_ID|CL_PLATFORM_PROFILE|CL_PLATFORM_VERSION|CL_DEVICE_PLATFORM|CL_PLATFORM_VENDOR|CChartObjectTrend|CHistoryOrderInfo|CLExecutionStatus|CLSetKernelArgMem|CL_DEVICE_DEFAULT|CL_DEVICE_PROFILE|CL_DEVICE_VERSION|CL_DRIVER_VERSION|CL_MEM_READ_WRITE|CL_MEM_WRITE_ONLY|CChartObjectLine|CChartObjectText|CIndicatorBuffer|CLGetInfoInteger|CL_DEVICE_CUSTOM|CL_DEVICE_VENDOR|CL_MEM_READ_ONLY|CL_PLATFORM_NAME|CLContextCreate|CLGetDeviceInfo|CLGetInfoString|CLProgramCreate|CL_DEVICE_COUNT|CL_USE_CPU_ONLY|CL_USE_GPU_ONLY|CLBufferCreate|CLKernelCreate|CLSetKernelArg|CL_BUFFER_SIZE|CL_DEVICE_NAME|CL_DEVICE_TYPE|OPENCL_CONTEXT|OPENCL_INVALID|OPENCL_PROGRAM|CLBufferWrite|CLContextFree|CLProgramFree|CL_DEVICE_CPU|CL_DEVICE_GPU|CL_LAST_ERROR|CPositionInfo|CTerminalInfo|OPENCL_BUFFER|OPENCL_KERNEL|CAccountInfo|CArrayDouble|CArrayString|CChartObject|CLBufferFree|CLBufferRead|CLHandleType|CLKernelFree|CL_SUBMITTED|CDictionary|CExpertBase|CIndicators|CL_COMPLETE|CSymbolInfo|CL_RUNNING|CL_SUCCESS|CL_USE_ANY|COrderInfo|CArrayInt|CArrayObj|CDealInfo|CLExecute|CL_QUEUED|CHashMap|CObject|CArray|CTrade|CList)\\b",
+            "match": "\\b(OPENCL_CONTEXT|OPENCL_INVALID|OPENCL_PROGRAM|OPENCL_BUFFER|OPENCL_KERNEL)\\b",
             "name": "support.class.stdlib.mql5"
         },
         {
-            "match": "\\b(protected|override|private|virtual|extern|public|static|struct|class|const|input|enum)\\b",
+            "match": "\\b(protected|override|private|virtual|extern|public|static|struct|class|const|enum)\\b",
             "name": "storage.modifier"
-        },
-        {
-            "match": "\\b(StringGetCharacter|StringSetCharacter|StringToShortArray|StringConcatenate|StringSetLength|StringToInteger|StringTrimRight|StringTrimLeft|StringCompare|StringReplace|StringReserve|StringToLower|StringToUpper|StringFormat|StringSubstr|StringSplit|StringFill|StringFind|StringInit|StringAdd|StringLen)\\b",
-            "name": "support.function.string.mql5"
         },
         {
             "match": "\\b(SYMBOL_CALC_MODE_EXCH_FUTURES_FORTS|SYMBOL_ORDERS_DAILY_EXCLUDING_STOPS|SYMBOL_CALC_MODE_EXCH_FUTURES_FOR|SYMBOL_SESSION_SELL_ORDERS_VOLUME|SYMBOL_SWAP_MODE_CURRENCY_DEPOSIT|SYMBOL_SWAP_MODE_INTEREST_CURRENT|SYMBOL_CALC_MODE_SERV_COLLATERAL|SYMBOL_SESSION_BUY_ORDERS_VOLUME|SYMBOL_SWAP_MODE_CURRENCY_MARGIN|SYMBOL_SWAP_MODE_CURRENCY_PROFIT|SYMBOL_SWAP_MODE_CURRENCY_SYMBOL|SYMBOL_EXPIRATION_SPECIFIED_DAY|SYMBOL_SESSION_PRICE_SETTLEMENT|SYMBOL_SWAP_MODE_REOPEN_CURRENT|SYMBOL_TRADE_EXECUTION_EXCHANGE|SYMBOL_SESSION_PRICE_LIMIT_MAX|SYMBOL_SESSION_PRICE_LIMIT_MIN|SYMBOL_SWAP_MODE_INTEREST_OPEN|SYMBOL_TRADE_EXECUTION_INSTANT|SYMBOL_TRADE_EXECUTION_REQUEST|SYMBOL_TRADE_TICK_VALUE_PROFIT|SYMBOL_CALC_MODE_EXCH_FUTURES|SYMBOL_CALC_MODE_FOREX_NO_LEV|SYMBOL_CALC_MODE_SERV_COLLATE|SYMBOL_TRADE_ACCRUED_INTEREST|SYMBOL_TRADE_EXECUTION_MARKET|SYMBOL_CALC_MODE_CFDLEVERAGE|SYMBOL_CALC_MODE_EXCH_FUTURE|SYMBOL_CALC_MODE_EXCH_STOCKS|SYMBOL_MARGIN_HEDGED_USE_LEG|SYMBOL_TRADE_TICK_VALUE_LOSS|SYMBOL_CALC_MODE_EXCH_BONDS|SYMBOL_EXPIRATION_SPECIFIED|SYMBOL_OPTION_MODE_AMERICAN|SYMBOL_OPTION_MODE_EUROPEAN|SYMBOL_SWAP_MODE_REOPEN_BID|SYMBOL_TRADE_LIQUIDITY_RATE|SYMBOL_TRADE_MODE_CLOSEONLY|SYMBOL_TRADE_MODE_SHORTONLY|SYMBOL_SESSION_SELL_ORDERS|SYMBOL_TRADE_CONTRACT_SIZE|SYMBOL_TRADE_MODE_DISABLED|SYMBOL_TRADE_MODE_LONGONLY|SYMBOL_CALC_MODE_CFDINDEX|SYMBOL_MARGIN_MAINTENANCE|SYMBOL_SESSION_BUY_ORDERS|SYMBOL_SUBSCRIPTION_DELAY|SYMBOL_SWAP_MODE_DISABLED|SYMBOL_SWAP_ROLLOVER3DAYS|SYMBOL_TRADE_FREEZE_LEVEL|SYMBOL_CALC_MODE_FUTURES|SYMBOL_OPTION_RIGHT_CALL|SYMBOL_PRICE_SENSITIVITY|SYMBOL_PRICE_THEORETICAL|SYMBOL_TRADE_STOPS_LEVEL|SYMBOL_BACKGROUND_COLOR|SYMBOL_OPTION_RIGHT_PUT|SYMBOL_ORDER_STOP_LIMIT|SYMBOL_PRICE_VOLATILITY|SYMBOL_SESSION_INTEREST|SYMBOL_SESSION_TURNOVER|SYMBOL_SWAP_MODE_POINTS|SYMBOL_TRADE_FACE_VALUE|SYMBOL_TRADE_TICK_VALUE|SYMBOL_CALC_MODE_FOREX|SYMBOL_CHART_MODE_LAST|SYMBOL_CURRENCY_MARGIN|SYMBOL_CURRENCY_PROFIT|SYMBOL_EXPIRATION_MODE|SYMBOL_EXPIRATION_TIME|SYMBOL_TICKS_BOOKDEPTH|SYMBOL_TRADE_CALC_MODE|SYMBOL_TRADE_MODE_FULL|SYMBOL_TRADE_TICK_SIZE|SYMBOL_VOLUMEHIGH_REAL|SYMBOL_CHART_MODE_BID|SYMBOL_EXPIRATION_DAY|SYMBOL_EXPIRATION_GTC|SYMBOL_MARGIN_INITIAL|SYMBOL_ORDER_GTC_MODE|SYMBOL_SESSION_VOLUME|SYMBOL_SWAP_WEDNESDAY|SYMBOL_VOLUMELOW_REAL|SYMBOL_CALC_MODE_CFD|SYMBOL_CURRENCY_BASE|SYMBOL_INDUSTRY_NAME|SYMBOL_MARGIN_HEDGED|SYMBOL_OPTION_STRIKE|SYMBOL_ORDER_CLOSEBY|SYMBOL_SESSION_CLOSE|SYMBOL_SESSION_DEALS|SYMBOL_SWAP_SATURDAY|SYMBOL_SWAP_THURSDAY|SYMBOL_TRADE_EXEMODE|SYMBOL_FILLING_MODE|SYMBOL_OPTION_RIGHT|SYMBOL_ORDERS_DAILY|SYMBOL_ORDER_MARKET|SYMBOL_PRICE_CHANGE|SYMBOL_SESSION_OPEN|SYMBOL_SPREAD_FLOAT|SYMBOL_SWAP_TUESDAY|SYMBOL_VOLUME_LIMIT|SYMBOL_DESCRIPTION|SYMBOL_FILLING_BOC|SYMBOL_FILLING_FOK|SYMBOL_FILLING_IOC|SYMBOL_OPTION_MODE|SYMBOL_ORDER_LIMIT|SYMBOL_PRICE_DELTA|SYMBOL_PRICE_GAMMA|SYMBOL_PRICE_OMEGA|SYMBOL_PRICE_THETA|SYMBOL_SECTOR_NAME|SYMBOL_SWAP_FRIDAY|SYMBOL_SWAP_MONDAY|SYMBOL_SWAP_SUNDAY|SYMBOL_VOLUME_REAL|SYMBOL_VOLUME_STEP|SYMBOL_CHART_MODE|SYMBOL_ORDERS_GTC|SYMBOL_ORDER_MODE|SYMBOL_ORDER_STOP|SYMBOL_PRICE_VEGA|SYMBOL_SESSION_AW|SYMBOL_START_TIME|SYMBOL_SWAP_SHORT|SYMBOL_TRADE_MODE|SYMBOL_VOLUMEHIGH|SYMBOL_VOLUME_MAX|SYMBOL_VOLUME_MIN|SYMBOL_PRICE_RHO|SYMBOL_SWAP_LONG|SYMBOL_SWAP_MODE|SYMBOL_VOLUMELOW|SYMBOL_CATEGORY|SYMBOL_EXCHANGE|SYMBOL_INDUSTRY|SYMBOL_LASTHIGH|SYMBOL_ORDER_SL|SYMBOL_ORDER_TP|SYMBOL_TIME_MSC|SYMBOL_ASKHIGH|SYMBOL_BIDHIGH|SYMBOL_COUNTRY|SYMBOL_FORMULA|SYMBOL_LASTLOW|SYMBOL_VISIBLE|SYMBOL_ASKLOW|SYMBOL_BIDLOW|SYMBOL_CUSTOM|SYMBOL_DIGITS|SYMBOL_SECTOR|SYMBOL_SELECT|SYMBOL_SPREAD|SYMBOL_VOLUME|SYMBOL_BASIS|SYMBOL_EXIST|SYMBOL_POINT|SYMBOL_BANK|SYMBOL_ISIN|SYMBOL_LAST|SYMBOL_NAME|SYMBOL_PAGE|SYMBOL_PATH|SYMBOL_TIME|SYMBOL_ASK|SYMBOL_BID)\\b",
@@ -247,36 +2475,128 @@
             "name": "support.constant.symbol-trade-mode.mql5"
         },
         {
-            "match": "\\b(SymbolInfoSessionQuote|SymbolInfoSessionTrade|MarketBookRelease|SymbolInfoInteger|SymbolInfoDouble|SymbolInfoString|SymbolInfoTick|MarketBookAdd|MarketBookGet|SymbolSelect|SymbolsTotal|SymbolExist|SymbolName)\\b",
-            "name": "support.function.symbol-info.mql5"
-        },
-        {
             "match": "\\b(TERMINAL_NOTIFICATIONS_ENABLED|TERMINAL_COMMUNITY_CONNECTION|TERMINAL_COMMUNITY_ACCOUNT|TERMINAL_COMMUNITY_BALANCE|TERMINAL_KEYSTATE_CAPSLOCK|TERMINAL_KEYSTATE_PAGEDOWN|TERMINAL_CPU_ARCHITECTURE|TERMINAL_KEYSTATE_CONTROL|TERMINAL_KEYSTATE_NUMLOCK|TERMINAL_KEYSTATE_SCRLOCK|TERMINAL_MEMORY_AVAILABLE|TERMINAL_COLORTHEME_NAME|TERMINAL_COMMONDATA_PATH|TERMINAL_KEYSTATE_DELETE|TERMINAL_KEYSTATE_ESCAPE|TERMINAL_KEYSTATE_INSERT|TERMINAL_KEYSTATE_PAGEUP|TERMINAL_MEMORY_PHYSICAL|TERMINAL_KEYSTATE_ENTER|TERMINAL_KEYSTATE_RIGHT|TERMINAL_KEYSTATE_SHIFT|TERMINAL_OPENCL_SUPPORT|TERMINAL_RETRANSMISSION|TERMINAL_EMAIL_ENABLED|TERMINAL_KEYSTATE_DOWN|TERMINAL_KEYSTATE_HOME|TERMINAL_KEYSTATE_LEFT|TERMINAL_KEYSTATE_MENU|TERMINAL_SCREEN_HEIGHT|TERMINAL_TRADE_ALLOWED|TERMINAL_DLLS_ALLOWED|TERMINAL_KEYSTATE_END|TERMINAL_KEYSTATE_TAB|TERMINAL_KEYSTATE_XXX|TERMINAL_MEMORY_TOTAL|TERMINAL_SCREEN_WIDTH|TERMINAL_FTP_ENABLED|TERMINAL_KEYSTATE_UP|TERMINAL_MEMORY_USED|TERMINAL_SCREEN_LEFT|TERMINAL_DISK_SPACE|TERMINAL_OS_VERSION|TERMINAL_SCREEN_DPI|TERMINAL_SCREEN_TOP|TERMINAL_CONNECTED|TERMINAL_CPU_CORES|TERMINAL_DATA_PATH|TERMINAL_PING_LAST|TERMINAL_CODEPAGE|TERMINAL_CPU_NAME|TERMINAL_LANGUAGE|TERMINAL_COMPANY|TERMINAL_MAXBARS|TERMINAL_BOTTOM|TERMINAL_BUILD|TERMINAL_RIGHT|TERMINAL_LEFT|TERMINAL_MQID|TERMINAL_NAME|TERMINAL_PATH|TERMINAL_TOP|TERMINAL_VPS|TERMINAL_X64)\\b",
             "name": "support.constant.terminal.mql5"
-        },
-        {
-            "match": "\\b(TextGetSize|TextSetFont|TextHeight|TextWidth|TextSize|TextOut)\\b",
-            "name": "support.function.text.mql5"
         },
         {
             "match": "\\b(PERIOD_CURRENT|TIMEFRAME_H12|TIMEFRAME_M10|TIMEFRAME_M12|TIMEFRAME_M20|TIMEFRAME_M30|TIMEFRAME_MN1|TIMEFRAME_D1|TIMEFRAME_H1|TIMEFRAME_H2|TIMEFRAME_H3|TIMEFRAME_H4|TIMEFRAME_H6|TIMEFRAME_H8|TIMEFRAME_M1|TIMEFRAME_M2|TIMEFRAME_M3|TIMEFRAME_M4|TIMEFRAME_M5|TIMEFRAME_M6|TIMEFRAME_W1|PERIOD_H12|PERIOD_M10|PERIOD_M12|PERIOD_M15|PERIOD_M20|PERIOD_M30|PERIOD_MN1|PERIOD_D1|PERIOD_H1|PERIOD_H2|PERIOD_H3|PERIOD_H4|PERIOD_H6|PERIOD_H8|PERIOD_M1|PERIOD_M2|PERIOD_M3|PERIOD_M4|PERIOD_M5|PERIOD_M6|PERIOD_W1)\\b",
             "name": "support.constant.timeframe.mql5"
         },
         {
-            "match": "\\b(SERIES_TERMINAL_FIRSTDATE|SERIES_SERVER_FIRSTDATE|SERIES_LASTBAR_DATE|SERIES_SYNCHRONIZED|SERIES_BARS_COUNT|SERIES_FIRSTDATE|CopyRealVolume|CopyTickVolume|iRealVolume|iTickVolume|CopySeries|CopySpread|CopyClose|CopyRates|CopyTicks|iBarShift|CopyHigh|CopyOpen|CopyTime|iHighest|CopyLow|iLowest|iSpread|iVolume|iClose|iBars|iHigh|iOpen|iTime|iLow)\\b",
+            "match": "\\b(SERIES_TERMINAL_FIRSTDATE|SERIES_SERVER_FIRSTDATE|SERIES_LASTBAR_DATE|SERIES_SYNCHRONIZED|SERIES_BARS_COUNT|SERIES_FIRSTDATE)\\b",
             "name": "support.function.timeseries.mql5"
-        },
-        {
-            "match": "\\b(HistorySelectByPosition|HistoryOrderGetInteger|PositionSelectByTicket|HistoryDealGetInteger|HistoryOrderGetDouble|HistoryOrderGetString|HistoryOrderGetTicket|HistoryDealGetDouble|HistoryDealGetString|HistoryDealGetTicket|HistoryOrderSelect|PositionGetInteger|HistoryDealSelect|PositionGetDouble|PositionGetString|PositionGetSymbol|PositionGetTicket|OrderCalcMargin|OrderCalcProfit|OrderGetInteger|OrderGetDouble|OrderGetString|OrderGetTicket|OrderSendAsync|PositionSelect|PositionsTotal|HistorySelect|OrderSelect|OrdersTotal|OrderCheck|OrderSend)\\b",
-            "name": "support.function.trade.mql5"
         },
         {
             "match": "\\b(TRADE_EVENT_POSITION_VOLUME_CHANGE|TRADE_RETCODE_INVALID_CLOSE_VOLUME|TRADE_RETCODE_CLIENT_DISABLES_AT|TRADE_RETCODE_INVALID_EXPIRATION|TRADE_RETCODE_SERVER_DISABLES_AT|TRADE_TRANSACTION_HISTORY_DELETE|TRADE_TRANSACTION_HISTORY_UPDATE|TRADE_RETCODE_CLOSE_ORDER_EXIST|TRADE_RETCODE_TOO_MANY_REQUESTS|TRADE_EVENT_POSITION_STOP_TAKE|TRADE_RETCODE_HEDGE_PROHIBITED|TRADE_TRANSACTION_ORDER_DELETE|TRADE_TRANSACTION_ORDER_UPDATE|TRADE_RETCODE_LIMIT_POSITIONS|TRADE_RETCODE_POSITION_CLOSED|TRADE_TRANSACTION_DEAL_DELETE|TRADE_TRANSACTION_DEAL_UPDATE|TRADE_TRANSACTION_HISTORY_ADD|TRADE_RETCODE_INVALID_VOLUME|TRADE_RETCODE_TRADE_DISABLED|TRADE_EVENT_POSITION_MODIFY|TRADE_RETCODE_INVALID_ORDER|TRADE_RETCODE_INVALID_PRICE|TRADE_RETCODE_INVALID_STOPS|TRADE_RETCODE_MARKET_CLOSED|TRADE_RETCODE_ORDER_CHANGED|TRADE_RETCODE_PRICE_CHANGED|TRADE_RETCODE_REJECT_CANCEL|TRADE_TRANSACTION_ORDER_ADD|TRADE_EVENT_POSITION_CLOSE|TRADE_RETCODE_DONE_PARTIAL|TRADE_RETCODE_INVALID_FILL|TRADE_RETCODE_LIMIT_ORDERS|TRADE_RETCODE_LIMIT_VOLUME|TRADE_TRANSACTION_DEAL_ADD|TRADE_TRANSACTION_POSITION|TRADE_EVENT_ORDER_TRIGGER|TRADE_EVENT_POSITION_OPEN|TRADE_TRANSACTION_REQUEST|TRADE_EVENT_ORDER_DELETE|TRADE_EVENT_ORDER_MODIFY|TRADE_RETCODE_CLOSE_ONLY|TRADE_RETCODE_CONNECTION|TRADE_RETCODE_FIFO_CLOSE|TRADE_RETCODE_NO_CHANGES|TRADE_RETCODE_SHORT_ONLY|TRADE_EVENT_ORDER_PLACE|TRADE_RETCODE_LONG_ONLY|TRADE_RETCODE_ONLY_REAL|TRADE_RETCODE_PRICE_OFF|TRADE_RETCODE_NO_MONEY|TRADE_ACTION_CLOSE_BY|TRADE_REQUEST_ACTIONS|TRADE_RETCODE_INVALID|TRADE_RETCODE_REQUOTE|TRADE_RETCODE_TIMEOUT|TRADE_RETCODE_UNKNOWN|TRADE_ACTION_PENDING|TRADE_EVENT_NO_EVENT|TRADE_RETCODE_CANCEL|TRADE_RETCODE_FROZEN|TRADE_RETCODE_LOCKED|TRADE_RETCODE_PLACED|TRADE_RETCODE_REJECT|TRADE_ACTION_MODIFY|TRADE_ACTION_REMOVE|TRADE_RETCODE_ERROR|TRADE_RETCODE_DONE|TRADE_ACTION_DEAL|TRADE_ACTION_SLTP)\\b",
             "name": "support.constant.trade-action.mql5"
         },
         {
-            "match": "\\b(SingularSpectrumAnalysisReconstructComponents|SingularSpectrumAnalysisReconstructSeries|SingularValueDecompositionBidiagBisect|INDUSTRY_UTILITIES_REGULATED_ELECTRIC|INDUSTRY_SPEALITY_BUSINESS_SERVICES|SingularValueDecompositionJacobiLow|THEME_COLOR_GRADIENTINACTIVECAPTION|CONTROLS_DIALOG_COLOR_BORDER_LIGHT|INDUSTRY_INFRASTRUCTURE_OPERATIONS|INDUSTRY_UTILITIES_REGULATED_WATER|LDLSyTridPDLinearEquationsSolution|SingularValueDecompositionBidiagDC|SingularValueDecompositionBidiagQR|INDUSTRY_DRUGS_MANUFACTURERS_SPEC|INDUSTRY_ENGINEERING_CONSTRUCTION|INDUSTRY_UTILITIES_POWERPRODUCERS|LinearEquationsSolutionTriangular|SingularValueDecompositionQRPivot|CLASSIFICATION_AVERAGE_PRECISION|CLASSIFICATION_BALANCED_ACCURACY|D3D11_PRIMITIVE_TOPOLOGY_LINELIS|DX_PRIMITIVE_TOPOLOGY_LINELIST_A|INDUSTRY_COMMUNICATION_EQUIPMENT|INDUSTRY_ELECTRONIC_DISTRIBUTION|INDUSTRY_FINANCIAL_DATA_EXCHANGE|INDUSTRY_INDUSTRIAL_DISTRIBUTION|INDUSTRY_REAL_ESTATE_DEVELOPMENT|INDUSTRY_REAL_ESTATE_DIVERSIFIED|INDUSTRY_SEMICONDUCTOR_EQUIPMENT|INDUSTRY_SOFTWARE_INFRASTRUCTURE|INDUSTRY_UTILITIES_REGULATED_GAS|LeastSquaresSolutionQRTallSkinny|LinearEquationsSolutionComplexSy|PLUGeTridLinearEquationsSolution|SingularSpectrumAnalysisForecast|SingularSpectrumAnalysisSpectrum|SingularValueDecompositionBisect|CholeskyLinearEquationsSolution|D3D11_PRIMITIVE_TOPOLOGY_LINEST|D3D11_PRIMITIVE_TOPOLOGY_POINTL|D3D11_PRIMITIVE_TOPOLOGY_TRIANG|DXGI_FORMAT_X24_TYPELESS_G8_UIN|DX_FORMAT_X32_TYPELESS_G8X24_UI|DX_PRIMITIVE_TOPOLOGY_LINESTRIP|DX_PRIMITIVE_TOPOLOGY_POINTLIST|DX_PRIMITIVE_TOPOLOGY_TRIANGLEL|DX_PRIMITIVE_TOPOLOGY_TRIANGLES|ENUM_CUSTOMIND_PROPERTY_INTEGER|INDUSTRY_CLOSE_END_FUND_FOREIGN|INDUSTRY_FINANCIAL_CONGLOMERATE|INDUSTRY_SCIENTIFIC_INSTRUMENTS|LinearEquationsSolutionSyTridPD|ReceiverOperatingCharacteristic|THEME_COLOR_INACTIVECAPTIONTEXT|DATABASE_EXPORT_QUOTED_STRINGS|DATABASE_IMPORT_QUOTED_STRINGS|DXGI_FORMAT_D32_FLOAT_S8X24_UI|DXGI_FORMAT_R10G10B10A2_TYPELE|DXGI_FORMAT_R16G16B16A16_FLOAT|DXGI_FORMAT_R16G16B16A16_TYPEL|DXGI_FORMAT_R32G32B32A32_FLOAT|DXGI_FORMAT_R32G32B32A32_TYPEL|DXGI_FORMAT_R32G32B32_TYPELESS|DXGI_FORMAT_R32_FLOAT_X8X24_TY|DXGI_FORMAT_R9G9B9E5_SHAREDEXP|DXGI_FORMAT_X32_TYPELESS_G8X24|DX_FORMAT_D32_FLOAT_S8X24_UINT|DX_FORMAT_R10G10B10A2_TYPELESS|DX_FORMAT_R10G10B10_XR_BIAS_A2|DX_FORMAT_R16G16B16A16_TYPELES|DX_FORMAT_R32G32B32A32_TYPELES|DX_FORMAT_R32_FLOAT_X8X24_TYPE|DX_FORMAT_X24_TYPELESS_G8_UINT|DX_PRIMITIVE_TOPOLOGY_LINELIST|ENUM_CALENDAR_EVENT_IMPORTANCE|ENUM_CALENDAR_EVENT_MULTIPLIER|ENUM_CUSTOMIND_PROPERTY_DOUBLE|ENUM_CUSTOMIND_PROPERTY_STRING|ENUM_POSITION_PROPERTY_INTEGER|INDUSTRY_APPAREL_MANUFACTURING|INDUSTRY_CLOSE_END_FUND_EQUITY|INDUSTRY_ELECTRONIC_COMPONENTS|INDUSTRY_INSURANCE_DIVERSIFIED|INDUSTRY_INSURANCE_REINSURANCE|INDUSTRY_RECREATIONAL_VEHICLES|INDUSTRY_RESIDENT_CONSTRUCTION|INDUSTRY_TEXTILE_MANUFACTURING|INDUSTRY_UTILITIES_DIVERSIFIED|THEME_COLOR_TESTER_START_FRAME|CALENDAR_MULTIPLIER_THOUSANDS|CALENDAR_MULTIPLIER_TRILLIONS|CLASSIFICATION_TOP_K_ACCURACY|DATABASE_EXPORT_COMMON_FOLDER|DATABASE_IMPORT_COMMON_FOLDER|DXGI_FORMAT_B8G8R8A8_TYPELESS|DXGI_FORMAT_B8G8R8A8_UNORM_SR|DXGI_FORMAT_B8G8R8X8_TYPELESS|DXGI_FORMAT_B8G8R8X8_UNORM_SR|DXGI_FORMAT_D24_UNORM_S8_UINT|DXGI_FORMAT_R10G10B10A2_UNORM|DXGI_FORMAT_R16G16B16A16_SINT|DXGI_FORMAT_R16G16B16A16_SNOR|DXGI_FORMAT_R16G16B16A16_UINT|DXGI_FORMAT_R16G16B16A16_UNOR|DXGI_FORMAT_R24_UNORM_X8_TYPE|DXGI_FORMAT_R32G32B32A32_SINT|DXGI_FORMAT_R32G32B32A32_UINT|DXGI_FORMAT_R32G8X24_TYPELESS|DXGI_FORMAT_R8G8B8A8_TYPELESS|DXGI_FORMAT_R8G8B8A8_UNORM_SR|DX_FORMAT_B8G8R8A8_UNORM_SRGB|DX_FORMAT_B8G8R8X8_UNORM_SRGB|DX_FORMAT_R24_UNORM_X8_TYPELE|DX_FORMAT_R8G8B8A8_UNORM_SRGB|ENUM_CALENDAR_EVENT_FREQUENCY|ENUM_POSITION_PROPERTY_DOUBLE|ENUM_POSITION_PROPERTY_STRING|ENUM_RED_BLACK_TREE_NODE_TYPE|INDUSTRY_CONSUMER_ELECTRONICS|INDUSTRY_DIAGNOSTICS_RESEARCH|INDUSTRY_ELECTRICAL_EQUIPMENT|INDUSTRY_EXCHANGE_TRADED_FUND|INDUSTRY_FARM_HEAVY_MACHINERY|INDUSTRY_FOOTWEAR_ACCESSORIES|INDUSTRY_MEDICAL_DISTRIBUTION|INDUSTRY_PACKAGING_CONTAINERS|INDUSTRY_REAL_ESTATE_SERVICES|INDUSTRY_SOFTWARE_APPLICATION|LinearEquationsSolutionGeTrid|SECTOR_COMMUNICATION_SERVICES|THEME_COLOR_TESTER_STOP_FRAME|CALENDAR_IMPORTANCE_MODERATE|CALENDAR_MULTIPLIER_BILLIONS|CALENDAR_MULTIPLIER_MILLIONS|DATABASE_PRINT_STRINGS_RIGHT|DXGI_FORMAT_R10G10B10A2_UINT|DX_FORMAT_R16G16B16A16_FLOAT|DX_FORMAT_R16G16B16A16_SNORM|DX_FORMAT_R16G16B16A16_UNORM|DX_FORMAT_R32G32B32A32_FLOAT|DX_FORMAT_R32G32B32_TYPELESS|DX_FORMAT_R9G9B9E5_SHAREDEXP|ENUM_CALENDAR_EVENT_TIMEMODE|ENUM_OBJECT_PROPERTY_INTEGER|ENUM_OPENCL_PROPERTY_INTEGER|INDUSTRY_AGRICULTURAL_INPUTS|INDUSTRY_CLOSE_END_FUND_DEBT|INDUSTRY_CONSULTING_SERVICES|INDUSTRY_DRUGS_MANUFACTURERS|INDUSTRY_INSURANCE_SPECIALTY|INDUSTRY_MEDICAL_INSTRUMENTS|INDUSTRY_SECURITY_PROTECTION|INDUSTRY_SPECIALTY_CHEMICALS|INDUSTRY_STUFFING_EMPLOYMENT|INDUSTRY_UTILITIES_RENEWABLE|LDLSyTridPDCondNumReciprocal|ReduceSymmetricToTridiagonal|SingularValueDecompositionDC|SingularValueDecompositionQR|THEME_COLOR_PROFILER_CALLSEL|THEME_COLOR_PROFILER_LINESEL|CALENDAR_TIMEMODE_TENTATIVE|CalendarValueHistoryByEvent|CondNumReciprocalTriangular|CustomSymbolSetSessionQuote|CustomSymbolSetSessionTrade|DATABASE_FIELD_TYPE_INTEGER|DATABASE_FIELD_TYPE_INVALID|DXGI_FORMAT_G8R8_G8B8_UNORM|DXGI_FORMAT_R11G11B10_FLOAT|DXGI_FORMAT_R16G16_TYPELESS|DXGI_FORMAT_R32G32B32_FLOAT|DXGI_FORMAT_R32G32_TYPELESS|DXGI_FORMAT_R8G8_B8G8_UNORM|DX_FORMAT_B8G8R8A8_TYPELESS|DX_FORMAT_B8G8R8X8_TYPELESS|DX_FORMAT_D24_UNORM_S8_UINT|DX_FORMAT_R10G10B10A2_UNORM|DX_FORMAT_R16G16B16A16_SINT|DX_FORMAT_R16G16B16A16_UINT|DX_FORMAT_R32G32B32A32_SINT|DX_FORMAT_R32G32B32A32_UINT|DX_FORMAT_R32G8X24_TYPELESS|DX_FORMAT_R8G8B8A8_TYPELESS|DatabaseTransactionRollback|ENUM_CHART_PROPERTY_INTEGER|ENUM_OBJECT_PROPERTY_DOUBLE|ENUM_OBJECT_PROPERTY_STRING|ENUM_OPENCL_PROPERTY_STRING|ENUM_ORDER_PROPERTY_INTEGER|ENUM_SYMBOL_TRADE_EXECUTION|ENUM_TRADE_TRANSACTION_TYPE|INDUSTRY_AUTO_MANUFACTURERS|INDUSTRY_BEVERAGES_NON_ALCO|INDUSTRY_BEVERAGES_WINERIES|INDUSTRY_BUILDING_MATERIALS|INDUSTRY_BUSINESS_EQUIPMENT|INDUSTRY_HEALTH_INFORMATION|INDUSTRY_HOME_IMPROV_RETAIL|INDUSTRY_HOUSEHOLD_PRODUCTS|INDUSTRY_INSURANCE_PROPERTY|INDUSTRY_MEDICAL_FACILITIES|INDUSTRY_OIL_GAS_INTEGRATED|INDUSTRY_SPEALITY_MACHINERY|LeastSquaresSolutionQRPivot|LinearEquationsSolutionSyPD|PLUQLinearEquationsSolution|RES_E_AUTO_TRADING_DISABLED|RES_E_INTERNAL_FAIL_CONNECT|RES_E_INTERNAL_FAIL_RECEIVE|RES_E_INTERNAL_FAIL_TIMEOUT|THEME_COLOR_INACTIVECAPTION|THEME_COLOR_TESTER_PROGRESS|CALENDAR_FREQUENCY_QUARTER|CALENDAR_SECTOR_GOVERNMENT|CALENDAR_TIMEMODE_DATETIME|DXGI_FORMAT_B4G4R4A4_UNORM|DXGI_FORMAT_B5G5R5A1_UNORM|DXGI_FORMAT_B8G8R8A8_UNORM|DXGI_FORMAT_B8G8R8X8_UNORM|DXGI_FORMAT_BC1_UNORM_SRGB|DXGI_FORMAT_BC2_UNORM_SRGB|DXGI_FORMAT_BC3_UNORM_SRGB|DXGI_FORMAT_BC7_UNORM_SRGB|DXGI_FORMAT_R24G8_TYPELESS|DXGI_FORMAT_R32G32B32_SINT|DXGI_FORMAT_R32G32B32_UINT|DXGI_FORMAT_R8G8B8A8_SNORM|DXGI_FORMAT_R8G8B8A8_UNORM|DX_FORMAT_R10G10B10A2_UINT|ENUM_CALENDAR_EVENT_IMPACT|ENUM_CALENDAR_EVENT_SECTOR|ENUM_CHART_PROPERTY_DOUBLE|ENUM_CHART_PROPERTY_STRING|ENUM_CLASSIFICATION_METRIC|ENUM_DATABASE_EXPORT_FLAGS|ENUM_DATABASE_IMPORT_FLAGS|ENUM_DEAL_PROPERTY_INTEGER|ENUM_DX_PRIMITIVE_TOPOLOGY|ENUM_FILE_PROPERTY_INTEGER|ENUM_ORDER_PROPERTY_DOUBLE|ENUM_ORDER_PROPERTY_STRING|ENUM_PLOT_PROPERTY_INTEGER|ENUM_SYMBOL_ORDER_GTC_MODE|ENUM_TERMINAL_INFO_INTEGER|ENUM_TRADE_REQUEST_ACTIONS|INDUSTRY_AEROSPACE_DEFENSE|INDUSTRY_AIRPORTS_SERVICES|INDUSTRY_ASSETS_MANAGEMENT|INDUSTRY_BANKS_DIVERSIFIED|INDUSTRY_BEVERAGES_BREWERS|INDUSTRY_BUILDING_PRODUCTS|INDUSTRY_COMPUTER_HARDWARE|INDUSTRY_DEPARTMENT_STORES|INDUSTRY_EDUCATION_TRAINIG|INDUSTRY_FOOD_DISTRIBUTION|INDUSTRY_FREIGHT_LOGISTICS|INDUSTRY_GAMING_MULTIMEDIA|INDUSTRY_INDUSTRIAL_METALS|INDUSTRY_INSURANCE_BROKERS|INDUSTRY_METAL_FABRICATION|INDUSTRY_OIL_GAS_EQUIPMENT|INDUSTRY_OIL_GAS_MIDSTREAM|INDUSTRY_PERSONAL_SERVICES|INDUSTRY_POLLUTION_CONTROL|INDUSTRY_TOOLS_ACCESSORIES|LDLLinearEquationsSolution|PLUGeTridCondNumReciprocal|PLULinearEquationsSolution|STAT_BALANCE_DDREL_PERCENT|THEME_COLOR_TESTER_BALANCE|BALANCE_PROFIT_WITHDRAWAL|CholeskyCondNumReciprocal|ConfusionMatrixMultiLabel|CustomSymbolSetMarginRate|DATABASE_FIELD_TYPE_FLOAT|DXGI_FORMAT_BC6H_TYPELESS|DXGI_FORMAT_R8G8B8A8_SINT|DXGI_FORMAT_R8G8B8A8_UINT|DXGI_FORMAT_R8G8_TYPELESS|DX_FORMAT_G8R8_G8B8_UNORM|DX_FORMAT_R11G11B10_FLOAT|DX_FORMAT_R16G16_TYPELESS|DX_FORMAT_R32G32B32_FLOAT|DX_FORMAT_R32G32_TYPELESS|DX_FORMAT_R8G8_B8G8_UNORM|DatabaseTransactionCommit|ENUM_ACCOUNT_INFO_INTEGER|ENUM_ACCOUNT_STOPOUT_MODE|ENUM_DEAL_PROPERTY_DOUBLE|ENUM_DEAL_PROPERTY_STRING|ENUM_PLOT_PROPERTY_DOUBLE|ENUM_PLOT_PROPERTY_STRING|ENUM_TERMINAL_INFO_DOUBLE|ENUM_TERMINAL_INFO_STRING|FactorizationCholeskySyPS|FactorizationLDLComplexSy|FactorizationPLUGeTridRaw|INDUSTRY_HEALTHCARE_PLANS|INDUSTRY_INTERNET_CONTENT|INDUSTRY_MORTGAGE_FINANCE|INDUSTRY_OIL_GAS_DRILLING|INDUSTRY_OIL_GAS_REFINING|INDUSTRY_REIT_DIVERSIFIED|INDUSTRY_REIT_HOTEL_MOTEL|INDUSTRY_SPECIALTY_RETAIL|INDUSTRY_WASTE_MANAGEMENT|LinearEquationsSolutionSy|RED_BLACK_TREE_NODE_BLACK|SECTOR_CONSUMER_DEFENSIVE|STAT_EQUITY_DDREL_PERCENT|STAT_MAX_CONPROFIT_TRADES|THEME_COLOR_ACTIVECAPTION|THEME_COLOR_HIGHLIGHTTEXT|THEME_COLOR_PROFILER_CALL|THEME_COLOR_PROFILER_LINE|THEME_COLOR_TESTER_EQUITY|THEME_COLOR_TESTER_MARGIN|CALENDAR_FREQUENCY_MONTH|CALENDAR_IMPACT_NEGATIVE|CALENDAR_IMPACT_POSITIVE|CALENDAR_IMPORTANCE_HIGH|CALENDAR_IMPORTANCE_NONE|CALENDAR_MULTIPLIER_NONE|CALENDAR_SECTOR_BUSINESS|CALENDAR_SECTOR_CONSUMER|CALENDAR_SECTOR_HOLIDAYS|CALENDAR_TIMEMODE_NOTIME|CLASSIFICATION_PRECISION|CONTROLS_DIALOG_COLOR_BG|CalendarValueLastByEvent|D3D11_INPUT_ELEMENT_DESC|D3D11_PRIMITIVE_TOPOLOGY|DATABASE_FIELD_TYPE_BLOB|DATABASE_FIELD_TYPE_NULL|DATABASE_FIELD_TYPE_TEXT|DATABASE_PRINT_NO_HEADER|DXGI_FORMAT_B5G6R5_UNORM|DXGI_FORMAT_BC1_TYPELESS|DXGI_FORMAT_BC2_TYPELESS|DXGI_FORMAT_BC3_TYPELESS|DXGI_FORMAT_BC4_TYPELESS|DXGI_FORMAT_BC5_TYPELESS|DXGI_FORMAT_BC7_TYPELESS|DXGI_FORMAT_R16G16_FLOAT|DXGI_FORMAT_R16G16_SNORM|DXGI_FORMAT_R16G16_UNORM|DXGI_FORMAT_R16_TYPELESS|DXGI_FORMAT_R32G32_FLOAT|DXGI_FORMAT_R32_TYPELESS|DX_FORMAT_B4G4R4A4_UNORM|DX_FORMAT_B5G5R5A1_UNORM|DX_FORMAT_B8G8R8A8_UNORM|DX_FORMAT_B8G8R8X8_UNORM|DX_FORMAT_BC1_UNORM_SRGB|DX_FORMAT_BC2_UNORM_SRGB|DX_FORMAT_BC3_UNORM_SRGB|DX_FORMAT_BC7_UNORM_SRGB|DX_FORMAT_R24G8_TYPELESS|DX_FORMAT_R32G32B32_SINT|DX_FORMAT_R32G32B32_UINT|DX_FORMAT_R8G8B8A8_SNORM|DX_FORMAT_R8G8B8A8_UNORM|DatabaseTransactionBegin|ELLIOTT_GRAND_SUPERCYCLE|ENUM_ACCOUNT_INFO_DOUBLE|ENUM_ACCOUNT_INFO_STRING|ENUM_ACCOUNT_MARGIN_MODE|ENUM_ACTIVATION_FUNCTION|ENUM_CALENDAR_EVENT_TYPE|ENUM_CALENDAR_EVENT_UNIT|ENUM_DATABASE_FIELD_TYPE|ENUM_DATABASE_OPEN_FLAGS|ENUM_INTERSECT_DIRECTION|ENUM_SERIES_INFO_INTEGER|ENUM_SIGNAL_BASE_INTEGER|ENUM_SIGNAL_INFO_INTEGER|ENUM_SYMBOL_INFO_INTEGER|ENUM_SYMBOL_OPTION_RIGHT|EigenSolver2SchurBlocked|EventSetMillisecondTimer|FactorizationLDLSyTridPD|INDUSTRY_AUTO_DEALERSHIP|INDUSTRY_CAPITAL_MARKETS|INDUSTRY_CREDIT_SERVICES|INDUSTRY_DISCOUNT_STORES|INDUSTRY_INTERNET_RETAIL|INDUSTRY_MARINE_SHIPPING|INDUSTRY_MEDICAL_DEVICES|INDUSTRY_PHARM_RETAILERS|INDUSTRY_PRECIOUS_METALS|INDUSTRY_REIT_INDUSTRIAL|INDUSTRY_REIT_RESIDENTAL|INDUSTRY_REIT_SPECIALITY|INDUSTRY_RESORTS_CASINOS|INDUSTRY_SHELL_COMPANIES|INDUSTRY_TRAVEL_SERVICES|INDUSTRY_UTILITIES_FIRST|INTERSECT_DIRECTION_DOWN|INTERSECT_DIRECTION_NONE|RES_E_INTERNAL_FAIL_INIT|RES_E_INTERNAL_FAIL_SEND|SECTOR_CONSUMER_CYCLICAL|STAT_BALANCE_DD_RELATIVE|STAT_CONPROFITMAX_TRADES|STAT_PROFITTRADES_AVGCON|THEME_COLOR_NOTIFICATION|THEME_COLOR_TESTER_START|CALENDAR_FREQUENCY_NONE|CALENDAR_FREQUENCY_WEEK|CALENDAR_FREQUENCY_YEAR|CALENDAR_IMPORTANCE_LOW|CALENDAR_SECTOR_HOUSING|CALENDAR_TYPE_INDICATOR|CALENDAR_UNIT_CUBICFEET|CLASSIFICATION_ACCURACY|CalendarEventByCurrency|DATABASE_OPEN_READWRITE|DATABASE_PRINT_NO_FRAME|DATABASE_PRINT_NO_INDEX|DXGI_FORMAT_R16G16_SINT|DXGI_FORMAT_R16G16_UINT|DXGI_FORMAT_R32G32_SINT|DXGI_FORMAT_R32G32_UINT|DXGI_FORMAT_R8_TYPELESS|DX_FORMAT_BC6H_TYPELESS|DX_FORMAT_R8G8B8A8_SINT|DX_FORMAT_R8G8B8A8_UINT|DX_FORMAT_R8G8_TYPELESS|ENUM_ACCOUNT_TRADE_MODE|ENUM_CUSTOMIND_PROPERTY|ENUM_ELLIOT_WAVE_DEGREE|ENUM_OPENCL_HANDLE_TYPE|ENUM_ORDER_TYPE_FILLING|ENUM_SIGNAL_BASE_DOUBLE|ENUM_SIGNAL_BASE_STRING|ENUM_SIGNAL_INFO_DOUBLE|ENUM_SIGNAL_INFO_STRING|ENUM_SYMBOL_INFO_DOUBLE|ENUM_SYMBOL_INFO_STRING|ENUM_SYMBOL_OPTION_MODE|EigenTridiagonalPosDefQ|GIN_MODE_RETAIL_HEDGING|INDUSTRY_APPAREL_RETAIL|INDUSTRY_BANKS_REGIONAL|INDUSTRY_GROCERY_STORES|INDUSTRY_INSURANCE_LIFE|INDUSTRY_PACKAGED_FOODS|INDUSTRY_REIT_HEALTCARE|INDUSTRY_RENTAL_LEASING|INDUSTRY_SEMICONDUCTORS|INDUSTRY_UTILITIES_LAST|LeastSquaresSolutionSVD|LinearEquationsSolution|MAINTENANCE_MARGIN_RATE|RED_BLACK_TREE_NODE_RED|STAT_EQUITY_DD_RELATIVE|STAT_MAX_CONLOSS_TRADES|STAT_PROFIT_SHORTTRADES|THEME_COLOR_BOOK_SPREAD|THEME_COLOR_CAPTIONTEXT|THEME_COLOR_MENUHILIGHT|THEME_COLOR_STOPS_GREEN|THEME_COLOR_TESTER_STOP|THEME_COLOR_TICKS_CROSS|CALENDAR_FREQUENCY_DAY|CALENDAR_SECTOR_MARKET|CALENDAR_SECTOR_PRICES|CALENDAR_TIMEMODE_DATE|CALENDAR_UNIT_BUILDING|CALENDAR_UNIT_CURRENCY|CALENDAR_UNIT_MORTGAGE|CALENDAR_UNIT_POSITION|CLASSIFICATION_JACCARD|CLASSIFICATION_ROC_AUC|COPY_RATES_VOLUME_REAL|COPY_RATES_VOLUME_TICK|CURVE_POINTS_AND_LINES|CalendarEventByCountry|CustomSymbolSetInteger|DATABASE_EXPORT_APPEND|DATABASE_EXPORT_HEADER|DATABASE_EXPORT_NO_BOM|DATABASE_IMPORT_APPEND|DATABASE_IMPORT_HEADER|DATABASE_OPEN_READONLY|DXGI_FORMAT_420_OPAQUE|DXGI_FORMAT_FORCE_UINT|DXGI_FORMAT_R8G8_SNORM|DXGI_FORMAT_R8G8_UNORM|DX_FORMAT_B5G6R5_UNORM|DX_FORMAT_BC1_TYPELESS|DX_FORMAT_BC2_TYPELESS|DX_FORMAT_BC3_TYPELESS|DX_FORMAT_BC4_TYPELESS|DX_FORMAT_BC5_TYPELESS|DX_FORMAT_BC7_TYPELESS|DX_FORMAT_R16G16_FLOAT|DX_FORMAT_R16G16_SNORM|DX_FORMAT_R16G16_UNORM|DX_FORMAT_R16_TYPELESS|DX_FORMAT_R32G32_FLOAT|DX_FORMAT_R32_TYPELESS|ENUM_CHART_VOLUME_MODE|ENUM_ENUM_AVERAGE_MODE|ENUM_REGRESSION_METRIC|ENUM_SYMBOL_CHART_MODE|ENUM_SYMBOL_TRADE_MODE|EigenSymmetricBisect2s|EigenSymmetricRobust2s|EigenTridiagonalBisect|EigenTridiagonalRobust|FLAG_SHOW_SCALE_BOTTOM|FactorizationPLUGeTrid|INDUSTRY_BIOTECHNOLOGY|INDUSTRY_CONFECTIONERS|INDUSTRY_CONGLOMERATES|INDUSTRY_ENTERTAINMENT|INDUSTRY_FARM_PRODUCTS|INTERSECT_DIRECTION_UP|LeastSquaresSolutionDC|LeastSquaresSolutionWY|SECTOR_BASIC_MATERIALS|SECTOR_CURRENCY_CRYPTO|STAT_BALANCEDD_PERCENT|STAT_COMPLEX_CRITERION|STAT_CONLOSSMAX_TRADES|STAT_LOSSTRADES_AVGCON|STAT_PROFIT_LONGTRADES|SetArgumentLocalMemory|SocketTlsReadAvailable|THEME_COLOR_3DDKSHADOW|THEME_COLOR_BTNHILIGHT|THEME_COLOR_LINKTESTER|THEME_COLOR_SCROLLBACK|THEME_COLOR_TICKS_LAST|THEME_COLOR_WINDOWTEXT|THEME_COLOR_WITHDRAWAL|BOOK_TYPE_SELL_MARKET|CALENDAR_SECTOR_MONEY|CALENDAR_SECTOR_TAXES|CALENDAR_SECTOR_TRADE|CALENDAR_TYPE_HOLIDAY|CALENDAR_UNIT_PERCENT|CLASSIFICATION_RECALL|CustomSymbolSetDouble|CustomSymbolSetString|DATABASE_EXPORT_INDEX|DXGI_FORMAT_BC1_UNORM|DXGI_FORMAT_BC2_UNORM|DXGI_FORMAT_BC3_UNORM|DXGI_FORMAT_BC4_SNORM|DXGI_FORMAT_BC4_UNORM|DXGI_FORMAT_BC5_SNORM|DXGI_FORMAT_BC5_UNORM|DXGI_FORMAT_BC6H_SF16|DXGI_FORMAT_BC6H_UF16|DXGI_FORMAT_BC7_UNORM|DXGI_FORMAT_D16_UNORM|DXGI_FORMAT_D32_FLOAT|DXGI_FORMAT_R16_FLOAT|DXGI_FORMAT_R16_SNORM|DXGI_FORMAT_R16_UNORM|DXGI_FORMAT_R32_FLOAT|DXGI_FORMAT_R8G8_SINT|DXGI_FORMAT_R8G8_UINT|DX_FORMAT_R16G16_SINT|DX_FORMAT_R16G16_UINT|DX_FORMAT_R32G32_SINT|DX_FORMAT_R32G32_UINT|DX_FORMAT_R8_TYPELESS|DatabaseColumnInteger|ENUM_CHART_PROPERTIES|ENUM_CHART_VOLUME_MOD|ENUM_INDEXBUFFER_TYPE|ENUM_MQL_INFO_INTEGER|ENUM_SYMBOL_CALC_MODE|ENUM_SYMBOL_SWAP_MODE|FLAG_SHOW_DESCRIPTORS|FLAG_SHOW_SCALE_RIGHT|FSD_ALLOW_MULTISELECT|FactorizationCholesky|FactorizationQRNonNeg|INDUSTRY_BROADCASTING|INDUSTRY_LUXURY_GOODS|INDUSTRY_REIT_MORTAGE|INDUSTRY_THERMAL_COAL|MATRIX_NORM_FROBENIUS|MATRIX_NORM_MINUS_INF|RES_E_INVALID_VERSION|ReflectBidiagonalToQP|ReflectTridiagonalToQ|STAT_EQUITYDD_PERCENT|THEME_COLOR_3DHILIGHT|THEME_COLOR_BOOK_LAST|THEME_COLOR_BOOK_SELL|THEME_COLOR_BOOK_STOP|THEME_COLOR_BTNSHADOW|THEME_COLOR_HIGHLIGHT|THEME_COLOR_LINKHOVER|THEME_COLOR_SEPARATOR|THEME_COLOR_STOPS_RED|THEME_COLOR_TICKS_ASK|THEME_COLOR_TICKS_BID|VECTOR_CONVOLVE_VALID|VECTOR_NORM_MINUS_INF|BALANCE_LOSS_DEPOSIT|BOOK_TYPE_BUY_MARKET|CALENDAR_SECTOR_JOBS|CALENDAR_SECTOR_NONE|CALENDAR_UNIT_BARREL|CALENDAR_UNIT_PEOPLE|CUSTOM_SYMBOL_ORIGIN|CalendarValueHistory|ClassificationMetric|DATABASE_EXPORT_CRLF|DATABASE_IMPORT_CRLF|DATABASE_OPEN_COMMON|DATABASE_OPEN_CREATE|DATABASE_OPEN_MEMORY|DXContextClearColors|DXGI_FORMAT_A8_UNORM|DXGI_FORMAT_R16_SINT|DXGI_FORMAT_R16_UINT|DXGI_FORMAT_R1_UNORM|DXGI_FORMAT_R32_SINT|DXGI_FORMAT_R32_UINT|DXGI_FORMAT_R8_SNORM|DXGI_FORMAT_R8_UNORM|DXPrimiveTopologySet|DX_FORMAT_420_OPAQUE|DX_FORMAT_FORCE_UINT|DX_FORMAT_R8G8_SNORM|DX_FORMAT_R8G8_UNORM|DatabaseColumnDouble|DatabaseColumnsCount|ELLIOTT_INTERMEDIATE|ENUM_MQL_INFO_STRING|ENUM_ORDER_TYPE_TIME|ENUM_POSITION_REASON|ENUM_SYMBOL_INDUSTRY|ENUM_VECTOR_CONVOLVE|EigenSymmetricBisect|EigenSymmetricRobust|FLAG_SHOW_SCALE_LEFT|FactorizationPLUQRaw|FactorizationQRPivot|INDUSTRY_ADVERTISING|INDUSTRY_COKING_COAL|INDUSTRY_FURNISHINGS|INDUSTRY_IT_SERVICES|INDUSTRY_LUMBER_WOOD|INDUSTRY_REIT_OFFICE|INDUSTRY_REIT_RETAIL|INDUSTRY_RESTAURANTS|LAST_PROPERTY_NUMBER|LDLCondNumReciprocal|LeastSquaresSolution|MATRIX_NORM_MINUS_P1|MATRIX_NORM_MINUS_P2|MATRIX_NORM_SPECTRAL|MB_CANCELTRYCONTINUE|PLUCondNumReciprocal|RES_E_INVALID_PARAMS|STATUS_TERMINAL_PATH|STAT_CUSTOM_ONTESTER|STAT_EXPECTED_PAYOFF|STAT_INITIAL_DEPOSIT|STAT_MAX_PROFITTRADE|STAT_MIN_MARGINLEVEL|STAT_RECOVERY_FACTOR|SocketTlsCertificate|THEME_COLOR_3DSHADOW|THEME_COLOR_BACKDOWN|THEME_COLOR_BOOK_BUY|THEME_COLOR_GRAYTEXT|THEME_COLOR_INFOTEXT|THEME_COLOR_MENUTEXT|THEME_COLOR_NEGATIVE|THEME_COLOR_POSITIVE|THEME_COLOR_TEXTDOWN|THEME_COLOR_TICKS_SL|THEME_COLOR_TICKS_TP|TesterHideIndicators|VECTOR_CONVOLVE_FULL|VECTOR_CONVOLVE_SAME|CALENDAR_SECTOR_GDP|CALENDAR_TYPE_EVENT|CONTROLS_INVALID_ID|COPY_RATES_VERTICAL|COPY_TICKS_VERTICAL|CalendarCountryById|ClassificationScore|CopyIndicatorBuffer|DATATICKS_TO_DELETE|DXContextClearDepth|DXGI_FORMAT_R8_SINT|DXGI_FORMAT_R8_UINT|DXGI_FORMAT_UNKNOWN|DXShaderTexturesSet|DX_FORMAT_BC1_UNORM|DX_FORMAT_BC2_UNORM|DX_FORMAT_BC3_UNORM|DX_FORMAT_BC4_SNORM|DX_FORMAT_BC4_UNORM|DX_FORMAT_BC5_SNORM|DX_FORMAT_BC5_UNORM|DX_FORMAT_BC6H_SF16|DX_FORMAT_BC6H_UF16|DX_FORMAT_BC7_UNORM|DX_FORMAT_D16_UNORM|DX_FORMAT_D32_FLOAT|DX_FORMAT_R16_FLOAT|DX_FORMAT_R16_SNORM|DX_FORMAT_R16_UNORM|DX_FORMAT_R32_FLOAT|DX_FORMAT_R8G8_SINT|DX_FORMAT_R8G8_UINT|DatabaseTableExists|ELLIOTT_SUBMINUETTE|ENUM_APPLIED_VOLUME|ENUM_CHART_POSITION|ENUM_CHART_PROPERTY|ENUM_CL_DEVICE_TYPE|ENUM_DX_BUFFER_TYPE|ENUM_DX_HANDLE_TYPE|ENUM_DX_SHADER_TYPE|ENUM_EQUATIONS_FORM|ENUM_FLOAT16_FORMAT|ENUM_GANN_DIRECTION|ENUM_ONNX_DATA_TYPE|EigenSolver2Blocked|EigenTridiagonalDCQ|EigenTridiagonalQRQ|FLAG_SHOW_SCALE_TOP|FSD_FILE_MUST_EXIST|FactorizationLDLRaw|FactorizationPLURaw|INDUSTRY_AUTO_PARTS|INDUSTRY_OIL_GAS_EP|INDUSTRY_PUBLISHING|INITIAL_MARGIN_RATE|MATRIX_NORM_NUCLEAR|MB_ABORTRETRYIGNORE|PlotIndexGetInteger|PlotIndexSetInteger|ProjectionMatrixGet|ProjectionMatrixSet|RES_E_INTERNAL_FAIL|SymmetricExceptWith|THEME_COLOR_3DLIGHT|THEME_COLOR_BTNFACE|THEME_COLOR_BTNTEXT|THEME_COLOR_CONFIRM|THEME_COLOR_DEPOSIT|THEME_COLOR_HOTTEXT|THEME_COLOR_INVALID|THEME_COLOR_MENUBAR|THEME_COLOR_REQUOTE|THEME_COLOR_SUMMARY|TerminalInfoInteger|TransparentLevelSet|ANCHOR_RIGHT_LOWER|ANCHOR_RIGHT_UPPER|CALENDAR_IMPACT_NA|CALENDAR_UNIT_HOUR|CALENDAR_UNIT_NONE|CALENDAR_UNIT_VOTE|COPY_TICKS_TIME_MS|CORNER_RIGHT_LOWER|CORNER_RIGHT_UPPER|CUSTOM_SYMBOL_NAME|CUSTOM_SYMBOL_PATH|CustomRatesReplace|CustomSymbolCreate|CustomSymbolDelete|CustomTicksReplace|DATATICKS_TO_PRINT|DXContextGetColors|DX_FORMAT_A8_UNORM|DX_FORMAT_R16_SINT|DX_FORMAT_R16_UINT|DX_FORMAT_R1_UNORM|DX_FORMAT_R32_SINT|DX_FORMAT_R32_UINT|DX_FORMAT_R8_SNORM|DX_FORMAT_R8_UNORM|DX_SHADER_GEOMETRY|DatabaseColumnBlob|DatabaseColumnLong|DatabaseColumnName|DatabaseColumnSize|DatabaseColumnText|DatabaseColumnType|ELLIOTT_SUPERCYCLE|ENUM_APPLIED_PRICE|ENUM_DMD_RESIDUALS|ENUM_FILE_POSITION|ENUM_FLOAT8_FORMAT|ENUM_LOSS_FUNCTION|ENUM_MARK_POSITION|ENUM_PLOT_PROPERTY|ENUM_POSITION_TYPE|ENUM_SYMBOL_SECTOR|EigenSymmetricDC2s|EigenSymmetricQR2s|EigenTridiagonalDC|EigenTridiagonalQL|EigenTridiagonalQR|FLOAT_FP8_E4M3FNUZ|FLOAT_FP8_E5M2FNUZ|INDUSTRY_ALUMINIUM|INDUSTRY_CHEMICALS|INDUSTRY_RAILROADS|INDUSTRY_UNDEFINED|IsProperSupersetOf|MB_ICONEXCLAMATION|MB_ICONINFORMATION|PlotIndexSetDouble|PlotIndexSetString|ReduceToBidiagonal|SECTOR_INDUSTRIALS|SECTOR_REAL_ESTATE|STAT_MAX_CONLOSSES|STAT_MAX_LOSSTRADE|STAT_PROFIT_FACTOR|STAT_PROFIT_TRADES|ShortArrayToString|SocketTlsHandshake|THEME_COLOR_3DFACE|THEME_COLOR_BACKUP|THEME_COLOR_INFOBK|THEME_COLOR_RATING|THEME_COLOR_REJECT|THEME_COLOR_TEXTUP|THEME_COLOR_WINDOW|TerminalInfoDouble|TerminalInfoString|ViewUpDirectionSet|X_PROPERTY_VALUE_1|X_PROPERTY_VALUE_2|ANCHOR_LEFT_LOWER|ANCHOR_LEFT_UPPER|BALANCE_LOSS_STOP|CALENDAR_UNIT_JOB|CALENDAR_UNIT_RIG|CALENDAR_UNIT_USD|CLASSIFICATION_F1|COPY_RATES_SPREAD|COPY_TICKS_VOLUME|CORNER_LEFT_LOWER|CORNER_LEFT_UPPER|CRYPT_HASH_SHA256|CalendarCountries|CalendarEventById|CalendarValueById|CalendarValueLast|CharArrayToString|CharArrayToStruct|CreateBitmapLabel|CustomRatesDelete|CustomRatesUpdate|CustomTicksDelete|DATATICKS_TO_COPY|DXContextGetDepth|DXShaderInputsSet|DXShaderSetLayout|DX_FORMAT_R8_SINT|DX_FORMAT_R8_UINT|DX_FORMAT_UNKNOWN|DX_HANDLE_CONTEXT|DX_HANDLE_INVALID|DX_HANDLE_TEXTURE|ENUM_ACCOUNT_INFO|ENUM_ANCHOR_POINT|ENUM_ARROW_ANCHOR|ENUM_AVERAGE_MODE|ENUM_COLOR_FORMAT|ENUM_CRYPT_METHOD|ENUM_EIGTRIDIAG_Z|ENUM_INIT_RETCODE|ENUM_LICENSE_TYPE|ENUM_ORDER_REASON|ENUM_POINTER_TYPE|ENUM_PROGRAM_TYPE|ENUM_TRADE_EVENTS|EigenSolver2Schur|EigenSymmetric2DC|EigenSymmetric2QR|FLAG_SHOW_PERCENT|FSD_COMMON_FOLDER|FSD_SELECT_FOLDER|FactorizationPLUQ|INDUSTRY_AIRLINES|INDUSTRY_GAMBLING|INDUSTRY_TRUCKING|InverseTriangular|KEY_NUMLOCK_RIGHT|LightDirectionGet|LightDirectionSet|MQL5_OPTIMIZATION|MQL5_PROGRAM_NAME|MQL5_PROGRAM_PATH|MQL5_PROGRAM_TYPE|POINTER_AUTOMATIC|PROGRAM_INDICATOR|ParameterGetRange|ParameterSetRange|RES_E_AUTH_FAILED|RES_E_UNSUPPORTED|ResourceReadImage|SECTOR_HEALTHCARE|SECTOR_TECHNOLOGY|STAT_BALANCE_DDRE|STAT_CONPROFITMAX|STAT_EQUITY_DDREL|STAT_GROSS_PROFIT|STAT_MAX_CONLOSSE|STAT_SHARPE_RATIO|STAT_SHORT_TRADES|SeriesInfoInteger|SetArgumentBuffer|SocketIsConnected|StructToCharArray|THEME_COLOR_CLOSE|THEME_COLOR_ERROR|THEME_COLOR_LINE1|THEME_COLOR_LINE2|THEME_COLOR_STOPS|X_PROPERTY_NAME_1|X_PROPERTY_NAME_2|ALIGNMENT_BOTTOM|AVERAGE_WEIGHTED|AXIS_TYPE_CUSTOM|COMMON_DATA_PATH|COPY_RATES_CLOSE|COPY_RATES_OHLCT|COPY_TICKS_FLAGS|COPY_TICKS_TRADE|DXContextGetSize|DXContextSetSize|DXGI_FORMAT_A8P8|DXGI_FORMAT_AI44|DXGI_FORMAT_AYUV|DXGI_FORMAT_IA44|DXGI_FORMAT_NV11|DXGI_FORMAT_NV12|DXGI_FORMAT_P010|DXGI_FORMAT_P016|DXGI_FORMAT_P208|DXGI_FORMAT_V208|DXGI_FORMAT_V408|DXGI_FORMAT_Y210|DXGI_FORMAT_Y216|DXGI_FORMAT_Y410|DXGI_FORMAT_Y416|DXGI_FORMAT_YUY2|DX_BUFFER_VERTEX|DX_HANDLE_BUFFER|DX_HANDLE_SHADER|DX_SHADER_VERTEX|DatabaseFinalize|DatabaseReadBind|ELLIOTT_MINUETTE|EMBEDDED_PROFILE|ENUM_BASE_CORNER|ENUM_BORDER_TYPE|ENUM_CHART_EVENT|ENUM_DAY_OF_WEEK|ENUM_DEAL_REASON|ENUM_EIG_BALANCE|ENUM_EIG_VECTORS|ENUM_MATRIX_AXIS|ENUM_MATRIX_NORM|ENUM_ORDER_STATE|ENUM_SVDBIDIAG_Z|ENUM_SVD_VECTORS|ENUM_VECTOR_NORM|EQUITY_LOSS_STOP|EigenSolverSchur|EigenSymmetricDC|EigenSymmetricQR|EventChartCustom|FLAG_SHOW_LEGEND|FLOAT_FP8_E4M3FN|FLOAT_FP8_E5M2FN|FactorizationLDL|FactorizationPLU|INDUSTRY_LEISURE|INDUSTRY_LODGING|INDUSTRY_TELECOM|INDUSTRY_TOBACCO|INDUSTRY_URANIUM|IsProperSubsetOf|KEY_NUMLOCK_DOWN|KEY_NUMLOCK_LEFT|LOG_LEVEL_ERRORS|LinearRegression|REGRESSION_RMSLE|REGRESSION_SMAPE|RegressionMetric|SECTOR_FINANCIAL|SECTOR_UNDEFINED|SECTOR_UTILITIES|SENKOUSPANA_LINE|SENKOUSPANB_LINE|STAT_LONG_TRADES|STAT_LOSS_TRADES|STAT_MAX_CONWINS|STYLE_DASHDOTDOT|SocketIsReadable|SocketIsWritable|THEME_COLOR_GRID|THEME_COLOR_LINK|THEME_COLOR_MENU|THEME_COLOR_NONE|THEME_COLOR_SELL|TICK_FLAG_VOLUME|TesterStatistics|TesterWithdrawal|WND_ALIGN_BOTTOM|WND_ALIGN_CLIENT|WND_ALIGN_HEIGHT|AF_HARD_SIGMOID|ALIGNMENT_RIGHT|AmbientColorGet|AmbientColorSet|BufferFromArray|CHIKOUSPAN_LINE|COPY_RATES_HIGH|COPY_RATES_OHLC|COPY_RATES_OPEN|COPY_RATES_TIME|COPY_TICKS_INFO|COPY_TICKS_LAST|CRYPT_HASH_SHA1|CRYPT_HASH_SHA2|CURVE_HISTOGRAM|CholeskyInverse|CompareByDigits|ConfusionMatrix|DATARATES_COUNT|DXContextCreate|DX_BUFFER_INDEX|DX_HANDLE_INPUT|DX_SHADER_PIXEL|DatabaseExecute|ELLIOTT_PRIMARY|ENUM_ALIGN_MODE|ENUM_BLAS_RANGE|ENUM_CHART_MODE|ENUM_COPY_RATES|ENUM_COPY_TICKS|ENUM_CURVE_TYPE|ENUM_DEAL_ENTRY|ENUM_DMD_REFINE|ENUM_EIGS2_TYPE|ENUM_EIG_VALUES|ENUM_INIT_PHASE|ENUM_LINE_STYLE|ENUM_LOG_LEVELS|ENUM_ONNX_FLAGS|ENUM_ORDER_TYPE|ENUM_POINT_TYPE|ENUM_SERIESMODE|ENUM_STATISTICS|ENUM_TIMEFRAMES|EQUATIONSFORM_C|EQUATIONSFORM_N|EQUATIONSFORM_T|EVENT_MAP_BEGIN|FLAG_SHOW_VALUE|FactorizationLQ|FactorizationQL|FactorizationQR|FactorizationRQ|GANN_DOWN_TREND|GATORTEETH_LINE|INDUSTRY_COPPER|INDUSTRY_SILVER|IS_PROFILE_MODE|LOWER_HISTOGRAM|MATRIX_NORM_INF|MB_ICONASTERISK|MB_ICONQUESTION|POINTER_DYNAMIC|POINTER_INVALID|PROGRAM_SERVICE|PrecisionRecall|REGRESSION_EXPV|REGRESSION_MAPE|REGRESSION_MAXE|REGRESSION_MEDE|REGRESSION_MSPE|REGRESSION_RMSE|RES_E_NOT_FOUND|RES_E_NO_MEMORY|SECTOR_CURRENCY|SORT_DESCENDING|STAT_BALANCEMIN|STAT_BALANCE_DD|STAT_CONLOSSMAX|STAT_GROSS_LOSS|STAT_WITHDRAWAL|SetBuffersCount|SetKernelsCount|THEME_COLOR_ASK|THEME_COLOR_BID|THEME_COLOR_BUY|TIMEOUT_RECEIVE|UPPER_HISTOGRAM|VECTOR_NORM_INF|ViewPositionSet|ViewRotationSet|WIDTH_IN_PIXELS|WND_ALIGN_FLAGS|WND_ALIGN_RIGHT|WND_ALIGN_WIDTH|ALIGNMENT_LEFT|AVERAGE_BINARY|BOOK_TYPE_SELL|BarsCalculated|CONTROLS_GAP_X|CONTROLS_GAP_Y|COPY_RATES_LOW|COPY_TICKS_ALL|COPY_TICKS_ASK|COPY_TICKS_BID|CRYPT_ARCH_ZIP|CRYPT_HASH_MD5|CopyTicksRange|CustomTicksAdd|DMDRESIDUALS_N|DMDRESIDUALS_R|DXBufferCreate|DXGI_FORMAT_P8|DXShaderCreate|DX_CLEAR_COLOR|DX_CLEAR_DEPTH|DX_FORMAT_A8P8|DX_FORMAT_AI44|DX_FORMAT_AYUV|DX_FORMAT_IA44|DX_FORMAT_NV11|DX_FORMAT_NV12|DX_FORMAT_P010|DX_FORMAT_P016|DX_FORMAT_P208|DX_FORMAT_V208|DX_FORMAT_V408|DX_FORMAT_Y210|DX_FORMAT_Y216|DX_FORMAT_Y410|DX_FORMAT_Y416|DX_FORMAT_YUY2|DatabaseExport|DatabaseImport|ELLIOTT_MINUTE|ENUM_ALIGNMENT|ENUM_BLAS_NORM|ENUM_BOOK_TYPE|ENUM_DEAL_TYPE|ENUM_DMDQ_EIGV|ENUM_DMD_SCALE|ENUM_DRAW_TYPE|ENUM_DX_FORMAT|ENUM_EIG_SCHUR|ENUM_EIG_SENSE|ENUM_INDICATOR|ENUM_MA_METHOD|ENUM_ONNX_TYPE|ENUM_SORT_MODE|ENUM_STO_PRICE|FLAG_SHOW_GRID|FONT_STRIKEOUT|FONT_UNDERLINE|FSD_WRITE_FILE|GATORLIPS_LINE|INDUSTRY_PAPER|INDUSTRY_SOLAR|INDUSTRY_STEEL|INVALID_HANDLE|KEY_NUMLOCK_UP|LINE_END_ROUND|LOSS_CAT_HINGE|LineHorizontal|MATRIX_NORM_P1|MATRIX_NORM_P2|MB_ICONWARNING|MB_RETRYCANCEL|MB_YESNOCANCEL|MQLInfoInteger|PROGRAM_EXPERT|PROGRAM_SCRIPT|QL_LICENSE_TYP|REGRESSION_MAE|REGRESSION_MGD|REGRESSION_MPD|REGRESSION_MSE|ResourceCreate|SESSION_0_FROM|SESSION_1_FROM|SOCKET_DEFAULT|SORT_ASCENDING|STAT_EQUITYMIN|STAT_EQUITY_DD|STO_CLOSECLOSE|SelectByTicket|SetIndexBuffer|SetReturnError|SocketTimeouts|TENKANSEN_LINE|TICK_FLAG_LAST|TICK_FLAG_SELL|WND_ALIGN_LEFT|WND_ALIGN_NONE|characteristic|trade_settings|ALIGNMENT_TOP|ANCHOR_BOTTOM|ANCHOR_CENTER|AVERAGE_MACRO|AVERAGE_MICRO|BJECT_ENDEDIT|BOOK_TYPE_BUY|BORDER_RAISED|BORDER_SUNKEN|BUTTON_HEIGHT|CP_THREAD_ACP|ContainsValue|CustomBookAdd|DXDrawIndexed|DXInputCreate|DatabaseClose|DatabasePrint|DatabaseReset|EIGVECTORS_LR|ELLIOTT_CYCLE|ELLIOTT_MINOR|ENUM_DATATYPE|ENUM_DMD_EIGV|ENUM_FP_CLASS|ENUM_LINE_END|ENUM_SVDQRP_A|ENUM_SVDQRP_P|ENUM_SVDQRP_R|ENUM_SVDQRP_U|ENUM_SVDQRP_V|EVENT_MAP_END|EventSetTimer|FW_EXTRALIGHT|FW_ULTRALIGHT|FillRectangle|GANN_UP_TREND|GATORJAW_LINE|INDENT_BOTTOM|INDUSTRY_GOLD|IS_DEBUG_MODE|IntersectWith|KEY_NUMLOCK_5|KIJUNSEN_LINE|LOG_LEVEL_ALL|LOSS_LOG_COSH|LOSS_SQ_HINGE|LightColorGet|LightColorSet|MACRO_COUNTER|MB_DEFBUTTON1|MB_DEFBUTTON2|MB_DEFBUTTON3|MB_DEFBUTTON4|MQLInfoString|OBJECT_CREATE|OBJECT_DELETE|ON_SCROLL_DEC|ON_SCROLL_INC|PeriodSeconds|REGRESSION_R2|SECTOR_ENERGY|SESSION_INDEX|STYLE_DASHDOT|SVDVECTORS_UV|SelectByIndex|SelectByMagic|ShortToString|SocketConnect|SocketTlsRead|SocketTlsSend|TICK_FLAG_ASK|TICK_FLAG_BID|TICK_FLAG_BUY|TYPE_DATETIME|TesterDeposit|VECTOR_NORM_P|ViewMatrixGet|ViewMatrixSet|ViewTargetSet|WM_MOUSE_MOVE|WND_ALIGN_TOP|ALIGN_CENTER|ANCHOR_LOWER|ANCHOR_RIGHT|ANCHOR_UPPER|AVERAGE_NONE|BJECT_CHANGE|BJECT_CREATE|BJECT_DELETE|BUTTON_WIDTH|BinarySearch|BufferCreate|CHECK_HEIGHT|COMPANY_NAME|CRYPT_AES128|CRYPT_AES256|CRYPT_BASE64|CURVE_CUSTOM|CURVE_POINTS|CompareEqual|CreateBitmap|DXHandleType|DX_FORMAT_P8|DatabaseBind|DatabaseOpen|DatabaseRead|EIGBALANCE_B|EIGBALANCE_N|EIGBALANCE_P|EIGBALANCE_S|EIGVECTORS_L|EIGVECTORS_N|EIGVECTORS_R|ENUM_SVDJH_A|ENUM_SVDJH_P|ENUM_SVDJH_R|ENUM_SVDJH_T|ENUM_SVDJH_U|ENUM_SVDJH_V|ENUM_SVDJL_U|ENUM_SVDJL_V|ENUM_SVD_ALG|EXPERT_MAGIC|EigenSolver2|FIELD_HEIGHT|FP_SUBNORMAL|FULL_PROFILE|FW_EXTRABOLD|FW_ULTRABOLD|FillTriangle|FolderCreate|FolderDelete|FontAngleSet|FontFlagsSet|GRAPH_HEIGHT|HEEVD_2STAGE|HEEVR_2STAGE|HEEVX_2STAGE|INDENT_RIGHT|IsSupersetOf|JECT_ENDEDIT|KEY_NUMPAD_5|KernelCreate|LICENSE_DEMO|LICENSE_FREE|LICENSE_FULL|LICENSE_TIME|LOG_LEVEL_NO|LOSS_POISSON|LineStyleSet|LineVertical|LoadFromFile|LossGradient|MB_ICONERROR|MINUSDI_LINE|M_TYPE_TREND|PERCENT_SIZE|RADIO_HEIGHT|ResourceFree|ResourceSave|SESSION_0_TO|SESSION_1_TO|SVDVECTORS_N|SVDVECTORS_U|SVDVECTORS_V|SYEVD_2STAGE|SYEVR_2STAGE|SYEVX_2STAGE|SetUserError|SocketCreate|StructToTime|TIMEOUT_SEND|TOTAL_ARRAYS|TranslateKey|VALUES_TOTAL|Y_PROPERTY_1|Y_PROPERTY_2|distribution|AF_SOFTPLUS|AF_SOFTSIGN|ALIGN_RIGHT|ANCHOR_LEFT|BJECT_CLICK|BLASRANGE_A|BLASRANGE_I|BLASRANGE_V|BORDER_FLAT|BufferWrite|CURVE_LINES|ContainsKey|CryptEncode|DMDREFINE_E|DMDREFINE_N|DMDREFINE_R|DXBufferSet|DXGI_FORMAT|DXShaderSet|EDIT_HEIGHT|EIGS2TYPE_1|EIGS2TYPE_2|EIGS2TYPE_3|EIGVALUES_N|EIGVALUES_V|EMPTY_VALUE|ENT_MONTHLY|ENUM_DMDQ_Q|ENUM_DMDQ_R|ENUM_OBJECT|EigenSolver|FIELD_WIDTH|FLOAT_BFP16|FONT_ITALIC|FP_INFINITE|FW_DEMIBOLD|FW_DONTCARE|FW_SEMIBOLD|FillPolygon|FolderClean|FontNameSet|FontSizeSet|FrameFilter|FrameInputs|GRAPH_WIDTH|GROUP_WIDTH|HART_CHANGE|HEEV_2STAGE|HORZ_BORDER|INDENT_LEFT|InsertRange|JECT_CHANGE|JECT_CREATE|JECT_DELETE|LESTRIP_ADJ|LIST_HEIGHT|LOSS_COSINE|LastIndexOf|MB_ICONHAND|MB_ICONSTOP|MB_OKCANCEL|MOUSE_WHEEL|PLUSDI_LINE|REAL_VOLUME|RIGHT_LOWER|RIGHT_UPPER|RemoveRange|STAT_PROFIT|STAT_TRADES|STO_LOWHIGH|STYLE_SOLID|SYEV_2STAGE|SetArgument|SocketClose|TICK_VOLUME|TYPE_DOUBLE|TYPE_STRING|TYPE_USHORT|TryGetValue|TrySetValue|VERT_BORDER|VOLUME_REAL|VOLUME_TICK|WHOLE_ARRAY|WRONG_VALUE|AF_SIGMOID|AF_SOFTMAX|ALIGN_LEFT|ANCHOR_TOP|ARRAY_SIZE|ATE_ACTION|Activation|BAR_NUMBER|BJECT_DRAG|BLASNORM_I|BLASNORM_O|BufferFree|BufferRead|CHARTS_MAX|COPY_TICKS|CopyBuffer|DATA_TOTAL|DMDQEIGV_F|DMDQEIGV_N|DMDQEIGV_Q|DMDQEIGV_V|DMDSCALE_C|DMDSCALE_N|DMDSCALE_S|DMDSCALE_Y|DXInputSet|Derivative|EIGCOMPZ_I|EIGCOMPZ_N|EIGCOMPZ_V|EIGSCHUR_N|EIGSCHUR_V|EIGSENSE_B|EIGSENSE_E|EIGSENSE_N|EIGSENSE_V|ENUM_SVD_Z|EURUSD_T20|ExceptWith|FLOAT_FP16|FW_REGULAR|FillCircle|IMG_HEIGHT|INDENT_TOP|Initialize|IsSubsetOf|JECT_CLICK|KernelFree|LDLInverse|LEFT_LOWER|LEFT_UPPER|LELIST_ADJ|LOSS_HINGE|LOSS_HUBER|LOWER_BAND|LOWER_LINE|MACD_MAGIC|MOUSE_MOVE|M_2_SQRTPI|OUSE_WHEEL|PLUInverse|Percentile|PixelSetAA|PolylineAA|PolylineWu|RES_E_FAIL|SHAPE_NAME|SHAPE_SIZE|STAT_DEALS|STOP_LIMIT|STYLE_DASH|SocketRead|SocketSend|TABLE_INFO|TA_VCENTER|TYPE_COLOR|TYPE_FLOAT|TYPE_SHORT|TYPE_UCHAR|TYPE_ULONG|TriangleAA|TriangleWu|UPPER_BAND|UPPER_LINE|USHORT_MAX|WebRequest|X_BUTTON_1|X_BUTTON_2|Y_DISTANCE|ZeroMemory|AF_LINEAR|ALANCE_DD|AS_SERIES|AXIS_HORZ|AXIS_NONE|AXIS_VERT|AddBefore|BASE_LINE|CP_SYMBOL|CRYPT_DES|Correlate|DMDEIGV_F|DMDEIGV_N|DMDEIGV_V|DXRelease|ENT_DAILY|ENUM_GEMM|EllipseAA|EllipseWu|FP_NORMAL|FW_MEDIUM|FW_NORMAL|FrameNext|IMG_WIDTH|JECT_DRAG|KEY_RIGHT|LOSS_MAPE|LOSS_MSLE|L_PERCENT|MAIN_LINE|M_SQRT1_2|ON_CHANGE|OUSE_MOVE|PolygonAA|PolygonWu|Rectangle|STYLE_DOT|SVDJOBZ_N|SVDJOBZ_V|SVDQRPA_H|SVDQRPA_M|SVDQRPP_N|SVDQRPP_P|SVDQRPR_N|SVDQRPR_T|SVDQRPU_A|SVDQRPU_F|SVDQRPU_N|SVDQRPU_R|SVDQRPU_S|SVDQRPV_A|SVDQRPV_N|SVDQRPV_R|SetEquals|TA_BOTTOM|TA_CENTER|TICK_FLAG|TYPE_BOOL|TYPE_CHAR|TYPE_LONG|TYPE_UINT|TryGetMax|TryGetMin|UCHAR_MAX|USE_WHEEL|UnionWith|WRONG_DEF|deviation|parameter|terminals|A2_UNORM|AF_LRELU|AF_PRELU|AF_SWISH|AF_TRELU|AddAfter|AddFirst|AddRange|CLOSE_BY|CLR_NONE|CP_MACCP|CP_OEMCP|Capacity|Cholesky|CircleAA|CircleWu|Contains|Convolve|CorrCoef|EA_MAGIC|FW_BLACK|FW_HEAVY|FW_LIGHT|FindLast|FrameAdd|HashCode|KEY_DOWN|KEY_LEFT|LINE_END|LOSS_BCE|LOSS_CCE|LOSS_KLD|LOSS_MAE|LOSS_MSE|MAX_SIZE|MB_YESNO|M_LOG10E|ON_CLICK|ON_EVENT|Overlaps|PixelGet|PixelSet|Polyline|Previous|Quantile|RES_S_OK|ROW_SIZE|RemoveAt|SVDALG_1|SVDALG_2|SVDALG_3|SVDALG_4|SVDJHA_A|SVDJHA_C|SVDJHA_E|SVDJHA_F|SVDJHA_G|SVDJHA_R|SVDJHP_N|SVDJHP_P|SVDJHR_N|SVDJHR_R|SVDJHT_N|SVDJHT_T|SVDJHU_F|SVDJHU_N|SVDJHU_U|SVDJHV_J|SVDJHV_N|SVDJHV_V|SVDJLU_C|SVDJLU_N|SVDJLU_U|SVDJLV_A|SVDJLV_N|SVDJLV_V|SVDQRP_A|SwapCols|SwapRows|TA_RIGHT|TRANSP_A|TRANSP_B|TRANSP_C|TRIP_ADJ|TYPE_INT|T_CREATE|T_DELETE|Triangle|UINT_MAX|USE_MOVE|WM_PAINT|kurtosis|settings|skewness|variable|variance|AF_GELU|AF_RELU|AF_SELU|AF_TANH|AddLast|Average|CP_UTF7|CP_UTF8|Compare|CumProd|DMDQQ_N|DMDQQ_Q|DMDQR_N|DMDQR_R|E_WHEEL|EigVals|Ellipse|Enqueue|Execute|FP_ZERO|FW_BOLD|FW_THIN|FontGet|FontSet|HOUR_IN|IST_ADJ|IndexOf|LE_BEAR|LE_BULL|MAP_LAB|MAX_DBL|MIN_DBL|M_LOG2E|M_SQRT2|Polygon|RIP_ADJ|Reshape|Reverse|SLogDet|S_FORTS|TA_LEFT|T_DESCR|X_START|Y_START|midline|objects|AF_ELU|AF_EXP|ALUE_P|ArgMax|ArgMin|Assign|CP_ACP|Circle|Concat|CopyTo|CumSum|DXDraw|EMP_ID|E_MOVE|Equals|FP_NAN|Hsplit|IN_INI|Insert|KEY_UP|L_SWAP|LineAA|LineWu|M_1_PI|M_2_PI|M_LN10|M_PI_2|M_PI_4|MatMul|Median|ODE_RE|P_ANGL|P_SIZE|Parent|RGIN_M|RGIN_S|Random|Remove|Render|Resize|STAT_B|SVDZ_A|SVDZ_N|SVDZ_S|TAIL_H|TA_TOP|T_DOWN|T_LINE|Update|Vsplit|X_SIZE|Y_SIZE|folder|period|series|values|ALE_P|AS_SE|ATE_P|ATE_S|BJ_BI|BL_EP|BUY_C|Color|DE_EX|D_SEP|E_BUY|E_SEL|Erase|GIN_M|G_FOK|IN_SO|ION_I|Inner|L_LIM|L_PER|L_TRA|LstSq|MB_OK|M_LN2|NT_MA|ON_MA|OP_LI|O_MOD|Outer|P_ANC|P_COR|P_LIM|Power|QL_LI|R_BAR|R_FIL|R_TYP|Right|SS_LO|SS_PR|Solve|Split|T_ADJ|T_CLI|T_EVE|T_MAR|T_PER|Value|Y_VAL|draws|order|value|Clip|Cond|Copy|Diag|E_CA|E_PR|E_TR|Fill|Find|Flat|G_MA|GeMM|J_FI|Kron|LC_M|L_ST|Left|Line|List|Loss|MB_D|M_PI|Mean|NT_C|NT_M|NT_O|N_HE|N_ID|Next|Norm|OL_M|OL_S|OL_T|Prod|Push|R_MA|R_ST|Sort|TY_D|T_AU|T_SC|T_UP|Tril|Triu|X_11|mean|name|Add|Arc|Col|Cov|Dot|E_L|Eig|Exp|J_C|J_E|Key|LUP|L_S|M_E|Max|Min|Pie|Ptp|Row|SVD|Set|Std|Sum|T_C|T_N|Var|\\-\\-\\-|LU|QR|a|b)\\b",
+            "match": "\\b(THEME_COLOR_GRADIENTINACTIVECAPTION|ENUM_CUSTOMIND_PROPERTY_INTEGER|THEME_COLOR_INACTIVECAPTIONTEXT|ENUM_CALENDAR_EVENT_IMPORTANCE|ENUM_CALENDAR_EVENT_MULTIPLIER|ENUM_CUSTOMIND_PROPERTY_DOUBLE|ENUM_CUSTOMIND_PROPERTY_STRING|ENUM_POSITION_PROPERTY_INTEGER|THEME_COLOR_TESTER_START_FRAME|ENUM_CALENDAR_EVENT_FREQUENCY|ENUM_POSITION_PROPERTY_DOUBLE|ENUM_POSITION_PROPERTY_STRING|ENUM_RED_BLACK_TREE_NODE_TYPE|SECTOR_COMMUNICATION_SERVICES|THEME_COLOR_TESTER_STOP_FRAME|ENUM_CALENDAR_EVENT_TIMEMODE|ENUM_OBJECT_PROPERTY_INTEGER|ENUM_OPENCL_PROPERTY_INTEGER|THEME_COLOR_PROFILER_CALLSEL|THEME_COLOR_PROFILER_LINESEL|ENUM_CHART_PROPERTY_INTEGER|ENUM_OBJECT_PROPERTY_DOUBLE|ENUM_OBJECT_PROPERTY_STRING|ENUM_OPENCL_PROPERTY_STRING|ENUM_ORDER_PROPERTY_INTEGER|ENUM_SYMBOL_TRADE_EXECUTION|ENUM_TRADE_TRANSACTION_TYPE|RES_E_AUTO_TRADING_DISABLED|RES_E_INTERNAL_FAIL_CONNECT|RES_E_INTERNAL_FAIL_RECEIVE|RES_E_INTERNAL_FAIL_TIMEOUT|THEME_COLOR_INACTIVECAPTION|THEME_COLOR_TESTER_PROGRESS|ENUM_CALENDAR_EVENT_IMPACT|ENUM_CALENDAR_EVENT_SECTOR|ENUM_CHART_PROPERTY_DOUBLE|ENUM_CHART_PROPERTY_STRING|ENUM_CLASSIFICATION_METRIC|ENUM_DATABASE_EXPORT_FLAGS|ENUM_DATABASE_IMPORT_FLAGS|ENUM_DEAL_PROPERTY_INTEGER|ENUM_DX_PRIMITIVE_TOPOLOGY|ENUM_FILE_PROPERTY_INTEGER|ENUM_ORDER_PROPERTY_DOUBLE|ENUM_ORDER_PROPERTY_STRING|ENUM_PLOT_PROPERTY_INTEGER|ENUM_SYMBOL_ORDER_GTC_MODE|ENUM_TERMINAL_INFO_INTEGER|ENUM_TRADE_REQUEST_ACTIONS|STAT_BALANCE_DDREL_PERCENT|THEME_COLOR_TESTER_BALANCE|ENUM_ACCOUNT_INFO_INTEGER|ENUM_ACCOUNT_STOPOUT_MODE|ENUM_DEAL_PROPERTY_DOUBLE|ENUM_DEAL_PROPERTY_STRING|ENUM_PLOT_PROPERTY_DOUBLE|ENUM_PLOT_PROPERTY_STRING|ENUM_TERMINAL_INFO_DOUBLE|ENUM_TERMINAL_INFO_STRING|RED_BLACK_TREE_NODE_BLACK|SECTOR_CONSUMER_DEFENSIVE|STAT_EQUITY_DDREL_PERCENT|STAT_MAX_CONPROFIT_TRADES|THEME_COLOR_ACTIVECAPTION|THEME_COLOR_HIGHLIGHTTEXT|THEME_COLOR_PROFILER_CALL|THEME_COLOR_PROFILER_LINE|THEME_COLOR_TESTER_EQUITY|THEME_COLOR_TESTER_MARGIN|ELLIOTT_GRAND_SUPERCYCLE|ENUM_ACCOUNT_INFO_DOUBLE|ENUM_ACCOUNT_INFO_STRING|ENUM_ACCOUNT_MARGIN_MODE|ENUM_ACTIVATION_FUNCTION|ENUM_CALENDAR_EVENT_TYPE|ENUM_CALENDAR_EVENT_UNIT|ENUM_DATABASE_FIELD_TYPE|ENUM_DATABASE_OPEN_FLAGS|ENUM_INTERSECT_DIRECTION|ENUM_SERIES_INFO_INTEGER|ENUM_SIGNAL_BASE_INTEGER|ENUM_SIGNAL_INFO_INTEGER|ENUM_SYMBOL_INFO_INTEGER|ENUM_SYMBOL_OPTION_RIGHT|RES_E_INTERNAL_FAIL_INIT|RES_E_INTERNAL_FAIL_SEND|SECTOR_CONSUMER_CYCLICAL|STAT_BALANCE_DD_RELATIVE|STAT_CONPROFITMAX_TRADES|STAT_PROFITTRADES_AVGCON|THEME_COLOR_NOTIFICATION|THEME_COLOR_TESTER_START|ENUM_ACCOUNT_TRADE_MODE|ENUM_CUSTOMIND_PROPERTY|ENUM_ELLIOT_WAVE_DEGREE|ENUM_OPENCL_HANDLE_TYPE|ENUM_ORDER_TYPE_FILLING|ENUM_SIGNAL_BASE_DOUBLE|ENUM_SIGNAL_BASE_STRING|ENUM_SIGNAL_INFO_DOUBLE|ENUM_SIGNAL_INFO_STRING|ENUM_SYMBOL_INFO_DOUBLE|ENUM_SYMBOL_INFO_STRING|ENUM_SYMBOL_OPTION_MODE|GIN_MODE_RETAIL_HEDGING|MAINTENANCE_MARGIN_RATE|RED_BLACK_TREE_NODE_RED|STAT_EQUITY_DD_RELATIVE|STAT_MAX_CONLOSS_TRADES|STAT_PROFIT_SHORTTRADES|THEME_COLOR_BOOK_SPREAD|THEME_COLOR_CAPTIONTEXT|THEME_COLOR_MENUHILIGHT|THEME_COLOR_STOPS_GREEN|THEME_COLOR_TESTER_STOP|THEME_COLOR_TICKS_CROSS|ENUM_CHART_VOLUME_MODE|ENUM_ENUM_AVERAGE_MODE|ENUM_REGRESSION_METRIC|ENUM_SYMBOL_CHART_MODE|ENUM_SYMBOL_TRADE_MODE|FLAG_SHOW_SCALE_BOTTOM|SECTOR_BASIC_MATERIALS|SECTOR_CURRENCY_CRYPTO|STAT_BALANCEDD_PERCENT|STAT_COMPLEX_CRITERION|STAT_CONLOSSMAX_TRADES|STAT_LOSSTRADES_AVGCON|STAT_PROFIT_LONGTRADES|THEME_COLOR_3DDKSHADOW|THEME_COLOR_BTNHILIGHT|THEME_COLOR_LINKTESTER|THEME_COLOR_SCROLLBACK|THEME_COLOR_TICKS_LAST|THEME_COLOR_WINDOWTEXT|THEME_COLOR_WITHDRAWAL|ENUM_CHART_PROPERTIES|ENUM_CHART_VOLUME_MOD|ENUM_INDEXBUFFER_TYPE|ENUM_MQL_INFO_INTEGER|ENUM_SYMBOL_CALC_MODE|ENUM_SYMBOL_SWAP_MODE|FLAG_SHOW_DESCRIPTORS|FLAG_SHOW_SCALE_RIGHT|FSD_ALLOW_MULTISELECT|MATRIX_NORM_FROBENIUS|MATRIX_NORM_MINUS_INF|RES_E_INVALID_VERSION|STAT_EQUITYDD_PERCENT|THEME_COLOR_3DHILIGHT|THEME_COLOR_BOOK_LAST|THEME_COLOR_BOOK_SELL|THEME_COLOR_BOOK_STOP|THEME_COLOR_BTNSHADOW|THEME_COLOR_HIGHLIGHT|THEME_COLOR_LINKHOVER|THEME_COLOR_SEPARATOR|THEME_COLOR_STOPS_RED|THEME_COLOR_TICKS_ASK|THEME_COLOR_TICKS_BID|ELLIOTT_INTERMEDIATE|ENUM_MQL_INFO_STRING|ENUM_ORDER_TYPE_TIME|ENUM_POSITION_REASON|ENUM_SYMBOL_INDUSTRY|ENUM_VECTOR_CONVOLVE|FLAG_SHOW_SCALE_LEFT|LAST_PROPERTY_NUMBER|MATRIX_NORM_MINUS_P1|MATRIX_NORM_MINUS_P2|MATRIX_NORM_SPECTRAL|MB_CANCELTRYCONTINUE|RES_E_INVALID_PARAMS|STATUS_TERMINAL_PATH|STAT_CUSTOM_ONTESTER|STAT_EXPECTED_PAYOFF|STAT_INITIAL_DEPOSIT|STAT_MAX_PROFITTRADE|STAT_MIN_MARGINLEVEL|STAT_RECOVERY_FACTOR|THEME_COLOR_3DSHADOW|THEME_COLOR_BACKDOWN|THEME_COLOR_BOOK_BUY|THEME_COLOR_GRAYTEXT|THEME_COLOR_INFOTEXT|THEME_COLOR_MENUTEXT|THEME_COLOR_NEGATIVE|THEME_COLOR_POSITIVE|THEME_COLOR_TEXTDOWN|THEME_COLOR_TICKS_SL|THEME_COLOR_TICKS_TP|ELLIOTT_SUBMINUETTE|ENUM_APPLIED_VOLUME|ENUM_CHART_POSITION|ENUM_CHART_PROPERTY|ENUM_CL_DEVICE_TYPE|ENUM_DX_BUFFER_TYPE|ENUM_DX_HANDLE_TYPE|ENUM_DX_SHADER_TYPE|ENUM_EQUATIONS_FORM|ENUM_FLOAT16_FORMAT|ENUM_GANN_DIRECTION|ENUM_ONNX_DATA_TYPE|FLAG_SHOW_SCALE_TOP|FSD_FILE_MUST_EXIST|MATRIX_NORM_NUCLEAR|MB_ABORTRETRYIGNORE|RES_E_INTERNAL_FAIL|THEME_COLOR_3DLIGHT|THEME_COLOR_BTNFACE|THEME_COLOR_BTNTEXT|THEME_COLOR_CONFIRM|THEME_COLOR_DEPOSIT|THEME_COLOR_HOTTEXT|THEME_COLOR_INVALID|THEME_COLOR_MENUBAR|THEME_COLOR_REQUOTE|THEME_COLOR_SUMMARY|ELLIOTT_SUPERCYCLE|ENUM_APPLIED_PRICE|ENUM_DMD_RESIDUALS|ENUM_FILE_POSITION|ENUM_FLOAT8_FORMAT|ENUM_LOSS_FUNCTION|ENUM_MARK_POSITION|ENUM_PLOT_PROPERTY|ENUM_POSITION_TYPE|ENUM_SYMBOL_SECTOR|FLOAT_FP8_E4M3FNUZ|FLOAT_FP8_E5M2FNUZ|MB_ICONEXCLAMATION|MB_ICONINFORMATION|SECTOR_INDUSTRIALS|SECTOR_REAL_ESTATE|STAT_MAX_CONLOSSES|STAT_MAX_LOSSTRADE|STAT_PROFIT_FACTOR|STAT_PROFIT_TRADES|THEME_COLOR_3DFACE|THEME_COLOR_BACKUP|THEME_COLOR_INFOBK|THEME_COLOR_RATING|THEME_COLOR_REJECT|THEME_COLOR_TEXTUP|THEME_COLOR_WINDOW|ENUM_ACCOUNT_INFO|ENUM_ANCHOR_POINT|ENUM_ARROW_ANCHOR|ENUM_AVERAGE_MODE|ENUM_COLOR_FORMAT|ENUM_CRYPT_METHOD|ENUM_EIGTRIDIAG_Z|ENUM_INIT_RETCODE|ENUM_LICENSE_TYPE|ENUM_ORDER_REASON|ENUM_POINTER_TYPE|ENUM_PROGRAM_TYPE|ENUM_TRADE_EVENTS|FLAG_SHOW_PERCENT|FSD_COMMON_FOLDER|FSD_SELECT_FOLDER|KEY_NUMLOCK_RIGHT|POINTER_AUTOMATIC|PROGRAM_INDICATOR|RES_E_AUTH_FAILED|RES_E_UNSUPPORTED|SECTOR_HEALTHCARE|SECTOR_TECHNOLOGY|STAT_BALANCE_DDRE|STAT_CONPROFITMAX|STAT_EQUITY_DDREL|STAT_GROSS_PROFIT|STAT_MAX_CONLOSSE|STAT_SHARPE_RATIO|STAT_SHORT_TRADES|THEME_COLOR_CLOSE|THEME_COLOR_ERROR|THEME_COLOR_LINE1|THEME_COLOR_LINE2|THEME_COLOR_STOPS|ELLIOTT_MINUETTE|EMBEDDED_PROFILE|ENUM_BASE_CORNER|ENUM_BORDER_TYPE|ENUM_CHART_EVENT|ENUM_DAY_OF_WEEK|ENUM_DEAL_REASON|ENUM_EIG_BALANCE|ENUM_EIG_VECTORS|ENUM_MATRIX_AXIS|ENUM_MATRIX_NORM|ENUM_ORDER_STATE|ENUM_SVDBIDIAG_Z|ENUM_SVD_VECTORS|ENUM_VECTOR_NORM|EQUITY_LOSS_STOP|FLAG_SHOW_LEGEND|FLOAT_FP8_E4M3FN|FLOAT_FP8_E5M2FN|KEY_NUMLOCK_DOWN|KEY_NUMLOCK_LEFT|LOG_LEVEL_ERRORS|REGRESSION_RMSLE|REGRESSION_SMAPE|SECTOR_FINANCIAL|SECTOR_UNDEFINED|SECTOR_UTILITIES|SENKOUSPANA_LINE|SENKOUSPANB_LINE|STAT_LONG_TRADES|STAT_LOSS_TRADES|STAT_MAX_CONWINS|STYLE_DASHDOTDOT|THEME_COLOR_GRID|THEME_COLOR_LINK|THEME_COLOR_MENU|THEME_COLOR_NONE|THEME_COLOR_SELL|TICK_FLAG_VOLUME|WND_ALIGN_BOTTOM|WND_ALIGN_CLIENT|WND_ALIGN_HEIGHT|ELLIOTT_PRIMARY|ENUM_ALIGN_MODE|ENUM_BLAS_RANGE|ENUM_CHART_MODE|ENUM_COPY_RATES|ENUM_COPY_TICKS|ENUM_CURVE_TYPE|ENUM_DEAL_ENTRY|ENUM_DMD_REFINE|ENUM_EIGS2_TYPE|ENUM_EIG_VALUES|ENUM_INIT_PHASE|ENUM_LINE_STYLE|ENUM_LOG_LEVELS|ENUM_ONNX_FLAGS|ENUM_ORDER_TYPE|ENUM_POINT_TYPE|ENUM_SERIESMODE|ENUM_STATISTICS|ENUM_TIMEFRAMES|EQUATIONSFORM_C|EQUATIONSFORM_N|EQUATIONSFORM_T|EVENT_MAP_BEGIN|FLAG_SHOW_VALUE|GANN_DOWN_TREND|GATORTEETH_LINE|LOWER_HISTOGRAM|MATRIX_NORM_INF|MB_ICONASTERISK|MB_ICONQUESTION|POINTER_DYNAMIC|POINTER_INVALID|PROGRAM_SERVICE|REGRESSION_EXPV|REGRESSION_MAPE|REGRESSION_MAXE|REGRESSION_MEDE|REGRESSION_MSPE|REGRESSION_RMSE|RES_E_NOT_FOUND|RES_E_NO_MEMORY|SECTOR_CURRENCY|SORT_DESCENDING|STAT_BALANCEMIN|STAT_BALANCE_DD|STAT_CONLOSSMAX|STAT_GROSS_LOSS|STAT_WITHDRAWAL|THEME_COLOR_ASK|THEME_COLOR_BID|THEME_COLOR_BUY|TIMEOUT_RECEIVE|UPPER_HISTOGRAM|WIDTH_IN_PIXELS|WND_ALIGN_FLAGS|WND_ALIGN_RIGHT|WND_ALIGN_WIDTH|ELLIOTT_MINUTE|ENUM_ALIGNMENT|ENUM_BLAS_NORM|ENUM_BOOK_TYPE|ENUM_DEAL_TYPE|ENUM_DMDQ_EIGV|ENUM_DMD_SCALE|ENUM_DRAW_TYPE|ENUM_DX_FORMAT|ENUM_EIG_SCHUR|ENUM_EIG_SENSE|ENUM_INDICATOR|ENUM_MA_METHOD|ENUM_ONNX_TYPE|ENUM_SORT_MODE|ENUM_STO_PRICE|FLAG_SHOW_GRID|FONT_STRIKEOUT|FONT_UNDERLINE|FSD_WRITE_FILE|GATORLIPS_LINE|KEY_NUMLOCK_UP|LINE_END_ROUND|LOSS_CAT_HINGE|MATRIX_NORM_P1|MATRIX_NORM_P2|MB_ICONWARNING|MB_RETRYCANCEL|MB_YESNOCANCEL|PROGRAM_EXPERT|PROGRAM_SCRIPT|QL_LICENSE_TYP|REGRESSION_MAE|REGRESSION_MGD|REGRESSION_MPD|REGRESSION_MSE|SESSION_0_FROM|SESSION_1_FROM|SOCKET_DEFAULT|SORT_ASCENDING|STAT_EQUITYMIN|STAT_EQUITY_DD|STO_CLOSECLOSE|TENKANSEN_LINE|TICK_FLAG_LAST|TICK_FLAG_SELL|WND_ALIGN_LEFT|WND_ALIGN_NONE|characteristic|trade_settings|EIGVECTORS_LR|ELLIOTT_CYCLE|ELLIOTT_MINOR|ENUM_DATATYPE|ENUM_DMD_EIGV|ENUM_FP_CLASS|ENUM_LINE_END|ENUM_SVDQRP_A|ENUM_SVDQRP_P|ENUM_SVDQRP_R|ENUM_SVDQRP_U|ENUM_SVDQRP_V|EVENT_MAP_END|FW_EXTRALIGHT|FW_ULTRALIGHT|GANN_UP_TREND|GATORJAW_LINE|KEY_NUMLOCK_5|KIJUNSEN_LINE|LOG_LEVEL_ALL|LOSS_LOG_COSH|LOSS_SQ_HINGE|MACRO_COUNTER|MB_DEFBUTTON1|MB_DEFBUTTON2|MB_DEFBUTTON3|MB_DEFBUTTON4|OBJECT_CREATE|OBJECT_DELETE|ON_SCROLL_DEC|ON_SCROLL_INC|REGRESSION_R2|SECTOR_ENERGY|SESSION_INDEX|STYLE_DASHDOT|TICK_FLAG_ASK|TICK_FLAG_BID|TICK_FLAG_BUY|TYPE_DATETIME|WM_MOUSE_MOVE|WND_ALIGN_TOP|EIGBALANCE_B|EIGBALANCE_N|EIGBALANCE_P|EIGBALANCE_S|EIGVECTORS_L|EIGVECTORS_N|EIGVECTORS_R|ENUM_SVDJH_A|ENUM_SVDJH_P|ENUM_SVDJH_R|ENUM_SVDJH_T|ENUM_SVDJH_U|ENUM_SVDJH_V|ENUM_SVDJL_U|ENUM_SVDJL_V|ENUM_SVD_ALG|EXPERT_MAGIC|FIELD_HEIGHT|FP_SUBNORMAL|FULL_PROFILE|FW_EXTRABOLD|FW_ULTRABOLD|GRAPH_HEIGHT|JECT_ENDEDIT|KEY_NUMPAD_5|LICENSE_DEMO|LICENSE_FREE|LICENSE_FULL|LICENSE_TIME|LOG_LEVEL_NO|LOSS_POISSON|MB_ICONERROR|MINUSDI_LINE|M_TYPE_TREND|PERCENT_SIZE|RADIO_HEIGHT|SESSION_0_TO|SESSION_1_TO|SYEVD_2STAGE|SYEVR_2STAGE|SYEVX_2STAGE|TIMEOUT_SEND|TOTAL_ARRAYS|distribution|EDIT_HEIGHT|EIGS2TYPE_1|EIGS2TYPE_2|EIGS2TYPE_3|EIGVALUES_N|EIGVALUES_V|EMPTY_VALUE|ENT_MONTHLY|ENUM_DMDQ_Q|ENUM_DMDQ_R|ENUM_OBJECT|FIELD_WIDTH|FLOAT_BFP16|FONT_ITALIC|FP_INFINITE|FW_DEMIBOLD|FW_DONTCARE|FW_SEMIBOLD|GRAPH_WIDTH|GROUP_WIDTH|JECT_CHANGE|JECT_CREATE|JECT_DELETE|LESTRIP_ADJ|LIST_HEIGHT|LOSS_COSINE|MB_ICONHAND|MB_ICONSTOP|MB_OKCANCEL|MOUSE_WHEEL|REAL_VOLUME|RIGHT_LOWER|RIGHT_UPPER|STAT_PROFIT|STAT_TRADES|STO_LOWHIGH|STYLE_SOLID|SYEV_2STAGE|TICK_VOLUME|TYPE_DOUBLE|TYPE_STRING|TYPE_USHORT|WHOLE_ARRAY|WRONG_VALUE|EIGCOMPZ_I|EIGCOMPZ_N|EIGCOMPZ_V|EIGSCHUR_N|EIGSCHUR_V|EIGSENSE_B|EIGSENSE_E|EIGSENSE_N|EIGSENSE_V|ENUM_SVD_Z|EURUSD_T20|FLOAT_FP16|FW_REGULAR|JECT_CLICK|LEFT_LOWER|LEFT_UPPER|LELIST_ADJ|LOSS_HINGE|LOSS_HUBER|LOWER_BAND|LOWER_LINE|MACD_MAGIC|MOUSE_MOVE|M_2_SQRTPI|OUSE_WHEEL|RES_E_FAIL|SHAPE_NAME|SHAPE_SIZE|STAT_DEALS|STOP_LIMIT|STYLE_DASH|TABLE_INFO|TA_VCENTER|TYPE_COLOR|TYPE_FLOAT|TYPE_SHORT|TYPE_UCHAR|TYPE_ULONG|UPPER_BAND|UPPER_LINE|USHORT_MAX|ENT_DAILY|ENUM_GEMM|FP_NORMAL|FW_MEDIUM|FW_NORMAL|JECT_DRAG|KEY_RIGHT|LOSS_MAPE|LOSS_MSLE|L_PERCENT|MAIN_LINE|M_SQRT1_2|ON_CHANGE|OUSE_MOVE|STYLE_DOT|TA_BOTTOM|TA_CENTER|TICK_FLAG|TYPE_BOOL|TYPE_CHAR|TYPE_LONG|TYPE_UINT|UCHAR_MAX|USE_WHEEL|WRONG_DEF|deviation|parameter|EA_MAGIC|FW_BLACK|FW_HEAVY|FW_LIGHT|KEY_DOWN|KEY_LEFT|LINE_END|LOSS_BCE|LOSS_CCE|LOSS_KLD|LOSS_MAE|LOSS_MSE|MAX_SIZE|MB_YESNO|M_LOG10E|ON_CLICK|ON_EVENT|RES_S_OK|ROW_SIZE|TA_RIGHT|TRANSP_A|TRANSP_B|TRANSP_C|TRIP_ADJ|TYPE_INT|T_CREATE|T_DELETE|UINT_MAX|USE_MOVE|WM_PAINT|kurtosis|settings|skewness|variable|variance|E_WHEEL|FP_ZERO|FW_BOLD|FW_THIN|LE_BEAR|LE_BULL|MAP_LAB|MAX_DBL|MIN_DBL|M_LOG2E|M_SQRT2|RIP_ADJ|S_FORTS|TA_LEFT|T_DESCR|midline|objects|EMP_ID|E_MOVE|FP_NAN|KEY_UP|L_SWAP|M_1_PI|M_2_PI|M_LN10|M_PI_2|M_PI_4|ODE_RE|P_ANGL|P_SIZE|RGIN_M|RGIN_S|STAT_B|TAIL_H|TA_TOP|T_DOWN|T_LINE|folder|period|series|values|E_BUY|E_SEL|GIN_M|G_FOK|L_LIM|L_PER|L_TRA|MB_OK|M_LN2|NT_MA|ON_MA|OP_LI|O_MOD|P_ANC|P_COR|P_LIM|QL_LI|R_BAR|R_FIL|R_TYP|SS_LO|SS_PR|T_ADJ|T_CLI|T_EVE|T_MAR|T_PER|draws|value|E_CA|E_PR|E_TR|G_MA|J_FI|LC_M|L_ST|MB_D|M_PI|NT_C|NT_M|NT_O|N_HE|N_ID|OL_M|OL_S|OL_T|R_MA|R_ST|TY_D|T_AU|T_SC|T_UP|mean|name|E_L|Exp|J_C|J_E|L_S|M_E|Ptp|T_C|T_N|\\-\\-\\-|a|b)\\b",
             "name": "support.function.uncategorized.mql5"
+        },
+        {
+            "match": "\\b[aA]\\w*\\b",
+            "name": "support.function.fallback.a.mql5"
+        },
+        {
+            "match": "\\b[bB]\\w*\\b",
+            "name": "support.function.fallback.b.mql5"
+        },
+        {
+            "match": "\\b[cC]\\w*\\b",
+            "name": "support.function.fallback.c.mql5"
+        },
+        {
+            "match": "\\b[dD]\\w*\\b",
+            "name": "support.function.fallback.d.mql5"
+        },
+        {
+            "match": "\\b[eE]\\w*\\b",
+            "name": "support.function.fallback.e.mql5"
+        },
+        {
+            "match": "\\b[fF]\\w*\\b",
+            "name": "support.function.fallback.f.mql5"
+        },
+        {
+            "match": "\\b[gG]\\w*\\b",
+            "name": "support.function.fallback.g.mql5"
+        },
+        {
+            "match": "\\b[hH]\\w*\\b",
+            "name": "support.function.fallback.h.mql5"
+        },
+        {
+            "match": "\\b[iI]\\w*\\b",
+            "name": "support.function.fallback.i.mql5"
+        },
+        {
+            "match": "\\b[jJ]\\w*\\b",
+            "name": "support.function.fallback.j.mql5"
+        },
+        {
+            "match": "\\b[kK]\\w*\\b",
+            "name": "support.function.fallback.k.mql5"
+        },
+        {
+            "match": "\\b[lL]\\w*\\b",
+            "name": "support.function.fallback.l.mql5"
+        },
+        {
+            "match": "\\b[mM]\\w*\\b",
+            "name": "support.function.fallback.m.mql5"
+        },
+        {
+            "match": "\\b[nN]\\w*\\b",
+            "name": "support.function.fallback.n.mql5"
+        },
+        {
+            "match": "\\b[oO]\\w*\\b",
+            "name": "support.function.fallback.o.mql5"
+        },
+        {
+            "match": "\\b[pP]\\w*\\b",
+            "name": "support.function.fallback.p.mql5"
+        },
+        {
+            "match": "\\b[qQ]\\w*\\b",
+            "name": "support.function.fallback.q.mql5"
+        },
+        {
+            "match": "\\b[rR]\\w*\\b",
+            "name": "support.function.fallback.r.mql5"
+        },
+        {
+            "match": "\\b[sS]\\w*\\b",
+            "name": "support.function.fallback.s.mql5"
+        },
+        {
+            "match": "\\b[tT]\\w*\\b",
+            "name": "support.function.fallback.t.mql5"
+        },
+        {
+            "match": "\\b[uU]\\w*\\b",
+            "name": "support.function.fallback.u.mql5"
+        },
+        {
+            "match": "\\b[vV]\\w*\\b",
+            "name": "support.function.fallback.v.mql5"
+        },
+        {
+            "match": "\\b[wW]\\w*\\b",
+            "name": "support.function.fallback.w.mql5"
+        },
+        {
+            "match": "\\b[xX]\\w*\\b",
+            "name": "support.function.fallback.x.mql5"
+        },
+        {
+            "match": "\\b[yY]\\w*\\b",
+            "name": "support.function.fallback.y.mql5"
+        },
+        {
+            "match": "\\b[zZ]\\w*\\b",
+            "name": "support.function.fallback.z.mql5"
         }
     ],
     "scopeName": "source.mql5"
