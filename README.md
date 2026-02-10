@@ -27,7 +27,7 @@ Provide professional MQL5 (MetaQuotes Language 5) development support in Visual 
 
 ## References & Credits
 
-All syntax definitions and language structures are based on the public [MQL5 Reference Manual](https://www.mql5.com/en/docs).
+All syntax definitions and language structures are based on the public [MQL5 Reference Manual](https://www.mql5.com/files/docs/mql5.pdf).
 - **MQL5 Community**: [https://www.mql5.com/](https://www.mql5.com/)
 - **Documentation**: [https://www.mql5.com/en/docs](https://www.mql5.com/en/docs)
 - **Token Colors**: Inspired by standard MQL5 IDE colors but enhanced for modern VS Code capabilities.
