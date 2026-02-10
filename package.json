@@ -3,7 +3,7 @@
     "publisher": "MQL5-Theme-syntax",
     "displayName": "MQL5 Support",
     "description": "MQL5 Syntax Highlighting and Themes",
-    "version": "1.4.7",
+    "version": "1.4.8",
     "icon": "icon.png",
     "repository": {
         "type": "git",
@@ -42,253 +42,465 @@
                 "editor.tokenColorCustomizations": {
                     "textMateRules": [
                         {
-                            "name": "Comments",
-                            "scope": [
-                                "comment",
-                                "comment.line",
-                                "comment.block",
-                                "punctuation.definition.comment"
-                            ],
+                            "name": "MQL5",
+                            "scope": "MQL5",
                             "settings": {
-                                "foreground": "#6A9955",
-                                "fontStyle": "italic"
+                                "foreground": "#c32222"
                             }
                         },
                         {
-                            "name": "Strings",
-                            "scope": [
-                                "string",
-                                "string.quoted.double",
-                                "string.quoted.single"
-                            ],
+                            "name": "comment.block.mql5",
+                            "scope": "comment.block.mql5",
                             "settings": {
-                                "foreground": "#CE9178"
+                                "foreground": "#22c351"
                             }
                         },
                         {
-                            "name": "Numbers",
-                            "scope": [
-                                "constant.numeric",
-                                "constant.numeric.integer",
-                                "constant.numeric.float",
-                                "constant.numeric.decimal"
-                            ],
+                            "name": "comment.line.double-slash.mql5",
+                            "scope": "comment.line.double-slash.mql5",
                             "settings": {
-                                "foreground": "#B5CEA8"
+                                "foreground": "#8022c3"
                             }
                         },
                         {
-                            "name": "Keywords",
-                            "scope": [
-                                "keyword",
-                                "keyword.control"
-                            ],
+                            "name": "constant.character.escape.mql5",
+                            "scope": "constant.character.escape.mql5",
                             "settings": {
-                                "foreground": "#C586C0"
+                                "foreground": "#c3af22"
                             }
                         },
                         {
-                            "name": "Operators",
-                            "scope": [
-                                "keyword.operator"
-                            ],
+                            "name": "constant.language.boolean",
+                            "scope": "constant.language.boolean",
                             "settings": {
-                                "foreground": "#D4D4D4"
+                                "foreground": "#22a8c3"
                             }
                         },
                         {
-                            "name": "Functions",
-                            "scope": [
-                                "entity.name.function",
-                                "meta.function",
-                                "support.function"
-                            ],
+                            "name": "constant.numeric.mql5",
+                            "scope": "constant.numeric.mql5",
                             "settings": {
-                                "foreground": "#DCDCAA"
+                                "foreground": "#c32279"
                             }
                         },
                         {
-                            "name": "Classes",
-                            "scope": [
-                                "entity.name.class",
-                                "entity.name.type.class",
-                                "support.class"
-                            ],
+                            "name": "constant.other.caps.mql5",
+                            "scope": "constant.other.caps.mql5",
                             "settings": {
-                                "foreground": "#4EC9B0"
+                                "foreground": "#4ac322"
                             }
                         },
                         {
-                            "name": "Types",
-                            "scope": [
-                                "storage.type",
-                                "support.type"
-                            ],
+                            "name": "keyword.control",
+                            "scope": "keyword.control",
                             "settings": {
-                                "foreground": "#569CD6"
+                                "foreground": "#2922c3"
                             }
                         },
                         {
-                            "name": "Variables",
-                            "scope": [
-                                "variable",
-                                "variable.other"
-                            ],
+                            "name": "keyword.other.preprocessor",
+                            "scope": "keyword.other.preprocessor",
                             "settings": {
-                                "foreground": "#9CDCFE"
+                                "foreground": "#c35822"
                             }
                         },
                         {
-                            "name": "Global Variables",
-                            "scope": [
-                                "support.function.global-variable.mql5"
-                            ],
+                            "name": "storage.modifier",
+                            "scope": "storage.modifier",
                             "settings": {
-                                "foreground": "#00CED1"
+                                "foreground": "#22c387"
                             }
                         },
                         {
-                            "name": "Trade Functions",
-                            "scope": [
-                                "support.function.trade.mql5"
-                            ],
+                            "name": "storage.type",
+                            "scope": "storage.type",
                             "settings": {
-                                "foreground": "#E040FB"
+                                "foreground": "#b622c3"
                             }
                         },
                         {
-                            "name": "Account Info",
-                            "scope": [
-                                "support.function.account-info.mql5"
-                            ],
+                            "name": "string.quoted.double.mql5",
+                            "scope": "string.quoted.double.mql5",
                             "settings": {
-                                "foreground": "#FF4081"
+                                "foreground": "#a1c322"
                             }
                         },
                         {
-                            "name": "Market Info",
-                            "scope": [
-                                "support.function.market-info.mql5"
-                            ],
+                            "name": "string.quoted.single.mql5",
+                            "scope": "string.quoted.single.mql5",
                             "settings": {
-                                "foreground": "#7C4DFF"
+                                "foreground": "#2272c3"
                             }
                         },
                         {
-                            "name": "Chart Functions",
-                            "scope": [
-                                "support.function.chart.mql5"
-                            ],
+                            "name": "support.class.stdlib.mql5",
+                            "scope": "support.class.stdlib.mql5",
                             "settings": {
-                                "foreground": "#536DFE"
+                                "foreground": "#c32244"
                             }
                         },
                         {
-                            "name": "Object Functions",
-                            "scope": [
-                                "support.function.object.mql5"
-                            ],
+                            "name": "support.constant.account-info.mql5",
+                            "scope": "support.constant.account-info.mql5",
                             "settings": {
-                                "foreground": "#448AFF"
+                                "foreground": "#22c330"
                             }
                         },
                         {
-                            "name": "Check Functions",
-                            "scope": [
-                                "support.function.check.mql5"
-                            ],
+                            "name": "support.constant.account-stopout.mql5",
+                            "scope": "support.constant.account-stopout.mql5",
                             "settings": {
-                                "foreground": "#40C4FF"
+                                "foreground": "#5f22c3"
                             }
                         },
                         {
-                            "name": "Array Functions",
-                            "scope": [
-                                "support.function.array.mql5"
-                            ],
+                            "name": "support.constant.account-trade-mode.mql5",
+                            "scope": "support.constant.account-trade-mode.mql5",
                             "settings": {
-                                "foreground": "#18FFFF"
+                                "foreground": "#c38e22"
                             }
                         },
                         {
-                            "name": "Conversion Functions",
-                            "scope": [
-                                "support.function.conversion.mql5"
-                            ],
+                            "name": "support.constant.chart.mql5",
+                            "scope": "support.constant.chart.mql5",
                             "settings": {
-                                "foreground": "#64FFDA"
+                                "foreground": "#22c3bd"
                             }
                         },
                         {
-                            "name": "Math Functions",
-                            "scope": [
-                                "support.function.math.mql5"
-                            ],
+                            "name": "support.constant.color.mql5",
+                            "scope": "support.constant.color.mql5",
                             "settings": {
-                                "foreground": "#69F0AE"
+                                "foreground": "#c3229b"
                             }
                         },
                         {
-                            "name": "String Functions",
-                            "scope": [
-                                "support.function.string.mql5"
-                            ],
+                            "name": "support.constant.deal.mql5",
+                            "scope": "support.constant.deal.mql5",
                             "settings": {
-                                "foreground": "#B2FF59"
+                                "foreground": "#6cc322"
                             }
                         },
                         {
-                            "name": "Date/Time Functions",
-                            "scope": [
-                                "support.function.datetime.mql5"
-                            ],
+                            "name": "support.constant.init-retcode.mql5",
+                            "scope": "support.constant.init-retcode.mql5",
                             "settings": {
-                                "foreground": "#EEFF41"
+                                "foreground": "#223dc3"
                             }
                         },
                         {
-                            "name": "File Functions",
-                            "scope": [
-                                "support.function.file.mql5"
-                            ],
+                            "name": "support.constant.numeric-limits.mql5",
+                            "scope": "support.constant.numeric-limits.mql5",
                             "settings": {
-                                "foreground": "#FFFF00"
+                                "foreground": "#c33722"
                             }
                         },
                         {
-                            "name": "Custom Indicators",
-                            "scope": [
-                                "support.function.custom-indicator.mql5"
-                            ],
+                            "name": "support.constant.object-type.mql5",
+                            "scope": "support.constant.object-type.mql5",
                             "settings": {
-                                "foreground": "#FFD740"
+                                "foreground": "#22c366"
                             }
                         },
                         {
-                            "name": "Signal Functions",
-                            "scope": [
-                                "support.function.signal.mql5"
-                            ],
+                            "name": "support.constant.objprop.mql5",
+                            "scope": "support.constant.objprop.mql5",
                             "settings": {
-                                "foreground": "#FFAB40"
+                                "foreground": "#9522c3"
                             }
                         },
                         {
-                            "name": "Text Functions",
-                            "scope": [
-                                "support.function.text.mql5"
-                            ],
+                            "name": "support.constant.order-filling.mql5",
+                            "scope": "support.constant.order-filling.mql5",
                             "settings": {
-                                "foreground": "#FF6E40"
+                                "foreground": "#c3c322"
                             }
                         },
                         {
-                            "name": "Event Functions",
-                            "scope": [
-                                "support.function.event.mql5"
-                            ],
+                            "name": "support.constant.order-state.mql5",
+                            "scope": "support.constant.order-state.mql5",
                             "settings": {
-                                "foreground": "#FF5252"
+                                "foreground": "#2294c3"
+                            }
+                        },
+                        {
+                            "name": "support.constant.order-time.mql5",
+                            "scope": "support.constant.order-time.mql5",
+                            "settings": {
+                                "foreground": "#c32265"
+                            }
+                        },
+                        {
+                            "name": "support.constant.order-type.mql5",
+                            "scope": "support.constant.order-type.mql5",
+                            "settings": {
+                                "foreground": "#36c322"
+                            }
+                        },
+                        {
+                            "name": "support.constant.position-property.mql5",
+                            "scope": "support.constant.position-property.mql5",
+                            "settings": {
+                                "foreground": "#3e22c3"
+                            }
+                        },
+                        {
+                            "name": "support.constant.position-type.mql5",
+                            "scope": "support.constant.position-type.mql5",
+                            "settings": {
+                                "foreground": "#c36d22"
+                            }
+                        },
+                        {
+                            "name": "support.constant.symbol-filling.mql5",
+                            "scope": "support.constant.symbol-filling.mql5",
+                            "settings": {
+                                "foreground": "#22c39c"
+                            }
+                        },
+                        {
+                            "name": "support.constant.symbol-info.mql5",
+                            "scope": "support.constant.symbol-info.mql5",
+                            "settings": {
+                                "foreground": "#c322bc"
+                            }
+                        },
+                        {
+                            "name": "support.constant.symbol-trade-mode.mql5",
+                            "scope": "support.constant.symbol-trade-mode.mql5",
+                            "settings": {
+                                "foreground": "#8dc322"
+                            }
+                        },
+                        {
+                            "name": "support.constant.terminal.mql5",
+                            "scope": "support.constant.terminal.mql5",
+                            "settings": {
+                                "foreground": "#225ec3"
+                            }
+                        },
+                        {
+                            "name": "support.constant.timeframe.mql5",
+                            "scope": "support.constant.timeframe.mql5",
+                            "settings": {
+                                "foreground": "#c3222f"
+                            }
+                        },
+                        {
+                            "name": "support.constant.trade-action.mql5",
+                            "scope": "support.constant.trade-action.mql5",
+                            "settings": {
+                                "foreground": "#22c345"
+                            }
+                        },
+                        {
+                            "name": "support.function.account-info.mql5",
+                            "scope": "support.function.account-info.mql5",
+                            "settings": {
+                                "foreground": "#7422c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.array.mql5",
+                            "scope": "support.function.array.mql5",
+                            "settings": {
+                                "foreground": "#c3a222"
+                            }
+                        },
+                        {
+                            "name": "support.function.chart.mql5",
+                            "scope": "support.function.chart.mql5",
+                            "settings": {
+                                "foreground": "#22b5c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.check.mql5",
+                            "scope": "support.function.check.mql5",
+                            "settings": {
+                                "foreground": "#c32286"
+                            }
+                        },
+                        {
+                            "name": "support.function.common.mql5",
+                            "scope": "support.function.common.mql5",
+                            "settings": {
+                                "foreground": "#57c322"
+                            }
+                        },
+                        {
+                            "name": "support.function.conversion.mql5",
+                            "scope": "support.function.conversion.mql5",
+                            "settings": {
+                                "foreground": "#2228c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.ctrade.mql5",
+                            "scope": "support.function.ctrade.mql5",
+                            "settings": {
+                                "foreground": "#c34b22"
+                            }
+                        },
+                        {
+                            "name": "support.function.custom-indicator.mql5",
+                            "scope": "support.function.custom-indicator.mql5",
+                            "settings": {
+                                "foreground": "#22c37a"
+                            }
+                        },
+                        {
+                            "name": "support.function.datetime.mql5",
+                            "scope": "support.function.datetime.mql5",
+                            "settings": {
+                                "foreground": "#a922c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.event.mql5",
+                            "scope": "support.function.event.mql5",
+                            "settings": {
+                                "foreground": "#aec322"
+                            }
+                        },
+                        {
+                            "name": "support.function.file.mql5",
+                            "scope": "support.function.file.mql5",
+                            "settings": {
+                                "foreground": "#227fc3"
+                            }
+                        },
+                        {
+                            "name": "support.function.global-variable.mql5",
+                            "scope": "support.function.global-variable.mql5",
+                            "settings": {
+                                "foreground": "#c32250"
+                            }
+                        },
+                        {
+                            "name": "support.function.indicator.mql5",
+                            "scope": "support.function.indicator.mql5",
+                            "settings": {
+                                "foreground": "#22c323"
+                            }
+                        },
+                        {
+                            "name": "support.function.market-info.mql5",
+                            "scope": "support.function.market-info.mql5",
+                            "settings": {
+                                "foreground": "#5222c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.math.mql5",
+                            "scope": "support.function.math.mql5",
+                            "settings": {
+                                "foreground": "#c38122"
+                            }
+                        },
+                        {
+                            "name": "support.function.misc.mql5",
+                            "scope": "support.function.misc.mql5",
+                            "settings": {
+                                "foreground": "#22c3b0"
+                            }
+                        },
+                        {
+                            "name": "support.function.object.mql5",
+                            "scope": "support.function.object.mql5",
+                            "settings": {
+                                "foreground": "#c322a7"
+                            }
+                        },
+                        {
+                            "name": "support.function.prefix.mql5",
+                            "scope": "support.function.prefix.mql5",
+                            "settings": {
+                                "foreground": "#78c322"
+                            }
+                        },
+                        {
+                            "name": "support.function.python-style.mql5",
+                            "scope": "support.function.python-style.mql5",
+                            "settings": {
+                                "foreground": "#2249c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.signal.mql5",
+                            "scope": "support.function.signal.mql5",
+                            "settings": {
+                                "foreground": "#c32a22"
+                            }
+                        },
+                        {
+                            "name": "support.function.special-prefix.mql5",
+                            "scope": "support.function.special-prefix.mql5",
+                            "settings": {
+                                "foreground": "#22c359"
+                            }
+                        },
+                        {
+                            "name": "support.function.string.mql5",
+                            "scope": "support.function.string.mql5",
+                            "settings": {
+                                "foreground": "#8822c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.symbol-info.mql5",
+                            "scope": "support.function.symbol-info.mql5",
+                            "settings": {
+                                "foreground": "#c3b722"
+                            }
+                        },
+                        {
+                            "name": "support.function.text.mql5",
+                            "scope": "support.function.text.mql5",
+                            "settings": {
+                                "foreground": "#22a0c3"
+                            }
+                        },
+                        {
+                            "name": "support.function.timeseries.mql5",
+                            "scope": "support.function.timeseries.mql5",
+                            "settings": {
+                                "foreground": "#c32271"
+                            }
+                        },
+                        {
+                            "name": "support.function.trade.mql5",
+                            "scope": "support.function.trade.mql5",
+                            "settings": {
+                                "foreground": "#43c322"
+                            }
+                        },
+                        {
+                            "name": "support.function.uncategorized.mql5",
+                            "scope": "support.function.uncategorized.mql5",
+                            "settings": {
+                                "foreground": "#3122c3"
+                            }
+                        },
+                        {
+                            "name": "support.type.struct.mql5",
+                            "scope": "support.type.struct.mql5",
+                            "settings": {
+                                "foreground": "#c36022"
+                            }
+                        },
+                        {
+                            "name": "support.variable.predefined.mql5",
+                            "scope": "support.variable.predefined.mql5",
+                            "settings": {
+                                "foreground": "#22c38f"
+                            }
+                        },
+                        {
+                            "name": "variable.other.input.mql5",
+                            "scope": "variable.other.input.mql5",
+                            "settings": {
+                                "foreground": "#be22c3"
                             }
                         },
                         {
